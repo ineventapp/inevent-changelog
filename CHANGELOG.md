@@ -8,6 +8,8 @@ This change log was created on January 22, 2020 and only entries after this date
 
 #### Fixed
 - Fixed Notifications endpoint to avoid ghost users on Virtual Lobby;
+- Fixed 'Send Now' notification button on push notification screen;
+- Fixed 'Back' button on My Agenda page;
 
 ## Version 13.81
 
