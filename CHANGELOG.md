@@ -2,6 +2,13 @@
 
 This change log was created on January 22, 2020 and only entries after this date will be registered.
 
+## Version 13.82
+
+### January 25, 2020
+
+#### Fixed
+- Fixed Notifications endpoint to avoid ghost users on Virtual Lobby;
+
 ## Version 13.81
 
 ### January 25, 2020
