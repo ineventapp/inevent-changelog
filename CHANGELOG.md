@@ -9,6 +9,7 @@ This change log was created on January 22, 2020 and only entries after this date
 #### Fixed
 - Fixed permission to download recordings on Europe region;
 - Fixed collapse networking tool when sponsors are disabled;
+- Fixed admin email notification that was using environment's language instead of company's language to generate its content;
 
 ### January 24, 2020
 
