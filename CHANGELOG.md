@@ -8,6 +8,7 @@ This change log was created on January 22, 2020 and only entries after this date
 
 #### Fixed
 - Fixed chat input field misposition on Virtual Lobby classic layout;
+- Fixed registration form analytics field names on pie charts and bar charts;
 
 ## Version 13.80
 
