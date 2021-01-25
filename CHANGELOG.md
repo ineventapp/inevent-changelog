@@ -4,6 +4,12 @@ This change log was created on January 22, 2020 and only entries after this date
 
 ## Version 13.81
 
+### January 25, 2020
+
+#### Fixed
+- Fixed permission to download recordings on Europe region;
+- Fixed collapse networking tool when sponsors are disabled;
+
 ### January 24, 2020
 
 #### Fixed
