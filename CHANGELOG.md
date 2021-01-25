@@ -11,6 +11,8 @@ This change log was created on January 22, 2020 and only entries after this date
 - Fixed registration form analytics field names on pie charts and bar charts;
 - Fixed fullscreen layout for Gallery and Speaker view on Virtual Lobby Neo layout;
 - Fixed device settings popup on fullscreen;
+- Fixed clickbox on left and right menus buttons Virtual Lobby Neo layout;
+- Fixed wrong rounded edges on right menu Virtual Lobby Neo layout;
 
 ## Version 13.80
 
