@@ -2,6 +2,14 @@
 
 This change log was created on January 22, 2020 and only entries after this date will be registered.
 
+## Version 13.83
+
+### January 26, 2020
+
+#### Fixed
+- Fixed socket connection issues when using multiple tabs;
+- Optimized accuracy of keep alive cronjob for better analytics data;
+
 ## Version 13.82
 
 ### January 25, 2020
