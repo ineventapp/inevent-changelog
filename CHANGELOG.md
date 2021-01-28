@@ -4,6 +4,11 @@ This change log was created on January 22, 2020 and only entries after this date
 
 ## Version 13.8
 
+### January 28, 2020
+
+#### Fixed
+- Fixed chat / questions / attendees disappearing during a session when hiccups occur on your connection;
+
 ### January 27, 2020
 
 #### Added
