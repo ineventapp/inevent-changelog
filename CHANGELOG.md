@@ -8,6 +8,7 @@ This change log was created on January 22, 2020 and only entries after this date
 
 #### Added
 - Added Networking and Group Room modals on **Classic** layout;
+- Added option to view **poll** results without needing to vote as admin;
 
 #### Fixed
 - Fixed modal sizes on **Classic** layout;
