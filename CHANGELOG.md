@@ -10,6 +10,11 @@ This change log was created on January 22, 2020 and only entries after this date
 - Added option to listen to hash changes on **Virtual Lobby** (links for other sessions will work now);
 - Users are now allowed join invisible sessions if enrolled (by link);
 
+#### Fixed
+- Added clear on presenter list when changing rooms **Virtual Lobby**;
+- Removed ghost "left" and "joined" messages for admins on **Virtual Lobby** chat;
+- General layout fixes on **Neo** layout and **Classic** layout
+
 ### January 28, 2020
 
 #### Added
