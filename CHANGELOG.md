@@ -8,7 +8,7 @@ This change log was created on January 22, 2020 and only entries after this date
 
 #### Added
 - Added option to listen to hash changes on **Virtual Lobby** (links for other sessions will work now);
-- Added option to join invisible sessions if you are enrolled (by link);
+- Users are now allowed join invisible sessions if enrolled (by link);
 
 ### January 28, 2020
 
