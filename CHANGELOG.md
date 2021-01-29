@@ -2,6 +2,17 @@
 
 This change log was created on January 22, 2020 and only entries after this date will be registered.
 
+## Version 13.9
+
+### January 28, 2020
+
+#### Added
+- Added Networking and Group Room modals on **Classic** layout;
+
+#### Fixed
+- Fixed modal sizes on **Classic** layout;
+- Fixed flow issue when opening a group room from search modal;
+
 ## Version 13.8
 
 ### January 28, 2020
