@@ -8,6 +8,9 @@ This change log was created on January 22, 2020 and only entries after this date
 
 #### Fixed
 - Fixed chat / questions / attendees disappearing during a session when hiccups occur on your connection;
+- Fixed presenters disappearing from the list during a session when hiccups occur on your connection (and their connection);
+- Adjusted Tokbox and Agora.io layouts for viewers, presenters, fullscreen mode, Neo Layout and Classic layout;
+- Adjusted Tokbox video overlap with profile picture on certain scenarios;
 
 ### January 27, 2020
 
