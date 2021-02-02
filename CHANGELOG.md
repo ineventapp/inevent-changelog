@@ -8,6 +8,7 @@ This change log was created on January 22, 2021 and only entries after this date
 
 #### Added
 - Added option to automatically regenerate **website** when changes are made;
+- Added **Salesforce** settings sync for event templates;
 
 ### January 29, 2021
 
