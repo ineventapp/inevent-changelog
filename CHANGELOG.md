@@ -1,10 +1,15 @@
 # InEvent Change Log
 
-This change log was created on January 22, 2020 and only entries after this date will be registered.
+This change log was created on January 22, 2021 and only entries after this date will be registered.
 
 ## Version 13.9
 
-### January 29, 2020
+### February 2, 2021
+
+#### Added
+- Added option to automatically regenerate **website** when changes are made;
+
+### January 29, 2021
 
 #### Added
 - Added option to listen to hash changes on **Virtual Lobby** (links for other sessions will work now);
@@ -15,7 +20,7 @@ This change log was created on January 22, 2020 and only entries after this date
 - Removed ghost "left" and "joined" messages for admins on **Virtual Lobby** chat;
 - General layout fixes on **Neo** layout and **Classic** layout
 
-### January 28, 2020
+### January 28, 2021
 
 #### Added
 - Added Networking and Group Room modals on **Classic** layout;
@@ -27,7 +32,7 @@ This change log was created on January 22, 2020 and only entries after this date
 
 ## Version 13.8
 
-### January 28, 2020
+### January 28, 2021
 
 #### Fixed
 - Fixed chat / questions / attendees disappearing during a session when hiccups occur on your connection;
@@ -35,7 +40,7 @@ This change log was created on January 22, 2020 and only entries after this date
 - Adjusted Tokbox and Agora.io layouts for viewers, presenters, fullscreen mode, Neo Layout and Classic layout;
 - Adjusted Tokbox video overlap with profile picture on certain scenarios;
 
-### January 27, 2020
+### January 27, 2021
 
 #### Added
 - Added option to ask technical questions on our **Issue Report** tool;
@@ -46,13 +51,13 @@ This change log was created on January 22, 2020 and only entries after this date
 - Fixed **My Agenda** activities not showing up when using custom lists;
 - Fixed **billing** calculator when purchasing credits (sometimes it failed);
 
-### January 26, 2020
+### January 26, 2021
 
 #### Fixed
 - Fixed **socket** connection issues when using multiple tabs;
 - Optimized accuracy of keep alive cronjob for better **analytics** data;
 
-### January 25, 2020
+### January 25, 2021
 
 #### Fixed
 - Fixed Notifications endpoint to avoid ghost users on **Virtual Lobby**;
@@ -62,7 +67,7 @@ This change log was created on January 22, 2020 and only entries after this date
 - Fixed collapse networking tool when sponsors are disabled;
 - Fixed admin email notification that was using environment's language instead of company's language to generate its content;
 
-### January 24, 2020
+### January 24, 2021
 
 #### Fixed
 - Fixed chat input field misposition on **Virtual Lobby** classic layout;
@@ -72,7 +77,7 @@ This change log was created on January 22, 2020 and only entries after this date
 - Fixed clickbox on left and right menus buttons **Virtual Lobby** Neo layout;
 - Fixed wrong rounded edges on right menu **Virtual Lobby** Neo layout;
 
-### January 22, 2020
+### January 22, 2021
 
 #### Added
 - Added visual identification showing how to enable your camera and mic for **Tokbox** (previously only on Agora);
