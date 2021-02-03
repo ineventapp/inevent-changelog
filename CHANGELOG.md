@@ -4,6 +4,12 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 13.9
 
+### February 3, 2021
+
+#### Added
+- Added automatic tile visibility on **Virtual Lobby** (visibility changes will reflect automatically);
+- Added YouTube link parser on **Virtual Lobby** sponsor booth;
+
 ### February 2, 2021
 
 #### Added
