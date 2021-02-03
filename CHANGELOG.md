@@ -9,6 +9,11 @@ This change log was created on January 22, 2021 and only entries after this date
 #### Added
 - Added option to automatically regenerate **website** when changes are made;
 - Added **Salesforce** settings sync for event templates;
+- Added question approval permission to hosts of sessions on **Virtual Lobby**;
+- Added **magic link** only recovery for events without passwords;
+
+#### Fixed
+- Fixed CSS alignment on **Janus** template;
 
 ### January 29, 2021
 
