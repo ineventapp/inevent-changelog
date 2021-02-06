@@ -4,6 +4,12 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 13.9
 
+### February 5, 2021
+
+#### Added
+- Added optimizations for DOM rendering on People and Chat tabs (useful for large events > 10,000 people);
+- Added search option for Presenters and Viewers on **Neo Layout**;
+
 ### February 3, 2021
 
 #### Added
