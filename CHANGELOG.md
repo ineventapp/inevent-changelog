@@ -2,7 +2,7 @@
 
 This change log was created on January 22, 2021 and only entries after this date will be registered.
 
-## Version 13.9
+## Version 14.0
 
 ### February 9, 2021
 
@@ -13,6 +13,8 @@ This change log was created on January 22, 2021 and only entries after this date
 - Fixed **Salesforce** [2,000 offset cap](https://developer.salesforce.com/forums/?id=906F0000000DDCyIAO) by using `WHERE` clauses;
 - Fixed **Tokbox** screenshare issue that triggered "Oh snap" messages;
 - Fixed **Tokbox** live streaming layout for 5 and 6 people on "Space Between" format;
+
+## Version 13.9
 
 ### February 8, 2021
 
