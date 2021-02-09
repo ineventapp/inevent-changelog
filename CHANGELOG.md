@@ -4,6 +4,11 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 13.9
 
+### February 9, 2021
+
+#### Fixed
+- Fixed **Salesforce** [2,000 offset cap](https://developer.salesforce.com/forums/?id=906F0000000DDCyIAO) by using `WHERE` clauses;
+
 ### February 8, 2021
 
 #### Added
