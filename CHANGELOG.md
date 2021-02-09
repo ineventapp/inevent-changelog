@@ -4,6 +4,19 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 13.9
 
+### February 8, 2021
+
+#### Added
+- Added self **Meeting** schedule feature on **Virtual Lobby**
+
+#### Fixed
+- Fixed **Virtual Lobby** placeholders when using single quotes;
+- Fixed **Screen Share** issues on **Virtual Lobby** for **Tokbox** provider;
+- Fixed live stream layout issue on **Virtual Lobby** for **Tokbox** provider;
+- Fixed **ticket** amount check on purchase form page;
+- Invite check fix on **registration form**;
+- Fixed session authentication when lists are attached and user has Speaker permission;
+
 ### February 5, 2021
 
 #### Added
