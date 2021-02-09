@@ -6,8 +6,13 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ### February 9, 2021
 
+#### Added
+- Added action popup to hosts when leaving a session while streaming;
+
 #### Fixed
 - Fixed **Salesforce** [2,000 offset cap](https://developer.salesforce.com/forums/?id=906F0000000DDCyIAO) by using `WHERE` clauses;
+- Fixed **Tokbox** screenshare issue that triggered "Oh snap" messages;
+- Fixed **Tokbox** live streaming layout for 5 and 6 people on "Space Between" format;
 
 ### February 8, 2021
 
