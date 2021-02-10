@@ -8,6 +8,7 @@ This change log was created on January 22, 2021 and only entries after this date
 
 #### Fixed
 - Optimized **Meeting** selector modal for events with months of duration;
+- Fixed **Meeting** button showing up when tool is disabled (Networking page);
 
 ### February 9, 2021
 
