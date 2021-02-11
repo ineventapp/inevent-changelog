@@ -6,6 +6,11 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ### February 11, 2021
 
+#### Added
+- Added **SSO** integration to be used with regular attendees;
+- Added tool to allow / block logins without **SSO** when having it integrated;
+- Added domain whitelist for **SSO** with DNS record check;
+
 #### Fixed
 - Fixed rotating streams on **Tokbox** space between layout on **Control Room**;
 
