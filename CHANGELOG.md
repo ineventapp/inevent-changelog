@@ -4,6 +4,11 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 14.0
 
+### February 11, 2021
+
+#### Fixed
+- Fixed rotating streams on **Tokbox** space between layout on **Control Room**;
+
 ### February 10, 2021
 
 #### Fixed
