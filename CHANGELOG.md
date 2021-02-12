@@ -9,9 +9,14 @@ This change log was created on January 22, 2021 and only entries after this date
 #### Added
 - Added access policy for sessions on **Virtual Lobby**;
 - Extended access policy to event level;
+- **News Feed** added source icon (Twitter, Instagram, etc);
+- **News Feed** added source handle (@ineventapp, InEvent, etc);
+- **News Feed** added link to open the original post on Twitter, Instagram, etc;
 
 #### Fixed
 - Fixed admin and host controls on live session;
+- Fixed ghost messages on **News Feed** that stick even when you delete them on the backend;
+- The date and time of the post works like magic (same way as twitter does it);
 
 ### February 11, 2021
 
