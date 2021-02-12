@@ -6,6 +6,10 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ### February 12, 2021
 
+#### Added
+- Added access policy for sessions on **Virtual Lobby**;
+- Extended access policy to event level;
+
 #### Fixed
 - Fixed admin and host controls on live session;
 
