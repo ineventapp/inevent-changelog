@@ -4,6 +4,11 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 14.0
 
+### February 12, 2021
+
+#### Fixed
+- Fixed admin and host controls on live session;
+
 ### February 11, 2021
 
 #### Added
