@@ -2,6 +2,29 @@
 
 This change log was created on January 22, 2021 and only entries after this date will be registered.
 
+## Version 14.1
+
+### February 16, 2021
+
+#### Added
+- Speakers are now ordered by position on your session on **Virtual Lobby**;
+
+#### Fixed
+- When not using **usernames**, the **email** field will not allow edits on **My Account**;
+- Fixed word breaking on **Questions** tab on **Virtual Lobby**;
+
+### February 15, 2021
+
+#### Fixed
+- Fixed **custom list** import using **Salesforce** integration;
+- Fixed role and company fields on **Salesforce** import of campaign members;
+
+### February 13, 2021
+
+#### Fixed
+- Fixed event create function that failed when not using a template;
+- Optimized **Salesforce** amount of API calls necessary to import and export leads;
+
 ## Version 14.0
 
 ### February 12, 2021
