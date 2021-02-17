@@ -10,6 +10,10 @@ This change log was created on January 22, 2021 and only entries after this date
 - Added **Salesforce** campaign status sync with InEvent;
 - Optimized all **Salesforce** requests on native integration;
 
+#### Fixed
+- Fixed error that host would never get its video pinned when talking on **Tokbox**;
+- Fixed *ghost* video that would get focused all the time when someone left the call with high audio volume on **Tokbox**;
+
 ### February 16, 2021
 
 #### Added
