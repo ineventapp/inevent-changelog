@@ -8,10 +8,15 @@ This change log was created on January 22, 2021 and only entries after this date
 
 #### Added
 - Speakers are now ordered by position on your session on **Virtual Lobby**;
+- Added response date for custom fields on **excel** export for **attendees**;
+- Optimized PayPal webhook calls;
+- Added tooltip on **Virtual Lobby** session buttons;
 
 #### Fixed
 - When not using **usernames**, the **email** field will not allow edits on **My Account**;
 - Fixed word breaking on **Questions** tab on **Virtual Lobby**;
+- Deactivated password block on company level login;
+- Fixed css overflow issue on **Classic** layout;
 
 ### February 15, 2021
 
