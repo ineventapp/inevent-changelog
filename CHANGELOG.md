@@ -4,6 +4,12 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 14.1
 
+### February 17, 2021
+
+#### Added
+- Added **Salesforce** campaign status sync with InEvent;
+- Optimized all **Salesforce** requests on native integration;
+
 ### February 16, 2021
 
 #### Added
