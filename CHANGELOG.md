@@ -10,6 +10,7 @@ This change log was created on January 22, 2021 and only entries after this date
 - Added **Salesforce** campaign status sync with InEvent;
 - Optimized all **Salesforce** requests on native integration;
 - Optimized event creation function;
+- **Tokbox** live stream now resumes without downtime if the host crashes;
 
 #### Fixed
 - Fixed error that host would never get its video pinned when talking on **Tokbox**;
