@@ -4,6 +4,13 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 14.1
 
+### February 18, 2021
+
+#### Added
+- Added iframe parameter to hide top bar on **Custom Form**;
+- Added iframe parameter to hide cover image on **Custom Form**;
+- Added **Landing Pages** custom HTML for event root domain (`js` code is disabled for this use case);
+  
 ### February 17, 2021
 
 #### Added
