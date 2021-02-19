@@ -4,6 +4,12 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 14.1
 
+### February 19, 2021
+
+#### Added
+- Added option to click on `Live` button to seek to current live state on **Simulated Lives**;
+- Added check mechanism to avoid users bypassing the simulated live and manipulate timestamps manually;
+
 ### February 18, 2021
 
 #### Added
