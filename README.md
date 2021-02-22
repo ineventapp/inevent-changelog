@@ -1,1 +1,1 @@
-# [CHANGELOG.md](CHANGELOG.md)
+# Read the Official Changelog here: [CHANGELOG.md](CHANGELOG.md)
