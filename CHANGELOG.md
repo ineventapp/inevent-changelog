@@ -4,6 +4,18 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 14.1
 
+### February 22, 2021
+
+#### Added
+- Removed `RequestedAuthnContext` requirement on **SSO** integration;
+- **Tokbox** control room recordings are now exactly like the Live Streaming layout;
+
+#### Fixed
+- Fixed **Salesforce** lead import on invitees list;
+- Fixed issue that session hosts had to be admins to work well on **Tokbox**;
+- **Website** rebuild now works when adding content via spreadsheets;
+- Fixed **Custom Report** dates (it was showing the previous day);
+
 ### February 19, 2021
 
 #### Added
