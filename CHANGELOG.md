@@ -2,7 +2,26 @@
 
 This change log was created on January 22, 2021 and only entries after this date will be registered.
 
+## Version 14.2
+
+### February 25, 2021
+
+#### Fixed
+- Fixed **Agora.io** auto pin when host is talking;
+
 ## Version 14.1
+
+### February 24, 2021
+
+#### Fixed
+- Fixed info displayed on **Schedule** settings when using **WebRTC** (Video Conferencing);
+- Fixed **Files** tab on Virtual Lobby when using large names;
+
+### February 23, 2021
+
+#### Fixed
+- Fixed **Salesforce** Yes/No custom field integration;
+- Fixed **Salesforce** last modified date check for list imports;
 
 ### February 22, 2021
 
