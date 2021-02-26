@@ -4,6 +4,14 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 14.2
 
+### February 26, 2021
+
+#### Added
+- Added tag search for **Sponsors Booths** on **Virtual Lobby** Neo Layout;
+
+#### Fixed
+- Fixed **Meeting** tile on responsive view of **Virtual Lobby**;
+
 ### February 25, 2021
 
 #### Fixed
