@@ -7,6 +7,9 @@ This change log was created on January 22, 2021 and only entries after this date
 ### March 1, 2021
 
 #### Added
+- Added **Automatic Layout** option for Control Room;
+- Added alert popup when changing pinned stream if screen sharing on **Tokbox**;
+- Added better indicator for **pinned** streams;
 - Added **Salesforce** Campaign Member Status integration;
 - Added extra sponsor details on **Virtual Lobby** sponsor booths;
 - Added option to translate **Sponsor** bio;
