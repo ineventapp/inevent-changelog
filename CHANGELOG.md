@@ -4,6 +4,26 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 14.2
 
+### March 1, 2021
+
+#### Added
+- Added **Salesforce** Campaign Member Status integration;
+- Added extra sponsor details on **Virtual Lobby** sponsor booths;
+- Added option to translate **Sponsor** bio;
+- Improved **Virtual Lobby** page view on iOS devices;
+- Improved **Tokbox** Screen Share resolution;
+
+#### Fixed
+- Fixed CSS on **Attendees** page for smaller screens (menu bar buttons);
+- Fixed calendar link on emails;
+- Fixed backslashes showing up on certain lobby session titles;
+- Fixed stretched images on **meetings** popup;
+  
+### February 28, 2021
+
+#### Added
+- Added class filter for sponsor booth pagination on **Virtual Lobby**;
+
 ### February 26, 2021
 
 #### Added
@@ -11,6 +31,7 @@ This change log was created on January 22, 2021 and only entries after this date
 
 #### Fixed
 - Fixed **Meeting** tile on responsive view of **Virtual Lobby**;
+- Fixed ticket sync issues with **Waitlists**;
 
 ### February 25, 2021
 
