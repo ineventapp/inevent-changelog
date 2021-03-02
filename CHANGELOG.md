@@ -4,6 +4,18 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 14.2
 
+### March 2, 2021
+
+#### Added
+- Added **tags** on activity report excel spreadsheet;
+- Added **placeholders** for:
+  - Ticket manager `buy` button;
+  - Purchase form `invoice subtitle` label;
+  - Top bar `inbox` button;
+  - Virtual Lobby `welcome` label;
+  - Virtual Lobby `read more` button;
+  - Registration form `privacy` field subtitle;
+
 ### March 1, 2021
 
 #### Added
@@ -21,6 +33,7 @@ This change log was created on January 22, 2021 and only entries after this date
 - Fixed calendar link on emails;
 - Fixed backslashes showing up on certain lobby session titles;
 - Fixed stretched images on **meetings** popup;
+- Fixed **Test your connection** tool to work with Tokbox as well;
   
 ### February 28, 2021
 
