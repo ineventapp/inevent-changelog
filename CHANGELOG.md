@@ -16,6 +16,9 @@ This change log was created on January 22, 2021 and only entries after this date
   - Virtual Lobby `read more` button;
   - Registration form `privacy` field subtitle;
 
+#### Fixed
+- Fixed **Sponsor** list order inside sessions;
+
 ### March 1, 2021
 
 #### Added
