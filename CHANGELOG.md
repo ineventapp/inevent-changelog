@@ -2,6 +2,14 @@
 
 This change log was created on January 22, 2021 and only entries after this date will be registered.
 
+## Version 14.3
+
+### March 4, 2021
+
+#### Added
+- Added option to select default stream layout for **Control Room**;
+- Added option to upload an image for the stream player when idle;
+
 ## Version 14.2
 
 ### March 4, 2021
