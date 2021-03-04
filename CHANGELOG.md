@@ -4,6 +4,20 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 14.2
 
+### March 4, 2021
+
+#### Added
+- Added **URL** support on Inbox chat and push notifications;
+- Added instant messaging for chat messages sent from our **mobile app**;
+- Added **invite** button to invite users to join your session instead of creating another one when inviting them;
+- Added bulk import **tickets**;
+- Added option to display sponsor booths randomly on **Virtual Lobby**;
+
+### March 3, 2021
+
+#### Fixed
+- Fixed duplicate form submissions when changing results;
+
 ### March 2, 2021
 
 #### Added
