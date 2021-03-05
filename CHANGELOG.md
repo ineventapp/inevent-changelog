@@ -4,6 +4,16 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 14.3
 
+### March 5, 2021
+
+#### Added
+- Added **Background Blur** option for your video;
+- Added **1 hour before** option on session join policy;
+- Added `telephone` column on **waitlis** import spreadsheet;
+
+#### Fixed
+- Fixed **Salesforce** custom field picklist integration;
+
 ### March 4, 2021
 
 #### Added
