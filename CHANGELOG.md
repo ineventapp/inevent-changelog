@@ -4,6 +4,32 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 14.3
 
+### March 9, 2021
+
+#### Added
+- Added automated **recording** retrieval for Endpoint B;
+- Optimized **Marketo** integration and added option to sync programs manually;
+
+#### Fixed
+- Fixed **Tokbox** failover stream;
+- Added **transcription** support for all RTMP endpoints;
+- Fixed email tag when calculating the bounce rate;
+
+### March 8, 2021
+
+#### Added
+- Added permission for **sponsor** people manage presenters / viewers on sponsor booths;
+- Optimized **excel import** for larger files and added better error logs;
+- Added option to delete old **push messages**;
+
+#### Fixed
+- Fixed admin dashboard form submissions layout;
+- Fixed issues when viewing plain text fields with large content;
+- Fixed visibility issue for private users on **Virtual Lobby**;
+- Fixed social media handle for **websites**;
+- Fixed **Test your connection** last step when using Tokbox;
+- Fixed invoice generation due date;
+
 ### March 5, 2021
 
 #### Added
