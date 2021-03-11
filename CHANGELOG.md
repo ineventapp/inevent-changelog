@@ -4,6 +4,11 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 14.3
 
+### March 10, 2021
+
+#### Added
+- Added support for **Transcription** when using **RTMP** directly;
+
 ### March 9, 2021
 
 #### Added
