@@ -9,6 +9,7 @@ This change log was created on January 22, 2021 and only entries after this date
 #### Added
 - Added **Link Tracking** feature to track `clicks` and `conversions` from any url;
 - Added pre-recorded **iframe** `camera` and `microphone` policy;
+- Added **News Feed** popup on top bar (works during sessions too);
 - When removing a person from an activity, it now kicks them out of the session if they are watching;
 
 #### Fixed
@@ -20,6 +21,8 @@ This change log was created on January 22, 2021 and only entries after this date
 - Fixed **meetings** section when users you are meeting are removed from the event;
 - Fixed telephone country area code when not given (`+1 US` is now used by default);
 - Fixed error on **Virtual Lobby** analytics when viewing it in French;
+- Fixed **Tokbox** mic audio slider on device preview (it was not working);
+- Fixed mic selector on device preview;
 
 ## Version 14.3
 
