@@ -9,9 +9,17 @@ This change log was created on January 22, 2021 and only entries after this date
 #### Added
 - Added **Link Tracking** feature to track `clicks` and `conversions` from any url;
 - Added pre-recorded **iframe** `camera` and `microphone` policy;
+- When removing a person from an activity, it now kicks them out of the session if they are watching;
 
 #### Fixed
 - Fixed issue on **Salesforce** custom fields that ignored values on `plain text` fields;
+- Fixed **Virtual Lobby** css issues:
+  - Tag search didn't have a scrollbar;
+  - Bottom menu overlapped the chat text field on mobile devices;
+  - Group rooms didn't have a scrollbar on fullscreen;
+- Fixed **meetings** section when users you are meeting are removed from the event;
+- Fixed telephone country area code when not given (`+1 US` is now used by default);
+- Fixed error on **Virtual Lobby** analytics when viewing it in French;
 
 ## Version 14.3
 
