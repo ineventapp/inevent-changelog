@@ -4,6 +4,14 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 14.3
 
+### March 11, 2021
+
+#### Added
+- Added option to set a default value on any **form** (also on custom fields);
+
+#### Fixed
+- Fixed **Marketo** custom fields and attendees that were added before adding the integration;
+
 ### March 10, 2021
 
 #### Added
