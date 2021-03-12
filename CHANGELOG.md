@@ -2,6 +2,17 @@
 
 This change log was created on January 22, 2021 and only entries after this date will be registered.
 
+## Version 14.4
+
+### March 12, 2021
+
+#### Added
+- Added **Link Tracking** feature to track `clicks` and `conversions` from any url;
+- Added pre-recorded **iframe** `camera` and `microphone` policy;
+
+#### Fixed
+- Fixed issue on **Salesforce** custom fields that ignored values on `plain text` fields;
+
 ## Version 14.3
 
 ### March 11, 2021
