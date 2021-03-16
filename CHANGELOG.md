@@ -12,6 +12,7 @@ This change log was created on January 22, 2021 and only entries after this date
 
 #### Fixed
 - Fixed broadcast stop issues on **Agora.io**;
+- Fixed **activity feedback form** redirect issue;
 
 ### March 15, 2021
 
