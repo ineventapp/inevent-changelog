@@ -4,6 +4,20 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 14.4
 
+### March 16, 2021
+
+#### Added
+- Added persistent chat messages for **Sponsor Booths**;
+- Added option to select `Contact` and `Lead` specific fields on **Salesforce** connector;
+
+#### Fixed
+- Fixed broadcast stop issues on **Agora.io**;
+
+### March 15, 2021
+
+#### Fixed
+- Fixed **News Feed** toggle button on top bar;
+
 ### March 12, 2021
 
 #### Added
