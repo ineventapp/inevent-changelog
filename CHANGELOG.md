@@ -6,6 +6,9 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ### March 17, 2021
 
+#### Added
+- Added `Video connection is unstable` label when video is disabled on **WebRTC** due to bad internet connection;
+
 #### Fixed
 - Removed **Control Room** label after presenter joins the session;
 - Removed **Waiting for broadcast** label that remained even when broadcast started for **Video Conferencing** on **Tokbox**;
