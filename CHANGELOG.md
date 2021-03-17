@@ -8,6 +8,7 @@ This change log was created on January 22, 2021 and only entries after this date
 
 #### Added
 - Added `Video connection is unstable` label when video is disabled on **WebRTC** due to bad internet connection;
+- Added `muted` icon indicator next to name label on **WebRTC** videos;
 
 #### Fixed
 - Removed **Control Room** label after presenter joins the session;
