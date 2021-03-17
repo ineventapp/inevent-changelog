@@ -13,6 +13,7 @@ This change log was created on January 22, 2021 and only entries after this date
 #### Fixed
 - Removed **Control Room** label after presenter joins the session;
 - Removed **Waiting for broadcast** label that remained even when broadcast started for **Video Conferencing** on **Tokbox**;
+- Fixed **ticket** remove issue when assigning tickets to sponsors;
 
 ### March 16, 2021
 
