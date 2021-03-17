@@ -4,6 +4,12 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 14.4
 
+### March 17, 2021
+
+#### Fixed
+- Removed **Control Room** label after presenter joins the session;
+- Removed **Waiting for broadcast** label that remained even when broadcast started for **Video Conferencing** on **Tokbox**;
+
 ### March 16, 2021
 
 #### Added
