@@ -15,7 +15,8 @@ This change log was created on January 22, 2021 and only entries after this date
 - Removed **Control Room** label after presenter joins the session;
 - Removed **Waiting for broadcast** label that remained even when broadcast started for **Video Conferencing** on **Tokbox**;
 - Fixed **ticket** remove issue when assigning tickets to sponsors;
-
+- **Stripe** ticket `SKU` is now reset when moving from _test_ to _prod_ accounts. This fixes the 'mismatch environment' error message;
+ 
 ### March 16, 2021
 
 #### Added
