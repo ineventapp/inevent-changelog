@@ -2,6 +2,43 @@
 
 This change log was created on January 22, 2021 and only entries after this date will be registered.
 
+## Version 14.5
+
+### March 23, 2021
+
+#### Added
+- Added `cdn.inevent.com` proxy relay for edge caching and better latency;
+
+#### Fixed
+- Fixed **Meeting Form** page loading issue;
+- Fixed **Salesforce** sync for blacklisted users;
+- Fixed minor issue on `event.person.find` endpoint when using an Array `query` content;
+- Fixed issue when removing **Forms** that have tickets associated to;
+- Fixed `comment.find` query for certain filters;
+
+## Version 14.4
+
+### March 22, 2021
+
+#### Added
+- Added support for instant `control room` and `on demand` changes for **sponsor booths**;
+- Added `bulk operation` origin on **Attendee** list;
+- Improved **Audit Logs** reporting;
+
+#### Fixed
+- Fixed `online virtual now` filter on **Attendee** list;
+- Fixed **email** layout issues on Outlook;
+- Fixed **sponsor bio** translation issue;
+- Fixed `bulk operation` when filtering a custom list and selecting all;
+
+### March 18, 2021
+
+#### Fixed
+- Remove `middleName` variable on **Marketo** connector;
+- Fixed event cover crop issue on **My Account** & other pages;
+- Fixed issue while loading **landing page** on company level;
+- Fixed **Tokbox** minor css issue;
+
 ## Version 14.4
 
 ### March 17, 2021
