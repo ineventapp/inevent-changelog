@@ -4,6 +4,20 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 14.5
 
+### March 24, 2021
+
+#### Added
+- Added **Intercom** integration for the **Virtual Lobby** (add your own Intercom chat support);
+- Added auto detect `iframe` embed on **Registration Form** to open links on new tabs;
+- Added section to embed the **Registration Form** in your **Website**;
+- Added `badge counter` for unread messages on **Inbox** chat when loading the page;
+
+#### Fixed
+- Added error message when **Stripe** API Keys are expired;
+- Fixed **Meeting** calendar link;
+- Fixed **custom domain** issue that redirected users incorrectly when authenticated and using company level domains;
+- Fixed **Meeting** slot creation on admin dashboard;
+
 ### March 23, 2021
 
 #### Added
