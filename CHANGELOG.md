@@ -4,6 +4,18 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 14.5
 
+### March 25, 2021
+
+#### Added
+- Added option to automatically create or `link attendee` when **importing speakers**;
+- Added option to notify automatic email when **importing speakers** with `linked attendee`;
+- Added option to automatically link session when **importing speakers**;
+- Added option to automatically add `tags` when **importing speakers**;
+- Added option to `copy magic link` to clipboard on **attendees list**;
+- Added `tags` on **virtual lobby** *excel reports*;
+- Added custom fields on **virtual lobby** *excel reports*;
+- Added better **virtual analytics** reading experience on *excel* (hh:mm:ss times instead of seconds);
+
 ### March 24, 2021
 
 #### Added
