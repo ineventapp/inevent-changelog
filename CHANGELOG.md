@@ -16,6 +16,7 @@ This change log was created on January 22, 2021 and only entries after this date
 - Added custom fields on **virtual lobby** *excel reports*;
 - Added better **virtual analytics** reading experience on *excel* (hh:mm:ss times instead of seconds);
 - Added option to select `permission` level of user on right popup on **attendees list**;
+- Increased `files` amount to 100 on **Virtual Lobby**;
 
 ### March 24, 2021
 
