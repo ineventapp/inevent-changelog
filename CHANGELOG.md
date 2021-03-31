@@ -4,6 +4,35 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 14.5
 
+### March 31, 2021
+
+#### Added
+- Added `API Limit` setting for **Marketo** with logs of API Requests per day;
+
+### March 29, 2021
+
+#### Added
+- Added button to `cancel` **Meeting** after creating it on **Virtual Lobby**;
+- Added permission for all sponsors to add files directly in their **Virtual Lobby** booth;
+- Added `alert` icon for new questions on **Virtual Lobby**;
+- Added dedicated daemonized processes for `Salesforce`, `Marketo`, `News Feed` and `Activity operations`;
+
+#### Fixed
+- Fixed issue on editing certain custom fields on **Attendees** page;
+- Fixed issue that admins couldn't see **Sponsor** description when invisible;
+- Fixed social media links on **Website**;
+- Fixed small error on **Purchase Form** when submitting without `Address Line 2`;
+
+### March 26, 2021
+
+#### Added
+- Added daemonized processes on **Audit Reports**;
+- Added `applicants` and `tickets` operations on **Audit Reports**;
+
+#### Fixed
+- Fixed `cropping` issue caused due to new CDN;
+- Fixed **Registration Form** loading issue on certain custom domains;
+
 ### March 25, 2021
 
 #### Added
