@@ -2,12 +2,27 @@
 
 This change log was created on January 22, 2021 and only entries after this date will be registered.
 
-## Version 14.5
+## Version 14.6
+
+### April 2, 2021
+
+#### Added
+- Added `reverse scroll` to load previous chats on **Virtual Lobby**;
+- Added `pre-recorded content toggle` for sponsor booths on **Classic Layout**;
+
+#### Fixed
+- Fixed `Holmes` template CSS buttons;
 
 ### March 31, 2021
 
 #### Added
 - Added `API Limit` setting for **Marketo** with logs of API Requests per day;
+- Optimized **Virtual Lobby** for mobile devices;
+
+#### Fixed
+- Fixed `current date` when joining **Virtual Lobby** for + timezones;
+
+## Version 14.5
 
 ### March 29, 2021
 
