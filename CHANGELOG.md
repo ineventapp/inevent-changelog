@@ -7,12 +7,16 @@ This change log was created on January 22, 2021 and only entries after this date
 ### April 2, 2021
 
 #### Added
+- Added `rate your experience` popup feedback form when leaving a session on **Virtual Lobby**;
+- Added `PDF and Video` content sharing on **Virtual Lobby** session;
 - Added `reverse scroll` to load previous chats on **Virtual Lobby**;
 - Added `pre-recorded content toggle` for sponsor booths on **Classic Layout**;
-- Added `rate your experience` popup feedback form when leaving a session on **Virtual Lobby**;
+- Added option to delete files directly in the **Virtual Lobby** session;
+- Added optimization for page loading;
 
 #### Fixed
 - Fixed `Holmes` template CSS buttons;
+- Fixed **Paypal** SDK integration;
 
 ### March 31, 2021
 
