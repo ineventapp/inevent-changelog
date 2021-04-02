@@ -9,6 +9,7 @@ This change log was created on January 22, 2021 and only entries after this date
 #### Added
 - Added `reverse scroll` to load previous chats on **Virtual Lobby**;
 - Added `pre-recorded content toggle` for sponsor booths on **Classic Layout**;
+- Added `rate your experience` popup feedback form when leaving a session on **Virtual Lobby**;
 
 #### Fixed
 - Fixed `Holmes` template CSS buttons;
