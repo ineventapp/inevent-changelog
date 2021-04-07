@@ -4,6 +4,14 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 14.7
 
+### April 7, 2021
+
+#### Added
+- Added option to download **Custom Reports** widgets:
+  - `Table` widgets are downloaded as spreadsheets;
+  - `Graphic` widgets are downloaded as pictures;
+- Added option to filter by template on **Custom Reports**;
+
 ### April 6, 2021
 
 #### Added
