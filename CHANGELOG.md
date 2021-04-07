@@ -2,6 +2,51 @@
 
 This change log was created on January 22, 2021 and only entries after this date will be registered.
 
+## Version 14.7
+
+### April 6, 2021
+
+#### Added
+- Added `password` column on **Speaker** spreadsheet to be used when `link attendee` is enabled;
+- Added missing integration for `Material` tool on **Virtual Lobby**;
+- Added new `realtime` updates for **Virtual Lobby** when editing session details:
+  - Activity description;
+  - Activity feedback popup when leaving;
+  - Activity right-column menus (chats, questions, polls, files);
+- Added new `heading` options:
+  - My Agenda:
+    - `Save to calendar` button;
+    - `Send feedback` button;
+  - My Account:
+    - `My profile` section button;
+    - `Sponsor profile` section button;
+  - Virtual Lobby:
+    - `Type your text` input placeholder;
+    - `Device configuration` popup title;
+    - Device configuration `Join now` button;
+    - Device configuration `Join as viewer` button;
+    - `Live content changed` popup title;
+  - Header section (on My Account, My Agenda, etc):
+    - `Open lobby` button;
+
+#### Fixed
+- Fixed issue that caused audio to be duplicated when sharing `PDF` on **Virtual Lobby**;
+- Fixed issue that disabled audio of shared video when the person sharing muted their mic on **Virtual Lobby**;
+- Fixed reattach issue when moving to a regular session to an `external link` session type on **Virtual Lobby**;
+- Fixed **Marketo** status updates for leads that were pulled directly from a `Program`;
+- Fixed broken interaction between `realtime` session changes when changing room type and feedback popup was enabled;
+
+### April 5, 2021
+
+#### Added
+- Optimized `PDF` and `Video` loading for content share on **Virtual Lobby**;
+- Added tool to disable custom `content share` on **Virtual Lobby**;
+
+#### Fixed
+- Fixed issue with specific links when sending **Emails**;
+- Fixed `realtime content change` on **Virtual Lobby** when moving to `external link`;
+- Fixed mass operations on **Leads**;
+
 ## Version 14.6
 
 ### April 2, 2021
