@@ -4,6 +4,15 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 14.7
 
+### April 8, 2021
+
+#### Added
+- Added missing `FAQ` link for the **Link Tracking** tool;
+
+#### Fixed
+- Fixed issue that blocked **Custom Domains** that had `inevent` as a prefix;
+- Fixed billing payment when price has not been set yet for your company;
+
 ### April 7, 2021
 
 #### Added

@@ -1,0 +1,1685 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><style>body {
+  max-width: 980px;
+  border: 1px solid #ddd;
+  outline: 1300px solid #fff;
+  margin: 16px auto;
+}
+
+body .markdown-body
+{
+  padding: 45px;
+}
+
+@font-face {
+  font-family: fontawesome-mini;
+  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+
+.markdown-body {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: #333333;
+  overflow: hidden;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+.markdown-body a {
+  background: transparent;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+  outline: 0;
+}
+
+.markdown-body b,
+.markdown-body strong {
+  font-weight: bold;
+}
+
+.markdown-body mark {
+  background: #ff0;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body sub,
+.markdown-body sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+.markdown-body sup {
+  top: -0.5em;
+}
+.markdown-body sub {
+  bottom: -0.25em;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.markdown-body img {
+  border: 0;
+}
+
+.markdown-body hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+.markdown-body pre {
+  overflow: auto;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+.markdown-body input {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.markdown-body html input[disabled] {
+  cursor: default;
+}
+
+.markdown-body input {
+  line-height: normal;
+}
+
+.markdown-body input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body .codehilitetable,
+.markdown-body .highlighttable {
+  border: 0;
+  border-spacing: 0;
+}
+
+.markdown-body .codehilitetable tr,
+.markdown-body .highlighttable {
+  border: 0;
+}
+
+.markdown-body .codehilitetable pre,
+.markdown-body .codehilitetable div.codehilite,
+.markdown-body .highlighttable pre,
+.markdown-body .highlighttable div.highlight {
+  margin: 0;
+}
+
+.markdown-body .linenos,
+.markdown-body .code,
+.markdown-body .codehilitetable td,
+.markdown-body .highlighttable td {
+  border: 0;
+  padding: 0;
+}
+
+.markdown-body td:not(.linenos) .linenodiv {
+  padding: 0 !important;
+}
+
+.markdown-body .code {
+  width: 100%;
+}
+
+.markdown-body .linenos div pre,
+.markdown-body .linenodiv pre,
+.markdown-body .linenodiv {
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.markdown-body .code div pre,
+.markdown-body .code div {
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.markdown-body * {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.markdown-body input {
+  font: 13px Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.4;
+}
+
+.markdown-body a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+.markdown-body a:hover,
+.markdown-body a:focus,
+.markdown-body a:active {
+  text-decoration: underline;
+}
+
+.markdown-body hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.markdown-body hr:before,
+.markdown-body hr:after {
+  display: table;
+  content: " ";
+}
+
+.markdown-body hr:after {
+  clear: both;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.1;
+}
+
+.markdown-body h1 {
+  font-size: 30px;
+}
+
+.markdown-body h2 {
+  font-size: 21px;
+}
+
+.markdown-body h3 {
+  font-size: 16px;
+}
+
+.markdown-body h4 {
+  font-size: 14px;
+}
+
+.markdown-body h5 {
+  font-size: 12px;
+}
+
+.markdown-body h6 {
+  font-size: 11px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body code,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body kbd {
+  background-color: #e7e7e7;
+  background-image: -moz-linear-gradient(#fefefe, #e7e7e7);
+  background-image: -webkit-linear-gradient(#fefefe, #e7e7e7);
+  background-image: linear-gradient(#fefefe, #e7e7e7);
+  background-repeat: repeat-x;
+  border-radius: 2px;
+  border: 1px solid #cfcfcf;
+  color: #000;
+  padding: 3px 5px;
+  line-height: 10px;
+  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  display: inline-block;
+}
+
+.markdown-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.markdown-body .headerlink {
+  font: normal 400 16px fontawesome-mini;
+  vertical-align: middle;
+  margin-left: -16px;
+  float: left;
+  display: inline-block;
+  text-decoration: none;
+  opacity: 0;
+  color: #333;
+}
+
+.markdown-body .headerlink:focus {
+  outline: none;
+}
+
+.markdown-body h1 .headerlink {
+  margin-top: 0.8rem;
+}
+
+.markdown-body h2 .headerlink,
+.markdown-body h3 .headerlink {
+  margin-top: 0.6rem;
+}
+
+.markdown-body h4 .headerlink {
+  margin-top: 0.2rem;
+}
+
+.markdown-body h5 .headerlink,
+.markdown-body h6 .headerlink {
+  margin-top: 0;
+}
+
+.markdown-body .headerlink:hover,
+.markdown-body h1:hover .headerlink,
+.markdown-body h2:hover .headerlink,
+.markdown-body h3:hover .headerlink,
+.markdown-body h4:hover .headerlink,
+.markdown-body h5:hover .headerlink,
+.markdown-body h6:hover .headerlink {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.markdown-body h1 {
+  padding-bottom: 0.3em;
+  font-size: 2.25em;
+  line-height: 1.2;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.75em;
+  line-height: 1.225;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h3 {
+  font-size: 1.5em;
+  line-height: 1.43;
+}
+
+.markdown-body h4 {
+  font-size: 1.25em;
+}
+
+.markdown-body h5 {
+  font-size: 1em;
+}
+
+.markdown-body h6 {
+  font-size: 1em;
+  color: #777;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre,
+.markdown-body .admonition {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body hr {
+  height: 4px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: #e7e7e7;
+  border: 0 none;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding-left: 2em;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body blockquote {
+  padding: 0 15px;
+  color: #777;
+  border-left: 4px solid #ddd;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+
+.markdown-body table th {
+  font-weight: bold;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+
+.markdown-body table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+.markdown-body img {
+  max-width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.markdown-body code,
+.markdown-body samp {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+}
+
+.markdown-body code:before,
+.markdown-body code:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .codehilite,
+.markdown-body .highlight {
+  margin-bottom: 16px;
+}
+
+.markdown-body .codehilite pre,
+.markdown-body .highlight pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+
+.markdown-body .codehilite pre,
+.markdown-body .highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body pre {
+  word-wrap: normal;
+}
+
+.markdown-body pre code {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.markdown-body pre code:before,
+.markdown-body pre code:after {
+  content: normal;
+}
+
+/* Admonition */
+.markdown-body .admonition {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  position: relative;
+  border-radius: 3px;
+  border: 1px solid #e0e0e0;
+  border-left: 6px solid #333;
+  padding: 10px 10px 10px 30px;
+}
+
+.markdown-body .admonition table {
+  color: #333;
+}
+
+.markdown-body .admonition p {
+  padding: 0;
+}
+
+.markdown-body .admonition-title {
+  font-weight: bold;
+  margin: 0;
+}
+
+.markdown-body .admonition>.admonition-title {
+  color: #333;
+}
+
+.markdown-body .attention>.admonition-title {
+  color: #a6d796;
+}
+
+.markdown-body .caution>.admonition-title {
+  color: #d7a796;
+}
+
+.markdown-body .hint>.admonition-title {
+  color: #96c6d7;
+}
+
+.markdown-body .danger>.admonition-title {
+  color: #c25f77;
+}
+
+.markdown-body .question>.admonition-title {
+  color: #96a6d7;
+}
+
+.markdown-body .note>.admonition-title {
+  color: #d7c896;
+}
+
+.markdown-body .admonition:before,
+.markdown-body .attention:before,
+.markdown-body .caution:before,
+.markdown-body .hint:before,
+.markdown-body .danger:before,
+.markdown-body .question:before,
+.markdown-body .note:before {
+  font: normal normal 16px fontawesome-mini;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 1.5;
+  color: #333;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.markdown-body .admonition:before {
+  content: "\f056\00a0";
+  color: 333;
+}
+
+.markdown-body .attention:before {
+  content: "\f058\00a0";
+  color: #a6d796;
+}
+
+.markdown-body .caution:before {
+  content: "\f06a\00a0";
+  color: #d7a796;
+}
+
+.markdown-body .hint:before {
+  content: "\f05a\00a0";
+  color: #96c6d7;
+}
+
+.markdown-body .danger:before {
+  content: "\f057\00a0";
+  color: #c25f77;
+}
+
+.markdown-body .question:before {
+  content: "\f059\00a0";
+  color: #96a6d7;
+}
+
+.markdown-body .note:before {
+  content: "\f040\00a0";
+  color: #d7c896;
+}
+
+.markdown-body .admonition::after {
+  content: normal;
+}
+
+.markdown-body .attention {
+  border-left: 6px solid #a6d796;
+}
+
+.markdown-body .caution {
+  border-left: 6px solid #d7a796;
+}
+
+.markdown-body .hint {
+  border-left: 6px solid #96c6d7;
+}
+
+.markdown-body .danger {
+  border-left: 6px solid #c25f77;
+}
+
+.markdown-body .question {
+  border-left: 6px solid #96a6d7;
+}
+
+.markdown-body .note {
+  border-left: 6px solid #d7c896;
+}
+
+.markdown-body .admonition>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body .admonition>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* progress bar*/
+.markdown-body .progress {
+  display: block;
+  width: 300px;
+  margin: 10px 0;
+  height: 24px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #ededed;
+  position: relative;
+  box-shadow: inset -1px 1px 3px rgba(0, 0, 0, .1);
+}
+
+.markdown-body .progress-label {
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  width: 100%; margin: 0;
+  line-height: 24px;
+  color: #333;
+  text-shadow: 1px 1px 0 #fefefe, -1px -1px 0 #fefefe, -1px 1px 0 #fefefe, 1px -1px 0 #fefefe, 0 1px 0 #fefefe, 0 -1px 0 #fefefe, 1px 0 0 #fefefe, -1px 0 0 #fefefe, 1px 1px 2px #000;
+  -webkit-font-smoothing: antialiased !important;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.markdown-body .progress-bar {
+  height: 24px;
+  float: left;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #96c6d7;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .5), inset 0 -1px 0 rgba(0, 0, 0, .1);
+  background-size: 30px 30px;
+  background-image: -webkit-linear-gradient(
+    135deg, rgba(255, 255, 255, .4) 27%,
+    transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%,
+    transparent 77%, transparent
+  );
+  background-image: -moz-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: -ms-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: -o-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+}
+
+.markdown-body .progress-100plus .progress-bar {
+  background-color: #a6d796;
+}
+
+.markdown-body .progress-80plus .progress-bar {
+  background-color: #c6d796;
+}
+
+.markdown-body .progress-60plus .progress-bar {
+  background-color: #d7c896;
+}
+
+.markdown-body .progress-40plus .progress-bar {
+  background-color: #d7a796;
+}
+
+.markdown-body .progress-20plus .progress-bar {
+  background-color: #d796a6;
+}
+
+.markdown-body .progress-0plus .progress-bar {
+  background-color: #c25f77;
+}
+
+.markdown-body .candystripe-animate .progress-bar{
+  -webkit-animation: animate-stripes 3s linear infinite;
+  -moz-animation: animate-stripes 3s linear infinite;
+  animation: animate-stripes 3s linear infinite;
+}
+
+@-webkit-keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+@-moz-keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+@keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+.markdown-body .gloss .progress-bar {
+  box-shadow:
+    inset 0 4px 12px rgba(255, 255, 255, .7),
+    inset 0 -12px 0 rgba(0, 0, 0, .05);
+}
+
+/* MultiMarkdown Critic Blocks */
+.markdown-body .critic_mark {
+  background: #ff0;
+}
+
+.markdown-body .critic_delete {
+  color: #c82829;
+  text-decoration: line-through;
+}
+
+.markdown-body .critic_insert {
+  color: #718c00 ;
+  text-decoration: underline;
+}
+
+.markdown-body .critic_comment {
+  color: #8e908c;
+  font-style: italic;
+}
+
+.markdown-body .headeranchor {
+  font: normal normal 16px fontawesome-mini;
+  line-height: 1;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.headeranchor:before {
+  content: '\e157';
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+  margin: 0 4px 0.25em -20px;
+  vertical-align: middle;
+}
+
+/* Media */
+@media only screen and (min-width: 480px) {
+  .markdown-body {
+    font-size:14px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .markdown-body {
+    font-size:16px;
+  }
+}
+
+@media print {
+  .markdown-body * {
+    background: transparent !important;
+    color: black !important;
+    filter:none !important;
+    -ms-filter: none !important;
+  }
+
+  .markdown-body {
+    font-size:12pt;
+    max-width:100%;
+    outline:none;
+    border: 0;
+  }
+
+  .markdown-body a,
+  .markdown-body a:visited {
+    text-decoration: underline;
+  }
+
+  .markdown-body .headeranchor-link {
+    display: none;
+  }
+
+  .markdown-body a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  .markdown-body abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  .markdown-body .ir a:after,
+  .markdown-body a[href^="javascript:"]:after,
+  .markdown-body a[href^="#"]:after {
+    content: "";
+  }
+
+  .markdown-body pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  .markdown-body pre,
+  .markdown-body blockquote {
+    border: 1px solid #999;
+    padding-right: 1em;
+    page-break-inside: avoid;
+  }
+
+  .markdown-body .progress,
+  .markdown-body .progress-bar {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .markdown-body .progress {
+    border: 1px solid #ddd;
+  }
+
+  .markdown-body .progress-bar {
+    height: 22px;
+    border-right: 1px solid #ddd;
+  }
+
+  .markdown-body tr,
+  .markdown-body img {
+    page-break-inside: avoid;
+  }
+
+  .markdown-body img {
+    max-width: 100% !important;
+  }
+
+  .markdown-body p,
+  .markdown-body h2,
+  .markdown-body h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  .markdown-body h2,
+  .markdown-body h3 {
+    page-break-after: avoid;
+  }
+}
+</style><style>/*GitHub*/
+.highlight {background-color:#fff;color:#333333;}
+.highlight .hll {background-color:#ffffcc;}
+.highlight .c{color:#999988;font-style:italic}
+.highlight .err{color:#a61717;background-color:#e3d2d2}
+.highlight .k{font-weight:bold}
+.highlight .o{font-weight:bold}
+.highlight .cm{color:#999988;font-style:italic}
+.highlight .cp{color:#999999;font-weight:bold}
+.highlight .c1{color:#999988;font-style:italic}
+.highlight .cs{color:#999999;font-weight:bold;font-style:italic}
+.highlight .gd{color:#000000;background-color:#ffdddd}
+.highlight .ge{font-style:italic}
+.highlight .gr{color:#aa0000}
+.highlight .gh{color:#999999}
+.highlight .gi{color:#000000;background-color:#ddffdd}
+.highlight .go{color:#888888}
+.highlight .gp{color:#555555}
+.highlight .gs{font-weight:bold}
+.highlight .gu{color:#800080;font-weight:bold}
+.highlight .gt{color:#aa0000}
+.highlight .kc{font-weight:bold}
+.highlight .kd{font-weight:bold}
+.highlight .kn{font-weight:bold}
+.highlight .kp{font-weight:bold}
+.highlight .kr{font-weight:bold}
+.highlight .kt{color:#445588;font-weight:bold}
+.highlight .m{color:#009999}
+.highlight .s{color:#dd1144}
+.highlight .n{color:#333333}
+.highlight .na{color:teal}
+.highlight .nb{color:#0086b3}
+.highlight .nc{color:#445588;font-weight:bold}
+.highlight .no{color:teal}
+.highlight .ni{color:purple}
+.highlight .ne{color:#990000;font-weight:bold}
+.highlight .nf{color:#990000;font-weight:bold}
+.highlight .nn{color:#555555}
+.highlight .nt{color:navy}
+.highlight .nv{color:teal}
+.highlight .ow{font-weight:bold}
+.highlight .w{color:#bbbbbb}
+.highlight .mf{color:#009999}
+.highlight .mh{color:#009999}
+.highlight .mi{color:#009999}
+.highlight .mo{color:#009999}
+.highlight .sb{color:#dd1144}
+.highlight .sc{color:#dd1144}
+.highlight .sd{color:#dd1144}
+.highlight .s2{color:#dd1144}
+.highlight .se{color:#dd1144}
+.highlight .sh{color:#dd1144}
+.highlight .si{color:#dd1144}
+.highlight .sx{color:#dd1144}
+.highlight .sr{color:#009926}
+.highlight .s1{color:#dd1144}
+.highlight .ss{color:#990073}
+.highlight .bp{color:#999999}
+.highlight .vc{color:teal}
+.highlight .vg{color:teal}
+.highlight .vi{color:teal}
+.highlight .il{color:#009999}
+.highlight .gc{color:#999;background-color:#EAF2F5}
+</style><title>CHANGELOG</title></head><body><article class="markdown-body"><h1 id="inevent-change-log">InEvent Change Log<a class="headerlink" href="#inevent-change-log" title="Permanent link"></a></h1>
+<p>This change log was created on January 22, 2021 and only entries after this date will be registered.</p>
+<h2 id="version-147">Version 14.7<a class="headerlink" href="#version-147" title="Permanent link"></a></h2>
+<h3 id="april-8-2021">April 8, 2021<a class="headerlink" href="#april-8-2021" title="Permanent link"></a></h3>
+<h4 id="fixed">Fixed<a class="headerlink" href="#fixed" title="Permanent link"></a></h4>
+<ul>
+<li>Fixed issue that blocked ;</li>
+</ul>
+<h3 id="april-7-2021">April 7, 2021<a class="headerlink" href="#april-7-2021" title="Permanent link"></a></h3>
+<h4 id="added">Added<a class="headerlink" href="#added" title="Permanent link"></a></h4>
+<ul>
+<li>Added option to download <strong>Custom Reports</strong> widgets:</li>
+<li><code>Table</code> widgets are downloaded as spreadsheets;</li>
+<li><code>Graphic</code> widgets are downloaded as pictures;</li>
+<li>Added option to filter by template on <strong>Custom Reports</strong>;</li>
+</ul>
+<h3 id="april-6-2021">April 6, 2021<a class="headerlink" href="#april-6-2021" title="Permanent link"></a></h3>
+<h4 id="added_1">Added<a class="headerlink" href="#added_1" title="Permanent link"></a></h4>
+<ul>
+<li>Added <code>password</code> column on <strong>Speaker</strong> spreadsheet to be used when <code>link attendee</code> is enabled;</li>
+<li>Added missing integration for <code>Material</code> tool on <strong>Virtual Lobby</strong>;</li>
+<li>Added new <code>realtime</code> updates for <strong>Virtual Lobby</strong> when editing session details:</li>
+<li>Activity description;</li>
+<li>Activity feedback popup when leaving;</li>
+<li>Activity right-column menus (chats, questions, polls, files);</li>
+<li>Added new <code>heading</code> options:</li>
+<li>My Agenda:<ul>
+<li><code>Save to calendar</code> button;</li>
+<li><code>Send feedback</code> button;</li>
+</ul>
+</li>
+<li>My Account:<ul>
+<li><code>My profile</code> section button;</li>
+<li><code>Sponsor profile</code> section button;</li>
+</ul>
+</li>
+<li>Virtual Lobby:<ul>
+<li><code>Type your text</code> input placeholder;</li>
+<li><code>Device configuration</code> popup title;</li>
+<li>Device configuration <code>Join now</code> button;</li>
+<li>Device configuration <code>Join as viewer</code> button;</li>
+<li><code>Live content changed</code> popup title;</li>
+</ul>
+</li>
+<li>Header section (on My Account, My Agenda, etc):<ul>
+<li><code>Open lobby</code> button;</li>
+</ul>
+</li>
+</ul>
+<h4 id="fixed_1">Fixed<a class="headerlink" href="#fixed_1" title="Permanent link"></a></h4>
+<ul>
+<li>Fixed issue that caused audio to be duplicated when sharing <code>PDF</code> on <strong>Virtual Lobby</strong>;</li>
+<li>Fixed issue that disabled audio of shared video when the person sharing muted their mic on <strong>Virtual Lobby</strong>;</li>
+<li>Fixed reattach issue when moving to a regular session to an <code>external link</code> session type on <strong>Virtual Lobby</strong>;</li>
+<li>Fixed <strong>Marketo</strong> status updates for leads that were pulled directly from a <code>Program</code>;</li>
+<li>Fixed broken interaction between <code>realtime</code> session changes when changing room type and feedback popup was enabled;</li>
+</ul>
+<h3 id="april-5-2021">April 5, 2021<a class="headerlink" href="#april-5-2021" title="Permanent link"></a></h3>
+<h4 id="added_2">Added<a class="headerlink" href="#added_2" title="Permanent link"></a></h4>
+<ul>
+<li>Optimized <code>PDF</code> and <code>Video</code> loading for content share on <strong>Virtual Lobby</strong>;</li>
+<li>Added tool to disable custom <code>content share</code> on <strong>Virtual Lobby</strong>;</li>
+</ul>
+<h4 id="fixed_2">Fixed<a class="headerlink" href="#fixed_2" title="Permanent link"></a></h4>
+<ul>
+<li>Fixed issue with specific links when sending <strong>Emails</strong>;</li>
+<li>Fixed <code>realtime content change</code> on <strong>Virtual Lobby</strong> when moving to <code>external link</code>;</li>
+<li>Fixed mass operations on <strong>Leads</strong>;</li>
+</ul>
+<h2 id="version-146">Version 14.6<a class="headerlink" href="#version-146" title="Permanent link"></a></h2>
+<h3 id="april-2-2021">April 2, 2021<a class="headerlink" href="#april-2-2021" title="Permanent link"></a></h3>
+<h4 id="added_3">Added<a class="headerlink" href="#added_3" title="Permanent link"></a></h4>
+<ul>
+<li>Added <code>rate your experience</code> popup feedback form when leaving a session on <strong>Virtual Lobby</strong>;</li>
+<li>Added <code>PDF and Video</code> content sharing on <strong>Virtual Lobby</strong> session;</li>
+<li>Added <code>reverse scroll</code> to load previous chats on <strong>Virtual Lobby</strong>;</li>
+<li>Added <code>pre-recorded content toggle</code> for sponsor booths on <strong>Classic Layout</strong>;</li>
+<li>Added option to delete files directly in the <strong>Virtual Lobby</strong> session;</li>
+<li>Added optimization for page loading;</li>
+</ul>
+<h4 id="fixed_3">Fixed<a class="headerlink" href="#fixed_3" title="Permanent link"></a></h4>
+<ul>
+<li>Fixed <code>Holmes</code> template CSS buttons;</li>
+<li>Fixed <strong>Paypal</strong> SDK integration;</li>
+</ul>
+<h3 id="march-31-2021">March 31, 2021<a class="headerlink" href="#march-31-2021" title="Permanent link"></a></h3>
+<h4 id="added_4">Added<a class="headerlink" href="#added_4" title="Permanent link"></a></h4>
+<ul>
+<li>Added <code>API Limit</code> setting for <strong>Marketo</strong> with logs of API Requests per day;</li>
+<li>Optimized <strong>Virtual Lobby</strong> for mobile devices;</li>
+</ul>
+<h4 id="fixed_4">Fixed<a class="headerlink" href="#fixed_4" title="Permanent link"></a></h4>
+<ul>
+<li>Fixed <code>current date</code> when joining <strong>Virtual Lobby</strong> for + timezones;</li>
+</ul>
+<h2 id="version-145">Version 14.5<a class="headerlink" href="#version-145" title="Permanent link"></a></h2>
+<h3 id="march-29-2021">March 29, 2021<a class="headerlink" href="#march-29-2021" title="Permanent link"></a></h3>
+<h4 id="added_5">Added<a class="headerlink" href="#added_5" title="Permanent link"></a></h4>
+<ul>
+<li>Added button to <code>cancel</code> <strong>Meeting</strong> after creating it on <strong>Virtual Lobby</strong>;</li>
+<li>Added permission for all sponsors to add files directly in their <strong>Virtual Lobby</strong> booth;</li>
+<li>Added <code>alert</code> icon for new questions on <strong>Virtual Lobby</strong>;</li>
+<li>Added dedicated daemonized processes for <code>Salesforce</code>, <code>Marketo</code>, <code>News Feed</code> and <code>Activity operations</code>;</li>
+</ul>
+<h4 id="fixed_5">Fixed<a class="headerlink" href="#fixed_5" title="Permanent link"></a></h4>
+<ul>
+<li>Fixed issue on editing certain custom fields on <strong>Attendees</strong> page;</li>
+<li>Fixed issue that admins couldn&rsquo;t see <strong>Sponsor</strong> description when invisible;</li>
+<li>Fixed social media links on <strong>Website</strong>;</li>
+<li>Fixed small error on <strong>Purchase Form</strong> when submitting without <code>Address Line 2</code>;</li>
+</ul>
+<h3 id="march-26-2021">March 26, 2021<a class="headerlink" href="#march-26-2021" title="Permanent link"></a></h3>
+<h4 id="added_6">Added<a class="headerlink" href="#added_6" title="Permanent link"></a></h4>
+<ul>
+<li>Added daemonized processes on <strong>Audit Reports</strong>;</li>
+<li>Added <code>applicants</code> and <code>tickets</code> operations on <strong>Audit Reports</strong>;</li>
+</ul>
+<h4 id="fixed_6">Fixed<a class="headerlink" href="#fixed_6" title="Permanent link"></a></h4>
+<ul>
+<li>Fixed <code>cropping</code> issue caused due to new CDN;</li>
+<li>Fixed <strong>Registration Form</strong> loading issue on certain custom domains;</li>
+</ul>
+<h3 id="march-25-2021">March 25, 2021<a class="headerlink" href="#march-25-2021" title="Permanent link"></a></h3>
+<h4 id="added_7">Added<a class="headerlink" href="#added_7" title="Permanent link"></a></h4>
+<ul>
+<li>Added option to automatically create or <code>link attendee</code> when <strong>importing speakers</strong>;</li>
+<li>Added option to notify automatic email when <strong>importing speakers</strong> with <code>linked attendee</code>;</li>
+<li>Added option to automatically link session when <strong>importing speakers</strong>;</li>
+<li>Added option to automatically add <code>tags</code> when <strong>importing speakers</strong>;</li>
+<li>Added option to <code>copy magic link</code> to clipboard on <strong>attendees list</strong>;</li>
+<li>Added <code>tags</code> on <strong>virtual lobby</strong> <em>excel reports</em>;</li>
+<li>Added custom fields on <strong>virtual lobby</strong> <em>excel reports</em>;</li>
+<li>Added better <strong>virtual analytics</strong> reading experience on <em>excel</em> (hh:mm:ss times instead of seconds);</li>
+<li>Added option to select <code>permission</code> level of user on right popup on <strong>attendees list</strong>;</li>
+<li>Increased <code>files</code> amount to 100 on <strong>Virtual Lobby</strong>;</li>
+</ul>
+<h3 id="march-24-2021">March 24, 2021<a class="headerlink" href="#march-24-2021" title="Permanent link"></a></h3>
+<h4 id="added_8">Added<a class="headerlink" href="#added_8" title="Permanent link"></a></h4>
+<ul>
+<li>Added <strong>Intercom</strong> integration for the <strong>Virtual Lobby</strong> (add your own Intercom chat support);</li>
+<li>Added auto detect <code>iframe</code> embed on <strong>Registration Form</strong> to open links on new tabs;</li>
+<li>Added section to embed the <strong>Registration Form</strong> in your <strong>Website</strong>;</li>
+<li>Added <code>badge counter</code> for unread messages on <strong>Inbox</strong> chat when loading the page;</li>
+</ul>
+<h4 id="fixed_7">Fixed<a class="headerlink" href="#fixed_7" title="Permanent link"></a></h4>
+<ul>
+<li>Added error message when <strong>Stripe</strong> API Keys are expired;</li>
+<li>Fixed <strong>Meeting</strong> calendar link;</li>
+<li>Fixed <strong>custom domain</strong> issue that redirected users incorrectly when authenticated and using company level domains;</li>
+<li>Fixed <strong>Meeting</strong> slot creation on admin dashboard;</li>
+</ul>
+<h3 id="march-23-2021">March 23, 2021<a class="headerlink" href="#march-23-2021" title="Permanent link"></a></h3>
+<h4 id="added_9">Added<a class="headerlink" href="#added_9" title="Permanent link"></a></h4>
+<ul>
+<li>Added <code>cdn.inevent.com</code> proxy relay for edge caching and better latency;</li>
+</ul>
+<h4 id="fixed_8">Fixed<a class="headerlink" href="#fixed_8" title="Permanent link"></a></h4>
+<ul>
+<li>Fixed <strong>Meeting Form</strong> page loading issue;</li>
+<li>Fixed <strong>Salesforce</strong> sync for blacklisted users;</li>
+<li>Fixed minor issue on <code>event.person.find</code> endpoint when using an Array <code>query</code> content;</li>
+<li>Fixed issue when removing <strong>Forms</strong> that have tickets associated to;</li>
+<li>Fixed <code>comment.find</code> query for certain filters;</li>
+</ul>
+<h2 id="version-144">Version 14.4<a class="headerlink" href="#version-144" title="Permanent link"></a></h2>
+<h3 id="march-22-2021">March 22, 2021<a class="headerlink" href="#march-22-2021" title="Permanent link"></a></h3>
+<h4 id="added_10">Added<a class="headerlink" href="#added_10" title="Permanent link"></a></h4>
+<ul>
+<li>Added support for instant <code>control room</code> and <code>on demand</code> changes for <strong>sponsor booths</strong>;</li>
+<li>Added <code>bulk operation</code> origin on <strong>Attendee</strong> list;</li>
+<li>Improved <strong>Audit Logs</strong> reporting;</li>
+</ul>
+<h4 id="fixed_9">Fixed<a class="headerlink" href="#fixed_9" title="Permanent link"></a></h4>
+<ul>
+<li>Fixed <code>online virtual now</code> filter on <strong>Attendee</strong> list;</li>
+<li>Fixed <strong>email</strong> layout issues on Outlook;</li>
+<li>Fixed <strong>sponsor bio</strong> translation issue;</li>
+<li>Fixed <code>bulk operation</code> when filtering a custom list and selecting all;</li>
+</ul>
+<h3 id="march-18-2021">March 18, 2021<a class="headerlink" href="#march-18-2021" title="Permanent link"></a></h3>
+<h4 id="fixed_10">Fixed<a class="headerlink" href="#fixed_10" title="Permanent link"></a></h4>
+<ul>
+<li>Remove <code>middleName</code> variable on <strong>Marketo</strong> connector;</li>
+<li>Fixed event cover crop issue on <strong>My Account</strong> &amp; other pages;</li>
+<li>Fixed issue while loading <strong>landing page</strong> on company level;</li>
+<li>Fixed <strong>Tokbox</strong> minor css issue;</li>
+</ul>
+<h2 id="version-144_1">Version 14.4<a class="headerlink" href="#version-144_1" title="Permanent link"></a></h2>
+<h3 id="march-17-2021">March 17, 2021<a class="headerlink" href="#march-17-2021" title="Permanent link"></a></h3>
+<h4 id="added_11">Added<a class="headerlink" href="#added_11" title="Permanent link"></a></h4>
+<ul>
+<li>Added <code>Video connection is unstable</code> label when video is disabled on <strong>WebRTC</strong> due to bad internet connection;</li>
+<li>Added <code>muted</code> icon indicator next to name label on <strong>WebRTC</strong> videos;</li>
+<li>Added <code>ticket</code> setting tool on <strong>Registration Form</strong> settings page;</li>
+<li>Integrated <code>phone block</code> tool on <strong>Purchase Form</strong>;</li>
+</ul>
+<h4 id="fixed_11">Fixed<a class="headerlink" href="#fixed_11" title="Permanent link"></a></h4>
+<ul>
+<li>Removed <strong>Control Room</strong> label after presenter joins the session;</li>
+<li>Removed <strong>Waiting for broadcast</strong> label that remained even when broadcast started for <strong>Video Conferencing</strong> on <strong>Tokbox</strong>;</li>
+<li>Fixed <strong>ticket</strong> remove issue when assigning tickets to sponsors;</li>
+<li><strong>Stripe</strong> ticket <code>SKU</code> is now reset when moving from <em>test</em> to <em>prod</em> accounts. This fixes the &lsquo;mismatch environment&rsquo; error message;</li>
+</ul>
+<h3 id="march-16-2021">March 16, 2021<a class="headerlink" href="#march-16-2021" title="Permanent link"></a></h3>
+<h4 id="added_12">Added<a class="headerlink" href="#added_12" title="Permanent link"></a></h4>
+<ul>
+<li>Added persistent chat messages for <strong>Sponsor Booths</strong>;</li>
+<li>Added option to select <code>Contact</code> and <code>Lead</code> specific fields on <strong>Salesforce</strong> connector;</li>
+</ul>
+<h4 id="fixed_12">Fixed<a class="headerlink" href="#fixed_12" title="Permanent link"></a></h4>
+<ul>
+<li>Fixed broadcast stop issues on <strong>Agora.io</strong>;</li>
+<li>Fixed <strong>activity feedback form</strong> redirect issue;</li>
+</ul>
+<h3 id="march-15-2021">March 15, 2021<a class="headerlink" href="#march-15-2021" title="Permanent link"></a></h3>
+<h4 id="fixed_13">Fixed<a class="headerlink" href="#fixed_13" title="Permanent link"></a></h4>
+<ul>
+<li>Fixed <strong>News Feed</strong> toggle button on top bar;</li>
+</ul>
+<h3 id="march-12-2021">March 12, 2021<a class="headerlink" href="#march-12-2021" title="Permanent link"></a></h3>
+<h4 id="added_13">Added<a class="headerlink" href="#added_13" title="Permanent link"></a></h4>
+<ul>
+<li>Added <strong>Link Tracking</strong> feature to track <code>clicks</code> and <code>conversions</code> from any url;</li>
+<li>Added pre-recorded <strong>iframe</strong> <code>camera</code> and <code>microphone</code> policy;</li>
+<li>Added <strong>News Feed</strong> popup on top bar (works during sessions too);</li>
+<li>When removing a person from an activity, it now kicks them out of the session if they are watching;</li>
+</ul>
+<h4 id="fixed_14">Fixed<a class="headerlink" href="#fixed_14" title="Permanent link"></a></h4>
+<ul>
+<li>Fixed issue on <strong>Salesforce</strong> custom fields that ignored values on <code>plain text</code> fields;</li>
+<li>Fixed <strong>Virtual Lobby</strong> css issues:</li>
+<li>Tag search didn&rsquo;t have a scrollbar;</li>
+<li>Bottom menu overlapped the chat text field on mobile devices;</li>
+<li>Group rooms didn&rsquo;t have a scrollbar on fullscreen;</li>
+<li>Fixed <strong>meetings</strong> section when users you are meeting are removed from the event;</li>
+<li>Fixed telephone country area code when not given (<code>+1 US</code> is now used by default);</li>
+<li>Fixed error on <strong>Virtual Lobby</strong> analytics when viewing it in French;</li>
+<li>Fixed <strong>Tokbox</strong> mic audio slider on device preview (it was not working);</li>
+<li>Fixed mic selector on device preview;</li>
+</ul>
+<h2 id="version-143">Version 14.3<a class="headerlink" href="#version-143" title="Permanent link"></a></h2>
+<h3 id="march-11-2021">March 11, 2021<a class="headerlink" href="#march-11-2021" title="Permanent link"></a></h3>
+<h4 id="added_14">Added<a class="headerlink" href="#added_14" title="Permanent link"></a></h4>
+<ul>
+<li>Added option to set a default value on any <strong>form</strong> (also on custom fields);</li>
+</ul>
+<h4 id="fixed_15">Fixed<a class="headerlink" href="#fixed_15" title="Permanent link"></a></h4>
+<ul>
+<li>Fixed <strong>Marketo</strong> custom fields and attendees that were added before adding the integration;</li>
+</ul>
+<h3 id="march-10-2021">March 10, 2021<a class="headerlink" href="#march-10-2021" title="Permanent link"></a></h3>
+<h4 id="added_15">Added<a class="headerlink" href="#added_15" title="Permanent link"></a></h4>
+<ul>
+<li>Added support for <strong>Transcription</strong> when using <strong>RTMP</strong> directly;</li>
+</ul>
+<h3 id="march-9-2021">March 9, 2021<a class="headerlink" href="#march-9-2021" title="Permanent link"></a></h3>
+<h4 id="added_16">Added<a class="headerlink" href="#added_16" title="Permanent link"></a></h4>
+<ul>
+<li>Added automated <strong>recording</strong> retrieval for Endpoint B;</li>
+<li>Optimized <strong>Marketo</strong> integration and added option to sync programs manually;</li>
+</ul>
+<h4 id="fixed_16">Fixed<a class="headerlink" href="#fixed_16" title="Permanent link"></a></h4>
+<ul>
+<li>Fixed <strong>Tokbox</strong> failover stream;</li>
+<li>Added <strong>transcription</strong> support for all RTMP endpoints;</li>
+<li>Fixed email tag when calculating the bounce rate;</li>
+</ul>
+<h3 id="march-8-2021">March 8, 2021<a class="headerlink" href="#march-8-2021" title="Permanent link"></a></h3>
+<h4 id="added_17">Added<a class="headerlink" href="#added_17" title="Permanent link"></a></h4>
+<ul>
+<li>Added permission for <strong>sponsor</strong> people manage presenters / viewers on sponsor booths;</li>
+<li>Optimized <strong>excel import</strong> for larger files and added better error logs;</li>
+<li>Added option to delete old <strong>push messages</strong>;</li>
+</ul>
+<h4 id="fixed_17">Fixed<a class="headerlink" href="#fixed_17" title="Permanent link"></a></h4>
+<ul>
+<li>Fixed admin dashboard form submissions layout;</li>
+<li>Fixed issues when viewing plain text fields with large content;</li>
+<li>Fixed visibility issue for private users on <strong>Virtual Lobby</strong>;</li>
+<li>Fixed social media handle for <strong>websites</strong>;</li>
+<li>Fixed <strong>Test your connection</strong> last step when using Tokbox;</li>
+<li>Fixed invoice generation due date;</li>
+</ul>
+<h3 id="march-5-2021">March 5, 2021<a class="headerlink" href="#march-5-2021" title="Permanent link"></a></h3>
+<h4 id="added_18">Added<a class="headerlink" href="#added_18" title="Permanent link"></a></h4>
+<ul>
+<li>Added <strong>Background Blur</strong> option for your video;</li>
+<li>Added <strong>1 hour before</strong> option on session join policy;</li>
+<li>Added <code>telephone</code> column on <strong>waitlis</strong> import spreadsheet;</li>
+</ul>
+<h4 id="fixed_18">Fixed<a class="headerlink" href="#fixed_18" title="Permanent link"></a></h4>
+<ul>
+<li>Fixed <strong>Salesforce</strong> custom field picklist integration;</li>
+</ul>
+<h3 id="march-4-2021">March 4, 2021<a class="headerlink" href="#march-4-2021" title="Permanent link"></a></h3>
+<h4 id="added_19">Added<a class="headerlink" href="#added_19" title="Permanent link"></a></h4>
+<ul>
+<li>Added option to select default stream layout for <strong>Control Room</strong>;</li>
+<li>Added option to upload an image for the stream player when idle;</li>
+</ul>
+<h2 id="version-142">Version 14.2<a class="headerlink" href="#version-142" title="Permanent link"></a></h2>
+<h3 id="march-4-2021_1">March 4, 2021<a class="headerlink" href="#march-4-2021_1" title="Permanent link"></a></h3>
+<h4 id="added_20">Added<a class="headerlink" href="#added_20" title="Permanent link"></a></h4>
+<ul>
+<li>Added <strong>URL</strong> support on Inbox chat and push notifications;</li>
+<li>Added instant messaging for chat messages sent from our <strong>mobile app</strong>;</li>
+<li>Added <strong>invite</strong> button to invite users to join your session instead of creating another one when inviting them;</li>
+<li>Added bulk import <strong>tickets</strong>;</li>
+<li>Added option to display sponsor booths randomly on <strong>Virtual Lobby</strong>;</li>
+</ul>
+<h3 id="march-3-2021">March 3, 2021<a class="headerlink" href="#march-3-2021" title="Permanent link"></a></h3>
+<h4 id="fixed_19">Fixed<a class="headerlink" href="#fixed_19" title="Permanent link"></a></h4>
+<ul>
+<li>Fixed duplicate form submissions when changing results;</li>
+</ul>
+<h3 id="march-2-2021">March 2, 2021<a class="headerlink" href="#march-2-2021" title="Permanent link"></a></h3>
+<h4 id="added_21">Added<a class="headerlink" href="#added_21" title="Permanent link"></a></h4>
+<ul>
+<li>Added <strong>tags</strong> on activity report excel spreadsheet;</li>
+<li>Added <strong>placeholders</strong> for:</li>
+<li>Ticket manager <code>buy</code> button;</li>
+<li>Purchase form <code>invoice subtitle</code> label;</li>
+<li>Top bar <code>inbox</code> button;</li>
+<li>Virtual Lobby <code>welcome</code> label;</li>
+<li>Virtual Lobby <code>read more</code> button;</li>
+<li>Registration form <code>privacy</code> field subtitle;</li>
+</ul>
+<h4 id="fixed_20">Fixed<a class="headerlink" href="#fixed_20" title="Permanent link"></a></h4>
+<ul>
+<li>Fixed <strong>Sponsor</strong> list order inside sessions;</li>
+</ul>
+<h3 id="march-1-2021">March 1, 2021<a class="headerlink" href="#march-1-2021" title="Permanent link"></a></h3>
+<h4 id="added_22">Added<a class="headerlink" href="#added_22" title="Permanent link"></a></h4>
+<ul>
+<li>Added <strong>Automatic Layout</strong> option for Control Room;</li>
+<li>Added alert popup when changing pinned stream if screen sharing on <strong>Tokbox</strong>;</li>
+<li>Added better indicator for <strong>pinned</strong> streams;</li>
+<li>Added <strong>Salesforce</strong> Campaign Member Status integration;</li>
+<li>Added extra sponsor details on <strong>Virtual Lobby</strong> sponsor booths;</li>
+<li>Added option to translate <strong>Sponsor</strong> bio;</li>
+<li>Improved <strong>Virtual Lobby</strong> page view on iOS devices;</li>
+<li>Improved <strong>Tokbox</strong> Screen Share resolution;</li>
+</ul>
+<h4 id="fixed_21">Fixed<a class="headerlink" href="#fixed_21" title="Permanent link"></a></h4>
+<ul>
+<li>Fixed CSS on <strong>Attendees</strong> page for smaller screens (menu bar buttons);</li>
+<li>Fixed calendar link on emails;</li>
+<li>Fixed backslashes showing up on certain lobby session titles;</li>
+<li>Fixed stretched images on <strong>meetings</strong> popup;</li>
+<li>Fixed <strong>Test your connection</strong> tool to work with Tokbox as well;</li>
+</ul>
+<h3 id="february-28-2021">February 28, 2021<a class="headerlink" href="#february-28-2021" title="Permanent link"></a></h3>
+<h4 id="added_23">Added<a class="headerlink" href="#added_23" title="Permanent link"></a></h4>
+<ul>
+<li>Added class filter for sponsor booth pagination on <strong>Virtual Lobby</strong>;</li>
+</ul>
+<h3 id="february-26-2021">February 26, 2021<a class="headerlink" href="#february-26-2021" title="Permanent link"></a></h3>
+<h4 id="added_24">Added<a class="headerlink" href="#added_24" title="Permanent link"></a></h4>
+<ul>
+<li>Added tag search for <strong>Sponsors Booths</strong> on <strong>Virtual Lobby</strong> Neo Layout;</li>
+</ul>
+<h4 id="fixed_22">Fixed<a class="headerlink" href="#fixed_22" title="Permanent link"></a></h4>
+<ul>
+<li>Fixed <strong>Meeting</strong> tile on responsive view of <strong>Virtual Lobby</strong>;</li>
+<li>Fixed ticket sync issues with <strong>Waitlists</strong>;</li>
+</ul>
+<h3 id="february-25-2021">February 25, 2021<a class="headerlink" href="#february-25-2021" title="Permanent link"></a></h3>
+<h4 id="fixed_23">Fixed<a class="headerlink" href="#fixed_23" title="Permanent link"></a></h4>
+<ul>
+<li>Fixed <strong>Agora.io</strong> auto pin when host is talking;</li>
+</ul>
+<h2 id="version-141">Version 14.1<a class="headerlink" href="#version-141" title="Permanent link"></a></h2>
+<h3 id="february-24-2021">February 24, 2021<a class="headerlink" href="#february-24-2021" title="Permanent link"></a></h3>
+<h4 id="fixed_24">Fixed<a class="headerlink" href="#fixed_24" title="Permanent link"></a></h4>
+<ul>
+<li>Fixed info displayed on <strong>Schedule</strong> settings when using <strong>WebRTC</strong> (Video Conferencing);</li>
+<li>Fixed <strong>Files</strong> tab on Virtual Lobby when using large names;</li>
+</ul>
+<h3 id="february-23-2021">February 23, 2021<a class="headerlink" href="#february-23-2021" title="Permanent link"></a></h3>
+<h4 id="fixed_25">Fixed<a class="headerlink" href="#fixed_25" title="Permanent link"></a></h4>
+<ul>
+<li>Fixed <strong>Salesforce</strong> Yes/No custom field integration;</li>
+<li>Fixed <strong>Salesforce</strong> last modified date check for list imports;</li>
+</ul>
+<h3 id="february-22-2021">February 22, 2021<a class="headerlink" href="#february-22-2021" title="Permanent link"></a></h3>
+<h4 id="added_25">Added<a class="headerlink" href="#added_25" title="Permanent link"></a></h4>
+<ul>
+<li>Removed <code>RequestedAuthnContext</code> requirement on <strong>SSO</strong> integration;</li>
+<li><strong>Tokbox</strong> control room recordings are now exactly like the Live Streaming layout;</li>
+</ul>
+<h4 id="fixed_26">Fixed<a class="headerlink" href="#fixed_26" title="Permanent link"></a></h4>
+<ul>
+<li>Fixed <strong>Salesforce</strong> lead import on invitees list;</li>
+<li>Fixed issue that session hosts had to be admins to work well on <strong>Tokbox</strong>;</li>
+<li><strong>Website</strong> rebuild now works when adding content via spreadsheets;</li>
+<li>Fixed <strong>Custom Report</strong> dates (it was showing the previous day);</li>
+</ul>
+<h3 id="february-19-2021">February 19, 2021<a class="headerlink" href="#february-19-2021" title="Permanent link"></a></h3>
+<h4 id="added_26">Added<a class="headerlink" href="#added_26" title="Permanent link"></a></h4>
+<ul>
+<li>Added option to click on <code>Live</code> button to seek to current live state on <strong>Simulated Lives</strong>;</li>
+<li>Added check mechanism to avoid users bypassing the simulated live and manipulate timestamps manually;</li>
+</ul>
+<h3 id="february-18-2021">February 18, 2021<a class="headerlink" href="#february-18-2021" title="Permanent link"></a></h3>
+<h4 id="added_27">Added<a class="headerlink" href="#added_27" title="Permanent link"></a></h4>
+<ul>
+<li>Added iframe parameter to hide top bar on <strong>Custom Form</strong>;</li>
+<li>Added iframe parameter to hide cover image on <strong>Custom Form</strong>;</li>
+<li>Added <strong>Landing Pages</strong> custom HTML for event root domain (<code>js</code> code is disabled for this use case);</li>
+</ul>
+<h3 id="february-17-2021">February 17, 2021<a class="headerlink" href="#february-17-2021" title="Permanent link"></a></h3>
+<h4 id="added_28">Added<a class="headerlink" href="#added_28" title="Permanent link"></a></h4>
+<ul>
+<li>Added <strong>Salesforce</strong> campaign status sync with InEvent;</li>
+<li>Optimized all <strong>Salesforce</strong> requests on native integration;</li>
+<li>Optimized event creation function;</li>
+<li><strong>Tokbox</strong> live stream now resumes without downtime if the host crashes;</li>
+</ul>
+<h4 id="fixed_27">Fixed<a class="headerlink" href="#fixed_27" title="Permanent link"></a></h4>
+<ul>
+<li>Fixed error that host would never get its video pinned when talking on <strong>Tokbox</strong>;</li>
+<li>Fixed <em>ghost</em> video that would get focused all the time when someone left the call with high audio volume on <strong>Tokbox</strong>;</li>
+</ul>
+<h3 id="february-16-2021">February 16, 2021<a class="headerlink" href="#february-16-2021" title="Permanent link"></a></h3>
+<h4 id="added_29">Added<a class="headerlink" href="#added_29" title="Permanent link"></a></h4>
+<ul>
+<li>Speakers are now ordered by position on your session on <strong>Virtual Lobby</strong>;</li>
+<li>Added response date for custom fields on <strong>excel</strong> export for <strong>attendees</strong>;</li>
+<li>Optimized PayPal webhook calls;</li>
+<li>Added tooltip on <strong>Virtual Lobby</strong> session buttons;</li>
+</ul>
+<h4 id="fixed_28">Fixed<a class="headerlink" href="#fixed_28" title="Permanent link"></a></h4>
+<ul>
+<li>When not using <strong>usernames</strong>, the <strong>email</strong> field will not allow edits on <strong>My Account</strong>;</li>
+<li>Fixed word breaking on <strong>Questions</strong> tab on <strong>Virtual Lobby</strong>;</li>
+<li>Deactivated password block on company level login;</li>
+<li>Fixed css overflow issue on <strong>Classic</strong> layout;</li>
+</ul>
+<h3 id="february-15-2021">February 15, 2021<a class="headerlink" href="#february-15-2021" title="Permanent link"></a></h3>
+<h4 id="fixed_29">Fixed<a class="headerlink" href="#fixed_29" title="Permanent link"></a></h4>
+<ul>
+<li>Fixed <strong>custom list</strong> import using <strong>Salesforce</strong> integration;</li>
+<li>Fixed role and company fields on <strong>Salesforce</strong> import of campaign members;</li>
+</ul>
+<h3 id="february-13-2021">February 13, 2021<a class="headerlink" href="#february-13-2021" title="Permanent link"></a></h3>
+<h4 id="fixed_30">Fixed<a class="headerlink" href="#fixed_30" title="Permanent link"></a></h4>
+<ul>
+<li>Fixed event create function that failed when not using a template;</li>
+<li>Optimized <strong>Salesforce</strong> amount of API calls necessary to import and export leads;</li>
+</ul>
+<h2 id="version-140">Version 14.0<a class="headerlink" href="#version-140" title="Permanent link"></a></h2>
+<h3 id="february-12-2021">February 12, 2021<a class="headerlink" href="#february-12-2021" title="Permanent link"></a></h3>
+<h4 id="added_30">Added<a class="headerlink" href="#added_30" title="Permanent link"></a></h4>
+<ul>
+<li>Added access policy for sessions on <strong>Virtual Lobby</strong>;</li>
+<li>Extended access policy to event level;</li>
+<li><strong>News Feed</strong> added source icon (Twitter, Instagram, etc);</li>
+<li><strong>News Feed</strong> added source handle (<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/ineventapp" title="GitHub User: ineventapp">@ineventapp</a>, InEvent, etc);</li>
+<li><strong>News Feed</strong> added link to open the original post on Twitter, Instagram, etc;</li>
+</ul>
+<h4 id="fixed_31">Fixed<a class="headerlink" href="#fixed_31" title="Permanent link"></a></h4>
+<ul>
+<li>Fixed admin and host controls on live session;</li>
+<li>Fixed ghost messages on <strong>News Feed</strong> that stick even when you delete them on the backend;</li>
+<li>The date and time of the post works like magic (same way as twitter does it);</li>
+</ul>
+<h3 id="february-11-2021">February 11, 2021<a class="headerlink" href="#february-11-2021" title="Permanent link"></a></h3>
+<h4 id="added_31">Added<a class="headerlink" href="#added_31" title="Permanent link"></a></h4>
+<ul>
+<li>Added <strong>SSO</strong> integration to be used with regular attendees;</li>
+<li>Added tool to allow / block logins without <strong>SSO</strong> when having it integrated;</li>
+<li>Added domain whitelist for <strong>SSO</strong> with DNS record check;</li>
+</ul>
+<h4 id="fixed_32">Fixed<a class="headerlink" href="#fixed_32" title="Permanent link"></a></h4>
+<ul>
+<li>Fixed rotating streams on <strong>Tokbox</strong> space between layout on <strong>Control Room</strong>;</li>
+</ul>
+<h3 id="february-10-2021">February 10, 2021<a class="headerlink" href="#february-10-2021" title="Permanent link"></a></h3>
+<h4 id="fixed_33">Fixed<a class="headerlink" href="#fixed_33" title="Permanent link"></a></h4>
+<ul>
+<li>Optimized <strong>Meeting</strong> selector modal for events with months of duration;</li>
+<li>Fixed <strong>Meeting</strong> button showing up when tool is disabled (Networking page);</li>
+</ul>
+<h3 id="february-9-2021">February 9, 2021<a class="headerlink" href="#february-9-2021" title="Permanent link"></a></h3>
+<h4 id="added_32">Added<a class="headerlink" href="#added_32" title="Permanent link"></a></h4>
+<ul>
+<li>Added action popup to hosts when leaving a session while streaming;</li>
+</ul>
+<h4 id="fixed_34">Fixed<a class="headerlink" href="#fixed_34" title="Permanent link"></a></h4>
+<ul>
+<li>Fixed <strong>Salesforce</strong> <a href="https://developer.salesforce.com/forums/?id=906F0000000DDCyIAO">2,000 offset cap</a> by using <code>WHERE</code> clauses;</li>
+<li>Fixed <strong>Tokbox</strong> screenshare issue that triggered &ldquo;Oh snap&rdquo; messages;</li>
+<li>Fixed <strong>Tokbox</strong> live streaming layout for 5 and 6 people on &ldquo;Space Between&rdquo; format;</li>
+</ul>
+<h2 id="version-139">Version 13.9<a class="headerlink" href="#version-139" title="Permanent link"></a></h2>
+<h3 id="february-8-2021">February 8, 2021<a class="headerlink" href="#february-8-2021" title="Permanent link"></a></h3>
+<h4 id="added_33">Added<a class="headerlink" href="#added_33" title="Permanent link"></a></h4>
+<ul>
+<li>Added self <strong>Meeting</strong> schedule feature on <strong>Virtual Lobby</strong></li>
+</ul>
+<h4 id="fixed_35">Fixed<a class="headerlink" href="#fixed_35" title="Permanent link"></a></h4>
+<ul>
+<li>Fixed <strong>Virtual Lobby</strong> placeholders when using single quotes;</li>
+<li>Fixed <strong>Screen Share</strong> issues on <strong>Virtual Lobby</strong> for <strong>Tokbox</strong> provider;</li>
+<li>Fixed live stream layout issue on <strong>Virtual Lobby</strong> for <strong>Tokbox</strong> provider;</li>
+<li>Fixed <strong>ticket</strong> amount check on purchase form page;</li>
+<li>Invite check fix on <strong>registration form</strong>;</li>
+<li>Fixed session authentication when lists are attached and user has Speaker permission;</li>
+</ul>
+<h3 id="february-5-2021">February 5, 2021<a class="headerlink" href="#february-5-2021" title="Permanent link"></a></h3>
+<h4 id="added_34">Added<a class="headerlink" href="#added_34" title="Permanent link"></a></h4>
+<ul>
+<li>Added optimizations for DOM rendering on People and Chat tabs (useful for large events &gt; 10,000 people);</li>
+<li>Added search option for Presenters and Viewers on <strong>Neo Layout</strong>;</li>
+</ul>
+<h3 id="february-3-2021">February 3, 2021<a class="headerlink" href="#february-3-2021" title="Permanent link"></a></h3>
+<h4 id="added_35">Added<a class="headerlink" href="#added_35" title="Permanent link"></a></h4>
+<ul>
+<li>Added automatic tile visibility on <strong>Virtual Lobby</strong> (visibility changes will reflect automatically);</li>
+<li>Added YouTube link parser on <strong>Virtual Lobby</strong> sponsor booth;</li>
+</ul>
+<h3 id="february-2-2021">February 2, 2021<a class="headerlink" href="#february-2-2021" title="Permanent link"></a></h3>
+<h4 id="added_36">Added<a class="headerlink" href="#added_36" title="Permanent link"></a></h4>
+<ul>
+<li>Added option to automatically regenerate <strong>website</strong> when changes are made;</li>
+<li>Added <strong>Salesforce</strong> settings sync for event templates;</li>
+<li>Added question approval permission to hosts of sessions on <strong>Virtual Lobby</strong>;</li>
+<li>Added <strong>magic link</strong> only recovery for events without passwords;</li>
+</ul>
+<h4 id="fixed_36">Fixed<a class="headerlink" href="#fixed_36" title="Permanent link"></a></h4>
+<ul>
+<li>Fixed CSS alignment on <strong>Janus</strong> template;</li>
+</ul>
+<h3 id="january-29-2021">January 29, 2021<a class="headerlink" href="#january-29-2021" title="Permanent link"></a></h3>
+<h4 id="added_37">Added<a class="headerlink" href="#added_37" title="Permanent link"></a></h4>
+<ul>
+<li>Added option to listen to hash changes on <strong>Virtual Lobby</strong> (links for other sessions will work now);</li>
+<li>Users are now allowed join invisible sessions if enrolled (by link);</li>
+</ul>
+<h4 id="fixed_37">Fixed<a class="headerlink" href="#fixed_37" title="Permanent link"></a></h4>
+<ul>
+<li>Added clear on presenter list when changing rooms <strong>Virtual Lobby</strong>;</li>
+<li>Removed ghost &ldquo;left&rdquo; and &ldquo;joined&rdquo; messages for admins on <strong>Virtual Lobby</strong> chat;</li>
+<li>General layout fixes on <strong>Neo</strong> layout and <strong>Classic</strong> layout</li>
+</ul>
+<h3 id="january-28-2021">January 28, 2021<a class="headerlink" href="#january-28-2021" title="Permanent link"></a></h3>
+<h4 id="added_38">Added<a class="headerlink" href="#added_38" title="Permanent link"></a></h4>
+<ul>
+<li>Added Networking and Group Room modals on <strong>Classic</strong> layout;</li>
+<li>Added option to view <strong>poll</strong> results without needing to vote as admin;</li>
+</ul>
+<h4 id="fixed_38">Fixed<a class="headerlink" href="#fixed_38" title="Permanent link"></a></h4>
+<ul>
+<li>Fixed modal sizes on <strong>Classic</strong> layout;</li>
+<li>Fixed flow issue when opening a group room from search modal;</li>
+</ul>
+<h2 id="version-138">Version 13.8<a class="headerlink" href="#version-138" title="Permanent link"></a></h2>
+<h3 id="january-28-2021_1">January 28, 2021<a class="headerlink" href="#january-28-2021_1" title="Permanent link"></a></h3>
+<h4 id="fixed_39">Fixed<a class="headerlink" href="#fixed_39" title="Permanent link"></a></h4>
+<ul>
+<li>Fixed chat / questions / attendees disappearing during a session when hiccups occur on your connection;</li>
+<li>Fixed presenters disappearing from the list during a session when hiccups occur on your connection (and their connection);</li>
+<li>Adjusted Tokbox and Agora.io layouts for viewers, presenters, fullscreen mode, Neo Layout and Classic layout;</li>
+<li>Adjusted Tokbox video overlap with profile picture on certain scenarios;</li>
+</ul>
+<h3 id="january-27-2021">January 27, 2021<a class="headerlink" href="#january-27-2021" title="Permanent link"></a></h3>
+<h4 id="added_39">Added<a class="headerlink" href="#added_39" title="Permanent link"></a></h4>
+<ul>
+<li>Added option to ask technical questions on our <strong>Issue Report</strong> tool;</li>
+<li>Added <strong>camera</strong> and <strong>microphone</strong> permission on <code>allow</code> attribute for the <code>iframe</code> on custom tabs;</li>
+<li>Added support for <strong>magic link</strong> retrieval form on <strong>custom domains</strong>;</li>
+</ul>
+<h4 id="fixed_40">Fixed<a class="headerlink" href="#fixed_40" title="Permanent link"></a></h4>
+<ul>
+<li>Fixed <strong>My Agenda</strong> activities not showing up when using custom lists;</li>
+<li>Fixed <strong>billing</strong> calculator when purchasing credits (sometimes it failed);</li>
+</ul>
+<h3 id="january-26-2021">January 26, 2021<a class="headerlink" href="#january-26-2021" title="Permanent link"></a></h3>
+<h4 id="fixed_41">Fixed<a class="headerlink" href="#fixed_41" title="Permanent link"></a></h4>
+<ul>
+<li>Fixed <strong>socket</strong> connection issues when using multiple tabs;</li>
+<li>Optimized accuracy of keep alive cronjob for better <strong>analytics</strong> data;</li>
+</ul>
+<h3 id="january-25-2021">January 25, 2021<a class="headerlink" href="#january-25-2021" title="Permanent link"></a></h3>
+<h4 id="fixed_42">Fixed<a class="headerlink" href="#fixed_42" title="Permanent link"></a></h4>
+<ul>
+<li>Fixed Notifications endpoint to avoid ghost users on <strong>Virtual Lobby</strong>;</li>
+<li>Fixed <strong>Send Now</strong> notification button on push notification screen;</li>
+<li>Fixed <strong>Back</strong> button on <strong>My Agenda</strong> page;</li>
+<li>Fixed permission to download <strong>recordings</strong> on Europe region;</li>
+<li>Fixed collapse networking tool when sponsors are disabled;</li>
+<li>Fixed admin email notification that was using environment&rsquo;s language instead of company&rsquo;s language to generate its content;</li>
+</ul>
+<h3 id="january-24-2021">January 24, 2021<a class="headerlink" href="#january-24-2021" title="Permanent link"></a></h3>
+<h4 id="fixed_43">Fixed<a class="headerlink" href="#fixed_43" title="Permanent link"></a></h4>
+<ul>
+<li>Fixed chat input field misposition on <strong>Virtual Lobby</strong> classic layout;</li>
+<li>Fixed <strong>registration form</strong> <strong>analytics</strong> field names on pie charts and bar charts;</li>
+<li>Fixed fullscreen layout for Gallery and Speaker view on <strong>Virtual Lobby</strong> Neo layout;</li>
+<li>Fixed device settings popup on fullscreen;</li>
+<li>Fixed clickbox on left and right menus buttons <strong>Virtual Lobby</strong> Neo layout;</li>
+<li>Fixed wrong rounded edges on right menu <strong>Virtual Lobby</strong> Neo layout;</li>
+</ul>
+<h3 id="january-22-2021">January 22, 2021<a class="headerlink" href="#january-22-2021" title="Permanent link"></a></h3>
+<h4 id="added_40">Added<a class="headerlink" href="#added_40" title="Permanent link"></a></h4>
+<ul>
+<li>Added visual identification showing how to enable your camera and mic for <strong>Tokbox</strong> (previously only on Agora);</li>
+<li>Added Vimeo and YouTube url parsing on sponsor edit popup on <strong>Virtual Lobby</strong>;</li>
+<li>Added more layout updates to avoid having the networking section smaller than it should be;</li>
+<li>Upgrade Firebase version;</li>
+</ul>
+<h4 id="fixed_44">Fixed<a class="headerlink" href="#fixed_44" title="Permanent link"></a></h4>
+<ul>
+<li>Fixed wrong bounce identification for invalid &ldquo;from&rdquo; addresses;</li>
+<li>Fixed auto live update on <strong>Virtual Lobby</strong>, now we ignore old changes and only listen to new changes;</li>
+<li>Fixed emoji popup cutoff;</li>
+<li>Fixed mux logs, we will soon have a way to control hours of stream per account;</li>
+<li>Fixed web notification for unsupported devices (Safari on older iOS);</li>
+<li>Fixed <strong>Tokbox</strong> recording failed message even though the recording started successfully;</li>
+</ul></article></body></html>
