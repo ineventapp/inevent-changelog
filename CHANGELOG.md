@@ -17,6 +17,7 @@ This change log was created on January 22, 2021 and only entries after this date
 - Added result information of matchmaking on **Meetings**;
 - Optimized mass removal of **Attendees**;
 - Added support for `Daily.co` iframes;
+- Added option to delete `Files` directly in the **Virtual Lobby**;
 
 #### Fixed
 - Fixed `tag` heading on **Purchase Form**;
