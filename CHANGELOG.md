@@ -4,6 +4,23 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 14.7
 
+### April 13, 2021
+
+#### Added
+- Added `Marketo ID Auth` option for quick authentication between **Marketo** and **InEvent**;
+- Optimized **Virtual Lobby** chat scroll, new messages and fixed layout issues;
+
+### April 12, 2021
+
+#### Added
+- Event URLs are now released after deleting the event;
+- Added result information of matchmaking on **Meetings**;
+- Optimized mass removal of **Attendees**;
+- Added support for `Daily.co` iframes;
+
+#### Fixed
+- Fixed `tag` heading on **Purchase Form**;
+
 ### April 8, 2021
 
 #### Added
