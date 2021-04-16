@@ -4,6 +4,41 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 14.7
 
+### April 15, 2021
+
+#### Added
+- Added option to use the **Purchase Form** with `invite requirement`;
+- Added option to view session details when using **Video Conferencing** (only the audience will see it);
+- **Meetings** are now automatically synchronized with **Virtual Lobby** when operating it through the backend;
+- Optimized **Meeting** matchmaking;
+- Improved error message when activating `polls` without options;
+- Improved `speakers` layout on certain layouts for **Website**;
+- Added option to customize `Home` label on certain layouts for **Website**;
+- Added **Audit Logs** for `activity creation`;
+
+#### Fixed
+- Fixed **Custom Form** email trigger issue when using it as a `registration complement form`;
+- Fixed broken scrollbar on **Gamification** dashboard;
+- Fixed issue that **coupons** with certain characters wouldn't work;
+- Fixed issue that when blocking networking, `group rooms` and `networking` tabs were still shown in session on Virtual Lobby when using **Neo Layout**;
+- Fixed issue that when blocking networking, `group rooms` would still show up on navbar on **Virtual Lobby**;
+- Fixed `send now` and `schedule` buttons on **Push Notifications** dashboard;
+- Fixed issue that `iPhone` users couldn't send chat messages during the session on **Virtual Lobby**;
+
+### April 14, 2021
+
+#### Added
+- Added `Marketo ID Auth` email option;
+- Added option to disable `unsubscribed tracking` on **Marketo**;
+- Added `invisible` tag on invisible activities for admins on **Virtual Lobby**;
+
+#### Fixed
+- Fixed errors when opening certain pages as admin but not enrolled at event:
+  - `My App`;
+  - `My Forms`;
+  - `Purchase`;
+- Improved button sizes for **Virtual Lobby** Control Room when using small devices;
+
 ### April 13, 2021
 
 #### Added
