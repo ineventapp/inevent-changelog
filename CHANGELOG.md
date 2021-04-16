@@ -8,7 +8,6 @@ This change log was created on January 22, 2021 and only entries after this date
 
 #### Added
 - Added option to use the **Purchase Form** with `invite requirement`;
-- Added option to view session details when using **Video Conferencing** (only the audience will see it);
 - **Meetings** are now automatically synchronized with **Virtual Lobby** when operating it through the backend;
 - Optimized **Meeting** matchmaking;
 - Improved error message when activating `polls` without options;
