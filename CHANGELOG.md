@@ -4,6 +4,11 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 14.7
 
+### April 16, 2021
+
+#### Fixed
+- Fixed issue with + symbols on **Email Creator**;
+
 ### April 15, 2021
 
 #### Added
