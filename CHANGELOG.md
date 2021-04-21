@@ -2,12 +2,39 @@
 
 This change log was created on January 22, 2021 and only entries after this date will be registered.
 
-## Version 14.7
+## Version 14.8
+
+### April 20, 2021
+
+#### Added
+- Optimized `PDF Sharing` for lower end computers on **Virtual Lobby**;
+- Optimized camera access when not using `blur` on **Virtual Lobby**;
+
+#### Fixed
+- Fixed `question section` overflow when users with large names ask questions on **Virtual Lobby**;
+- Fixed misaligned popup for `layout settings` on **Virtual Lobby**;
+- Fixed small css issue on `group rooms` section title;
+- Fixed `Ask to meet` button when **Meetings** tool is disabled;
+
+### April 19, 2021
+
+#### Added
+- Optimized live change transition when using `Agora.io` on **Virtual Lobby**;
+- Added `Join now` popup for users that didn't click anywhere to bypass `autoplay policy` on **Virtual Lobby**;
+
+#### Fixed
+- Fixed issue with reverse infinite scroll on **Virtual Lobby** `chat`;
+- Fixed issue on `Track Unsubscribes` for **Marketo**;
+- Fixed issue that showed wrong `lives` when linked with certain lists on **Virtual Lobby**;
+- Fixed icon css style on **Virtual Lobby**;
+- Fixed bug that `News Feed` was not loading on **Virtual Lobby**;
 
 ### April 16, 2021
 
 #### Fixed
 - Fixed issue with + symbols on **Email Creator**;
+
+## Version 14.7
 
 ### April 15, 2021
 
