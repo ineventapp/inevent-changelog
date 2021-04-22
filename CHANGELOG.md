@@ -4,6 +4,19 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 14.8
 
+### April 21, 2021
+
+#### Added
+- Improved contrast color for `hyperlinks`;
+- Added popup message for Internet Explorer users when joining without `javascript` enabled;
+- Optimized **Virtual Lobby** experience on `iPad`;
+- Added global `Download` button for all **charts**;
+- Added `dates` for older messages on **Inbox**;
+
+#### Fixed
+- Fixed issue with `hyperlink` generation on **Inbox** and **Virtual Lobby** questions;
+- Fixed issue that caused certain admins to show up as `presenters` on `pre-recorded` and `simulives`;
+
 ### April 20, 2021
 
 #### Added
