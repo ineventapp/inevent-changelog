@@ -12,6 +12,7 @@ This change log was created on January 22, 2021 and only entries after this date
 - Optimized **Virtual Lobby** experience on `iPad`;
 - Added global `Download` button for all **charts**;
 - Added `dates` for older messages on **Inbox**;
+- Added option to hide `Chat` and `Files` from **Sponsor Booths**;
 
 #### Fixed
 - Fixed issue with `hyperlink` generation on **Inbox** and **Virtual Lobby** questions;
