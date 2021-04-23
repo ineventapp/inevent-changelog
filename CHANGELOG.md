@@ -2,6 +2,22 @@
 
 This change log was created on January 22, 2021 and only entries after this date will be registered.
 
+## Version 14.9
+
+### April 22, 2021
+
+#### Added
+- Added `announcements` on navbar for admin Dashboard;
+- Added `[data-field]` for Speaker and Sponsor fields on **Virtual Lobby** (allows customization via CSS);
+- Added column for error line on **Spreadsheet** import result email;
+- Added sync between **meeting** management with `concurrent schedule` tool (it allows you to book meetings overlapping activities);
+- Added heading for `Confirm` button on **Registration Form**;
+
+#### Fixed
+- Fixed `Google Calendar` save to calendar link on **Emails**;
+- Fixed issue that authenticated windows would bypass **Marketo ID Auth**;
+- Fixed **Recording** removal when using `Tokbox`;
+
 ## Version 14.8
 
 ### April 21, 2021
