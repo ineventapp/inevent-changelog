@@ -9,7 +9,7 @@ This change log was created on January 22, 2021 and only entries after this date
 #### Added
 - Optimized `.gif` images upload system wide;
 - Added option to export `email blacklist` as **excel**;
-- Added option to approve and reject comments when being a speaker of the session;
+- Speakers are now allowed to send chat messages without `approval requirement` on **Virtual Lobby**;
 - Added `secure gate` (4-digit code) on **Form** and **Purchase Form** (previously it would only lock you out);
 
 #### Fixed
