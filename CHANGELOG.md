@@ -4,6 +4,31 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 14.9
 
+### April 26, 2021
+
+#### Added
+- Optimized `.gif` images upload system wide;
+- Added option to export `email blacklist` as **excel**;
+- Added option to approve and reject comments when being a speaker of the session;
+- Added `secure gate` (4-digit code) on **Form** and **Purchase Form** (previously it would only lock you out);
+
+#### Fixed
+- Fixed issue when assigning **Tickets** for sponsors;
+- Fixed `calendar buttons` not working on **Emails**;
+- Fixed **Marketo** unlink account issue;
+- Fixed **excel** report for `all comments` download;
+- Fixed issue when editing custom fields on **Leads** and **Invites**;
+- Fixed double file upload on **Virtual Lobby** when double clicking;
+
+### April 23, 2021
+
+#### Added
+- Added API search endpoint for **Marketo** program by ID;
+- Added optimizations for `PDF Sharing` on **Virtual Lobby**;
+
+#### Fixed
+- Fixed css padding on **Inbox** messages;
+
 ### April 22, 2021
 
 #### Added
