@@ -2,6 +2,27 @@
 
 This change log was created on January 22, 2021 and only entries after this date will be registered.
 
+## Version 15.0
+
+### April 29, 2021
+
+#### Fixed
+- Fixed issue when removing **Sponsors**;
+
+### April 28, 2021
+
+#### Fixed
+- Fixed `link changes` on **Virtual Lobby** when creating shortcuts for specific sessions;
+- Fixed `room link` on **Admin Dashboard**;
+
+### April 27, 2021
+
+#### Added
+- Optimizations on `auto play` bypass popup for **Virtual Lobby**;
+- Added `popup` to help users visualize where they need to grant permission to their camera and microphone;
+- Removed `permission denied` warning when audio output control is not given (not necessary to work);
+- Style adjustments on `select device` popup for **Virtual Lobby**;
+
 ## Version 14.9
 
 ### April 26, 2021
