@@ -6,8 +6,12 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ### April 29, 2021
 
+#### Added
+- Added support for `links` on **Push Notifications**;
+
 #### Fixed
 - Fixed issue when removing **Sponsors**;
+- Fixed permission profile checks for endpoints that demands enrollment or permission on **API**;
 
 ### April 28, 2021
 
