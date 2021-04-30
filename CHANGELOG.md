@@ -4,6 +4,16 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 15.0
 
+### April 30, 2021
+
+#### Added
+- Added **Virtual Lobby** `tab` customization with icons, text and translations;
+- Added **Salesforce** request log;
+- Optimizations on `video sharing` on **Virtual Lobby**;
+
+#### Fixed
+- Fixed issue when cropping **Speaker** photos;
+
 ### April 29, 2021
 
 #### Added
