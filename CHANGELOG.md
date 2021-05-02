@@ -2,6 +2,24 @@
 
 This change log was created on January 22, 2021 and only entries after this date will be registered.
 
+## Version 15.1
+
+### May 2, 2021
+
+#### Added
+- Added option to download `excel report` of all **Sponsor** material downloads;
+- `Add to calendar` button generated from `{{my-agenda}}` **email** dynamic content now opens directly the .ics file;
+- Added `audio notification` when you are invited to a call on **Virtual Lobby**;
+- Added `(n)` indicator on tab title when not focused and interactions have happened (such as new inbox message) on **Virtual Lobby**;
+- Added option to name event when using the **Copy Event** tool;
+- Added option to hide `people counter` on session and sponsor booth tiles for **Virtual Lobby**;
+- Added `tracking` for our interactions chart when opening the **Virtual Lobby** and also opening a room / session / sponsor booth;
+- Added `Tabs` configuration page on **Event Templates**;
+
+#### Fixed
+- Fixed issues when changing **Marketo** program name on their dashboard;
+- Reorganized certain tools on **Tools** page;
+
 ## Version 15.0
 
 ### April 30, 2021
