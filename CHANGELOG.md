@@ -4,6 +4,43 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 15.1
 
+### May 5, 2021
+
+#### Added
+- Added `Sponsor Categories` on **Virtual Lobby** sponsor dedicated page;
+- Added option to randomly sort **Group Rooms**;
+- Added `Vimeo` support on **Sponsor Booths**;
+- Added **Marketo** Munchkin Tag integration (it's automatic);
+- Added `iFrame API` to send analytics data when embedding the **Registration Form**;
+
+#### Fixed
+- Fixed issue with **Marketo** program status sync when using a custom program status and also when the email is a duplicate;
+
+### May 4, 2021
+
+#### Added
+- Added option to check-off `Questions` during a session on **Virtual Lobby**;
+- Added 7 new icons for **Tabs**;
+- Added **Marketo** and **Salesforce** `ID Auth` on all event pages;
+- Removed `black bars` when sharing your video with **Tokbox**;
+- Optimized **Activity** automatic enrollment;
+
+#### Fixed
+- Fixed **My Account** edits when `email` was empty;
+- Fixed **Tokbox** recording issue on `Video Conferencing` mode (the layout was not updating properly);
+
+### May 3, 2021
+
+#### Added
+- Added option to upload **Meetings** spreadsheet using `usernames`;
+- Added option to change `social media links` (Facebook, LinkedIn, etc) on **My Account**;
+- Added automatic sync on `Activity Delay` function on **Virtual Lobby**;
+
+#### Fixed
+- Fixed side menu not loading on **Virtual Lobby** when using `French` language;
+- Fixed issue that **Websites** with custom domain didn't follow the event default language (it always defaulted to browser's language);
+- Fixed issue with `Speakers` and `Sponsors` heading on **Virtual Lobby** with classic layout;
+
 ### May 2, 2021
 
 #### Added
