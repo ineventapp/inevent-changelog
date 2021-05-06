@@ -2,6 +2,26 @@
 
 This change log was created on January 22, 2021 and only entries after this date will be registered.
 
+## Version 15.2
+
+### May 6, 2021
+
+#### Added
+- Added option to hide `People` tab on **Virtual Lobby**;
+- Video player `fullscreen` now allows you to interact on **Neo Layout**;
+- Added `Online` and `In Session` timeline report for **Virtual Lobby**;
+- Added `Reply To` customization for **Emails** on event;
+- Added spreadsheet **Report** for Activity files;
+- Added spreadsheet **Report** for Activity interactions (polls, questions, feedback, all aggregated);
+- Added heading `Form Disclaimer` with Markdown support for **Registration Form**;
+- Increased the amount of characters supported for **Speaker** `headline`;
+- Improved **Virtual Lobby** description area for sponsor booths on **Classic Layout**;
+
+#### Fixed
+- Fixed ordering of **Salesforce** logs;
+- Fixed **Report** for Virtual Lobby when extracting a spreadsheet (total time was incorrect);
+- Fixed broken `links` on **Emails** when using Outlook (layout would break);
+
 ## Version 15.1
 
 ### May 5, 2021
