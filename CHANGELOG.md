@@ -4,6 +4,18 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 15.2
 
+### May 10, 2021
+
+#### Added
+- Added `backstage` functionality on **Virtual Lobby** Control Room sessions;
+- Added option to automatically add `converted lead` on an **UTMized** link to a `custom list`;
+- Added global **Email Health** page with aggregated data from all events;
+
+#### Fixed
+- Fixed extra space on Full HD 20+ inches screens for **Virtual Lobby**;
+- Fixed **Marketo** sync writes on `custom lists`;
+- Fixed empty status issue when syncing users with a **Marketo** program;
+
 ### May 8, 2021
 
 #### Added
