@@ -4,6 +4,14 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 15.2
 
+### May 8, 2021
+
+#### Added
+- Upgraded security encryption for `live streams` to use SHA-256 tokens with short expiration dates;
+
+#### Fixed
+- Fixed new chat messages sometimes appearing with low opacity;
+
 ### May 6, 2021
 
 #### Added
