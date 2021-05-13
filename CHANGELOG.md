@@ -2,6 +2,39 @@
 
 This change log was created on January 22, 2021 and only entries after this date will be registered.
 
+## Version 15.3
+
+### May 13, 2021
+
+#### Added
+- Added **Follow Up Session** option on **Virtual Lobby**;
+- Added deep sync between `attendee` and `speaker`;
+- Added option to create `attendee` with `speaker profile` linked automatically;
+
+#### Fixed
+- Fixed `fullscreen` button on **Virtual Lobby** video player;
+- Fixed `description` edit field on **Event Details** when using dynamic content;
+- Fixed issue on `Agora.io` that Video Conferencing sessions when transitioned to Control Room would maintain the `gallery view` layout;
+
+### May 12, 2021
+
+#### Added
+- Added track follow for **UTM Tracking** links;
+
+#### Fixed
+- Fixed `Live Stream` layout issue on **Tokbox**;
+- Fixed multi language issue when loading **website** from a `custom domain`;
+- Fixed `heading` issue on **Networking** page;
+
+### May 11, 2021
+
+#### Added
+- Added **Low Latency RTMP** endpoint that uses `AWS IVS` as a backbone (twitch.tv);
+
+#### Fixed
+- Fixed `chat` opacity animation on **Virtual Lobby**;
+- Fixed `Tokbox` Video Conferencing issue with backstage;
+
 ## Version 15.2
 
 ### May 10, 2021
