@@ -4,6 +4,17 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 15.3
 
+### May 18, 2021
+
+#### Added
+- Added dedicated page for `group rooms` on **Virtual Lobby**;
+- Added dedicated page for `meetings` on **Virtual Lobby**;
+- Added `meetings` tab in session on **Virtual Lobby**;
+- Added automatic sync on `speaker` when linking to `attendee`;
+
+#### Fixed
+- Fixed `back buttons` on dedicated pages for `sponsors` and `activities` on **Virtual Lobby**;
+
 ### May 17, 2021
 
 #### Fixed
