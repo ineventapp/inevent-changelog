@@ -4,6 +4,14 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 15.3
 
+### May 17, 2021
+
+#### Fixed
+- Fixed `speaker` bio formatting on **Virtual Lobby**;
+- Fixed issue on `Janus` formatting on **Website**;
+- Fixed issue when removing session `room cover` on **Activity** page;
+- Fixed typo on `move viewers` popup for **Follow up session** tool;
+
 ### May 13, 2021
 
 #### Added
