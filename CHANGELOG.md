@@ -2,6 +2,30 @@
 
 This change log was created on January 22, 2021 and only entries after this date will be registered.
 
+## Version 15.4
+
+### May 20, 2021
+
+#### Added
+- Added **Audio Interpretation** channels for `Control Room` and `RTMP Streaming`;
+  - You can add as many audio channels as you want;
+  - You can do chained audio channels (Chinese to English and English to French, Spanish and German);
+  - You can add a sign language channel (that would be a video channel);
+- Added popup modal when having too many `speakers` and `sponsors` attached to a session that is using the large layout and **Neo Layout**;
+
+#### Fixed
+- Fixed issue that videos sometimes showed pitch black on `iPhones`;
+- Fixed issue that users could bypass required questions in the UI on **Registration Form**;
+- Fixed layout issue on **Schedule** settings when moving users to next session (`follow up session`);
+
+### May 19, 2021
+
+#### Added
+- Added option to edit the `polling` data on the backend;
+
+#### Fixed
+- Fixed issue on `group rooms` when trying to join;
+
 ## Version 15.3
 
 ### May 18, 2021
