@@ -4,6 +4,43 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 15.4
 
+### May 26, 2021
+
+#### Added
+- Added auto lag correction tool on **Simulated Lives**;
+- Improved `chat` loading when too many messages are sent at the same time or when the session has over 100 chat messages;
+- Added lock to allow only a single connection per **Live Translation** console page (per language);
+- Added quick filter for `linked speakers` on **Attendee List** page;
+- Added quick link to indicate & open `linked speaker` on **Attendee List** page;
+- Added `refund policy` option to allow refunds up to 1 day prior to the event;
+
+#### Fixed
+- Fixed `lag` issue on **Simulated Lives**;
+- Fixed `tag` editing layout on **Schedule** page (was not showing colors);
+
+### May 25, 2021
+
+#### Fixed
+- Optimized **Tokbox** layout update changes for missing states;
+
+### May 24, 2021
+
+#### Added
+- Added `new page` indicator on dashboard menus that opens in a new page;
+- Added `Partner portal` that allows event organizers to find the best partners for their events;
+
+#### Fixed
+- Fixed issue on `Focus mixed` layout transition when using **Tokbox** and not screensharing;
+- Fixed issue on `social media` buttons on **Email editor**;
+- Fixed `Video conferencing PRO` tool to allow up to 17 presenters when enabled;
+
+### May 21, 2021
+- Added tip box for **Live Translation** console;
+
+#### Fixed
+- Fixed video conversion button for **Live Recordings**;
+- Fixed UI bug on `Follow up session` in schedule dashboard;
+
 ### May 20, 2021
 
 #### Added
