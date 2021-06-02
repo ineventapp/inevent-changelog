@@ -2,7 +2,42 @@
 
 This change log was created on January 22, 2021 and only entries after this date will be registered.
 
+## Version 15.5
+
+### June 1, 2021
+
+#### Added
+- Added support to edit `sponsor details` when being a sponsor host but not added to sponsor people's list;
+- Added auto-refresh when `recording` is converted and ready to download on **Schedule** settings;
+- Added label count for `Viewers` and `Presenters` in the _people_ tab on **Virtual Lobby**;
+- Added support for `bullet points` and `ordered lists` on event `description` in the **Virtual Lobby**;
+- Added option to `edit` **Poll** after it is created on **Virtual Lobby**;
+
+#### Fixed
+- Fixed layout bug on `Aquila` template for **Website** (calendar dates);
+- Fixed layout issue on `Move to next session` button when on `fullscreen` mode on **Virtual Lobby**;
+- Fixed event `description` HTML format issue on **Virtual Lobby**;
+- Fixed duplicated `group rooms` issue on **Virtual Lobby**;
+- Fixed sponsor `bio` HTML format issue on **Virtual Lobby**;
+- Fixed issue with `default value` when deleting the option that was defaulted on **Registration Form**;
+- Fixed issue that when moving from `pre recorded` content to `Control Room`, the live stream would start automatically on **Virtual Lobby**;
+
+### May 31, 2021
+
+#### Fixed
+- Fixed issue on **Marketo** sync when adding more than 300 attendees at a time through spreadsheets;
+- Fixed issue with `Presenters` and `Viewers` labels on **Virtual Lobby** when using `group rooms`;
+- Fixed layout issue when exiting `fullscreen` by pressing `ESC` and using `gallery mode` on **Virtual Lobby**;
+
 ## Version 15.4
+
+### May 27, 2021
+
+#### Added
+- Added expanded logs for **Virtual Lobby** timeline chart;
+
+#### Fixed
+- Fixed issue with last day of event on **Meetings** popup in the `Virtual Lobby`;
 
 ### May 26, 2021
 
