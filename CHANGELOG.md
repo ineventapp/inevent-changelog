@@ -12,6 +12,7 @@ This change log was created on January 22, 2021 and only entries after this date
   - `Backstage`: recordings that happen before the live stream starts and after the live stream ends;
   - `Live Stream`: recordings that happen during the live stream;
   - `Audio Interpretation (lang)`: recordings for audio interpretation channels;
+- Added `live description` when using `Video Conferencing` mode on **Virtual Lobby** (only for viewers);
 
 #### Fixed
 - Fixed issue that `Live Streams` would start automatically when using `Control Room` and `Agora.io` on **Virtual Lobby**;
