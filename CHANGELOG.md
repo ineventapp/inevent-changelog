@@ -4,6 +4,43 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 15.5
 
+### June 7, 2021
+
+#### Added
+- Optimized **Virtual Lobby** layout for mobile devices;
+- Added `recording types` for **Live Recording** list:
+  - `Backstage`: recordings that happen before the live stream starts and after the live stream ends;
+  - `Live Stream`: recordings that happen during the live stream;
+  - `Audio Interpretation (lang)`: recordings for audio interpretation channels;
+
+#### Fixed
+- Fixed issue that `Live Streams` would start automatically when using `Control Room` and `Agora.io` on **Virtual Lobby**;
+- Fixed **permission** set for `materials` and `attendee` pages;
+- Fixed **hide people count** tool for the new `presenters` and `viewers` counter;
+- Fixed **Live Recording** list to avoid collecting failed recordings (either due to absence during the session or low session time - usually a couple of seconds);
+
+### June 3, 2021
+
+#### Added
+- Added `polls` on **Person Details** dedicated page;
+- Added `livePersonID` key on `live.analyticsGet` **API** endpoint;
+
+#### Fixed
+- Fixed issue with `video conversion` on **Live Recording** that would overwrite certain videos (not the source, just the converted);
+- Fixed ordering for `Session` reports for **Virtual Lobby Reports**;
+
+### June 2, 2021
+
+#### Added
+- Added `watch time spent` column on `live.analyticsGet` **API** endpoint that contails the actual `live stream` watch time for the user;
+- Added a `watch time` visual bar on **Virtual Lobby Reports** with actual `live stream` watch time for the user;
+
+#### Fixed
+- Fixed `room` states when changing rooms on the left column menu. This issue caused mixed data between sessions going through your browser and you'd get messages from the previous room you were in your current room on **Virtual Lobby**;
+- Fixed state issues on **Virtual Lobby Reports** when changing tabs and copying the `URL` link;
+- Fixed pagination on `Session` reports for **Virtual Lobby Reports**;
+- Removed `interactions` chart from the **Summary** page;
+
 ### June 1, 2021
 
 #### Added
