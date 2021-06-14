@@ -2,7 +2,59 @@
 
 This change log was created on January 22, 2021 and only entries after this date will be registered.
 
+## Version 15.6
+
+### June 14, 2021
+
+#### Added
+- Added more support for lighter colors on **Company** details;
+- Added support for **Tag** visibility (useful for admins that want to create invisible tags for internal usage);
+
+#### Fixed
+- Fixed **Registration Form** with `activities` when the event is private;
+- Fixed `PDF Buttons` on **Control Room** when sharing a PDF;
+- Adjusted extra space added on `Group Rooms` and `Networking` collapsed buttons;
+- Fixed **custom link** tabs button on `Virtual Lobby` tabs (it shouldn't allow you to use it);
+- Fixed **Issue Report** tool when using `Deutsch` language;
+
 ## Version 15.5
+
+### June 11, 2021
+
+#### Added
+- Added `chat logs` toggle for *admins* on **Virtual Lobby**;
+
+### June 10, 2021
+
+#### Fixed
+- Fixed **API** filter on `company.event.find` that also fixed the **InEvent Rooms** `iPad app`;
+
+### June 9, 2021
+
+#### Added
+- Added `region tracking` **API** for Virtual Lobby attendance (a map of attendee regions will be possible in the future);
+- Added support for **Notification Messages** on all public pages;
+
+#### Fixed
+- Fixed issues on **Virtual Lobby** for old browsers;
+- Fixed issues on **My Agenda** for old browsers;
+- Fixed issues on **Speaker** modals for old browsers;
+- Fixed `online right now` filter for certain events on **Attendees Page**;
+- Fixed **Marketo** error logs;
+- Fixed **SMS** delivery logs for certain subjects;
+
+### June 8, 2021
+
+#### Added
+- Added `Low Latency` stream option for **Control Room**;
+- Added custom headings for `Terms of Service` on **Custom Forms** and **Purchase Form** pages;
+- Added **Magic Link** follow page for custom links besides `Virtual Lobby` links;
+- Optimized **Salesforce** triggers for attendance;
+
+#### Fixed
+- Fixed issue on `group rooms` URL link for **Virtual Lobby** when using custom domains;
+- Fixed issue that `activity description` would show on **Group Rooms** by mistake;
+- Added better `time spent` tracking as a workaround for browsers that block and endup having `30 seconds` as their total `time spent` on **Virtual Lobby**;
 
 ### June 7, 2021
 
