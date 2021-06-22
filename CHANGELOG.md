@@ -4,6 +4,49 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 15.6
 
+### June 21, 2021
+
+#### Added
+- Muted `sponsor ads` when using video on **Virtual Lobby**;
+- Added documentation for `form completed` on **Google Analytics**;
+- Added support for custom static fields on **Marketo**:
+  - First Name, Last Name, Role, Company and Telephone;
+
+#### Fixed
+- Fixed `delete` on **Files** for **Virtual Lobby**;
+- Fixed `IVS` recording delete issue;
+- Fixed `translation popup` not showing certain languages (like `English`);
+- Fixed `fullscreen` button on `video player` for **Virtual Lobby**;
+
+### June 17, 2021
+
+#### Added
+- Added support for invisible sessions on `follow up session` for **Virtual Lobby**;
+- Added confirmation box on `follow up session` inside **Schedule** settings page on `Send Now` button;
+
+### June 16, 2021
+
+#### Added
+- Added **Audit Logs** for `low latency stream` changes;
+
+#### Fixed
+- Removed `Screen Share` button on **Safari** (not supported) on **Virtual Lobby**;
+- Fixed issue on `follow up session` action on **Virtual Lobby**;
+- Fixed issue that `live streams` could stop when changing settings of other sessions on **Schedule** settings page;
+- Fixed **Salesforce** campaign search input;
+
+### June 15, 2021
+
+#### Added
+- Added option to split `calendar` .ics file into multiple events (one per activity);
+- Added `data-speaker-id` and `data-sponsor-id` HTML tags on **My Agenda**;
+- Added `search` on *campaign* selector on **Salesforce**;
+- Added `auto-refresh` on activity interactions (Polls, Questions, Comments) on **My Agenda**;
+- Added option for admins to enable/disable Polls on **My Agenda**;
+
+#### Fixed
+- Fixed new option text input issue on `Safari` for **Polls**;
+
 ### June 14, 2021
 
 #### Added
