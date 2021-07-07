@@ -2,6 +2,62 @@
 
 This change log was created on January 22, 2021 and only entries after this date will be registered.
 
+## Version 15.7
+
+### July 6, 2021
+
+#### Added
+- Added automatic event presence check when opening the **Virtual Lobby**;
+
+#### Fixed
+- Added missing `name` field on certain use cases for **Native Websockets**;
+- Adjusted **Native Websockets** `ping pong` strategy for better latency;
+- Fixed **Email Builder** social icons urls;
+- Fixed **Purchase** page when event enrollment is over (it was blank);
+- Fixed duplicated `Questions` when changing the **session** room type in real time;
+- Fixed **Saros template** css scheme to avoid the usage of `!important` when using **Custom CSS**;
+
+### July 2, 2021
+
+#### Fixed
+- Fixed **Salesforce** `Phone` field issue (was not syncing);
+- Fixed `Realtime Geo Location` map when lobby is empty;
+
+### July 1, 2021
+
+#### Added
+- Added `Region` and better time accuracy for `New login detected` email notifications;
+
+### June 30, 2021
+
+#### Added
+- Added **Native Websockets** feature as an alternative to our current `Firebase` setup;
+  - This is highly recommended for customers that have attendees in `Mainland China`;
+- Added `Region` and better time accuracy for `New login detected` email notifications;
+
+### June 29, 2021
+
+#### Added
+- Added `Geo Location` tracking for attendee sessions;
+- Added `Geo Location` map for all users and realtime users on **Virtual Lobby** reports page;
+
+#### Fixed
+- Fixed **Salesforce** query issue when using `HasOptedOutOfEmail` field enabled;
+- Fixed text overflow on `headlines` for **Virtual Lobby**;
+
+### June 28, 2021
+
+#### Added
+- Added `Confirm password` field on **Purchase** page;
+  - Also added a tool to enable and disable it;
+- Added `Tag` filter on **Attendees** page;
+- Added improved `attendance` tracking tool for better accuracy on **Virtual Lobby** sessions;
+
+#### Fixed
+- Fixed **Website** and **Dashboard** when using `Deutsch` language (`/de` urls);
+- Fixed `Chat` text overflow on **Virtual Lobby**;
+- Fixed **IVS** (Low Latency) recording removal;
+
 ## Version 15.6
 
 ### June 25, 2021
