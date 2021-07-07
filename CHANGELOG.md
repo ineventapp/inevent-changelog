@@ -4,6 +4,29 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 15.6
 
+### June 25, 2021
+
+#### Fixed
+- Fixed **Marketo ID Auth** to only check for event admins when blocking the authentication;
+
+### June 24, 2021
+
+#### Fixed
+- Fixed activity list *ical file* for **Schedule** when downloading ical for a specific session;
+
+### June 23, 2021
+
+#### Added
+- Added better screen share checks on **Tokbox**;
+  
+#### Fixed
+- Fixed **Marketo ID Auth** names when using *firstName* and *lastName*;
+
+### June 22, 2021
+
+#### Fixed
+- Fixed horizontal scrollbar on button controls on **Virtual Lobby**;
+
 ### June 21, 2021
 
 #### Added
