@@ -4,6 +4,37 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 15.7
 
+### July 11, 2021
+
+#### Fixed
+- Fixed issue on **Registration Form** when registering with `invite requirement` on;
+
+### July 9, 2021
+
+#### Added
+- Added `Welcome` section option to use a `live stream` from a live session on **Virtual Lobby**;
+- Improved `name labels` on videos for `Video Conferencing` and `Control Room` modes on **Virtual Lobby**;
+
+#### Fixed
+- Fixed issue on `Regional` charts for **Virtual Lobby**;
+
+### July 8, 2021
+
+#### Added
+- Added `UTM` support for `iframes` added to **Website** settings;
+- Added auto `iframe` resizing when embedding the **Purchase Form**;
+- Improved `iframe` resizing for **Website**;
+
+#### Fixed
+- Fixed issue with `sponsor` visibility on **Virtual Lobby** (certain places displayed invisible sponsors);
+- Fixed issue with `conversions` on **UTM** when coming from anonymous users;
+- Fixed **Paypal** payments when using `coupons` with `99%` discount that generated irrational numbers;
+
+### July 7, 2021
+
+#### Added
+- **Tokbox** is now the primary `WebRTC` provider;
+
 ### July 6, 2021
 
 #### Added
