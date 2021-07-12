@@ -4,6 +4,19 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 15.7
 
+### July 12, 2021
+
+#### Added
+- Added `Fullscreen` with `chat` support when using `Low Latency` mode for **Virtual Lobby**;
+- Added option to `bulk update` attendee `permission level` on **Attendees** page;
+- Added automatic `push notification` when scheduling a new **Meeting** on Virtual Lobby;
+- Added region tracking for events that uses **Custom Domain**;
+
+#### Fixed
+- Fixed **UTM Links** when using multiple words on its name;
+- Fixed `permission issue` for **Speakers** and **Sponsors** when approving and deleting `comments` and `questions`;
+- Fixed small glitch when approving `comments` as admins (only visible to admins) on **Virtual Lobby**;
+
 ### July 11, 2021
 
 #### Fixed
