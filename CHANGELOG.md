@@ -4,6 +4,18 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 15.7
 
+### July 13, 2021
+
+#### Added
+- Incorporated **SSO** login button directly into the full `login page` with all three options:
+  - Use `SSO` to login;
+  - Use InEvent's email and password to login;
+  - Create a new account;
+- Added option to disable the **Event login page** (it's a tool). When disabled, unauthenticated users will be redirected to the `Registration form` directly, bypassing the following access flow: `login page > registration button > registration form`;
+
+#### Fixed
+- Fixed `rejected` email for **Waitlists** when the `confirmation email` was disabled (they shouldn't be related);
+
 ### July 12, 2021
 
 #### Added
