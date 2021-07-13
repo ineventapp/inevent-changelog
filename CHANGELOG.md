@@ -21,6 +21,7 @@ This change log was created on January 22, 2021 and only entries after this date
 
 #### Fixed
 - Fixed `rejected` email for **Waitlists** when the `confirmation email` was disabled (they shouldn't be related);
+- Fixed **Tokbox** recording layout when using `Video conferencing` mode;
 
 ### July 12, 2021
 
