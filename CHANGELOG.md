@@ -11,6 +11,7 @@ This change log was created on January 22, 2021 and only entries after this date
   - Use `SSO` to login;
   - Use InEvent's email and password to login;
   - Create a new account;
+- Automatically hide the `Register now` card on **Login page** when the `Registration Form` tool is disabled;
 - Added option to disable the **Event login page** (it's a tool). When disabled, unauthenticated users will be redirected to the `Registration form` directly, bypassing the following access flow: `login page > registration button > registration form`;
 - Added **Headings** for `session tile statuses`:
   - Live;
