@@ -26,7 +26,7 @@ This change log was created on January 22, 2021 and only entries after this date
 #### Added
 - Added `Fullscreen` with `chat` support when using `Low Latency` mode for **Virtual Lobby**;
 - Added option to `bulk update` attendee `permission level` on **Attendees** page;
-- Added automatic `push notification` when scheduling a new **Meeting** on Virtual Lobby;
+- Added automatic `push notification` when scheduling a new **Meetings** on Virtual Lobby through `spreadsheet` import;
 - Added region tracking for events that uses **Custom Domain**;
 
 #### Fixed
