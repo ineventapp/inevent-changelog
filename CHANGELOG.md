@@ -4,6 +4,18 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 15.7
 
+### July 14, 2021
+
+#### Added
+- Added `otherTicketsName` column on excel **report** for attendees page;
+  - This column contains all `other` tickets the user has and are available to be used;
+  - It's useful for events that uses multiple tickets for the same user;
+
+#### Fixed
+- Fixed **Low Latency** stream issue that a `blue play button` would show up and nothing happened when pressing it.
+  - This bug happened when users were in the session before it started (seeing the idle board) and, when the stream started, a `blue play button` would show up and nothing happened when pressing it;
+- Fixed error message when changing the **Event** dates incorrectly;
+
 ### July 13, 2021
 
 #### Added
