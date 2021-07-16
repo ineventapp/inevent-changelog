@@ -2,6 +2,23 @@
 
 This change log was created on January 22, 2021 and only entries after this date will be registered.
 
+## Version 15.8
+
+### July 15, 2021
+
+#### Added
+- Added **Event Feedback** popup option on all event public pages:
+  - The popup is accessible through the top-right menu and it's called `Feedback` (it's customizable);
+- Added support for `full HTML formatting` on `event description` when using **Neo Layout** with `overlay enabled`;
+
+#### Fixed
+- Fixed **Low Latency** stream issue when using `custom domains`:
+  - The usage of `custom domains` caused a `CORS` issue within the video player and it has been fixed;
+- Fixed error message showing up on **Virtual Lobby** when using `Pre-recorded` with a custom `iframe` that sends messages to its parent window;
+- Fixed `Regional report` for **Virtual Lobby**:
+  - It was showing up all devices that connected to the lobby instead of showing up unique users;
+- Fixed minor issue that allowed users to send empty messages on **Chat**;
+
 ## Version 15.7
 
 ### July 14, 2021
