@@ -6,6 +6,12 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ### July 20, 2021
 
+#### Added
+- Added activity `Speakers` and `Sponsors` on `Learn more` modal popup when using template `Callisto` on **Website**;
+- Added block to avoid users **purchasing** tickets when the registrations are closed:
+  - This block is also implemented for the `Registration form` when the registrations close mid way through;
+- Removed `InEvent` logo on `Meeting Rejection` automatic **Email**;
+
 #### Fixed
 - Fixed **Purchase** page issue when `confirm password` tool was enabled:
   - This issue only affected returning users (they had to be authenticated);
