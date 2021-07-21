@@ -4,6 +4,25 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 15.8
 
+### July 20, 2021
+
+#### Fixed
+- Fixed **Purchase** page issue when `confirm password` tool was enabled:
+  - This issue only affected returning users (they had to be authenticated);
+  - Returning users couldn't move out of the `Step 1` due to this issue;
+- Fixed issue that when disabling **Custom CSS** tool, the `CSS` would remain active;
+- Fixed `presenter` view position on **Tokbox** when using `Video Conferencing sessions` and `Speaker` view mode;
+
+### July 19, 2021
+
+#### Added
+- Added **profile permission** for `polls`, `comments` and `questions` admin pages;
+
+#### Fixed
+- Fixed issue that `presenters` would remain in the list even after turning into `viewers` when using `Video Conferencing` with **Agora.io** WebRTC provider;
+- Fixed issue that caused `Inbox` notification badges to never clear;
+- Fixed `presenter` view position on **Tokbox** when using `Group Rooms` and `Speaker` view mode;
+
 ### July 15, 2021
 
 #### Added
