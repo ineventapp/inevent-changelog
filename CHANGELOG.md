@@ -4,6 +4,29 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 15.8
 
+### July 23, 2021
+
+#### Added
+- Added option to collapse `left` and `right` columns when inside a session without the need to go on `full screen mode` on **Virtual Lobby**;
+
+#### Fixed
+- Fixed issue that the `Inbox` would not open when using a mobile device and inside a session on **Virtual Lobby**;
+- Fixed issue that moving arrows would disappear when having a multiple day event with dozens of days and using the `Classic Layout` on **Virtual Lobby**;
+
+### July 22, 2021
+
+#### Added
+- Added support for `iPadOS` layout and improved layout experience on all `mobile devices` when using the Neo Layout on **Virtual Lobby**;
+
+### July 21, 2021
+
+#### Added
+- Added email validation message with actual email received from **SSO** SAML integration for better debugging;
+
+#### Fixed
+- Fixed issue when removing **Sponsor** that had previously broadcasted content through `Control Room`;
+- Fixed `Sponsor` visibility issue that caused `sponsor admins` and `hosts` to not being able to view the room settings on **Virtual Lobby**;
+
 ### July 20, 2021
 
 #### Added
