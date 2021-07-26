@@ -8,10 +8,14 @@ This change log was created on January 22, 2021 and only entries after this date
 
 #### Added
 - Added option to collapse `left` and `right` columns when inside a session without the need to go on `full screen mode` on **Virtual Lobby**;
+- Added support for mixed case `emails` on **SSO Authentication**;
+- Added support for `ticket invitees` return their tickets to the `purchaser` when using the **Purchase Form**;
 
 #### Fixed
 - Fixed issue that the `Inbox` would not open when using a mobile device and inside a session on **Virtual Lobby**;
 - Fixed issue that moving arrows would disappear when having a multiple day event with dozens of days and using the `Classic Layout` on **Virtual Lobby**;
+- Fixed small height issue on `iPadOS` for **Virtual Lobby**;
+- Fixed issue on **Paypal** with number format for multi language events;
 
 ### July 22, 2021
 
