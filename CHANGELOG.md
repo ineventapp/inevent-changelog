@@ -2,6 +2,35 @@
 
 This change log was created on January 22, 2021 and only entries after this date will be registered.
 
+## Version 15.9
+
+### July 27, 2021
+
+#### Added
+- Added better **WCAG** support for `keyboard focus` on **Event Pages**;
+- Added notifications when `Pre-recorded` videos fail to upload correctly on **Schedule** dashboard:
+  - We also improved the UX when using our `video uploader` with more logs and status checks;
+- Added `{{event-map-address}}` to render the physical address on `emails` when doing hybrid and in person events;
+- Added `search box` on **Email health** page;
+- Improvements on `Callisto` **Website** template;
+
+#### Fixed
+- Fixed `live count` when using `Native Websockets` on **Virtual Lobby**;
+- Fixed layout issue on dedicated **Group Rooms** page when using mobile devices;
+- Fixed issue when moving viewers to `next session` that has a different video mode on **Virtual Lobby**;
+- Fixed user profile pictures on dedicated **Group Rooms** page when no picture is set;
+- Added check when creating activities that end before it starts (sometimes admins do it by mistake);
+- Fixed issue that when enabling a `virtual room` for a **Sponsor**, you'd have to refresh the page to correctly upload the video;
+- Fixed error when removing a **custom list** that has a `link tracking` linked;
+
+### July 26, 2021
+
+#### Fixed
+- Fixed issue on `Native Websockets` that allowed users to use the same credential to login on separate devices on **Virtual Lobby**;
+- Fixed **Meeting** `rejection` email organizer and `reply-to` field;
+- Fixed issue that prevented admins from adding `custom questions` on **Event Booking Form**;
+- Fixed `duplication` issue on `people tab` on **Virtual Lobby** session that duplicated the same users on `Presenters` and `Viewers` in certain scenarios;
+
 ## Version 15.8
 
 ### July 23, 2021
