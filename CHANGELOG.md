@@ -4,6 +4,15 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 15.9
 
+### August 2, 2021
+
+#### Added
+- Improvements on `Welcome Section` when using an activity `Live Stream` as content for **Virtual Lobby**;
+- Added support for **RTMP** streams on `Welcome Section` on **Virtual Lobby**;
+
+#### Fixed
+- Fixed **Ticket manager** ticket count on available and in use tickets - it was counting pending tickets too;
+
 ### July 30, 2021
 
 #### Added
