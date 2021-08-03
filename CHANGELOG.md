@@ -4,6 +4,15 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 15.9
 
+### July 30, 2021
+
+#### Added
+- Added **Tokbox** as primary endpoint for new companies and new events.
+
+#### Fixed
+- Fixed **Forgot password** tool when used on `mobile apps` and for `company specific` URLs;
+- Fixed missing fields issue when using **Wirecard** payment method on `Purchase Form`;
+
 ### July 28, 2021
 
 #### Added
