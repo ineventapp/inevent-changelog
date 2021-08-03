@@ -4,6 +4,21 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 15.9
 
+### August 3, 2021
+
+#### Added
+- Added option to create **Custom Tabs** with a specific `Website Section & Template` on **Attendee Center**:
+  - This option allows you to create multiple tabs for specific sections of the **Website** tool;
+  - You don't need to use the same template you have in your **Website**;
+  - You can create tabs with sections that you don't even have on your **Website**;
+  - Example:
+    - `Speakers` tab using **Callisto Template**;
+    - `Sponsors` tab using **Lima Template**;
+- Added option to **Whitelist** `domains` to `bypass` certain restrictions during the registration process:
+  - Example:
+    - Bypass the `invite requirement` when the email is `@inevent.com`;
+    - Bypass the `ticket requirement` when the email is `@inevent.uk`;
+
 ### August 2, 2021
 
 #### Added
