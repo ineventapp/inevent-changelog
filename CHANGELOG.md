@@ -4,6 +4,17 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 15.9
 
+### July 28, 2021
+
+#### Added
+- Added automatic `video conversion` when using `Low Latency` mode on **Control Room** and on `Mux Endpoint A` when using **RTMP**:
+  - This means that you don't need to click on `Convert video` button anymore, it will be done automatically;
+- Added support for multiple `Audio Interpreters` on a given channel for **Audio Interpretation** within a session:
+  - These users must be enrolled at the event (new requirement) and must also have the `Interpreter` permission level;
+
+#### Fixed
+- Fixed **Inbox** closing issue every time you receive a new message;
+
 ### July 27, 2021
 
 #### Added
