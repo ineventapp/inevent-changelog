@@ -4,6 +4,90 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 15.9
 
+### August 12, 2021
+
+#### Added
+- **WCAG** updates:
+    - Virtual Lobby
+      - "Connecting please wait..." role="alert" ☑️
+      - Inbox dialog (on the top bar) ☑️News Feed dialog (on the top bar) ☑️
+      - My Languages dialog (on the top bar) ☑️
+      - My Account menu dialog (on the top bar) ☑️
+      - Filter by tags dialog (sponsor) ☑️
+      - Filter by tags dialog (activities) ☑️
+      - Search group rooms dialog ☑️
+      - Group room individual dialog ☑️
+      - Create group room dialog ☑️
+      - Search participants dialog (networking) ☑️
+        - Filter participants by tag ☑️
+        - Participant individual dialog (networking) ☑️
+        - ask to meet dialog ☑️
+        - schedule meeting dialog ☑️
+        - Please select the level of privacy for this call dialog ☑️
+      - See all speakers dialog (on activities nodes) ☑️
+        - Speaker Individual dialog ☑️
+      - Sse all sponsors dialog (on activities nodes) ☑️
+        - Sponsor Individual dialog ☑️
+      - "This session has already finished" dialog ☑️
+      - search for hidden errors ☑️
+      - search for hidden items in general ☑️
+    - Virtual Room
+      - Join sessions button (for conferences and things like that) ☑️
+      - Camera and microphone access dialog ☑️
+      - Device Configuration dialog ☑️
+      - "You are joining now" dialog ☑️
+      - "Live content changed" dialog ☑️
+      - Person individual dialog (inside people tab) ☑️
+      - Sponsor individual dialog (below the activity) ☑️
+      - Speaker individual dialog (below the activity) ☑️
+      - "Read more" activity details dialog (below the activity) ☑️
+      - Video call request dialog (from when the host invites you) ☑️
+      - "Please select the level of privacy for this call" dialog (when you join a meeting) ☑️
+      - "Change rooms" dialog (when you change a room) ☑️
+      - "Do you want to invite PERSON.NAME to this session?" dialog (when you invite someone to your session using the networking tab on the left) ☑️
+      - Person individual dialog (inside networking tab on the left) ☑️
+      - "Loading next session please wait" dialog/alert ☑️
+      - Back to lobby dialog ☑️
+      - "Read more" sponsor details dialog (inside sponsor booth) ☑️
+      - Session feedback dialog ☑️
+      - Share content dialog (screen, pdf, video) ☑️
+      - Button inside session (mute microphone, change call layout and etc) ☑️
+      - change layout dialog (automatic, space-between, focus-mixed, focus-only) ☑️
+      - stopping live stream dialog ☑️
+      - Adjust volume with arrow-keys ☑️
+      - Playback rate aria-pressed ☑️
+    - Virtual Lobby  - Sponsors
+      - Filter by tags dialog ☑️
+    - Virtual Lobby  - Group Rooms
+      - Add group room dialog ☑️
+    - Virtual Lobby  - Activities
+      - Filter by tags dialog ☑️
+        - See all speakers dialog (on activities nodes) ☑️
+      - Speaker Individual dialog ☑️
+        - See all sponsors dialog (on activities nodes) ☑️
+      - Sponsor Individual dialog ☑️
+      - "This session has already finished" dialog ☑️
+      - Networking dialog (top bar) ☑️
+      - Group rooms dialog (top bar) ☑️
+    - My Tickets (ticket-manager.php)
+      - Giveaway ticket small dialog (list view small button on the right) ☑️
+      - Send invite dialog ☑️
+      - Copy invite link dialog ☑️
+      - Send all tickets dialog ☑️
+    - Virtual Lobby  - Networking (networking.php)
+      - Profile individual dialog ☑️
+      - Schedule meeting dialog ☑️
+        - "confirm booking" dialog ☑️
+    - My Agenda
+      - New restriction dialog (restrictions) ☑️
+      - Conflicted restrictions dialog (restrictions) ☑️
+      - Remove comentary dialog (comments section inside activity details) ☑️
+      - Speaker individual details (agenda  - inside activity details) ☑️
+      - Sponsor individual details (agenda  - inside activity details) ☑️
+      - Unpin activity dialog (agenda) ☑️
+      - pin activity dialog (agenda) ☑️
+        - DATE/TIME dialog ☑️
+
 ### August 11, 2021
 
 #### Added
