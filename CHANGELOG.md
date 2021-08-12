@@ -4,6 +4,29 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 15.9
 
+### August 11, 2021
+
+#### Added
+- Added new version of **Native Websockets** with the intent to fix the `count` of live users;
+
+#### Fixed
+- Fixed `sponsor` website links on **Website** to open on a new tab and not refresh the page in case it is empty;
+- Fixed **Summary** left menu that breaks on certain languages;
+
+### August 10, 2021
+
+#### Fixed
+- Fixed `calendar invite` organizer email issue on **ical** tool;
+- Fixed issue on **Event Booking Form** when submitting it without `custom fields`;
+
+### August 9, 2021
+
+#### Added
+- Added support for `profile picture` on Registration Form when using **Waitlist**;
+
+#### Fixed
+- Fixed **Summary** page layout issue for chart tiles;
+
 ### August 3, 2021
 
 #### Added
