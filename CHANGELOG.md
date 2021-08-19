@@ -4,6 +4,11 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 15.9
 
+### August 18, 2021
+
+#### Fixed
+- Fixed `Map Online` world map chart for **Virtual Lobby** when using `Native Websockets`;
+
 ### August 17, 2021
 
 #### Added
