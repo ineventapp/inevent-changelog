@@ -4,6 +4,48 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 15.9
 
+### August 24, 2021
+
+#### Added
+- Added option to customize **Virtual Lobby** session tile status regardless of the video type:
+  - Pre-recorded sessions can now have `LIVE` status, a great use case for Simulives;
+- Added support to upload multiple files on `Sponsor Booths` and on `Sessions` on **Virtual Lobby**;
+
+### August 23, 2021
+
+#### Added
+- Added support to delete `comments` directly on the backend and reflect it in realtime on **Virtual Lobby** sessions;
+- Added support for **Sign Language** when viewing the session on fullscreen on `Classic Layout`;
+- Added support for `LinkedIn` sharing of **UTM** links;
+
+#### Fixed
+- Fixed **Event Booking Form** issue that the admin invite email was being sent before the event was approved;
+- Fixed **Email** format issue when opening it on `Outlook` desktop app;
+- General fixes on **WCAG** support, including animations and transitions;
+- Fixed issue that dropdowns wouldn't work on **Mobile** when using them on `forms`;
+
+### August 20, 2021
+
+#### Added
+- Added new **Permission Level** `Staff` for user:
+  - Has full `admin` permissions on attendee pages:
+    - Virtual Lobby;
+    - My Account;
+    - My Agenda;
+    - My Forms;
+    - Networking;
+    - Ticket Manager;
+  - Can't access the `admin` dashboard backend page;
+
+#### Fixed
+- Fixed issue on **Networking** popup modal on **Virtual Lobby** `Classic Layout`;
+
+### August 19, 2021
+
+#### Fixed
+- Fixed issues when using the **Virtual Lobby** in `French` language;
+- Removed `index.php`, `form.php` and `purchase.php` from **Content Page** option list;
+
 ### August 18, 2021
 
 #### Fixed
