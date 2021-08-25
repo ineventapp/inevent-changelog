@@ -4,12 +4,30 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 15.9
 
+### August 25, 2021
+
+#### Added
+- Added **Attendance Tracking** feature to track attendance on `CEU` credits:
+  - Custom credit systems are available as well;
+  - Popups to check attendance can have a custom frequency set per credit unit;
+- Added `Clean Video Feed` output per WebRTC stream when using **Video Conferencing** and **Control Room**:
+  - Each video stream has a button on the bottom-right corner that opens a `clean video & audio` output of that specific stream on a separate tab. The clean video & audio stream has isolated audio.
+  - Only admins can access the clean video feed.
+
+#### Fixed
+- Fixed `Online People` counter on **Analytics Dashboard**;
+- Fixed issue on `agenda restrictions` for **My Agenda** page;
+
 ### August 24, 2021
 
 #### Added
 - Added option to customize **Virtual Lobby** session tile status regardless of the video type:
   - Pre-recorded sessions can now have `LIVE` status, a great use case for Simulives;
 - Added support to upload multiple files on `Sponsor Booths` and on `Sessions` on **Virtual Lobby**;
+- Added mirrored video on `publisher stream` when usign **Agora.io** WebRTC provider;
+
+#### Fixed
+- Fixed scrollbar on **Event Booking Form**;
 
 ### August 23, 2021
 
