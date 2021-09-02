@@ -4,6 +4,69 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 15.9
 
+### September 2, 2021
+
+#### Added
+- Added **tool** to disable and enable `meeting confirmation emails`;
+- Added `firstName`, `lastName` and `telephone` on **Virtual Lobby Reports**;
+
+### September 1, 2021
+
+#### Added
+- Added dedicated page for **Materials**:
+  - This page contains all **materials** uploaded to all `Activities`, `Sponsor booths` and also `Event`;
+- Added `VisualForce` module for **Salesforce**:
+  - This module also works for `Attendees reports` on company level, without **Salesforce** integration;
+- Added new **Headings** for customization:
+  - **Form** `User Picture`;
+  - **Form** `Summary`;
+  - **Form** `Edit Button`;
+  - **Form** `Done Button`;
+  - **Activity Question** `Waiting for approval`;
+  - **Virtual Lobby** `Starts at`;
+  - **Virtual Lobby** `Started at`;
+  - **Virtual Lobby** `Back to lobby`;
+  - **Purchase** `Feedback success` (9 options);
+  - **Purchase** `Feedback processing` (2 options);
+  - **Login** `Request magic link`;
+
+#### Fixed
+- Fixed distorted images on `people` tab for **Virtual Lobby** session;
+- Removed visual outline on popups for **Virtual Lobby** (blue line);
+- Fixed chat opening issue on `Classic layout` for **Virtual Lobby**;
+- Fixed `word break` on **Notifications** for **Virtual Lobby**;
+- Fixed escaped character on `move to next session` popup for **Virtual Lobby**;
+
+### August 31, 2021
+
+#### Fixed
+- Fixed `tag filtering` on **Sponsors Rooms** dedicated page;
+- Fixed `HTTPS` urls for **Twitter** news feed messages on profile pictures;
+
+### August 30, 2021
+
+#### Fixed
+- Fixed **Simulive** issue on `mobile devices`;
+- Fixed `send button` on `session chat` for **Virtual Lobby**;
+- Fixed issue on **Link Tracking** when using long names;
+- Fixed issue on **Schedule** settings not loading `Virtual Room` on sessions with `people list linked`;
+
+### August 27, 2021
+
+#### Added
+- Added **Link Tracking** support for `metadata` image and text lazy loading on social media sharing;
+- Added **Audit reports** for `event settings` changes;
+
+#### Fixed
+- Fixed `autoplay` issue on certain devices when opening the video player too fast on **Virtual Lobby** (it would not play automatically on certain scenarios) - `iOS Safari` excluded (needs action to play);
+- Fixed word breaking issues on **Email builder**;
+
+### August 26, 2021
+
+#### Fixed
+- Fixed activity search when filtering by `tags` on **Virtual Lobby**;
+- Optimizations on `Simulive` playback for **Virtual Lobby**;
+
 ### August 25, 2021
 
 #### Added
