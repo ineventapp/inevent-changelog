@@ -2,6 +2,58 @@
 
 This change log was created on January 22, 2021 and only entries after this date will be registered.
 
+## Version 16.0
+
+### September 14, 2021
+
+#### Added
+- Optimized **Virtual Lobby Reports** load time for large events;
+
+### September 13, 2021
+
+#### Added
+- Added support to access the **Virtual Lobby** with limited functionality when failing to connect to the realtime communication service (`Websocket`);
+- Optimized **Summary** load time for large events;
+
+### September 11, 2021
+
+#### Added
+- Added social media block tools integration on **Virtual Lobby**;
+- Added tool to block `Instagram` on social media block tools;
+
+### September 10, 2021
+
+#### Added
+- Added support for `audio sharing` when sharing a Google Chrome Tab on **Tokbox**;
+- Added new `Low Latency Mode` when using **Mux** as streaming provider;
+
+#### Fixed
+- Fixed duplicated tooltip names on `networking` for **Virtual Lobby**;
+- Fixed issue on `Control Room` when using **Tokbox** that would show hidden streams for a brief second when sharing and unsharing screen;
+- Fixed `Automatic` layout issue on `Control Room` when using **Tokbox**;
+
+### September 7, 2021
+
+#### Added
+- Added **Networking Roulette**:
+  - There’s a new tab called `Networking Roulette` that allows people to engage on 1-1 meetings randomly in the **Virtual Lobby**;
+  - Anyone that’s attending the event can join the `Networking Roulette`, but must not be private;
+  - You can configure the duration of the meetings on the `Networking Roulette` or leave it undetermined;
+  - When the timer is over, both users are sent back to the roulette lobby;
+  - We save the history of meetings as a “stack of business cards” that you can retrieve later;
+- Added `Transcription` support on **IVS**;
+- Added option to customize **Meeting** duration, start and end times;
+- Added **Feedback** form popup for `Sponsor Booths`;
+- Added `Private Chat` for presenters on **Virtual Lobby**;
+
+#### Fixed
+- `Tickets` will not show up when disabled on **File Manager**;
+- Removed `white cropping bars` when uploading pictures to **Materials** on `Sponsors` and `Activities`;
+- Fixed **Stripe** issue with nonexistent `customer id`;
+- Reversed `Screen share` icon status;
+- Fixed `guestCheckIn` field on **Meeting Report**;
+- Fixed `phone number` input flag;
+
 ## Version 15.9
 
 ### September 2, 2021
