@@ -4,6 +4,27 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 16.0
 
+### September 16, 2021
+
+#### Added
+- Added option to open `poll` results on a presentation page for `presenters` on **Virtual Lobby**;
+- Added follow up match on **Networking Roulette** to keep the flow;
+
+#### Fixed
+- Fixed issue on **Networking Roulette** that wouldn't allow users to match when `Profile Lock` tool was enabled;
+
+### September 15, 2021
+
+#### Added
+- Added session tile `status labels` on **Virtual Lobby** when using `Classic Layout`;
+- Added tool to enable and disable `Video Blur` option for presenters on **Virtual Lobby**;
+- Added menu separation on **Virtual Lobby** lobby page for mobile phones;
+
+#### Fixed
+- Fixed issue on **Link Tracking** for links with spaces and dashes;
+- Fixed issue on archiving `Sign language` channels on **Virtual Lobby**;
+- Fixed page break on **My Agenda** to work on three columns;
+
 ### September 14, 2021
 
 #### Added
