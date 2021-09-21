@@ -15,6 +15,8 @@ This change log was created on January 22, 2021 and only entries after this date
 - Fixed `Voucher`, `Wallet` and `RSVP` buttons for regions other than `North America` on **Email Builder**;
 - Fixed extra padding on `Questions` tab on **Virtual Lobby**;
 - Fixed `Janus` and `Jericho` countdown section on **Website**;
+- Fixed **Website settings** `speaker section` issue:
+  - If you already had a custom section with "Speaker" in the label, it would not allow you to add the `Speaker` section;
 
 ### September 20, 2021
 
