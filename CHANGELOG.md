@@ -4,6 +4,24 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 16.0
 
+### September 21, 2021
+
+#### Added
+- Optimized `Networking` sorting when filtering by `tags` on **Virtual Lobby**;
+- Added button "go to most recent chat" on `Chat` for **Virtual Lobby** sessions;
+- Added option to add **Transcriptions** in real time `manually` instead of using our automated `AI`;
+
+#### Fixed
+- Fixed `Voucher`, `Wallet` and `RSVP` buttons for regions other than `North America` on **Email Builder**;
+- Fixed extra padding on `Questions` tab on **Virtual Lobby**;
+- Fixed `Janus` and `Jericho` countdown section on **Website**;
+
+### September 20, 2021
+
+#### Added
+- Added `Excel with activities` tool integration for **Leads Report**;
+- Enabled `Markdown` support for `Form - Invite not found` **Heading**;
+
 ### September 16, 2021
 
 #### Added
