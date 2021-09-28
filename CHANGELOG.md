@@ -4,6 +4,34 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 16.0
 
+### September 27, 2021
+
+#### Added
+- Added **Hubspot** integration for basic `Import` and `Export` of leads -- a complete integration is coming soon;
+- Added `CDN Caching` for **Materials** uploaded to the `European` regional server;
+- Added `Back to lobby` popup **Heading** on **Virtual Lobby**;
+- Added more code examples and option to `copy & paste` on **API Reference docs**;
+
+#### Fixed
+- Fixed **Website** issue that in certain circunstances it would reset the `favicon` and also would add duplicated titles in the page tab;
+
+### September 23, 2021
+
+#### Added
+- Added option to customize `Popup Duration` on **Attendance Tracking** module (default remains 10 seconds);
+
+#### Fixed
+- Fixed issue on **Heading** markdown for `Registration Form`;
+- Fixed mobile CSS issue on **Virtual Lobby** when using the `Inbox` function;
+
+### September 22, 2021
+
+#### Added
+- Added `CA Trusted` certificates for **SSO Authentication**;
+
+#### Fixed
+- Fixed `Neo Template` Welcome Section background cover issue on **Virtual Lobby**;
+
 ### September 21, 2021
 
 #### Added
