@@ -4,6 +4,40 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 16.0
 
+### September 30, 2021
+
+#### Added
+- Added option to press `Enter` (carriage return) on `Yes` and `No` popups to automatically select `Yes` on **Virtual Lobby**;
+
+#### Fixed
+- Fixed display of `Video Conferencing` mode on Tablets for **Virtual Lobby**;
+- Fixed issue on `Chat` when scrolling up and having `Public / Private` chat option available on **Virtual Lobby**;
+- Fixed **Registration Form** when using it in a `private` event with access code and `CNAME` enabled;
+- Fixed `activity dates` on **Virtual Lobby** and **My Agenda** when using it with languages other than `English` (it would not translate properly);
+- Fixed issue on **Email Builder** that email sections would get too large and would distort when viewing it on `Outlook Desktop App`;
+- Fixed `Website` section issues when using it as a **Custom Tab**. Affected templates and sections:
+  - `Andromeda`: sponsors and photos;
+  - `Cosmos`: speakers;
+  - `Holmes`: speakers and photos;
+  - `Janus`: photos;
+  - `Jericho`: social icons;
+  - `Lima`: photos;
+  - `Mercury`: photos;
+  - `Orion`: photos;
+
+### September 29, 2021
+
+#### Fixed
+- Fixed **Attendees Report** that would get old answers on custom fields on certain scenarios;
+- Fixed **Hubspot** integration issue when exporting new `Attendees` to Hubspot;
+
+### September 28, 2021
+
+#### Fixed
+- Fixed issue when loading **Landing Page** dashboard files on `Europe Servers`;
+- Fixed `Export with activities` tool issue when attendee has a lot of activities on **Reports**;
+- Fixed **Attendees** dashboard page that would get old answers on custom fields on certain scenarios;
+
 ### September 27, 2021
 
 #### Added
