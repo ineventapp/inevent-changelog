@@ -8,6 +8,8 @@ This change log was created on January 22, 2021 and only entries after this date
 
 #### Added
 - Added option to press `Enter` (carriage return) on `Yes` and `No` popups to automatically select `Yes` on **Virtual Lobby**;
+- Added **API Field** `dateUpdated` on `event.person` module for easier filtering of updated users (useful for API crawling);
+- Added column `Updated` on **Attendees** dashboard that can also be ordered and filtered;
 
 #### Fixed
 - Fixed display of `Video Conferencing` mode on Tablets for **Virtual Lobby**;
