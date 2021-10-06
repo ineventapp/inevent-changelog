@@ -4,6 +4,47 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 16.0
 
+### October 6, 2021
+
+#### Added
+- Added **Heading** for `You are not allowed to view this session` on **Virtual Lobby**;
+
+#### Fixed
+- Fixed image `crop` on **Europe Region**;
+- Fixed `tickets` not showing up correctly on **Leads** page;
+
+### October 5, 2021
+
+#### Added
+- Added more optimizations on `Background Blur` to achieve `30 FPS` when using it on lower end devices for **Virtual Lobby**;
+
+### October 4, 2021
+
+#### Added
+- `Background Blur` now works on more devices and it's now optimized on lower end devices for **Virtual Lobby**;
+
+#### Fixed
+- Fixed **Email Lists** halting when **Salesforce Integration** failed due to a constraint on a campaign;
+- Optimized **Booking Forms** and **Custom Forms** loading speeds;
+
+### October 3, 2021
+
+#### Fixed
+- Fixed `Activity Days` not matching for certain `timezones` on **Virtual Lobby**, **My Agenda** and **Schedule Dashboard**;
+
+### October 1, 2021
+
+#### Added
+- Added option to select a `template` when creating an **Event Booking Form** and added option to `reject` submitted events;
+- Added `API Field` column on **Custom Fields** (API module: `feedback`) to be used in place of `feedbackID` column on **API Calls**:
+  - Instead of sending `[{ "feedbackID" : 123, "value" : "abc" }, { "feedbackID" : 456, "value" : "def" }]` you can now send `{ "f_field_key_123" : "abc", "f_field_key_456" : "def" }`. Both ways remain valid.
+- General improvements and optimizations on **Networking Roulette**;
+
+#### Fixed
+- Fixed `PHP SDK` documentation on submodules for **Developers**;
+- Fixed `Screen Share` button that would disappear if you use the **Virtual Lobby** on a smaller window;
+- Fixed `Speakers` section on `Saros Template` when using it as a **Custom Tab**;
+
 ### September 30, 2021
 
 #### Added
