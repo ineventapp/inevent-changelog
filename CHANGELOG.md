@@ -4,6 +4,52 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 16.0
 
+### October 14, 2021
+
+#### Added
+- Added `Clean Feed` option for `Staff` **permission level**;
+
+#### Fixed
+- Fixed **Attendance Tracking** popup frequency when using the `Minimum Frequency` setting -- it was showing way more than it should;
+
+### October 13, 2021
+
+#### Added
+- Added `Landing Pages` list option for **Content Page** setting;
+- Added support for **Native Websockets** on `Networking Roulette`;
+- Added `[data-activity-id]` HTML attribute on **My Agenda** tiles;
+- Added `Tag Sorting` for `Sponsor Booths` on **Virtual Lobby**;
+
+#### Fixed
+- Fixed `{{event-address}}` email replacement (that uses the Magic Link) from breaking the whole email out on `Outlook` and also breaking lines in a weird way for other email clients;
+- Fixed **Custom Form** infinite loading icon (it was a visual bug);
+- Fixed current language disappearing from the language list on **Virtual Lobby** when changing to a different language;
+
+### October 12, 2021
+
+#### Added
+- Added button to `download` the pre-recorded video on **Sponsor Booths**;
+
+#### Fixed
+- Fixed audio feedback on `Device Configuration` modal popup when using **Agora.io** WebRTC provider;
+- Fixed `Help Center` URL button on **Company Settings** dashboard;
+
+### October 8, 2021
+
+#### Added
+- Added **Virtual Backgrounds** on `Virtual Lobby` for computers with dedicated `GPU` or `Apple M1` computers:
+  - We currently use the `bodypix` Machine Learning model and we will in the future use the `ML Kit MediaPipe` model that will work for lower-end computers;
+  - We will soon have the option to customize the virtual background image;
+
+### October 7, 2021
+
+#### Added
+- Added `You are not registered to this event` popup notification for company admins that access the **Virtual Lobby** without being registered;
+
+#### Fixed
+- Fixed `event cover` section of the **Website** for `Holmes` and `Cosmos` templates;
+- Fixed `activity.person.bind` API endpoint when creating brand-new attendees on the **Attendees** dashboard page;
+
 ### October 6, 2021
 
 #### Added
