@@ -4,6 +4,22 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 16.0
 
+### November 16, 2021
+
+#### Added
+- Added `Automatic Layout` on **Live Studio** with option to select the layout for `Content Share` and `Only Cameras`;
+- Added `Multi Camera` support on **Live Studio** with option to quick switch between cameras using your mouse and using the following keys:
+  - `Arrow Up` or `Page Up`: move backwards;
+  - `Arrow Down` or `Page Down`: move forwards;
+  - `PPT Clickers` are supported;
+- When removing activities that are live, users are now ejected back to the **Virtual Lobby**;
+
+#### Fixed
+- Fixed `emojis` not being saved on `Lower Thirds` and `Chyrons` when creating presets on **Live Studio**;
+- Added limited connection mode on `Firebase Websockets` in case there's an outage on **Google's Firebase Servers**;
+- Fixed issues on `Push Notifications` that blank notifications would pop up on **Virtual Lobby**;
+- Optimized `session chat` on **Virtual Lobby** when a lot of chat messages are being sent at the same time;
+
 ### November 15, 2021
 
 #### Fixed
