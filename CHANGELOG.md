@@ -156,7 +156,7 @@ This change log was created on January 22, 2021 and only entries after this date
 - Increased blur strength on `Virtual Backgrounds` for **Virtual Lobby** when using the blur option;
 - Added `dark mode` for **API Reference** page;
 - Added **API Reference** bookmark for companies with **API** enabled;
-- Added link to [Guides](https://developers.inevent.com/docs) on **API Reference**;
+- Added link to [Developer Docs](https://developers.inevent.com/docs) on **API Reference**;
 
 #### Fixed
 - Fixed `ticket` field being duplicated on **Attendees** page;
@@ -171,7 +171,11 @@ This change log was created on January 22, 2021 and only entries after this date
   - Supported only on `Google Chrome` and `Firefox` for desktop;
   - Added custom background option with your company colors and logo;
 - Added `updatedBeforeDate` and `updatedAfterDate` **API** keys on `event.person` model;
-- Added option to search by `date` on following dashboards: **Company Events**, **Flights**, **Shuttles**, **Hotels** and **Attendees**;
+- Added option to search by `date` on following dashboards:
+  - Event Flights;
+  - Event Lodging;
+  - Event Shuttle;
+  - Event Attendees;
 - Added **Attendance Tracking** hits on **Virtual Lobby Reports**;
 
 #### Fixed
