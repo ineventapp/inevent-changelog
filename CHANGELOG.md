@@ -4,6 +4,181 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 16.0
 
+### November 15, 2021
+
+#### Fixed
+- Fixed **Whisper** function issue that would be backwards when `whispering`, `added to stage` and `added to backstage`;
+
+### November 14, 2021
+
+#### Added
+- Added option to `resend` emails on **Email Builder** that have already been sent:
+  - Useful for `lists` and `attendees` that are added to your email segmentation after the emails was sent;
+
+### November 12, 2021
+
+#### Fixed
+- Fixed email lists that stopped while being sent due to internal issues;
+- Fixed `presenters` showing up on `Pre Recorded` content on **Virtual Lobby**;
+
+### November 10, 2021
+
+#### Added
+- Added option to view `presets` on **Live Studio** for non-admin users that are hosts of sessions;
+- Improved `name label` readability on **Live Studio** streams when white backgrounds is used;
+- Added `background video` audio toggle for **Live Studio** -- you can now have a background music on your `live stream`;
+- Added audio `auto mute` when moved to the backstage of **Live Studio**;
+- Added **Whisper** functionality on the backstage of **Live Studio** -- you can now enable your mic while on backstage and you'll only be heard by people on `control room`, your audio will not go through the `live stream`;
+- Added option `Test Microphone` on `Device Configuration` popup to test if your audio is going through on **Virtual Lobby**;
+
+#### Fixed
+- Fixed `presenters` not showing up on `People` tab on **Virtual Lobby** sessions;
+
+### November 9, 2021
+
+#### Added
+- Added `Video Clean Feed` button on backstage of **Live Studio** sessions;
+
+#### Fixed
+- Fixed **PayPal** expiration date issue;
+
+### November 8, 2021
+
+#### Added
+- Added a new user interface on **Virtual Lobby** `Settings Page` with separated sections;
+
+### November 5, 2021
+
+#### Fixed
+- Fixed error on **Schedule** page that would display when you have `Materials` disabled;
+- Fixed `backstage audio` being audible on **Live Studio** final `stream`;
+- Fixed **External URL** rules when opening it (a popup will now be displayed);
+
+### November 4, 2021
+
+#### Added
+- Optimized **Firebase Websockets** option to load less data -- highly improved specially for large events:
+  - We also added several other optimizations that will make everything faster;
+  - We had to remove the infinite listing on **Virtual Lobby** `Networking` section -- you now must open the `search` popup and filter through there;
+  - We also added a button `Load More` on **Virtual Lobby** Session Viewers menu;
+- Added option to use **Event Templates** that are created in your `master company` -- used for customers with multiple regions;
+
+#### Fixed
+- Fixed `Recordings` listing on **Schedule** dashboard for `Europe Region` when using `AWS IVS` provider;
+- Fixed **Salesforce** setup page dashboard;
+- Fixed **External URL** session mode on `iOS` devices;
+
+### November 3, 2021
+
+#### Fixed
+- Fixed `email.log.stats` **API Endpoint** grouping issue;
+
+### November 1, 2021
+
+#### Fixed
+- Fixed `.ics` file generated for **Meetings** -- it will now display the proper organizer, their email, and the right `RSVP` options -- we also had to remove special characters from certain names to make it work;
+
+### October 31, 2021
+
+#### Fixed
+- Fixed `Live Stream` stop button on **Control Room** mode (it was not stopping properly);
+
+### October 29, 2021
+
+#### Added
+- Layout improvement (spacing) on **Live Studio** gallery layout;
+- Added `sound indicator` (orange border) on **Live Studio**;
+
+#### Fixed
+- Fixed `JWT` encryption mode for **Socket** connection;
+- Fixed `pinning` issue when screen sharing on **Live Studio**;
+
+### October 28, 2021
+
+#### Added
+- Released **Live Studio** option for `Live Streaming` on **Virtual Lobby**:
+  - The CDN used is always `Mux` and we also added the `Low Latency` option;
+  - Once you start the `Live Stream`, it will only stop after explicitly requesting for it by clicking on `Stop Stream` **or** when there are no more users after `five minutes`;
+  - Everything you see on your control room is exactly what attendees will see, even animations;
+  - You can setup different layouts, with new options like `Hangouts` and `Picture in Picture`;
+  - You can add `Lower Thirds` with title and subtitle, and also save presets to be used on the fly;
+  - You can add `Chyron` (black strip at the bottom with rolling text) and also save presets to be used on the fly;
+  - You can change the `Background Color` (the very first two colors are your event's colors) and also have presets to be used on the fly;
+  - You can change the `Background Image` (we have a selection of images that you can use) and also upload images to be used on the fly;
+  - You can change the `Background Video` (we have a selection of videos that you can use) and also upload videos to be used on the fly;
+  - You can add to and remove users from the **Backstage** (like we have for `Control Room` video mode);
+
+### October 26, 2021
+
+#### Added
+- Added new **Import Wizard** on **Invitees**, **Leads** and **Attendees** page:
+  - Allows use of any spreadsheet format;
+  - Gives you the option to customize the fields on that spreadsheet;
+- Added option to show `end times` on `activity tiles` on **Virtual Lobby** with tool to enable/disable it;
+- Improvements on **Networking Roulette**:
+  - Added `sound notifications` when meeting is found and when meeting is almost over;
+  - Added option to `extend meeting duration` when it's almost over (with tool to disable the option);
+  - Added better `timer` user interface;
+  - Fixed issue when reloading the page during a meeting;
+- Added new [**Partners Integration**](https://inevent.com/en/partners-integrations.php) page with easy install option directly from it.
+- Optimized **QR Code** dashboard to load faster for large events;
+- Included `automatic emails` on **Email Analytics** dashboard;
+- Updated `bounce` list with new statuses that some ISP providers give us;
+
+#### Fixed
+- Fixed **API Reference** load time by only highlighting specific blocks of code instead of highlighting everything;
+- Fixed **Virtual Backgrounds** `CORS` issue when loading images from `AWS Cloudfront`;
+
+### October 24, 2021
+
+#### Added
+- Improved `Content Page` selector on **Event Details** dashboard - it's now easier to select the primary page your attendees should see;
+
+#### Fixed
+- Fixed `Video Backgrounds` tool, it was being ignored and always showing the option;
+
+### October 20, 2021
+
+#### Added
+- Added option to `sort` and `rename` **Materials** (files);
+- Optimized **Summary** page for large events -- it will now load instantly;
+- Optimized **Virtual Lobby Reports** analytics generation;
+- Optimized **Company** creation time;
+
+#### Fixed
+- Deprecated **Agora.io** `WebRTC` provider, it will be completely removed by January 2022 and it is deactivated by default for all events. If you need to use it while it's there, please reach out to your Account Executive;
+- Fixed `timezone` field on **Booking Forms**;
+- Fixed **Booking Forms** submission listing on **Company** dashboard;
+
+### October 19, 2021
+
+#### Added
+- Increased blur strength on `Virtual Backgrounds` for **Virtual Lobby** when using the blur option;
+- Added `dark mode` for **API Reference** page;
+- Added **API Reference** bookmark for companies with **API** enabled;
+- Added link to [Guides](https://developers.inevent.com/docs) on **API Reference**;
+
+#### Fixed
+- Fixed `ticket` field being duplicated on **Attendees** page;
+- Fixed issue that the **Email** background color wouldn't save;
+- Fixed date and time format for certain languages on **Virtual Lobby**;
+- Fixed image distortion on `Virtual Backgrounds` depending on the camera aspect ratio for **Virtual Lobby**;
+
+### October 18, 2021
+
+#### Added
+- Added new `Virtual Backgrounds Machine Learning Model` for **Virtual Lobby** that will now work on low end computers with better resolution:
+  - Supported only on `Google Chrome` and `Firefox` for desktop;
+  - Added custom background option with your company colors and logo;
+- Added `updatedBeforeDate` and `updatedAfterDate` **API** keys on `event.person` model;
+- Added option to search by `date` on following dashboards: **Company Events**, **Flights**, **Shuttles**, **Hotels** and **Attendees**;
+- Added **Attendance Tracking** hits on **Virtual Lobby Reports**;
+
+#### Fixed
+- Fixed default order for `live.analytics.*` **API Endpoint**;
+- Fixed weird behavior on **Networking Roulette** that would break the `timer`;
+- Fixed grouping issue on `live.analyticsGet` **API Endpoint**;
+
 ### October 14, 2021
 
 #### Added
