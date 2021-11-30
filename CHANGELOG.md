@@ -10,6 +10,9 @@ This change log was created on January 22, 2021 and only entries after this date
 - On **Live Studio**, when the stream has already started, speakers will join on `backstage` by default to avoid unexpected layout changes of your stream;
 - Added `muted` indicator for muted users on **Live Studio** (similar to `Control Room`);
 - Added `Apply` buttons on `Lower Third` and `Chyrons` to allow you to create new content on the fly and only apply when it's ready on **Live Studio**;
+- Added `Big Emojis` on **Virtual Lobby** chat, and emojis are now the exact ones you see in the emoji popup window;
+- Added option to customize `Rate your experience` popup with a custom external link on **Virtual Lobby** session feedback;
+- Added `Retention rate` on **Virtual Lobby Reports** -- we measure all users that watched over 70% of the session;
 
 #### Fixed
 - Fixed `Whisper` function on **Live Studio**. Previously it would work backwards if you started whispering and changed your microphone settings;
