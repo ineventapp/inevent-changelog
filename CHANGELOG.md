@@ -2,6 +2,53 @@
 
 This change log was created on January 22, 2021 and only entries after this date will be registered.
 
+## Version 16.1
+
+### November 30, 2021
+
+#### Added
+- On **Live Studio**, when the stream has already started, speakers will join on `backstage` by default to avoid unexpected layout changes of your stream;
+- Added `muted` indicator for muted users on **Live Studio** (similar to `Control Room`);
+- Added `Apply` buttons on `Lower Third` and `Chyrons` to allow you to create new content on the fly and only apply when it's ready on **Live Studio**;
+
+#### Fixed
+- Fixed `Whisper` function on **Live Studio**. Previously it would work backwards if you started whispering and changed your microphone settings;
+- Fixed `Chyron` location when resizing your screen for **Live Studio**;
+- Fixed `Lower Third` showing up (parts of) when not enabled and using multi-line text on **Live Studio**;
+
+### November 21, 2021
+
+#### Added
+- Added `Session Replica` option on **Virtual Lobby** that allows you to create replicas of your main session:
+  - Main use case: `RTMP Streaming` to stream the same video across multiple sessions using a single stream key.
+  - Also useful for other stream types, like `Live Studio` and `Control Room`;
+
+#### Fixed
+- Fixed **Virtual Background** logo cutting-off on 4:3 videos when using your company virtual background;
+
+### November 19, 2021
+
+#### Added
+- Added dedicated `IP Whitelist` for `WebRTC` video on **Virtual Lobby** for Enterprise;
+- Added better separation between `company` **Users** and **Booking Users**;
+
+### November 18, 2021
+
+#### Fixed
+- Improved video quality of `Video standalone feed` page on **Virtual Lobby**;
+- Fixed **Event Booking Form** issue that submissions from event templates with custom forms wouldn't show up;
+
+### November 17, 2021
+
+#### Added
+- Added `High-fidelity audio (HD)` option for professional audio inputs on **Virtual Lobby**:
+  - This option will disable any audio processing features and will output high quality `256kbps` audio;
+  - If you don't have a professional audio input or you are on a loud environment, we recommend keeping it disabled;
+  - This feature is essential when live streaming music content;
+
+#### Fixed
+- Fixed issue with `Multi Camera` state when switching between stream and settings tabs on **Live Studio**;
+
 ## Version 16.0
 
 ### November 16, 2021
