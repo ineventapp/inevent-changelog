@@ -7,8 +7,8 @@ This change log was created on January 22, 2021 and only entries after this date
 ### December 1, 2021
 
 #### Added
-- Added option to customize `company logo` on **Live Studio** per event. The default logo is the one you have in your company settings. This option allows you to change it;
-- Added option to upload custom `Virtual Background` images for **Virtual Lobby** speakers;
+- Added option to customize `company logo` on **Live Studio** per event. The default logo is the one you have in your company settings. This option allows you to change it. This option is available on **Virtual Lobby Settings page**;
+- Added option to upload custom `Virtual Background` images for **Virtual Lobby** speakers. This option is available on **Virtual Lobby Settings page**;
 
 ### November 30, 2021
 
