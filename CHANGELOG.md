@@ -4,6 +4,11 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 16.1
 
+### December 2, 2021
+
+#### Added
+- Added `Event Full Report` on **Event Details** dashboard page. This report contains all sessions your users visited, all sponsors they visited, all comments they sent, all questions they made, all polls they answered and all files they downloaded;
+
 ### December 1, 2021
 
 #### Added
