@@ -8,6 +8,9 @@ This change log was created on January 22, 2021 and only entries after this date
 
 #### Added
 - Added `Event Full Report` on **Event Details** dashboard page. This report contains all sessions your users visited, all sponsors they visited, all comments they sent, all questions they made, all polls they answered and all files they downloaded;
+- Added auto publishing of `screen share`, `PDF share` and `Video share` on **Live Studio** when streaming has started;
+- Added better camera switcher when switching cameras during the session -- it will now be fast and not cause a brief disconnection -- on **Virtual Lobby**;
+- Added automatic device fallback for `Camera` and `Microphone` when the one in use disconnects. When reconnecting the previous device, it will be switched back to the previous state.
 
 ### December 1, 2021
 
