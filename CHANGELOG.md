@@ -4,6 +4,34 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 16.1
 
+### December 8, 2021
+
+#### Added
+- Changed `Control Room` button name to `Live Studio` when using **Live Studio** video mode;
+
+#### Fixed
+- Fixed **Live Studio** `streams` tab glitch when 4 or more streams are enabled and the scroll bar goes on and off;
+
+### December 7, 2021
+
+#### Fixed
+- Fixed events with long names exceeding **Website** navigation bar size;
+
+### December 6, 2021
+
+#### Added
+- **Meetings** now respect user local `timezone` when scheduling through the **Virtual Lobby**;
+- Added `Full Screen` option on **Live Studio** for speaker view mode;
+
+#### Fixed
+- Optimized `stream reconnect` for unstable connections on **Virtual Lobby**;
+- Fixed `question` voting flickering issue when questions order rearrange on **Virtual Lobby**;
+
+### December 3, 2021
+
+#### Added
+- `Virtual Backgrounds` custom background settings is now available for all accounts;
+
 ### December 2, 2021
 
 #### Added
