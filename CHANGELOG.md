@@ -7,6 +7,7 @@ This change log was created on January 22, 2021 and only entries after this date
 ### December 8, 2021
 
 #### Added
+- Added **Live Studio** support on `Classic Layout`;
 - Changed `Control Room` button name to `Live Studio` when using **Live Studio** video mode;
 
 #### Fixed
