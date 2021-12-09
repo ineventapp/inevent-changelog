@@ -9,6 +9,8 @@ This change log was created on January 22, 2021 and only entries after this date
 #### Added
 - Added **Live Studio** support on `Classic Layout`;
 - Changed `Control Room` button name to `Live Studio` when using **Live Studio** video mode;
+- Added `Profile Picture` and `Tags` fields on **Registration Form Settings** to be changed / enabled / disabled;
+- Added `Static field settings` option on **Registration Form Settings** to re-enable disabled static fields;
 
 #### Fixed
 - Fixed **Live Studio** `streams` tab glitch when 4 or more streams are enabled and the scroll bar goes on and off;
