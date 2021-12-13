@@ -4,6 +4,26 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 16.1
 
+### December 12, 2021
+
+#### Fixed
+- Fixed **Control Room** video mode issue that certain sessions would get audio only content (no video):
+  - Due to this fix, we had to temporarily disable the `Backstage` feature when using **Control Room**;
+  - You also might notice a layout change on `Focus Mixed` layout;
+
+### December 10, 2021
+
+#### Added
+- Added `Webhook` support on **Marketo** integration;
+
+### December 9, 2021
+
+#### Added
+- Added **Dial-in** option for `Speakers` on `Video Conferencing`, `Control Room` and `Live Studio` video modes.
+  - This option allows `Speakers` to dial-in to a given number, type the session ID and PIN number and join the session with audio only.
+  - This option is available on `Advanced` and `Full` plans;
+- Optimized **Attendee Report** data loading on `Company` dashboard;
+
 ### December 8, 2021
 
 #### Added
