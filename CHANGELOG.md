@@ -2,7 +2,144 @@
 
 This change log was created on January 22, 2021 and only entries after this date will be registered.
 
+## Version 16.3
+
+### January 12, 2021
+
+#### Added
+- Added `possibleHits` attribute on **API** for `attendance.person.find` endpoint;
+
+### January 11, 2021
+
+#### Added
+- Added **Export to Marketo** buttons on *attendees*, *invitees* and *lists*:
+  - This option allows you to export data to any custom list anywhere on **Marketo**;
+- Added **Salesforce** integration upgrades:
+  - Added option to *Sync data* right away - helpful when building the integration;
+  - Added `Custom Objects` integration for the following modules:
+    - **Comment**: saves all attendee comments across all activities;
+    - **UTM**: saves all analytics for your UTM links with clicks and conversions;
+
+### January 10, 2021
+
+#### Fixed
+- Fixed calendar `.ics` file description with HTML tags;
+
+### January 9, 2021
+
+#### Added
+- Added **Microsoft Dynamics 365** integration:
+  - Import and export `leads` using our native connector;
+
+### January 7, 2021
+
+#### Added
+- Added usage of *default value* on fields for **Salesforce** when the field value is empty for the user;
+- Optimized **Salesforce** page load times;
+
+### January 6, 2021
+- Redesigned **Marketo** settings page to accomodate new custom object integrations;
+- Added *My Tokens* integration on **Marketo** for the following tokens:
+  - **Event ID**: The InEvent event identifier;
+  - **Event Name**: The InEvent event name;
+  - **Event Email**: The InEvent event email;
+  - **Event Website**: The InEvent event website;
+  - **Event Date Begin**: The InEvent event start date;
+  - **Event Date End**: The InEvent event end date;
+  - **Event Registration Form**: The InEvent event registration form URL;
+  - **Event Main Page**: The InEvent event main page (with `magic link`);
+  - **Event Virtual Lobby**: The InEvent event virtual lobby page (with `magic link`);
+- On *My Tokens* that appends a `magic link` only works when **Marketo ID Auth** tool is enabled
+- Optimized **Marketo** settings page with cache and refresh;
+
+### January 5, 2021
+
+#### Added
+- Added option to stream a *Control Room* or *Live Studio* session on third-party social media;
+- Added *Default Values* sync on **Salesforce** integration settings;
+
+### January 3, 2021
+
+#### Added
+- Redesigned **Salesforce** settings page to accomodate new custom object integrations;
+- Added **Salesforce** integration upgrades:
+  - Added custom object list refresh button;
+  - Added button to open Salesforce campaign on a separate tab;
+  - Added `Custom Objects` integration for the following modules:
+    - **Poll**: saves all attendee poll answers across all activities;
+
+## Version 16.2
+
+### December 23, 2021
+
+#### Added
+- Added quick `unsubscribe` link on *Company Digest* automatic email for company admins;
+
+#### Fixed
+- Fixed event global search when icons are actually images;
+- Fixed **Push Notification** wizard on multiple pages when scheduling push messages;
+
+### December 22, 2021
+
+#### Added
+- On **Salesforce** custom object `Question`, the *Activity Name* field is now optional. When not linked, it will be
+  prepend to *Question Name*;
+
+### December 21, 2021
+
+#### Added
+- Added **Salesforce** integration upgrades:
+  - On `Fields`, you can now retrieve the attendee `Magic Link` and `Enrollment Date` directly on **Salesforce**;
+  - Added `Custom Objects` integration for the following modules:
+    - **Activity**: saves all attendees that attended certain activity;
+    - **Question**: saves all questions your attendees asked across all activities;
+
 ## Version 16.1
+
+### December 20, 2021
+
+#### Added
+- Added filter by tags on **My Agenda** similar to the one we have on **Virtual Lobby**;
+- Added animation for `raise hands` feature on **Virtual Lobby**;
+- Added color picker for **Website** color settings;
+
+#### Fixed
+- Fixed `chat` emoji error on **Virtual Lobby** when using mobile devices;
+- Fixed `retention` column on **Virtual Lobby Reports** for group rooms;
+- Fixed bulk import on **Attendees**;
+- Fixed issue with payments on **Stripe** when `Paypal` is active;
+
+### December 16, 2021
+
+#### Added
+- Added option to publish a `question` on your Live Stream for **Live Studio**:
+  - Hosts can now select a question from the audience and display it as a `lower-third` automatically;
+
+#### Fixed
+- Fixed `raise hands` feature order on **Virtual Lobby**;
+
+### December 15, 2021
+
+#### Added
+- Added **Certificates** for `attendees` feature:
+  - Create multiple `certificates` with different achievements;
+  - Build your own visuals on your `certificate` and customize everything;
+  - Send `certificates` to your attendees using the email builder;
+- **Attendance tracking** is now available on `Advanced plan`;
+
+#### Fixed
+- Fixed issues with `Event Full Report`;
+
+### December 13, 2021
+
+#### Added
+- Added option to import `leads` on `InEvent Lists` for **Marketo**;
+
+#### Fixed
+- Fixed **Push Notification** create popup that was blocking times previous to your event start time;
+- Fixed **Marketo** lists to show only lists from `program` when importing;
+- Reactivated **Control Room** `Backstage` feature;
+- Fixed `Capacity exceeded` error message on **Purchase form** when the capacity exceeds;
 
 ### December 12, 2021
 
