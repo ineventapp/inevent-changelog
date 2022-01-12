@@ -38,7 +38,7 @@ This change log was created on January 22, 2021 and only entries after this date
 - Optimized **Salesforce** page load times;
 
 ### January 6, 2021
-- Redesigned **Marketo** settings page to accomodate new custom object integrations;
+- Redesigned **Marketo** settings page to accommodate new custom object integrations;
 - Added *My Tokens* integration on **Marketo** for the following tokens:
   - **Event ID**: The InEvent event identifier;
   - **Event Name**: The InEvent event name;
@@ -61,7 +61,7 @@ This change log was created on January 22, 2021 and only entries after this date
 ### January 3, 2021
 
 #### Added
-- Redesigned **Salesforce** settings page to accomodate new custom object integrations;
+- Redesigned **Salesforce** settings page to accommodate new custom object integrations;
 - Added **Salesforce** integration upgrades:
   - Added custom object list refresh button;
   - Added button to open Salesforce campaign on a separate tab;
