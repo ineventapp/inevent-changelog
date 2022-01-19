@@ -4,6 +4,25 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 16.3
 
+### January 19, 2021
+
+#### Added
+- Added error message on **Sponsor** settings page when activating `Data Collector` without the right amount of credits;
+
+#### Fixed
+- *Mercury* **Website** template fixes:
+  - Changed the static mobile menu to a scrollable menu;
+  - Added a tablet-resolution scroll menu;
+- *Aquila* **Website** template fixes:
+  - Added *photos* section;
+  - Margin size of *photos* decreased so the 3 photos row can be used on mobile devices;
+- Fixed *Speaker of the day* option for **Website** on all templates:
+  - Fixed the text on the speaker of the day menu;
+  - Fixed wrong display title in speaker of the day section;
+  - Fixed the ID Reference on the speaker of the day menu option;
+  - Fixed the redirection of the speaker of the day menu button;
+- *Lima* **Website** template fixes;
+
 ### January 18, 2021
 
 #### Added
