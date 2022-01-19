@@ -4,10 +4,55 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 16.3
 
+### January 18, 2021
+
+#### Added
+- Added **Registration Form** disclaimer heading for bottom part of the form (right before the `Submit` button);
+- Improved load times for *splash screen* on **Virtual Lobby**;
+
+#### Fixed
+- Fixed `CORS` issue when using **Custom Domain** for new *tokenID* on headers;
+- Fixed **Certificate** not loading properly when using **Custom Domain**;
+- Fixed **CRM Import** issue on `Attendees` page;
+- Fixed **Marketo** background sync for invalid tokens;
+
+### January 17, 2021
+
+#### Added
+- Added *tokenID* on headers for **API** using the `Authorization` header key with a `Bearer` token type;
+
+### January 15, 2021
+
+#### Added
+- Removed *My Account* and *My Tickets* menu display on **File Manager**;
+
+#### Fixed
+- Fixed **Custom Domain** help box on *Europe* servers;
+
+### January 14, 2021
+
+#### Added
+- **Video Conferencing** Recording Changes:
+  - If Recording is enabled, it will always *record* regardless of the presence of a host;
+  - The Layout of the recording will be pre-determined: if only cameras are active, we will use a *Gallery View* type of recording. If there’s a Screen Sharing / PDF sharing / Video sharing, we will use a *Focus Mixed* type (not the same that we have on Control Room, on this one, cameras are positioned on the left corner as a vertical grid);
+- Added new *Loading* splash screen on **Virtual Lobby**;
+
+### January 13, 2021
+
+#### Added
+- Added option to set *Start* and *End* dates for **Group Rooms**;
+- Added brand-new **Date time picker** system widget;
+
 ### January 12, 2021
 
 #### Added
 - Added `possibleHits` attribute on **API** for `attendance.person.find` endpoint;
+- Improved `Device configuration` popup on **Live Studio** *Test microphone* feature;
+- *Up* and *Down* shortcuts now works on **Live Studio** settings tab;
+- *Clicks* and *Conversions* are now optional on **Salesforce** UTM integration;
+
+#### Fixed
+- Fixed `Device configuration` popup on **Live Studio** when new devices are detected. It was reseting your selection, but now it maintains what you have selected previously;
 
 ### January 11, 2021
 
