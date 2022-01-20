@@ -4,7 +4,23 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 16.3
 
-### January 19, 2021
+### January 20, 2022
+
+#### Added
+- Added new animation for **Networking Roulette** loading card;
+- Added filter for *Pending* submissions on **Event Booking**;
+- Added *Toll-free* number for **Dial-in** option;
+
+#### Fixed
+- Fixed *Copy Event* issue when the event has custom fields with multiple layers;
+- Fixed navigation bar on *Jericho* **Website** template;
+- Removed mouse gif icon on **Website** templates: *cosmos*, *hydra* and *mercury*;
+- Fixed issue that *Hide people count* tool was active when it shouldn't be on **Virtual Lobby**;
+- Fixed duplicated users on `Live Studio`, `Control Room` and `Video Conferencing` when they leave the session after being speakers on **Virtual Lobby**;
+- Fixed date picker issue when creating a new event;
+- Fixed `Firebase Websocket` chat quick connection with new splash loading for **Virtual Lobby**;
+
+### January 19, 2022
 
 #### Added
 - Added error message on **Sponsor** settings page when activating `Data Collector` without the right amount of credits;
@@ -23,7 +39,7 @@ This change log was created on January 22, 2021 and only entries after this date
   - Fixed the redirection of the speaker of the day menu button;
 - *Lima* **Website** template fixes;
 
-### January 18, 2021
+### January 18, 2022
 
 #### Added
 - Added **Registration Form** disclaimer heading for bottom part of the form (right before the `Submit` button);
@@ -35,12 +51,12 @@ This change log was created on January 22, 2021 and only entries after this date
 - Fixed **CRM Import** issue on `Attendees` page;
 - Fixed **Marketo** background sync for invalid tokens;
 
-### January 17, 2021
+### January 17, 2022
 
 #### Added
 - Added *tokenID* on headers for **API** using the `Authorization` header key with a `Bearer` token type;
 
-### January 15, 2021
+### January 15, 2022
 
 #### Added
 - Removed *My Account* and *My Tickets* menu display on **File Manager**;
@@ -48,7 +64,7 @@ This change log was created on January 22, 2021 and only entries after this date
 #### Fixed
 - Fixed **Custom Domain** help box on *Europe* servers;
 
-### January 14, 2021
+### January 14, 2022
 
 #### Added
 - **Video Conferencing** Recording Changes:
@@ -56,13 +72,13 @@ This change log was created on January 22, 2021 and only entries after this date
   - The Layout of the recording will be pre-determined: if only cameras are active, we will use a *Gallery View* type of recording. If there’s a Screen Sharing / PDF sharing / Video sharing, we will use a *Focus Mixed* type (not the same that we have on Control Room, on this one, cameras are positioned on the left corner as a vertical grid);
 - Added new *Loading* splash screen on **Virtual Lobby**;
 
-### January 13, 2021
+### January 13, 2022
 
 #### Added
 - Added option to set *Start* and *End* dates for **Group Rooms**;
 - Added brand-new **Date time picker** system widget;
 
-### January 12, 2021
+### January 12, 2022
 
 #### Added
 - Added `possibleHits` attribute on **API** for `attendance.person.find` endpoint;
@@ -73,7 +89,7 @@ This change log was created on January 22, 2021 and only entries after this date
 #### Fixed
 - Fixed `Device configuration` popup on **Live Studio** when new devices are detected. It was reseting your selection, but now it maintains what you have selected previously;
 
-### January 11, 2021
+### January 11, 2022
 
 #### Added
 - Added **Export to Marketo** buttons on *attendees*, *invitees* and *lists*:
@@ -84,24 +100,24 @@ This change log was created on January 22, 2021 and only entries after this date
     - **Comment**: saves all attendee comments across all activities;
     - **UTM**: saves all analytics for your UTM links with clicks and conversions;
 
-### January 10, 2021
+### January 10, 2022
 
 #### Fixed
 - Fixed calendar `.ics` file description with HTML tags;
 
-### January 9, 2021
+### January 9, 2022
 
 #### Added
 - Added **Microsoft Dynamics 365** integration:
   - Import and export `leads` using our native connector;
 
-### January 7, 2021
+### January 7, 2022
 
 #### Added
 - Added usage of *default value* on fields for **Salesforce** when the field value is empty for the user;
 - Optimized **Salesforce** page load times;
 
-### January 6, 2021
+### January 6, 2022
 - Redesigned **Marketo** settings page to accommodate new custom object integrations;
 - Added *My Tokens* integration on **Marketo** for the following tokens:
   - **Event ID**: The InEvent event identifier;
@@ -116,13 +132,13 @@ This change log was created on January 22, 2021 and only entries after this date
 - On *My Tokens* that appends a `magic link` only works when **Marketo ID Auth** tool is enabled
 - Optimized **Marketo** settings page with cache and refresh;
 
-### January 5, 2021
+### January 5, 2022
 
 #### Added
 - Added option to stream a *Control Room* or *Live Studio* session on third-party social media;
 - Added *Default Values* sync on **Salesforce** integration settings;
 
-### January 3, 2021
+### January 3, 2022
 
 #### Added
 - Redesigned **Salesforce** settings page to accommodate new custom object integrations;
