@@ -4,6 +4,42 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 16.3
 
+### January 26, 2022
+
+#### Added
+- Added automatic layout restore on **Live Studio** if the host has to refresh their page:
+  - Previously, the layout would reset to its initial state;
+- Added speakers stage status restore on **Live Studio** if the host has to refresh their page:
+  - Previously, all speakers were sent to backstage once the host returned to the live stream;
+
+### January 25, 2022
+
+#### Added
+- Added **Salesforce** duplication rule check in case it triggers while creating a new *Lead* or *Contact*;
+- Added option to open links on new page when using *Markdown* for **Headings**. To use it, add `{target=_blank}` at the end of the *Markdown* link entry;
+- Now using native *HLS* library for static background videos on **Virtual Lobby** to reduce CPU usage;
+
+#### Fixed
+- Fixed *Form disclaimer* widget on **Registration Form**. It was breaking if you had `activities on form` option enabled;
+- Fixed *Form disclaimer* widget on **Purchase Form**;
+- Fixed **Polls** settings buttons on **Virtual Lobby**;
+- Fixed issue on **Live Studio** that certain speakers couldn't hear their co-hosts in certain situations; 
+
+### January 24, 2022
+
+#### Added
+- Added *Question from* prefix when publishing a question on **Live Studio**;
+- Improvements on **Certificates**:
+  - Added option to download your own certificate directly on **My Account**;
+  - Added better visuals for the download page of the certificate;
+  - Improved the quality of the PDF generated when downloading the certificate;
+
+### January 21, 2022
+
+#### Fixed
+- Fixed `playback token` on **Audio Transcription Console**;
+- Fixed issue with the *Copy Event* when `Live Studio` was enabled;
+
 ### January 20, 2022
 
 #### Added
