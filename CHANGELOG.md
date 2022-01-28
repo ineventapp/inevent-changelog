@@ -4,6 +4,30 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 16.3
 
+### January 28, 2022
+
+#### Added
+- Added option to add and remove *background colors* for **Live Studio** on **Virtual Lobby** settings page;
+- Added option to add and remove *background images* for **Live Studio** on **Virtual Lobby** settings page;
+- Added option to add and remove *background videos* for **Live Studio** on **Virtual Lobby** settings page;
+
+#### Fixed
+- Fixed **SSO Authentication** generated *Metadata XML* entity attribute. It was giving the wrong *url* for authentication;
+- Fixed *progress bar* when uploading background videos on **Live Studio**;
+- Fixed **Live Studio** streams being muted for certain users on certain situations;
+
+### January 27, 2022
+
+#### Added
+- **Live Studio** is now the default Video Mode when creating an *Activity* (you can still change it);
+- Added option to hide default *Virtual Backgrounds* on **Virtual Lobby** settings page;
+
+#### Fixed
+- Fixed *Collapse Networking* tool on **Virtual Lobby**;
+- Fixed **Report** for *Sponsor Booths* when reporting file clicks;
+- Fixed right menu collapse button on **Virtual Lobby** Neo Template when using it on full screen mode;
+- Fixed **Control Room** Focus Mixed layout when streaming as a single speaker;
+
 ### January 26, 2022
 
 #### Added
@@ -11,6 +35,9 @@ This change log was created on January 22, 2021 and only entries after this date
   - Previously, the layout would reset to its initial state;
 - Added speakers stage status restore on **Live Studio** if the host has to refresh their page:
   - Previously, all speakers were sent to backstage once the host returned to the live stream;
+- Added option to send a *Magic Link* that opens **My Files** page on **Email Builder**;
+- Added `material.analytics` **API Endpoint** for developers;
+- Fixed scrollbar on *Speaker* view for *Control Room*, *Group Rooms* and *Video Conferencing* modes on **Virtual Lobby**;
 
 ### January 25, 2022
 
