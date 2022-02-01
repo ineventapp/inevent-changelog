@@ -4,6 +4,46 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 16.3
 
+### February 31, 2022
+
+#### Added
+- Added **Interprefy** integration option for *Audio Interpretation* feature;
+- Added option to copy an activity *feedback question* to other activities;
+- Added *Networking* tab on **Virtual Lobby** for smartphones that contains the *Networking* and *Group Rooms* sections;
+- Optimized *Inbox* user experience on **Virtual Lobby** for smartphones;
+- Optimized *Device Configuration* user experience on **Virtual Lobby** for smartphones;
+- Added option to disable incoming video on **Virtual Lobby** for smartphones when on *Group Rooms* and *Video Conferencing* sessions;
+
+#### Fixed
+- Fixed *Send file* button on *files* section of the **Virtual Lobby** session - it wasn't showing up sometimes;
+- Fixed **Live Studio** audio issues for hosts and speakers;
+- Fixed *Permission level* picklist when adding new **Users** after changing accounts;
+- Fixed *New event* button not working after changing accounts;
+
+### January 31, 2022
+
+#### Added
+- Added *Website* on networking profile popup for **Virtual Lobby**;
+
+#### Fixed
+- Fixed *Custom Form* submissions showing submissions from other forms inside your event;
+- Fixed *Photos* section on **Janus** website template;
+- Fixed *Photos* section on **Hydra** website template;
+- Fixed **Push Notification** scheduling when scheduling to times prior to current time;
+- Fixed *Speakers* section on **Saros** website template;
+- Fixed *Countdown* section on **Castor** website template;
+- Fixed *Transition* overlays on **Callisto** website template;
+- Fixed issue when sorting sections on **Website** settings page;
+- Fixed date picker for **Email** scheduling, it was showing on the wrong position;
+
+### January 29, 2022
+
+#### Added
+- Added *Tool-free* number for `South Korea` on **Dial-in** option;
+
+#### Fixed
+- Fixed *room cover* upload on **Activities** dashboard;
+
 ### January 28, 2022
 
 #### Added
