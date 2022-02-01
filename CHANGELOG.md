@@ -4,7 +4,7 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 16.3
 
-### February 31, 2022
+### February 1, 2022
 
 #### Added
 - Added **Interprefy** integration option for *Audio Interpretation* feature;
