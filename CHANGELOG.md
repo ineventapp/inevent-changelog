@@ -4,6 +4,23 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 16.3
 
+### February 10, 2022
+
+#### Added
+- Added option to hide name label parts of *streams* on **Live Studio** room mode;
+- Added option to copy **Event Templates**;
+- Added date separatos on **Virtual Lobby** in-session chat for multi-day sessions or recurrent sessions;
+- Added *Focus Only* layout mode on **Live Studio** room mode;
+
+#### Fixed
+- Fixed translation issues on menus of **Website** templates (all templates);
+- Fixed "ghost" users showing up on *Networking* section of the **Virtual Lobby**;
+- Fixed issue when moving users to *next session* on **Virtual Lobby**;
+- Fixed *navigation bar* sometimes disappearing on **Website** templates (all templates);
+- Fixed profile picture distorted on *networking popup* on **Virtual Lobby**;
+- Fixed *photos alignment* on **Website** templates (all templates);
+- Fixed *raise hands* button not showing up on **Live Studio** room mode;
+
 ### February 9, 2022
 
 #### Fixed
