@@ -4,6 +4,59 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 16.3
 
+### February 9, 2022
+
+#### Fixed
+- Fixed **API Endpoint** for *company.event.find*;
+
+### February 8, 2022
+
+#### Fixed
+- Fixed **Email** *scheduling* issue that would send emails automatically when removing the *scheduled date*;
+- Fixed **Speed Networking** not matching with anyone when event had more than 10 people connected at the same time;
+
+### February 7, 2022
+
+#### Added
+- Added **LinkedIn Conversion Tracking** for *Registration Form* and *Purchase Form*;
+- Added **Twitter Events Manager** pixel for *Registration Form* and *Purchase Form* with conversion;
+- Added **Google Analytics** tracking for *Registration Form* and *Purchase Form* conversion with Event Name value;
+- Added *Enrollment Date* on **Event List** dashboard page;
+
+#### Fixed
+- Fixed **Collapsed Networking** tool on *mobile devices*;
+- Fixed *Automatic Collapse* detection when screen changes on **Virtual Lobby**;
+- Fixed *Background Image* overlay on sponsor booths & networking tabs on *mobile devices* for **Virtual Lobby**;
+- Fixed *Background Image* overlay on Info tab inside sessions on *mobile devices* for **Virtual Lobby**;
+
+### February 6, 2022
+
+#### Fixed
+- Fixed **Social Streaming** when adding it right after creating a session (it'd fail);
+
+### February 4, 2022
+
+#### Added
+- Added **Live Studio** assets (Virtual Backgrounds, Background Colors, Background Images, Background Videos, Lower Thirds and Chyrons) on *Event Templates*;
+
+#### Fixed
+- Fixed **Inbox** not working on *My Account*, *My Files* and *My Agenda*;
+- Fixed *Preview* not working on older browsers on **File Manager**;
+- Fixed issue when starting a **Live Studio** stream with *Classic* layout;
+
+### February 3, 2022
+
+#### Fixed
+- Fixed **Sponsors** dedicated page on *Smartphones*;
+- Finally fixed **Live Studio** audio issue for hosts and speakers;
+
+### February 2, 2022
+
+#### Fixed
+- Fixed text color on ticket invite **Email**;
+- Fixed **Email Log** pagination issue;
+- Fixed **Group Rooms** creation when using *Native Websockets*;
+
 ### February 1, 2022
 
 #### Added
