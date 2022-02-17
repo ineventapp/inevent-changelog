@@ -4,6 +4,52 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 16.3
 
+### February 16, 2022
+
+#### Added
+- Added error message for VOD failures when uploading a pre-recorded video on **Agenda**;
+- **Virtual Lobby** optimizations:
+  - Added optimizations for *Chat* and for transition between tabs in sessions;
+  - Added optimizations for *CSS* animations for all components;
+- **Live Studio** optimizations:
+  - Added optimization for animations and transitions of videos and overlays;
+  - Added 1-1 exact scaling for Studio vs Preview elements;
+
+#### Fixed
+- Fixed issue when adding admins to **Company** dashboard;
+- Fixed faulty upload on **Virtual Backgrounds**;
+- Fixed right menu on fullscreen showing them all together on **Virtual Lobby**;
+
+### February 15, 2022
+
+#### Added
+- Added option to view *person profile* when clicking on chat and question *person name* on **Virtual Lobby**;
+- Added new **Webinars** component that allows you to create simpler Webinar events with a single session screen that loads automatically;
+  
+#### Fixed
+- Fixed **Sponsor** removal function issue;
+- Fixed *chat* delete dialog not showing up for admins on **Virtual Lobby**;
+- Fixed *questions* not showing up for regular users on **My Agenda**;
+
+### February 14, 2022
+
+#### Added
+- Removed demo activities being created when *copying* events or creating events from **Templates**;
+- Added option to enable a picklist for *role* and *company* fields on **Registration Form**;
+- Added error message when running a *matchmaking* and not finding any matches;
+
+### February 11, 2022
+
+#### Added
+- Added option to set a file as invisible to hide from the **Virtual Lobby**;
+
+#### Fixed
+- Fixed missing calendar on **Website** templates;
+- Fixed scrolling on *aquila* **Website** template;
+- Fixed issue when creating **speakers** with more than 50 characters;
+- Fixed issue when linking a **Marketo** account;
+- Fixed **Custom Report** excel download issue;
+
 ### February 10, 2022
 
 #### Added
@@ -20,6 +66,7 @@ This change log was created on January 22, 2021 and only entries after this date
 - Fixed profile picture distorted on *networking popup* on **Virtual Lobby**;
 - Fixed *photos alignment* on **Website** templates (all templates);
 - Fixed *raise hands* button not showing up on **Live Studio** room mode;
+- Fixed *collapse networking* tool for **Virtual Lobby**;
 
 ### February 9, 2022
 
