@@ -4,6 +4,47 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 16.3
 
+### February 23, 2022
+
+#### Added
+- Added search filters for **Webinars** on *Company* dashboard;
+
+#### Fixed
+- Fixed creating event from **Template** when template lives on *master* company (tools were reset to current company's settings);
+
+### February 22, 2022
+
+#### Added
+- Added option to upload large files (above `100mb`) on Event > Content > Files *(upon request)*;
+
+#### Fixed
+- Fixed presenter disappearing from *people list* when moved to viewer status on **Virtual Lobby**;
+- Fixed *WCAG* for **Virtual Lobby** Chat and Question profile popup;
+- Fixed *Chat & Question* profile popup suggesting the option to have a call with current session speakers on **Virtual Lobby**;
+
+### February 21, 2022
+
+#### Fixed
+- Fixed *Group Room* names not showing up correctly when being created directly in the **Virtual Lobby**;
+- Optimized **Virtual Lobby** activity section;
+
+### February 20, 2022
+
+#### Fixed
+- Removed activities from **Virtual Lobby** from *staff* and *speakers* if this activity has a list attached and they are not linked to that list;
+
+### February 18, 2022
+
+#### Fixed
+- Fixed automatic permission level set for **Event Enrollment** to avoid regular company users to enroll as admins unless they are also admins in the company;
+- Automatically grant **Event Admin** level in case you are the creator of the event;
+- Fixed **Vitual Lobby** file names when too long;
+
+### February 17, 2022
+
+#### Fixed
+- Fixed **Android** app not loading event list due to an issue with our `API` endpoint;
+
 ### February 16, 2022
 
 #### Added
