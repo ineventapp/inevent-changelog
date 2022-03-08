@@ -4,6 +4,116 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 16.3
 
+### March 8, 2022
+
+#### Added
+- Added *dynamic content* for **Push Notifications** on **Virtual Lobby** (like `{{first-name}}`);
+- Added loading spin icon when inviting someone to talk during the session on **Virtual Lobby** to indicate the request is still pending;
+- Now when sharing a *PDF* on the **Live Studio**, it will be added on stage automatically;
+
+#### Fixed
+- Fixed *date picker* not working properly when creating a new **Meeting** slot on the dashboard;
+
+### March 7, 2022
+
+#### Added
+- Added *click count* on **Event > Content > Files** dashboard page;
+
+#### Fixed
+- Fixed **Control Room** issues caused by *Tokbox* custom CSS not being processed correctly. We reverted back to their standard layouts instead;
+- Fixed **Attendees** list not loading properly when vieweing through a session filter;
+
+### March 4, 2022
+
+#### Added
+- Added *United States* map on **Virtual Lobby** analytics;
+- Added *USA state list* for **Virtual Lobby** analytics;
+
+#### Fixed
+- Adjusted *background videos* loading unnecessarily when vieweing **Virtual Lobby** analytics dashboard page;
+- Fixed *pre-recorded* videos not processing correctly on **Schedule** dashboard page;
+
+### March 3, 2022
+
+#### Fixed
+- Fixed issue that **Live Studio** live stream wouldn't show cameras if the host failed to join or refreshed their page;
+- Removed *full screen button* from **Live Studio** live stream (showing incorrectly);
+
+### March 2, 2022
+
+#### Added
+- Added **PDF Library** when sharing a PDF on **Live Studio**. Organizers can now pre-upload PDFs and use them later on sessions;
+- Added **Custom Domain** on Registration Form / Custom Form share embed code to avoid *CORS* issues;
+- Added tool *Block content library* for Content Share on **Live Studio**;
+- Added *Browser* and *OS* information on **People > Attendees** dashboard page for Event Admins;
+- Added *browser details* on excel export for **Attendees**;
+
+#### Fixed
+- Fixed *PDF Sharing* sometimes generating multiple backstage streams for host on **Live Studio**;
+- Fixed *PDF Sharing Library* close button on **Live Studio**;
+- Fixed *Collapse Networking* loading tool for **Virtual Lobby**;
+
+### March 1, 2022
+
+#### Added
+- Added **UTM** passthrough on *Registration Form* Share embed code;
+- Added **UTM** passthrough on *Custom Form* Share embed code;
+- Added option filter for **Event** and **Webinar**;
+
+#### Fixed
+- Fixed creating *activity* from template for **Live Settings** (it wouldn't copy properly);
+- Fixed *Edit Forms* **permission** operation for company level;
+- Fixed issue of **Registration Form** custom fields being cleared out for default values;
+- Fixed translation issue on **Registration Form** for custom fields;
+
+### February 28, 2022
+
+#### Added
+- Added **Cancel Meeting** with email on **Virtual Lobby** meeting booking form;
+- Added extensions icon on **File Manager** attendee page;
+- Added preview for videos on **File Manager** attendee page;
+
+#### Fixed
+- Fixed alignment issue on dates;
+- Fixed *Group Rooms* not showing up properly on **Mobile** devices;
+- Fixed *hyperlink* not working on **News Feed** inside **Virtual Lobby**;
+- Fixed **Sponsor** upload issues with *PDF* files;
+
+### February 27, 2022
+
+#### Fixed
+- Fixed *PDF Upload* on **Schedule** dashboard page, files submenu;
+
+### February 25, 2022
+
+#### Added
+- Added **Native PDF** sharing functionality for **Live Studio**:
+  - Faster and better quality PDF sharing;
+  - Zero CPU usage for rendering pages;
+- Added brand-new *quality* indicator & info for streams on **Live Studio** backstage;
+- Adjusted **Sponsor** Ad rotation timer (increased the frequency);
+- Added extension check for file upload on all pages that accepts file uploads (like **Event > Content > Files**);
+
+#### Fixed
+- Fixed *private chat* duplicated messages on **Virtual Lobby**;
+- Fixed *question* check-off button not showing up for **Virtual Lobby** classic layout;
+- Fixed *calendar* out of place for **Budget** dashboard;
+- Fixed **Virtual Background** file upload issue;
+
+### February 24, 2022
+
+#### Added
+- Added filter for *Waitlists* on **Leads** dashboard page;
+- Added button to force rebuild **Website** for *all* languages on **Website Settings** dashboard page;
+- Stop tracking invalid email sends as *bounces* when sending the **Confirmation Email**, we simply don't send the email on this scenario;
+- Added reset form data on **Attendees** dashboard page on *New attendee* popup;
+- **Check-in** behavior changed: we only check-in users when accessing the **Virtual Lobby** now. Previously we'd track for any public page they've accessed (like **My Account**);
+
+#### Fixed
+- Fixed transcript reports not showing up correctly when exporting to *excel* on **Schedule** dashboard page;
+- Fixed misleading alert when creating invalid **Permissions** for users on *event* level;
+- Fixed *Load More* button on **Virtual Lobby** people tab in sessions;
+
 ### February 23, 2022
 
 #### Added
