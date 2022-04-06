@@ -4,6 +4,142 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 16.3
 
+### April 6, 2022
+
+#### Added
+- Added **My Agenda** full *tag filter* on right side of the page;
+
+#### Fixed
+- Fixed `Language Selector` not showing up **Content Language** value on public pages (*My Agenda*, *Virtual Lobby*, etc);
+
+### April 5, 2022
+
+#### Added
+- Added `oAuth` support for **Hubspot** integration. You can now integrate with a simple click of a button!;
+
+#### Fixed
+- Adjusted **Webinar** when user is a company admin but not registered to the event as attendee;
+- Fixed issues on *Oberon* **Website** template;
+- Fixed *activity date* scroller buttons not showing up on **Virtual Lobby**;
+- Fixed **Purchase Form** tickets order and group order;
+- Fixed the *wireless information* field adding extra `<br/>` HTML nodes on **Event Details** dashboard page;
+
+### April 4, 2022
+
+#### Fixed
+- Adjustments on *Outlook* calendar generation -- using *Etc/GMT* timezone instead;
+
+### March 29, 2022
+
+#### Fixed
+- Fixed **Random Sponsors** option not working properly;
+- Fixed timezone not showing up properly on **Push Notification** wizard;
+- Fixed **Push Notification** scheduling issue;
+
+### March 25, 2022
+
+#### Fixed
+- Fixed the *wireless information* field on **Event Details** dashboard page;
+- Removed *Lists* from **UTM Settings** for **Webinars**;
+- Fixed **Virtual Lobby** *Video Player thumbnail* overlaying audio controls;
+- Fixed **Live Studio** *profile picture* overlaying *Lower Thirds*;
+
+### March 24, 2022
+
+#### Fixed
+- Adjusted **Marketo** issue halting long operations on `cronjobs`;
+- Adjusted **Marketo** `cronjob` operation for static lists;
+
+### March 23, 2022
+
+#### Added
+- Added option to edit `Name` and `Headline` labels on **Live Studio** streams;
+- Added option to `Add all to Live Stream` on **Live Studio**:
+  - Adds all streams on backstage to the stage;
+- Added tag filters for tag management on event level **Tag** dashboard page;
+
+#### Fixed
+- Fixed **Live Stream** settings page for **Webinars**;
+- Fixed `event.person.find` export for Company Fields;
+- Fixed **Agenda** dashboard page issue when loading for **Webinars**;
+
+### March 21, 2022
+
+#### Added
+- Added *Company Level* event **Registration Form** questions across all events;
+- Added **Webinars** (Standard & Pro) limit checks when accessing the **Virtual Lobby**;
+- **Accessibility features** added to the *Advanced Plan*;
+
+### March 18, 2022
+
+#### Added
+- Added **Tool** for `.ics` file on meeting confirmation email;
+
+#### Fixed
+- Fixed issue with `.ics` file not displaying the description HTMl properly;
+- Adjusted `pre-recorded` video player height on **Classic** Layout and when *News Feed* is disabled;
+
+### March 17, 2022
+
+#### Added
+- Added invisible identification for invisible questions on `Registration Form` / `Purchase Form` / `Dashboard Page`;
+- Added *Link Tracking* on **Webinars**;
+- Added support for `pre-recorded` content to be displayed on *Welcome* section of the **Virtual Lobby**;
+  
+#### Fixed
+- Fixed `Polls` order to reflect the backend on **Virtual Lobby**;
+- Fixed **Marketo** `Program Status` sync not working for attendees;
+- Fixed `Event List` page on **Mobile App** not loading properly;
+
+### March 16, 2022
+
+#### Added
+- Added button to `clear analytics` for a given session on **Schedule** dashboard page;
+
+#### Fixed
+- Fixed **Email Builder** bad UX when scheduling emails;
+
+### March 15, 2022
+
+#### Added
+- Added audit logs for `list.email.edit` **API Endpoint**;
+
+#### Fixed
+- Fixed `Yes` and `No` buttons translation for guests and privacy fields on **Registration Form**;
+- Fixed `analytics.get(eventID)` **API Endpoint** for `peopleRanking` page request;
+
+### March 14, 2022
+
+#### Added
+- Removed `lang` attribute from **UTM Link Generation** to avoid language mismatch;
+
+#### Fixed
+- Adjusted `activity.create` **API Endpoint** error message when importing through a spreadsheet;
+- Fixed emoji support for `activity` name and `live room` name;
+
+### March 11, 2022
+
+#### Added
+- Added YouTube to the list of **social streamings**;
+
+### March 10, 2022
+
+#### Added
+- Backstage functionality is disabled for current **Control Room** version -- CR will be deprecated;
+- Removed `Spotlight Video` indicator for **Video Conferencing** and **Control Room** video modes;
+- Added automatic `Speaker` / `Gallery` layout switch when sharing the screen on **Video Conferencing** mode;
+
+### March 9, 2022
+
+#### Added
+- Added shared PDF controls for **Live Studio** option;
+- Added `Thumbnails` overlay on video timeline for **Virtual Lobby** `Pre-Recorded` videos:
+  - Videos must be uploaded directly to our platform;
+
+#### Fixed
+- Fixed *PDF upload* issue messing up the order and pages not uploading correctly on **Live Studio**;
+- Fixed **Meeting** reject email action;
+
 ### March 8, 2022
 
 #### Added
