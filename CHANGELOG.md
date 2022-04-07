@@ -4,6 +4,31 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 16.3
 
+### April 7, 2022
+
+#### Added
+- Added **Salesforce** *Event Fields* integration with event statistics like `total sessions` and `average time spent`;
+- Added **Audit reports** for global account dashboard page;
+- Added new **Audit reports**:
+  - Event, Webinar and Template creation;
+  - Spreadsheet Import and Export;
+- Added option to *Open Virtual Room*'* on *Sponsor Profile* settings page on **My Account**;
+- Added option for *Admins / Speakers / Staff* to remove polls directly on the session on **Virtual Lobby**;
+- Added tab headings for **My Agenda** to match **Virtual Lobby**;
+- Added option to bypass 'cache' versions of **Speakers** and **Sponsors** (previous entries from other events) when creating them through the **API**, **UI** or via **Excel**;
+- Added *bullet list* on WYSIWYG editor for **Speaker**, **Sponsor** and **Session** descriptions;
+- Created new *standard-users* filter on `event.person.find` to filter only regular users;
+- Modified *not-admin* filter on `event.person.find` to return all users but Admins;
+
+#### Fixed
+- Fixed Marketo `true/false` fields (boolean) to use first letter uppercase instead: `True/False`;
+- Fixed dashboad right menu to indicate *My Webinars* in case you are a **Webinar** customer;
+- Removed *Room Cover* option from **Webinars**;
+- Removed *username* column from **List** import spreadsheet if *username* is disabled;
+- Removed examples from **List** import spreadsheet that caused confusion when *username* is enabled;
+- Fixed *Medium* sized tiles on **Neo layout** when end date is visible;
+- Adjusted calendar links for *Outlook* on **Confirmation Email**;
+
 ### April 6, 2022
 
 #### Added
