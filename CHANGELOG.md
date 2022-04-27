@@ -4,6 +4,134 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 16.3
 
+### April 27, 2022
+
+#### Added
+- Increased click area of **Networking** cards to open **Networking** Profile Modal;
+- Added automatic *follow up session* for **Virtual Lobby**:
+  - Users will be automatically sent to next session without the need of a trigger from the admin;
+
+### April 25, 2022
+
+#### Added
+- **Activities** now have *Tracks* instead of *Tags* (old tags were converted to tracks automatically);
+- Added **Help center** menu to Event Admins that are not Company Admins;
+
+#### Fixed
+- Adjusted **Networking** cards and added profile modal on **Networking** public page;
+- Fixed index error when syncing activities on **Marketo** daemon;
+
+### April 22, 2022
+
+#### Added
+- Added filter for *Meetings* on **Virtual Lobby Reports**;
+- Added exclusive database on **Firebase** specific for *Logs*:
+  - Keep alive logs to be more precise;
+  - This helps us to maintain our realtime database healthy and sustain thousands of users connected at the same time;
+
+#### Fixed
+- Fixed *Classic layout* icons not updating outside sessions on **Virtual Lobby**;
+- Fixed issue that didn't allow you to create events with less than a week of length on **Event create** popup modal;
+
+### April 21, 2022
+
+#### Added
+- Added **Issue report** menu for event admins that are not company admins:
+  - It bypasses *Intercom* since only company admins have access to *Intercom*;
+- Added support for **Import center** and **Report center** on `Event` level:
+  - Event admins that are not company admins can now view these pages tailored to their event;
+- Added *Magic Links* activity list on **Email** `Dynamic Contents` option for **Virtual Lobby**;
+- Unified *Online* with *Online / Virtual* when selecting the **Event mode**;    
+
+### April 20, 2022
+
+#### Added
+- Added option to *Create Group Room* on *Group Room* popup in case it is collapsed;
+- Added pagination to **Event List** page for non-company workers but event workers;
+- Added **Event List** for event admins that are not company admins;
+
+#### Fixed
+- Fixed **iOS** push notifications issue with `APNS`;
+- **Api.video** has been officially removed from our list of subprocessors. We do not support **Api.video** anymore;
+
+### April 19, 2022
+
+#### Added
+- Standardized `Events` section on all templates for **Company Directory**;
+
+#### Fixed
+- Fixed `Events` section on **Company Directory** -- events were not loading up and search was not showing up;
+- Fixed *Event Website* sections showing up on **Company Directory**;
+
+### April 18, 2022
+
+#### Added
+- Refreshed visuals of **Networking** user cards with more information and easier to understand buttons;
+
+#### Fixed
+- Fixed `Font style` option not working for **My Agenda**, **My Account** and other public pages besides *Virtual Lobby*;
+
+### April 15, 2022
+
+#### Added
+- Added **Cvent** integration that syncs event attendees and custom fields:
+  - This version allows you to select your environment, search for your events and sync with your InEvent event;
+  - It also allows you to select custom fields on Cvent to sync with InEvent;
+  - This integration is a one-way integration, it pulls users from Cvent into InEvent;
+
+### April 14, 2022
+
+#### Added
+- Improved 404 (`page not found`) page;
+- Added auto redirect to 404 Not Found when opening a public page of an event with expired credits;
+
+#### Fixed
+- Fixed company.event.find **API Endpoint** to return correct amount of events when filtering for App Events;
+
+### April 13, 2022
+
+#### Added
+- Added **Marketo** sync for *Activity* attendance using *Static Lists* inside *Program*:
+  - This feature allows you to sync all activity attendances into **Marketo** that will show up inside your program;
+  - All lists will be created using the same name as the activity inside a folder called *InEvent* in your Program;
+
+#### Fixed
+- Replaced `error-422` with `Spam Complaint` since 422 means the user is inactive due to a *Spam Complaint* when sending **Emails**;
+- Checks if value is given for feedback type multiple when formatting feedback answers;
+
+### April 12, 2022
+
+#### Added
+- Added **Breakout Rooms** on Virtual Lobby:
+  - Admins can create Breakout Rooms for their session on `Agenda > Activity > Breakout Rooms` and also in the `Virtual Lobby > Activity > Breakout Room` tab located in the right corner;
+  - You can change the Breakout Room's tab icon and text;
+  - You can enable and disable all Breakout Rooms at the same time with a click of a button;
+  - When the timer is running out (if there's a time limit), a message with the remaining time will show up;
+  - Attendees can easily jump from one Breakout Room to another;
+- Added **Audit Logs** for invitations on creation and editions;
+- Added option to join session before it starts (any time) and set it as default for **Webinars**;
+
+#### Fixed
+- Adjusted idle message for **Webinars** with date and time;
+- Adjusted `Attendee present in-person` filter to remove `present online` users;
+
+### April 11, 2022
+
+#### Fixed
+- Virtual Event Check-In now only happens when user opens a session on **Virtual Lobby**;
+
+### April 8, 2022
+
+#### Added
+- Added **Live Studio** *Native* Video Sharing:
+  - This option allows you to pre-upload your videos for later usage (Library);
+  - This video playback is native and runs in our servers, so you don’t have to worry about your computer being high end;
+  - You can add multiple videos at the same time;
+  - Once the video is over, it will go to backstage automatically, so it’s perfect for a countdown timer before the session starts;
+  - No more FPS drops nor glitches when sharing a video;
+- Adjusted **Networking** page to use the same visuals for tags as **My Agenda**;
+- Added **Speed Networking** timer on *mobile devices*;
+
 ### April 7, 2022
 
 #### Added
