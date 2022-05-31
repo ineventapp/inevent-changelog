@@ -4,6 +4,254 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 16.3
 
+### May 31, 2022
+
+#### Added
+- Added new Bitbucket Pipelines file for GKE;
+
+#### Fixed
+- Adjusted Asset Library invalid syntax;
+- Adjusted branches on Bitbucket Pipelines;
+- Fixed Certificates showing a white bar on the left;
+
+### May 30, 2022
+
+#### Added
+- Added option to get event field without cache for admins;
+- Added 'Show advanced options' checkbox option on Device Configuration popup on Virtual Lobby;
+
+#### Fixed
+- Fixed Access Policy updates not going through on Virtual Lobby settings;
+
+### May 29, 2022
+
+#### Added
+- Upgraded Vue.JS;
+
+#### Fixed
+- Removed MusJS recorder from Virtual Lobby;
+
+### May 27, 2022
+
+#### Added
+- Added 'Block emoji' tool on Virtual Lobby settings page;
+- Added option to block emoji input on Virtual Lobby;
+
+#### Fixed
+- Fixed chat delete on Virtual Lobby;
+- Removed 'Emojione' JS library when handling Live Stream Reactions;
+
+### May 26, 2022
+
+#### Added
+- Added back the Event Feed button on Classic Layout;
+
+#### Fixed
+- Large optimizations on Virtual Lobby:
+  - removed transitions;
+  - reduced the usage of $forceUpdates;
+  - modified chat and node person to be 100% static for fast creation;
+- Fixed getLocalized function for the Virtual Lobby;
+
+### May 25, 2022
+
+#### Added
+- Added dedicated area for Troubleshoot reports on Virtual Lobby settings page;
+- Optimized Virtual Lobby chat rendering;
+- Changed live description to be pre-computed;
+
+### May 24, 2022
+
+#### Added
+- Added Mux data tracking for On Demand playback;
+- Added CSS hovers for buttons on Live Studio bar menus;
+- Added 'Mic monitor' option on Live Studio;
+- Added option to move Studio Settings to the right menu on Virtual Lobby;
+
+### May 23, 2022
+
+#### Added
+- Added .optionTroubleshoot class to edit the troubleshoot button for Custom CSS;
+
+### May 20, 2022
+
+#### Added
+- Merge branch 'INWEB-1913-troubleshoot-popup';
+- Added multiple owners option for Event Booking forms;
+- Added option to activate and deactivate Raise Hands functionality per session basis;
+- Added Raise Hands option for Breakout Rooms;
+- Added option to delete PDFs and Static Videos on Live Studio;
+- Added Dynamic Content on Email Builder for meetings (a meeting table like activity table);
+- Extended permissions for Question Reply functionality on Virtual Lobby;
+- Added optimization on feedback.submission.find for type registration;
+- Set Live Studio background to be pitch black by default instead of the blue standard image;
+
+#### Fixed
+- Removed wrap class on schedule on demand URL;
+- Removed eventApplicant from feedback.submission.find;
+- Fixed file uploads on questions;
+- Fixed sponsor website URL not working correctly on Website;
+- Fixed date time picker on Schedule getting cut off;
+
+### May 19, 2022
+
+#### Added
+- Added magic link on speaker tab under activities;
+- Added sync button for Marketo sessions;
+- Improved Mux Direct Uploader;
+- Increased direct upload timeout to 6 hours;
+
+#### Fixed
+- Removed 'Sync now' button for sessions that are not active on Marketo settings page;
+- Adjusted return result for lead insertion on Marketo;
+- Adjusted check for Marketo Session sync;
+
+### May 18, 2022
+
+#### Fixed
+- Fixed Marketo list sync for sessions;
+
+### May 17, 2022
+
+#### Fixed
+- Fixed Event Identifier check when using company cname;
+- Removed slow mousemove code for full screen button visibility check;
+- Fixed memory leak on Live Studio video backgrounds;
+
+### May 16, 2022
+
+#### Fixed
+- Optimized Live Stream reactions performance;
+
+### May 13, 2022
+
+#### Added
+- Added list names on email builder to easily see the selected segmentation;
+- Added ticket capacity on Payment statistics;
+- Added popup confirmation when removing a video from the backstage;
+- Added option to enable and disable the company logo on Attendee Certificates;
+- Normalized material.find API for querying;
+- Added search button on File Manager page;
+- Added seamless transition between cameras on Tokbox for Live Studio;
+
+#### Fixed
+- Fixed Webinar not showing registration popup if it fails to connect to socket;
+- Fixed Virtual Lobby feedback session popup cutting off option list content;
+
+### May 12, 2022
+
+#### Fixed
+- Fixed excel upload halting because of username/email column check;
+- Adjusted Live Recordings UI to open Live Stream recordings first;
+- Improvements on Live Studio broadcast performance and removed audio indicator for Live Preview videos;
+- Fixed Live Studio drag & drop video function when changing the room owner in real time;
+
+### May 11, 2022
+
+#### Added
+- Updated database reference on Firebase;
+- General optimizations on Virtual Lobby performance;
+- Added emoji overflow check to avoid flooding the DOM with emojis when people spam the reactions;
+- Do not block 'Automatic Enrollment' sessions to work when blockSchedule is enabled;
+- Added option to preview generated reports directly on the platform;
+
+#### Fixed
+- Fixed bug that when sharing a native video and changing tabs on the left corner, the video would crash for the host and it would stop playing sound and reset its settings;
+- Adjusted event-report.php query to remove non-authorized events;
+- Removed forced uppercase text on spreadsheet preview modal;
+- Fixed huge meeting picture on My Agenda when using the grid view layout;
+- Fixed Virtual Lobby Reports when generating a report using the 'Ungrouped' filter;
+- Fixed 'replaceAll' on URL Coverter for TinyMCE when replacing 'https' links;
+- Improvements on URL management for Email Builder: no more weird urlencoded characters like %7B or %7D, instead it shows up { and } correctly, and fixed issue with the 'missing http:// prefix' popup when clicking on 'Yes';
+
+### May 10, 2022
+
+#### Added
+- Added option to automatically switch host permissions when changing on the backend;
+
+### May 9, 2022
+
+#### Added
+- Added option to *Drag & Drop* videos on **Live Studio** to change placement;
+- Added optimization to unsubscribe to video when video is not visible on the screen;
+- Improved *Speaker View* video proportions for **Video Conferencing** mode;
+
+#### Fixed
+- Adjusted headline to not show up when only '@' is found;
+
+### May 6, 2022
+
+#### Added
+- Added option to *reply* to questions on **Virtual Lobby**;
+
+#### Fixed
+- Fixed *company.event.find* to not use limit/offset to filter event admins inside it (REST API);
+- Fixed **Calendar** files (.ics) not containing tokenID to open the **Virtual Lobby** properly;
+
+### May 5, 2022
+
+#### Added
+- Added **Live Stream** reactions with custom emojis;
+- Normalized URLs for *Live Streams* and *Simulated Lives* on **Virtual Lobby**;
+- Added support on **Virtual Lobby** to play *Simulated Lives* on Welcome section;
+- Added **Live Recording** quality selector when available;
+- Added recording filters for type of recordings;
+- Added *margin-left* on **Webinars** in-session viewer page;
+
+#### Fixed
+- Fixed **Simulive** postMessage events when embedding it;
+- Adjusted refresh token for **Simulive** cover video;
+- Fixed 'Video Cover' not working for **Simulives**;
+- Fixed 'Backstage' recordings displaying '-' on duration;
+- Fixed device orientation changes on mobile devices messing up video player height;
+
+### May 4, 2022
+
+#### Added
+- Extended background-color transparency for **Virtual Lobby** container on *Neo Layout* when setting up a background image and using the single page mode (activities, meetings, sponsors, networking);
+
+#### Fixed
+- Fixed **Live Studio** *PDF Share* function not allowing you to push the PDF on stage after setting it on backstage;
+
+### May 3, 2022
+
+#### Added
+- Added *Missing answers* on **Poll** analytics dashboard;
+- Added **FAQ** links for **Webinar** pages;
+
+#### Fixed
+- Fixed *Back to activity* button not showing up on **Breakout rooms** for **Webinars**;
+- Fixed **Virtual Lobby** mobile menu;
+- Fixed *bullet list* on Event Description for **Virtual Lobby**;
+- Fixed **Attendee** import when using username;
+- Fixed issue that caused attendee edits to not work;
+
+### May 2, 2022
+
+#### Added
+- Added **Closed Captions** in English for Mux Live Streams;
+- Added *Not recording* disclaimer for Staff and Admins when no host is configured for session;
+
+### May 1, 2022
+
+#### Added
+- Increased regular **WebRTC** audio bitrate from *40kbps* to *128kbps*;
+
+### April 30, 2022
+
+#### Fixed
+- Adjustments on **My Agenda** CSS for *Tags* and *Card View* sizes;
+- Fixed inner tags on activity details page;
+- Adjusted **My Agenda** tags margin;
+- Fixed *List View* height for **My Agenda**;
+
+### April 28, 2022
+
+#### Added
+- Added *List View* for **My Agenda** page with expanded activity items;
+- Added *CDN Failover* for Mux Streaming as a fallback when buffering starts to happen;
+- Added *Segmentation Lists* to **Ticket** dashboard page;
+
 ### April 27, 2022
 
 #### Added
