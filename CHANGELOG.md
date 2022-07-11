@@ -4,6 +4,200 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 16.3
 
+### July 11, 2022
+
+#### Added
+- Separated **UTM** analytics from settings page;
+- Added option to edit, enable and disable reactions on **Webinars** (located under `Interactivity` menu);
+- Added option to upload **Virtual Backgrounds** directly on the Lobby (only for staff members);
+- Added to option to add/create more than 1 external URL in **Website**;
+- Added automatic sorting of assets for `contenty libraries` across the platform;
+- Admin magic links now downgrade to Staff level instead of User level;
+- Added character limit for tags on Spreadsheets;
+- Added automated scroller on **Live Studio** `Lower Thirds` when the text is too long;
+
+#### Fixed
+- Fixed `Yes/No` buttons not working on **Purchase Form**;
+- Fixed `Previous and Next` buttons not appearing on **TV Mode**;
+- Fixed `Cookie Consent` popup not working correctly on Mobile;
+- Fixed `Whisper` toggle tilting when enabling / disabling for certain screens;
+
+### July 8, 2022
+
+#### Fixed
+- Adjusted horizontal alignment between setup and details;
+- Fixed button title;
+- Fixed **virtual lobby** showing on webinar;
+- Fixed pin not working when another user shares screen content through WebRTC;
+
+### July 7, 2022
+
+#### Added
+- Added automatic sync to **Hubspot** integration;
+- Added new **Summary** page with quick action tools;
+- Added option to delete old **Landing Pages**;
+- Added smooth transitions when switching between `pre-recorded` sessions;
+
+#### Fixed
+- Fixed drag-and-drop on **Live Studio** when using the PIP Mode and dragging the pinned video into another video;
+- Fixed PDF Library modal from closing automatically and also improved it by adding an automatic selection of uploaded PDF once the upload is done;
+- Fixed PDF 'pin' function not working properly;
+
+### July 5, 2022
+
+#### Added
+- Added full date description for old questions on **Virtual Lobby**;
+- Added `alt` description for all **img** tags on the platform for **Accessibility**;
+- Added option to unsubscribe from **Company Digest** email;
+- Added limit for the number of characters of a section title on the **Website**;
+- Enabled `English` (or whatever is defined on Company Details) as the default Content Language for your event;
+
+#### Fixed
+- Fixed **Meetings** date picker not working properly;
+- Fixed **Meetings** search option;
+- Fixed **Activity** date picker creation tool not working properly when using eastern timezones;
+- Fixed `volume bar` hidden below the stream title on **Live Studio** making it difficult to change the audio volume;
+- Fixed calendar arrows on **Website** templates;
+
+### July 1, 2022
+
+#### Added
+- Added ordering in which attendees have raised their hands on **Virtual Lobby**;
+- Increased text dimension and vertical spacing in the menu of **Virtual Lobby**;
+
+### June 29, 2022
+
+#### Fixed
+- Adjusted event cover for `magic-link.php` when event is no longer visible;
+
+### June 28, 2022
+
+#### Added
+- Added notifications for `event.accessEnded` attribute on **Magic Link**, **Registration Form** and **Purchase Form** pages;
+- Added theme settings including color white label customization for **TV Mode** pages;
+- Added option to enable restriction for `sellers` and `buyers` on **Speed Networking**;
+- Company logo on NEO layout is now always visible;
+
+#### Fixed
+- Fixed email scheduling issues;
+- Fixed VIrtual Lobby Lobby - NEO (mobile):
+  - issues with how the description appears depending on if using landscape or portrait;
+- Fixed issue with the agenda section of Orion template;
+- Fixed `flickering` issue when upvoting a question on **Virtual Lobby**;
+- Fixed `event cover` image not showing everything on **Virtual Lobby** when using the overlay mode;
+
+### June 24, 2022
+
+#### Added
+- Added `Entity ID` on person enrollment automatic email for admin invitations;
+
+#### Fixed
+- Disabled `pagination mode` on **Video Conferencing** meetings with more than 9 people;
+
+### June 23, 2022
+
+#### Fixed
+- Fixed Salesforce Daemon to run only a single time;
+- Fixed Salesforce Daemon cronjob sync;
+
+### June 22, 2022
+
+#### Added
+- Added **Quiz** feature on **Virtual Lobby**:
+  - This feature allows you to create a Quiz with multiple questions, and right / wrong options with explanation why an option is the correct one. We also have added a timer (optional) that when it runs out, the attendee can’t answer any more questions, like a timed SAT.
+  - If you have the Poll feature, the Quiz will be automatically available for your event. If you have activities created before this post, they will not have the Quiz enabled, you must enable it manually. For new activities created, the Quiz function will be enabled by default;
+- Added `pagination mode` for **Video Conferencing** mode;
+
+### June 14, 2022
+
+#### Fixed
+- Fixed two-factor authentication SMS & Email not sending;
+- Adjusted `error.find` endpoint to allow Event Admins to get errors from their Event;
+
+### June 13, 2022
+
+#### Added
+- Event Virtual Lobby settings is now copied on templates;
+- Added **SIP Dial Out** feature that works with any email / phone number that is SIP enabled (Video works too);
+- Add auto generated translations for our text translation component;
+
+#### Fixed
+- Fixed certificates that don't have background images;
+- Fixed meeting start and end date dashboard settings page;
+- Fixed `list.restriction.find` API endpoint;
+
+### June 12, 2022
+
+#### Added
+- Increase speaker photo size and sponsor logo size on **My Agenda**;
+- Added `tool` to allow meetings outside event date bounds;
+
+### June 10, 2022
+
+#### Added
+- Enabled CRM communication & Intercom account access to Event Admins;
+- CEU Credits popup now shows up after the session is over;
+- Improvements on Event Authorization email;
+
+#### Fixed
+- Fixed anonymous forms not working when using custom questions;
+
+### June 8, 2022
+
+#### Added
+- Virtual Lobby multiple cameras optimization with 0ms latency when changing cameras;
+
+### June 6, 2022
+
+#### Added
+- Fixed video player when using different domains;
+- Added back dynamic Video Subscribers on Video Conferencing sessions;
+- Added option to toggle audio / video on Video Feed's start popup;
+
+#### Fixed
+- Adjusted audit for anonymous users on unauthenticated requests;
+
+### June 3, 2022
+
+#### Added
+- Added option to download converted leads via link tracking;
+- Added a field inside the **Registration Form** to include date and time of the event;
+- Added search support on Video & PDF Library for **Virtual Lobby**;
+
+#### Fixed
+- Using simpler virtual list for **Virtual Lobby** chat and live people -- this should fix crashes for certain users;
+- Adjusted **Virtual Lobby** screen flickering on 1366x768 aspect ratio;
+- Fixed News Feed not showing up posts;
+
+### June 2, 2022
+
+#### Added
+- Added disclaimer with confirmation requirement when deleting activities with recordings;
+- Added smoother transition when changing sessions on **Virtual Lobby**;
+- **Virtual Lobby** CSS improvements with opacity animations;
+
+#### Fixed
+- pricing faq setup fees fix;
+- Adjusted activity create button to set **Virtual Lobby** join and leave access policies to be `Use event settings`;
+- Adjusted `Filter by tags` on **My **Agenda**** and **Virtual Lobby** for new Chrome directive behavior;
+- Fixed Inbox with the new Google Chrome update on directives;
+
+### June 1, 2022
+
+#### Added
+- Added IVS support for Live Studio sessions;
+- Disabled closed captions when using IVS (doesn't work obviously;
+- Added Live Studio IVS support;
+- Using regular S3 link instead of CloudFront;
+- Using background image on Certificates;
+- Added notice stating that you can't share because someone is already sharing on **Virtual Lobby** screen share;
+- Decreased Native Video update frequency to reduce load;
+- Decoupled Native Video sharing from the Screen Share controls on Live Studio, they do not conflict anymore;
+
+#### Fixed
+- Adjusted timeout for Mux Webinputs when session is longer than one day;
+- Adjusted Certificate background resolution update;
+
 ### May 31, 2022
 
 #### Added
