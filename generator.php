@@ -19,7 +19,7 @@ git log --no-walk --stdin --pretty='%cs: %s' --date=short > inevent-changelog/te
 
 if (!file_exists($input)) die('input not found');
 $fixedKeywords = ["adjusted", "adjustment", "fixed", "removed", "fix"];
-$ignoreKeywords = ["merge branch 'master'", "increased bust"];
+$ignoreKeywords = ["merge branch 'master'", "increased bust", "inmkt-"];
 $highlightKeywords = [
 	"Virtual Lobby", "My Agenda", "My Account", "Agenda"
 ];

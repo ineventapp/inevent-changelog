@@ -4,6 +4,104 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 16.3
 
+### July 22, 2022
+
+#### Added
+- Added back **Embed Frame** option for pre-recorded content (option was not showing up anymore);
+- Added option to create text tracks (subtitles for now) for pre-recorded videos (also works for simulated lives);
+- Added option to delete all `poll answers` (useful for deleting test data);
+
+#### Fixed
+- Fixed group rooms not accessible if diff between dateBegin and dateEnd > than 24 days;
+- Fixed random group rooms moving around all the time;
+- Fixed console errors that showed up when joining a live stream on **Virtual Lobby**;
+
+### July 21, 2022
+
+#### Added
+- Set **Quiz** timer to be 60 seconds by default (can be changed);
+- Added check when `Start sharing` button is pressed to avoid multiple screen shares happening simultaneously;
+- Added better message indicator when you are disconnected from the socket and try to use the **Speed Networking** feature;
+- Added **Twitch** as a supported third-party streaming service;
+
+#### Fixed
+- Fixed `invalid date` error on session **transcriptions**;
+- Fixed **Website** not loading custom urls properly on menu bar;
+- Fixed **Quiz** creation popup wrong label when adding multiple questions;
+- Fixed Excel Spreadsheets file name dates to reflect event timezone;
+- Fixed **Chains** mixing together (activities and ticket groups, both are same API);
+- Fixed **Quiz** text contents breaking words in half;
+- Changed the `collapse` button on **Virtual Lobby** settings page;
+
+### July 19, 2022
+
+#### Fixed
+- Fixed session details block not hiding **Sponsors** when the tool is deactivated;
+
+### July 18, 2022
+
+#### Added
+- Added **Alternate RTMP Tracks** option for **RTMP Video** mode sessions:
+  - This feature allows you to create multiple RTMP Endpoints within the same session;
+  - Very useful for multi-language event sessions;
+
+#### Fixed
+- Fixed **global field** entry messing up with company level booking forms editor;
+
+### July 15, 2022
+
+#### Fixed
+- Fixed **Android App** store listing status not updating correctly on Company Details page;
+- Fixed form settings component not allowing you to focus on the text field when creating a new field;
+- Fixed `Lower Third` component breaking `Picture in Picture` layout on **Live Studio**;
+- Fixed **Live Studio** PDF Sharing issues when sharing PDFs with 100+ pages;
+
+### July 14, 2022
+
+#### Added
+- Added new **menu organization** for **Classic Layout** (right menu in sessions) and **Mobile Lobby**;
+- Added `Sponsor reps` option on **Sponsor Booths** for Virtual Lobby;
+- Added **Email Builder** section that lists all sponsors on a grid with names, logos and websites;
+- Using room cover as the event cover for **Webinars** since we can't edit the room cover on **Webinars**;
+- Changed Summary page `Tickets` section to be `Sales` and redirect to **Payments** page instead;
+- Added constraint information on Ticket `See groups` popup option;
+- Registration Form validation now validates the entire form together instead of validating static questions and then custom questions;
+- Changed the looks of the error indicators for the types: `multiple choice`, `yes/no` and `file upload`;
+
+#### Fixed
+- Adjusted findCampaign from hubspot;
+- Merge remote-tracking branch 'origin/hotfix-crm-json';
+- Fixed Gamification Ranking list pagination removing old results from the list;
+- Fixed key binding for tooltip on **Virtual Lobby** buttons;
+- Fixed Registration Form settings page option type input not focuseable;
+- Fixed error highlight for feedback type select caused by defaultValue being 0;
+- Fixed error highlight for feedback custom question type input;
+
+### July 13, 2022
+
+#### Added
+- Enabled **SSO Authentication** without language modifiers;
+
+#### Fixed
+- Fixed **Hive Streaming** ticket creation from a child company;
+- Fixed token deauthorization on event public pages to avoid `multiple companies` error message;
+
+### July 12, 2022
+
+#### Added
+- Added **Hive Streaming** integration for **Live Studio** live streams:
+  - This integration improves connectivity on restrictive environments, such as enterprise offices with Cisco VPNs;
+  - It uses the eCDN technology (like IVS does) to improve the quality of the Live Streaming;
+- Improvements on **Virtual Lobby** top bar menu visuals;
+
+#### Fixed
+- Removed visualization pages from `Main Pages`, they are now unlisted (Event details);
+- Removed old Automatic Emails dashboard page;
+- Removed duplicated recordings when clicking multiple times on `Recordings` button on **Schedule** dashboard page;
+- Fixed **Attendee Report** on company level overflowing the layout when dozens of tags are registered;
+- Fixed automatic camera when the priority stream is on backstage for **Live Studio**;
+- Adjusted error messages on **Live Studio** video playback;
+
 ### July 11, 2022
 
 #### Added
