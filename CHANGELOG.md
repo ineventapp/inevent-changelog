@@ -4,6 +4,147 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 16.3
 
+### August 4, 2022
+
+#### Added
+- Brand-new **Custom Report** `Add Widget` popup layout;
+- Improvements on **Custom Reports** resizing and visual styles;
+- Added *Custom Report*:
+  - **Missions completed per event** multiple types;
+  - **Connections per event** multiple types;
+  - **Exchanged messages per event** multiple types;
+  - **Website visits per event** multiple types;
+  - **Ads interactions per event** multiple types;
+  - **Files downloads per event** multiple types;
+
+#### Fixed
+- Fixed Backstage stream heights flickering animation when changing tabs or moving settings to right corner on **Live Studio**;
+- Fixed *Entity Too Large* on `report.widget.find` **API Endpoint** when a lot of charts are created;
+- Fixed **Custom Report** table widget not showing data;
+- Fixed **Virtual Backgrounds** throwing error when selecting recently uploaded background;
+
+### August 3, 2022
+
+#### Added
+- Improved **Push Messages** scheduling popup to display the expected time to send correctly;
+- Added *Custom Report*:
+  - **Sales per event** multiple types with currency;
+  - **Total number of activities** value type;
+- Added pie/bar charts to support value/table entirely on **Custom Report**;
+
+### August 2, 2022
+
+#### Added
+- Added option to mass delete **Coupons**;
+- Added button to resend *Two Factor Authentication* code after 60 seconds on **Login**;
+- Added *Custom Report*:
+  - **Total number of invitations** timeline type;
+  - **Total number of invitations** value type;
+  - **Total number of attendees** timeline type;
+  - **Total number of registrations** value type;
+  - **Total number of attendees** value type;
+- Changed widget position update to update all at the same time on **Custom Report**;
+
+#### Fixed
+- Fixed certain modals that were not closing correctly across the platform;
+- Fixed **Webinar** search bar not displaying webinars but events;
+- Fixed **TV Mode** displaying the wrong time;
+
+### August 1, 2022
+
+#### Added
+- Added **Notification Center** on **Virtual Lobby**;
+- Added *Custom Report*:
+  - **UTM conversions per event** bar and pie types;
+  - **UTM clicks per event** bar and pie types;
+
+#### Fixed
+- Adjusted `news.find` **API Endpoint** to allow enrolled users to pull notifications;
+
+### July 29, 2022
+
+#### Added
+- Added *Custom Report*:
+  - **Emails CTA conversions per event** bar and pie types;
+  - **Emails spam complaint per event** bar and pie types;
+  - **Emails bounced per event** bar and pie types;
+  - **Emails CTA clicks per event** bar and pie types;
+  - **Emails opened per event** bar and pie types;
+  - **Emails delivered per event** bar and pie types;
+  - **Emails sent per event** bar and pie types;
+  - **News feed posts per event** bar and pie types;
+  - **Survey answers per event** bar and pie types;
+  - **Feedback answers per event** bar and pie types;
+  - **Quiz answers per event** bar and pie types;
+  - **Poll answers per event** bar and pie types;
+  - **Quizzes per event** bar and pie types;
+  - **Polls per event** bar and pie types;
+  - **Comments per event** bar and pie types;
+  - **Questions per event** bar and pie types;
+  - **Tickets sold per event** bar and pie types;
+  - **Breakout rooms event** bar and pie types;
+  - **Speed networking per event** bar and pie types;
+  - **Meetings per event** bar and pie types;
+  - **Group rooms per event** bar and pie types;
+  - **Sponsor booths per event** bar and pie types;
+  - **Sponsors per event** bar and pie types;
+  - **Speakers per event** bar and pie types;
+  - **Activities per event** bar and pie types;
+  - **Attendees per event** bar and pie types;
+  - **Invitees per event** bar and pie types;
+- Added colors to Pie charts on **Custom Reports**;
+- Renamed `Attendees` to `Registrations` on **Custom Reports**;
+- Unified bar and pie data types for custom reports -- they are the same, just a different visualization;
+- *Complete name* is now *Full name* across the platform;
+
+### July 28, 2022
+
+#### Added
+- Added `Online` text indicator on **Website** templates when the event is online;
+- Added `Dark mode` option for Neo Layout on **Virtual Lobby**;
+
+#### Fixed
+- Fixed **Live Studio** live streaming not starting for events longer that 24 hours that starts and ends at the same time of the day;
+- Fixed **News Feed** deletion not going through on Realtime when deleting on the backend;
+- Fixed **Meeting Booking** popup not allowing you to book meetings on certain times;
+- Fixed `NaN` issue showing up on **Budget** dashboard page;
+
+### July 27, 2022
+
+#### Added
+- Added direct upload to static servers for file uploads (faster uploads);
+- Added automatic **Option List** value presets, such as `Country Lists` and `US States`;
+- Added filters for Live Performance on **Virtual Lobby** Reports;
+
+#### Fixed
+- Unified mime types for files and fixed upload for `Drag & Drop` files;
+- Fixed limited-list component throwing error when scrollToBottom is called and the element is disposed before 300ms;
+- Fixed **My Agenda** icons and activity list overlapping certain elements;
+- Fixed **Cookie Consent** popup on iOS Safari not showing the `I agree` button properly;
+- Added meeting request to news API and fixed meeting booking not working when blocking meetings outside event bounds;
+
+### July 26, 2022
+
+#### Added
+- **Salesforce** person export fix for pending users that are deleted;
+- Increased **Tag** and **Tracks** name length to 100;
+- Added option to only show private **EventMarket** listings for certain companies;
+
+#### Fixed
+- Adjusted formatActivity when checking the mayMemberEnrollToActivity results;
+- Fixed typo on Summary page;
+- Removed 36 cap on createTag function;
+- Fixed phone area code input on Registration Form to automatically get current country (works for Canada +1 area code too);
+
+### July 25, 2022
+
+#### Added
+- Disabled `.srt` Captions since VideoJS doesn't have native support (to be added in the future);
+- Disabling **RTMP Alternate tracks** in case **Hive Streaming** is enabled (conflicts);
+
+#### Fixed
+- Removed `Closed Captions & Subtitles` option when using the iframe option (**On Demand**);
+
 ### July 22, 2022
 
 #### Added
