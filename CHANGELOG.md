@@ -4,6 +4,115 @@ This change log was created on January 22, 2021 and only entries after this date
 
 ## Version 16.3
 
+### August 22, 2022
+
+#### Fixed
+- Fixed URL on **Website** Templates not working properly;
+- Fixed **Live Stream** recordings not being deleted properly;
+- Fixed *scrollbar* not visible on **Neo Layout** dark mode variation;
+- Fixed certain email parts not working properly on **Outlook**;
+- Fixed event cover not resizing properly on *Vulcan* **Website** template;
+
+### August 19, 2022
+
+#### Added
+- Added **EXIF** removal from uploaded images;
+
+#### Fixed
+- Fixed **Neo Layout** buttons in sessions;
+- Fixed *X-Frame-Options* header not loading on index.php;
+
+### August 18, 2022
+
+#### Added
+- Catch failed sync on person registration fields for **Marketo**;
+
+#### Fixed
+- Adjusted invalid statuses to use very first available status on **Marketo Link**;
+- Continue syncing **Marketo** lead list when skipping due to duplication;
+
+### August 17, 2022
+
+#### Added
+- Added option to open *Labels & Icons* directly on **Virtual Lobby** settings page;
+- Added *quiz.chain* report **API Endpoint**;
+- Added **Quiz Leaderboard** on dashboard page;
+- Improved **Quiz** documentation;
+- Increased **Quiz Leaderboard** to 10 people;
+- Added people with all wrong submissions to the **Quiz Leaderboard**;
+
+#### Fixed
+- Removed *person image* from **Quiz** report;
+- Fixed pagination on **Quiz Leaderboards**;
+
+### August 16, 2022
+
+#### Added
+- Added **Authorize.net** payments integration:
+  - This integration allows you to sell tickets and receive funds directly into your Authorize.net merchant account;
+  - This integration also does automatic refunding / voids for you;
+- Added popup error highlights on **Flights** creation popup;
+
+#### Fixed
+- Fixed *NaN* on **event budget report** on company level;
+- Fixed **Quiz** creation;
+- Fixed *time/date picker* partially off screen when choosing the end time of an **activity**;
+- Fixed **Activity** allowing end times to be set as a period before the start time;
+- Fixed **Speakers** showing up twice in the *backstage* when switching viewer / presenter status;
+- Fixed continous sound on **My Files** preview popup;
+- Fixed **Neo Layout** dark mode layout bugs;
+
+### August 14, 2022
+
+#### Fixed
+- Fixed *hyperlinks* breaking on `quotes and commas`, also fixed links becoming flags when they have `:li:` or something similar;
+
+### August 12, 2022
+
+#### Added
+- When setting ticket to *giveaway*, we don't delete their magic link anymore;
+
+#### Fixed
+- Fixed **Large files** tool not being applied on files larger than *100MB*;
+- Fixed **Join** and **Email Subscription** public pages going to *404* if company has no credits;
+
+### August 11, 2022
+
+#### Added
+- Added check to avoid deleting files originated from copied events;
+- Added **Materials** audit logs;
+
+#### Fixed
+- Fixed **Pipeline** dashboard page showing `NaN` on *Invite* list section;
+
+### August 9, 2022
+
+#### Added
+- Added option to list E*vent Speakers* on **Email Builder**;
+- Added *Audio Mixer API* that allows you to connect to multiple audio sources on **Live Studio** sessions:
+  - Great feature for podcasts;
+
+#### Fixed
+- Fixed profile not opening on **Group Rooms**;
+
+### August 8, 2022
+
+#### Added
+- Added option to change user cameras when they are using multiple cameras and you are the host:
+  - A remote host can now change the cameras of someone on site as long as they have multiple cameras attached;
+
+#### Fixed
+- Fixed infinite scroll on **Gamification** Leaderboards;
+- Fixed **Gamification Ranking** reports not being generated;
+- Adjusted `count` from leads page;
+- Adjusted person name on **Poll Leaderboards**;
+
+### August 5, 2022
+
+#### Fixed
+- Adjusted excel generation when it have **feedback** filters on structure;
+- Removed old filters that are deprecated from **Attendees** dashboard page;
+
 ### August 4, 2022
 
 #### Added
