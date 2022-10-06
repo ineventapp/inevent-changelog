@@ -3,6 +3,350 @@
 This change log was created on January 22, 2021 and only entries after this date will be registered.
 
 ## Version 16.3
+### October 6, 2022
+
+#### Added
+- Added option to enable/disable *ticket giveaway* per ticket basis on **Ticket**;
+- Added support for *Traditional* and *Simplified Chinese* on translations;
+- Added *Total submissions* on **Registration Form** analytics tab;
+
+#### Fixed
+- Fixed description bullets (*ul* tag) not displaying correctly on **Classic Layout**;
+- Fixed **Question** voting counter issue on **Virtual Lobby**;
+
+### October 5, 2022
+
+#### Added
+- Added *paymentID* on **Coupon Report**;
+- Added logical order for *Accessibility* on **Device configuration** popup modal on **Virtual Lobby**;
+- Added support for *gif* background images on **Live Editor** design area;
+- Using correct event tool for Quiz on **Virtual Lobby**;
+
+#### Fixed
+- Fixed **Salesforce** logs not registering correctly for certain calls;
+- Fixed images being duplicated in the **Photo gallery**;
+- Fixed *"Oh snap! We have found a connection error. Do you want to try again?"* error message being displayed when opening user's profile on **Company Attendees Dashboard**;
+- Fixed **collapse network** not working properly on mobile;
+- Fixed search for **Sponsors** and **Exhibitors** is not working properly;
+
+### October 4, 2022
+
+#### Added
+- Added **Stripe** alternate method for charging customers in case **Orders** is disabled on your API Key;
+- Added **Stripe** Logs for *STRIPE_ERROR* flag;
+
+### October 3, 2022
+
+#### Added
+- Added **Speed Networking** feature inside **Virtual Lobby** Sessions with its own menu;
+
+#### Fixed
+- Fixed emojis on **Virtual Lobby** not loading when JSON is corrupted;
+
+### September 30, 2022
+
+#### Added
+- Optimized **Custom Form** submissions dashboard page;
+
+### September 29, 2022
+
+#### Added
+- Added option to make visible or invisible the left tabs inside **Activities** on **Virtual Lobby**;
+
+#### Fixed
+- Fixed **comment** not being saved when commenting on sponsor booths;
+
+### September 28, 2022
+
+#### Added
+- Added separate **tool** for **Quiz** (previously it was the same as **Poll**);
+
+### September 27, 2022
+
+#### Fixed
+- Fixed duplicated audio on **Virtual Lobby**;
+
+### September 26, 2022
+
+#### Added
+- Added color indicator for messages sent by speakers, presenters, sponsor and admins on **Virtual Lobby** chat;
+- Improvements on **Neo Layout** *Dark Mode*;
+
+#### Fixed
+- Adjusted Classic Layout on **Virtual Lobby** for tablets and mobile devices;
+- Adjusted mobile width to 1024 instead of 1023;
+- Fixed **Time Elapsed** overlaying *chat popup icon* on **Classic Layout**;
+
+### September 23, 2022
+
+#### Fixed
+- Fixed **Coupon** excel report;
+- Adjusted **Group Rooms** settings page for smaller screens;
+
+### September 22, 2022
+
+#### Fixed
+- Fixed **developer page** getting wrong index when clicking on menu items;
+- Adjusted **Activity** Creation to select *Video Conferencing* if **Live Studio** is disabled;
+
+### September 21, 2022
+
+#### Fixed
+- Fixed **Group Room** list modal on mobile;
+- Fixed URL link underline visibility not working on **Email Builder**;
+- Fixed **Payments** filter not working properly on **Payments** Dashboard Page;
+- Adjusted signing URL function to avoid converting URLs when failing;
+
+### September 20, 2022
+
+#### Added
+- Using CDN and signed URLs for **Tokbox** backstage recordings;
+
+#### Fixed
+- Fixed nickname autogeneration;
+- Adjusted countries helper file;
+- Adjusted country selector default value on Purchase page;
+- Adjusted **purchase form** not allowing Step 1 to go through if you are using a non-system token or magic link and you are enrolled to the event manually through the panel;
+- Fixed landing page not working properly;
+
+### September 19, 2022
+
+#### Fixed
+- Fixed *cdn.inevent.uk* CDN invalidations;
+- Fixed landing old structure check on **Landing Settings** Dashboard page;
+- Fixed file copy when using **landing.put** API Endpoint;
+
+### September 15, 2022
+
+#### Added
+- Added option to pre upload attendee's **Questions** in the activity by importing a spreadsheet;
+- Added option to use HEX Codes on all color pickers;
+- Added *'Also assign when extra ticket'* option for **Ticket List Trigger** to allow activity segmentation based on multiple tickets purchased;
+
+#### Fixed
+- Fixed headline alignment on **Speakers** profile on **Virtual Lobby**;
+- Fixed dashboard menu on **Web Mobile App**;
+- Fixed slots for scheduling **Meeting** not appearing when switching users;
+- Fixed **QR code** not showing up on MacOS;
+
+### September 14, 2022
+
+#### Added
+- Added user email who submitted the form on **Event Booking** submissions;
+- Allow **Event Booking** forms to be public;
+
+#### Fixed
+- Fixed **Submissions** page;
+- Fixed **Exhibitors** pre-cache loading Sponsor data;
+- Fixed **UTM Links** with achors not working;
+
+### September 13, 2022
+
+#### Added
+- Added **Exhibitors** support on **Virtual Lobby** and **Website**;
+- Refactored **Event Booking** submissions to only create the event once approved;
+- Added option to select subcompany when using umbrella account;
+- **Exhibitors** should be disabled by default;
+- Added **Exhibitors** dedicated menu on mobile version of the **Virtual Lobby**;
+- Added **Exhibitor** Profile Page to **My Account**;
+- Added **Exhibitors** on Event Website;
+
+#### Fixed
+- Fixed **Mux** Asset verification when name has special characters;
+- Adjustments on **Exhibitor** entity independance from Sponsor;
+
+### September 9, 2022
+
+#### Added
+- **Local Recording** now has a tool that must be enabled before recording locally;
+- Added *"Collapse networking area"* on **Classic Layout**;
+- Added core elements for *Accessibility Menu* on **Virtual Lobby**;
+- Added help button to open **Developer Guides** on **Developers page**;
+- Added **Virtual Lobby** Editor;
+- Added option to pre-select admins on **Event Booking Form**;
+- Added *Tax Rates* to **Stripe** Invoices;
+- Using *pending_invoice_items_behavior* on **Stripe** to create Invoice before adding InvoiceItems;
+
+#### Fixed
+- Removed 'Full HD' company feature;
+- Fixed group rooms not showing up;
+- Commented out Outlook Fix that conflicts with ticket invite url;
+
+### September 8, 2022
+
+#### Added
+- Save **Local Recording** file as *.webm* in case it fails to generate *.mp4* container;
+- Upload **Local Recording** even if there are missing pieces;
+- Added **UTM snippet** for third-party websites to make conversions work;
+- Improved **cookie consent**;
+
+### September 7, 2022
+
+#### Added
+- Using non-intrusive upload for **Local Recording**;
+
+#### Fixed
+- Removed sync in progress when nothing is there to sync on **Local Recording**;
+
+### September 6, 2022
+
+#### Added
+- Added **Local Recording** for *Video Conferencing* and *Live Studio* for higher quality when the internet connection is unstable;
+- Using newest version of *VideoJS* on **Simulive Player** too (applied previously to on-demand and live stream players);
+- Using newest version of *VideoJS* on **Live Stream** too (applied previously to on-demand player);
+- Added **Settings** tab on **Agenda > Activity** to display all settings for that activity;
+
+#### Fixed
+- Fixed **GDPR** check not working on old browsers;
+
+### September 5, 2022
+
+#### Fixed
+- Fixed material upload on EU servers;
+
+### September 2, 2022
+
+#### Added
+- Added **Live Studio** information bar for *Room Host*;
+- Added tag colors when selected for filtering on **Meeting Page**;
+- *Time Spent* columns format is now showing *hh:mm:ss* instead of a timestamp;
+- Added *'source'* flag indicating a payment came from InEvent on **Stripe** CC and Invoices;
+
+#### Fixed
+- Fixed issues on **Mobile popup**;
+- Adjusted 'Start stream' button grayed out when switching hosts on Live Studio;
+- Fixed event copy for quiz chain (fixed ids);
+- Fixed logical order on **Group Rooms** for accessibility;
+- Adjusted *"Are you bringing Guests"* feature to be a required option;
+- Fixed **Quiz** timer accepting invalid characters;
+- Fixed file icon not showing on mobile view;
+- Fixed **Webinar** list only showing up the last webinar created;
+
+### September 1, 2022
+
+#### Added
+- Added billing redirect with message on hash when accessing **Event** or **Webinar** without having the proper plan enabled on company level;
+
+#### Fixed
+- Fixed hash check for **Company Level** pages that are shared with **Event Level**;
+- Fixed **Webinar Lobby** not asking the user to register when they are trying to access a deep-link activity and are not registered;
+
+### August 31, 2022
+
+#### Added
+- Added improvements when using focus-visible pseudo class on current browsers;
+- Outline improvements for **iPad**;
+- Upgraded *video.js* for pre-recorded content;
+- Unified Timezone readable UI into a single JS filter;
+- Added readable timezones on event headers;
+
+#### Fixed
+- Adjustments on top bar of **Virtual Lobby** on iPad;
+- Fixed presence on **Virtual Lobby** not tracking when user only joins group rooms or sponsor rooms;
+- Adjusted promise order on summary page;
+- Fixed summary page displaying wrong count of users;
+- Fixed quiz.chain.get query giving wrong quiz amount;
+- Fixed contrast issue on selected CC option on Video Player when using Neo Dark Mode;
+- Fixed Live Stream not showing up on iPadOS when using portrait mode and when resizing desktop window;
+- Fixed Event Details page taking a long time to load because of Email DKIM verification;
+- Fixed event cover overlaying Registration Form Step 1;
+- Fixed Registration Form Step 2 (**My **Agenda****) highlighted activity text contrast;
+- Fixed Step 2 (Identification) not being skipped in case no questions were created;
+
+### August 30, 2022
+
+#### Added
+- Added **Email Sanity** pre-check for large emails;
+- Added **Email Batch** send for lists and reminders -- sends emails on batches of 250 emails or 40mb payload;
+- Added option to change **My Agenda** error messages when chains or schedule locks are enabled;
+- Improved **Chapters** visual component;
+- Unified United Kingdom countries into a single Great Britain country called 'United Kingdom';
+- Added bold indicator for correct answer on **Quiz** dashboard page;
+- Added correct answer display with extra info on **Quiz** dashboard page;
+
+#### Fixed
+- Removed old logging that is unnecessary now;
+- Fixed **Email Builder** scheduler calendar not showing correctly;
+- Fixed *app url* page;
+- Fixed **Purchase Page** redirecting to stripe invoice automatically;
+
+### August 29, 2022
+
+#### Added
+- Added option to add people to specific **Lists** depending on the **Registration Form** answers (triggers);
+
+#### Fixed
+- Removed invalid limit & offset setting for *leads.find*;
+- Fixed *utm.setConversion* **API Endpoint**;
+- Adjusted fields admin page on **Company Level**;
+- Fixed **Stripe** webhook looking for invoices when it shouldn't;
+- Fixed **Virtual Lobby** Video Conferencing breaking the layout with sessions that don't have a lot of details;
+
+### August 26, 2022
+
+#### Added
+- Added troubleshoot filter on **Issue Report** Dashboard page;
+- Using XHR instead of fetch for *IP detection* on old browsers;
+- Improved User Experience of file upload on **Virtual Lobby**;
+- Added option to delete *private chat* messages on **Virtual Lobby**;
+- Improved contrast of the date selector circles on **Email Builder** date scheduler;
+- Added error message when creating **Meeting** slots with wrong information;
+- Added error when scheduling **Emails** with wrong information;
+- Added *Email Confirmation warning message* on **Add Invitee** popup;
+
+#### Fixed
+- Fixed screen resolution issue on **Push Messages** Dashboard;
+- Fixed broken **Email creator** layout on Mobile devices;
+- Fixed error message when joining and leaving a video conference room;
+- Fixed error when selecting agenda menu;
+- Fixed **Summary page** not being translated correctly;
+- Fixed machine translation for website sessions not working;
+- Fixed **Webinar** mode, Session menu has been removed;
+- Adjusted Speaker Profile data sync to only sync from Speaker to EventMember;
+- Fixed chapter creator dialog current time overlaying the mouse timestamp display;
+- Adjusted content-row size for smaller screens on **Virtual Lobby**;
+- Fixed **Quiz** error for old browsers;
+- Fixed **App Center** for old devices;
+- Fixed **Login Page** for old browsers;
+- Fixed error on speed test when failing to download file;
+- Fixed error on template Vulcan;
+- Improved support for old browsers;
+- Fixed **file.create** bug caused due to new direct link upload;
+
+### August 25, 2022
+
+#### Added
+- **Virtual Lobby** User Interface improvements (*Neo layout*);
+- Added *chapters* for on-demand content;
+
+#### Fixed
+- Fixed *hyperlinks* not matching on **Virtual Lobby**;
+
+### August 24, 2022
+
+#### Added
+- Added more necessary **Microsoft Dynamics 365** endpoints for future integration;
+- Add **Automated Invoices** on **Stripe**:
+  - This option allows you to generate *invoices* when purchasing tickets;
+  - ACH Payments will be detected automatically and processed automatically;
+
+#### Fixed
+- Fixed *EXIF removal* to use same mime-type from original file;
+
+### August 23, 2022
+
+#### Added
+- Added **SIP numbers** for Canada: Vancouver, Ottawa;
+- Added option to edit **Group Rooms** dates and topics on **Virtual Lobby** Dashboard;
+- Added column `Time Spent` on **Activity Report**;
+- Added column `Attendees Tags` on **Event Report**;
+- Added *Language Selector* on **Translator Console**;
+- Added option to make **Virtual Lobby** left section transparant so the background image is fully visible;
+- Set the time of recordings according to *Time Zone* set on **Event Details** Dashboard;
+
+#### Fixed
+- Fixed *Virtual Background* not updating correctly after joining with it enabled;
+- Adjusted *empty states* on background image of **Virtual Lobby** session tiles;
 
 ### August 22, 2022
 
