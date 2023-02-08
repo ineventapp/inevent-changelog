@@ -2,7 +2,541 @@
 
 This change log was created on January 22, 2021 and only entries after this date will be registered.
 
-## Version 16.3
+## Version 16.4
+### January 26, 2023
+
+#### Added
+- Added new signature custom field option;
+- Added option to download chart as Spreadsheet;
+- Improvements for WCAG — Keyboard Navigation v2.0 on My Tickets page, App page, My Forms page, Networking page, Virtual Lobby, Purchase Form, Registration Form and Custom Forms pages;
+- Added option to upload files directly on File Manager;
+
+#### Fixed
+- Fixed fullscreen button on video player;
+
+
+
+### January 24, 2023
+
+#### Added
+- Added people list column in activities spreadsheed;
+- Added keyboard navigation on Purchase form;
+- Added Color Contrast: Text and images of text should have a minimum contrast ratio of 4.5:1;
+- Add option to exclude all tags on Matchmaking;
+- Added option to translate Speaker headline;
+
+#### Fixed
+- Fixed error when changing the layout of the virtual lobby and after accessing the virtual lobby editor;
+
+
+### January 22, 2023
+
+#### Fixed
+- Adjusted 'My Events' on event level to show/hide depending on your choice;
+
+
+### January 20, 2023
+
+#### Added
+- Added 'My events' option on Email Builder;
+- Added Salesforce field for 'Magic Link Event List';
+- Added "Event List" page that show "My Events" for a company;
+- Added 'marketingonly' key for Dynamics when we create a brand-new Contact;
+
+#### Fixed
+- Fixed on Virtual Report page;
+
+
+### January 19, 2023
+
+#### Added
+- Added 20 missing reports on 'All Reports' page;
+- Added 'Download now' button to open the 'All Reports' instead of the 'Report Center';
+- Added back player idle image option for Webinar;
+- Added more columns to Meetings report;
+- Added header auto adjust for Lima Template;
+
+#### Fixed
+- Removed Lists Related content on Tickets for Webinars;
+
+
+### January 17, 2023
+
+#### Added
+- Added dedicated page for Reports on Event Level;
+- Added Dynamics Subscription Lists should sync right away when an user is added to the event;
+- Added Terms of Service sync for Microsoft Dynamics 365;
+- Added custom css for Booking Forms;
+
+#### Fixed
+- Fixed Website translation for Sponsors/Exhibitors bio not showing up;
+- Fixed video player full screen toggle;
+- Fixed schedule.php page closing session details whenever you scroll all the way down;
+
+
+### January 13, 2023
+
+#### Added
+- Added date invoice;
+- Added invoice signature block;
+
+#### Fixed
+- Fixed logging for MS Dynamics adjusted;
+
+
+### January 12, 2023
+
+#### Added
+- Removed the app for webinars;
+- Added WCAG - Keyboard Navigation support on Top bar menus;
+- Added option to remove users from stage directly on the Live Studio viewport;
+- Added "Permission Level" to Company Users Import Spreadsheet;
+- Added Adobe Analytics integration';
+- Added SSO Integration added Azure AD and OpenID-Connect Support;
+- Added Picklist filtering for ID on Dynamics Fields sync;
+
+#### Fixed
+- Fixed geolocation check for Purchase Country and fixed State not loading properly on certain scenarios;
+
+
+### January 11, 2023
+
+#### Added
+- Added Session data on SSO logs;
+- Added login logs for SSO auth;
+- Added option to create Multiple Pages for Website;
+- Added SSO Session Expiration Policy from Metadata;
+
+
+### January 10, 2023
+
+#### Added
+- Added Transcription translate to any language (user defined);
+
+#### Fixed
+- Fixed anchor for Event Player CSS;
+- Fixed Layout for Transcription Translation on mobile devices;
+- Fixed language selector not displaying all language options;
+- Fixed bug in Feedback Editor that allows you to drag and drop fields between sections, but it doesn't save correctly;
+- Fixed when red dot notification does not appear in some session tabs;
+
+
+### January 9, 2023
+
+#### Fixed
+- Fixed Dynamics Permission Set;
+- Fixed error on create activity using spreadsheets when uploading more than once the same spreadsheet with Virtual Room set to 0;
+
+
+### January 6, 2023
+
+#### Added
+- Added "Status" field on Event/Webinar template;
+
+
+#### Fixed
+- Fixed Salesforce responded status check;
+- Fixed locked feature message when disabling it through the API on Event Level;
+
+
+### January 4, 2023
+
+#### Added
+- Added refresh option for Dynamics Subscription Lists;
+- Added subscription list autosync for Dynamics;
+- Added CSS Handler for Exhibitors too;
+- Added more CSS Class handlers for "Virtual Lobby" CSS Customization;
+- Added option to allows dynamics custom fields to select subscription lists;
+- Added dynamics lists API through getEntities;
+- Added subscription list APIs;
+
+#### Fixed
+- Removed PII 'Birth Date' from Purchase and Applicant pages;
+
+
+### January 3, 2023
+
+#### Fixed
+- Fixed feedbackMember ordering to get most recent feedbacks;
+
+
+### December 23, 2022
+
+#### Added
+- Added option to create a template based on an existing event;
+- Added option to filter by Pending Purchase on Email Builder;
+- Added option to allow access to camera/microphone in live editor;
+
+#### Fixed
+- Fixed error when admin removed his own ticket;
+- Fixed Salesforce Statuses checks and automatically create the necessary Statuses when creating a new Salesforce Campaign;
+- Fixed error when secondary verification not showing in full screen mode;
+- Fixed error on Quiz Notification;
+- Removed all sponsor options and leave only "ads";
+
+
+### December 22, 2022
+
+#### Added
+- Added Virtual Lobby Design Editor support for Classic Layout;
+- Added option to rename lists that were previously created;
+- Added Realtime AWS Transcribe Service;
+- Added option on Automatically add person to stage on Live Studio when streaming;
+
+#### Fixed
+- Fixed error on Attendees research for Updated date;
+- Fixed wrong message appearing when submitting a Event Booking Form;
+
+
+### December 20, 2022
+
+#### Added
+- Deactivated 'Preferences' menu from "My Agenda";
+- Improviments on Networking page to use same layout structure as "My Agenda";
+
+
+#### Fixed
+- Fixed alignment for favorite button on Networking page;
+- Fixed header for Custom Form on Company Level;
+- Fixed "My Agenda" filters to expose visually what's the current filter and also added new layout;
+- Fixed error when copying a feedback question to the search bar for choosing activities does not show results;
+- Fixed error message when creating two activities at the same time slot;
+- Fixed error with messages not being displayed on mobile;
+- Fixed error with approval emails not arriving for booking forms;
+- Fixed when creating a new webinar the cover image preview is not showing;
+
+
+### December 19, 2022
+
+#### Fixed
+- Fixed plain/text values not showing up on excel report for event.person when it was previously answered as empty (in case the question was invisible at some point);
+- Fixed event links not working on Reports > Attendees > Events;
+- Fixed error on popup focus elements;
+
+
+### December 15, 2022
+
+#### Added
+- Added keyboard navigation in new summary page;
+- Added keyboard navigation in datepicker;
+
+
+### December 14, 2022
+
+#### Added
+- Added UI to allow users to create Dynamics custom registration fields automatically;
+- Added API that allows the InEvent user to create entity objects on Microsoft Dynamics;
+- Added option to create Custom Registration Field if not exists;
+- Added Total Time Spent (in minutes) for Dynamics;
+
+
+### December 13, 2022
+
+#### Added
+- Added Registration Form: Attached Forms;
+
+
+#### Fixed
+- Fixed message being sent to everyone when changing live ownership;
+
+
+### December 12, 2022
+
+#### Added
+- Added settings button for Tab page;
+- Added settings button for Payment page;
+- Added settings button for Email Builder page;
+- Added settings button for Printer page;
+- Added settings button for Registration Form page;
+- Added settings button for Ticket page;
+- Added settings button for Admission page;
+- Added settings button for Invite page;
+- Added settings button for Feed page;
+- Added settings button for Attendees page;
+- Added settings button for Meetings page;
+- Added settings button for Comments page;
+- Added settings button for Questions page;
+- Added settings button for Tags page;
+- Added settings button for Files page;
+- Added settings button for "Virtual Lobby" page;
+- Added settings button for Sponsors page;
+- Added Tool Menu Component that displays all related tools across multiple pages;
+
+
+
+### December 9, 2022
+
+#### Added
+- Added in-person on main title;
+- Added Font Size on Accessibility feature;
+- Added Mute Sounds on Accessibility feature;
+- Added option to show sold tickets on the list;
+- Added possibility to add meetings with more than one person at the same time with matchmaking;
+
+
+#### Fixed
+- Fixed errors in adminFeedback and fixed charts for Multiple feedback type and Single Option feedback type;
+- Fixed icons for integration imports;
+- Fixed errors when deleting ticket information;
+- Fixed error with scheduled push notifications appearing for regular users in notification center before being sent;
+
+
+
+### December 8, 2022
+
+#### Added
+- Added annotation for submitting a custom form on Microsoft Dynamics;
+- Added Transcript/Closed Captions generator for pre-recorded content;
+
+
+### December 7, 2022
+
+#### Added
+- Added missing logs for file create function;
+- Added Salesforce bidirectional data sync;
+
+#### Fixed
+- Fixed 'Yes' and 'No' conversion happening on Option Lists that shouldn't;
+
+
+
+### December 2, 2022
+
+#### Added
+- Added support to read and write timeline events on Registration Attendees object on Dynamics;
+- Added support for all global custom fields, not only the ones already used by the event on Dynamics;
+- Added support for Total Time Spent (per user) sync on Dynamics;
+- Added support for Language sync on Dynamics;
+- Added support for LinkedIn sync on Dynamics;
+- Added two more Salesforce data copy when copying or creating events from templates;
+
+
+#### Fixed
+- Fixed wording of Speed Networking status for admins;
+- Fixed list import switch case when defining headers;
+
+
+
+### December 1, 2022
+
+#### Added
+- Added the possibility for the admin to add meetings with more than one person at the same time;
+- Added tool to block meetings outside the event date directly in meeting.php;
+- Added Autogenerated Username';
+
+
+#### Fixed
+- Fixed home carrousel descriptions;
+
+
+### November 28, 2022
+
+#### Added
+- Added option to allow user to join session without camera (just microphone);
+- Added option to hide Role and Company separately from the Registration Form without locking the profile;
+- Improviments on experience when it comes to adjusting the volume of the main speaker and interpreter when using audio interpretation channels;
+- Added Color Schemes on Accessibility feature;
+- Added a sound Notification when translators disconnect their microphone;
+
+#### Fixed
+- Fixed when using dynamic content in Email Creator, for Meetings the incoming email only showed the host and not the guest;
+
+
+### November 23, 2022
+
+#### Added
+- Added missing v-cloak on "Virtual Lobby" Dashboard Page;
+- Added Help button to company.php#webinars;
+- Added the option to remove Group Rooms from the VL without having to deactivate the entire Networking;
+- Added dialects for Persian and Chinese;
+
+#### Fixed
+- Fixed "Help" and "Edit" buttons not appearing in Virtual Lobby;
+
+
+### November 22, 2022
+
+#### Added
+- Improvements on Raise Hands and Invitations;
+- Added button to trigger the feedback popup any time;
+- Improvements on video uploader UX;
+- Added option to import .Xls file into attendees;
+
+#### Fixed
+- Fixed Regions and Services not showing any content in event market popup;
+- Fixed when importing Exhibitors using the demo file, they was listed in Sponsors instead;
+- Fixed when Virtual Lobby Editor right bar would not change color;
+
+
+### November 21, 2022
+
+#### Added
+- Added option to create and export event on Dynamics;
+- Added sorting option based on creation date, sending date and writing of push messages;
+- Improvements on sections on backend dashboard;
+- Added Feedack Groups for Registration Form and Purchase Form;
+- Improvements on assitant email on registration form;
+
+#### Fixed
+- Fixed audio echo issue when using Video Canvas;
+
+
+### November 18, 2022
+
+#### Added
+- Added error logs on Dynamics dashboard;
+- Added more identity fields on Dynamics and more Event fields;
+- 
+
+### November 17, 2022
+
+#### Added
+- Added Dynamics Event Fields Sync;
+- Added Dynamics Event Information updater;
+
+
+### November 16, 2022
+
+#### Added
+- Improved invitation management with status when inviting users to a call;
+- Added Webinar reports;
+- Added option to view background settings of **Virtual Lobby** for Webinars;
+
+#### Fixed
+- Removed field requirement for badge printing when importing excel spreadsheet;
+
+
+### November 15, 2022
+
+#### Added
+- Added option to use TinyMCE with certain Placeholders;
+- Added support to TinyMCE on Question Subtitles;
+
+#### Fixed
+- Fixed admin feedback issue with TinyMCE;
+
+
+### November 14, 2022
+
+#### Added
+- Added 'Airport' feedback option;
+- Added raise hand numerical order for all permissions;
+
+
+### November 13, 2022
+
+#### Added
+- Added Raise Hands for Speakers;
+- Added raise-hand feature for mobile;
+
+
+### November 9, 2022
+
+#### Added
+- Improved mobile web design;
+- Added alphanumeric and alphabetical sorting to tickets;
+- Added multiple lists to Triggers;
+- Improved network list not very visible when filtering due to contrast;
+
+#### Fixed
+- Fixed when subtitles doesn't work on simulated live;
+
+
+### November 6, 2022
+
+#### Fixed
+- Fixed exhibitors categories on Website;
+
+
+### November 4, 2022
+
+#### Added
+- Added Robert's Rules of Order to the raise hand feature organization;
+
+
+### November 3, 2022
+
+#### Added
+- Improvements on visuals for meeting with multiple participants;
+- Added option to schedule a meeting with multiple participants;
+- Added partner console to the menu;
+
+### November 2, 2022
+
+#### Fixed
+- Fixed 'Is webinar?' string;
+
+
+### November 1, 2022
+
+#### Fixed
+- Fixed when spreadsheet was not converting according to timezone;
+
+
+### October 31, 2022
+
+#### Added
+- Added option to download only the audio file in the sessions;
+
+
+### October 25, 2022
+
+#### Fixed
+- Fixed trim mode breaking large video uploads;
+
+
+### October 21, 2022
+
+#### Added
+- Added audio oscillator as local recording timing function;
+- Added 'Detect Automatically' option when adding someone to attendees list;
+- Added 'waitlist' flag on event.applicant API Model to distinguish between pending users on tickets and actual waitlist users;
+- Added functionality that if company admins add themselves to events, they should be added as admins automatically;
+- Added keyboard navigation and possibility to send files with telc enter and space on "upload files";
+- Added high contrast option in Virtual Lobby;
+
+#### Fixed
+- Fixed big screen broken layout;
+- Fixed when manual payment parameter is empty when using discount;
+- Fixed errors when using a pre-recorded video as Welcome cover;
+- Fixed when news feed notification is cleared when going to my-agenda.php;
+- Fixed when the Virtual Lobby is setted Overlay Contents, then you search an activity doesn’t exist, all the content shakes;
+- Fixed Filter Tag Box not appearing completely;
+
+
+### October 20, 2022
+
+#### Fixed
+- Fixed pre-recorded static not loading properly for images;
+
+
+### October 19, 2022
+
+#### Added
+- Added option to sort people in lists by registration date;
+- Added option to disable animations in Virtual Lobby;
+
+#### Fixed
+- Fixed excel stripping wrong characters;
+- Fixed On Demand content displaying misleading popup when content is not video;
+- Fixed display/creation of exhibitors when using the platform in French;
+
+
+### October 13, 2022
+
+#### Added
+- Improvement in experience center first section;
+- Added global extensions for image upload across the platform;
+- Added Trim option before uploading a video as pre-recorded;
+
+#### Fixed
+- Fixed error when a payment was approved, the admin was logged out of the platform.;
+- Fixed error on create activity tracks with the French language;
+- Fixed a tag error that it was possible to complete a registration without selecting a tag even though it was required;
+- Fixed warning message when clicking on edit and after clicking on end in company.php#events page;
+- Fixed the dedicated activities menu on mobile;
+
+
 ### October 6, 2022
 
 #### Added
