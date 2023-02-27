@@ -2,7 +2,85 @@
 
 This change log was created on January 22, 2021 and only entries after this date will be registered.
 
-## Version 16.4
+## Version 16.5
+### February 7, 2023
+
+#### Added
+- Added a highlight on the Virtual Lobby Design Editor;
+- Added option so that when using the "Raise hand" button, prepare the user's camera and microphone in advance;;
+- Added possibility to have sub-hosts to handle live settings in Live Studio;
+
+
+### February 6, 2023
+
+#### Added
+- Added Company Level menu when opening Help Center from Company Level;
+
+
+### February 3, 2023
+
+#### Added
+- Change the name "questions" to "questions/suggestions"" on Issue report tool;
+- Create field for user to add alternative text themselves when adding pictures to the photo gallery;
+
+
+### February 2, 2023
+
+#### Added
+- Added option to create field for user to add alternative text themselves when creating ads;
+- Added "My voucher" option on Email Builder;
+- Added Lists and Tickets option on Templates;
+- Added company page reload in case user is not admin of the target company;
+- Added 'Help center' button on Account block of the menu;
+- Added lock option with Pin Code or Authenticated User on Hotsite/Directory Page;
+
+#### Fixed
+- Fixed error when adding a restriction, when the time interval did not match the selected one. (Always an hour in advance);
+- Fixed creating group rooms in virtual (live) lobby not working;
+- Fixed Ad options importance reset;
+
+
+### February 1, 2023
+
+#### Fixed
+- Fixed push notifications appearing for users not on the list;
+
+
+### January 31, 2023
+
+#### Added
+- Added Permission Bundle to "Approve Event Booking";
+- Added basic permissions when creating a Profile on Company Level;
+- Added automatic camera selection based on previous preferences;
+- Added 'title' tag to Lists on Attendees;
+- Added Lists column on Attendees;
+- Added option to include lists when importing attendees;
+
+#### Fixed
+- Adjusted SSO check for login page;
+- Adjusted Login for OIDC Protocol;
+- Fixed Video Uploader not working on Live Studio;
+
+
+### January 30, 2023
+
+#### Fixed
+- Adjusted Event Invite excel spreadsheet to update data;
+
+
+### January 28, 2023
+
+#### Fixed
+- Adjusted health-check to avoid target deregistration;
+
+
+### January 27, 2023
+
+#### Added
+- Added Chains to Activity Import spreadsheet;
+- Added username value as email on List in case the email is empty and the username is an email;
+
+
 ### January 26, 2023
 
 #### Added
