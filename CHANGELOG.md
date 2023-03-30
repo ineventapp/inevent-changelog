@@ -2,7 +2,125 @@
 
 This change log was created on January 22, 2021 and only entries after this date will be registered.
 
-## Version 16.5
+## Version 16.6
+### March 2, 2023
+
+#### Added
+- Added extra safety check for hotel management on Registration Form;
+
+#### Fixed
+- Fixed activities card dimension when the text is long and incresing the font size;
+- Fixed "Go back" link when increasing the font size;
+- Fixed event title on pages' cover when long and increasing the font size;
+- Fixed event description to avoid cutting letters when incresing font size;
+- Fixed lateral menu hover area when changing something on the Virtual Lobby Editor;
+- Fixed upper menu buttons when changing font size;
+
+
+### February 28, 2023
+
+#### Added
+- Added Hotel Management Dashboard;
+- Added option to approve / reject users with Approval Requirement on Marketing > Tickets > Applicants;
+
+
+### February 27, 2023
+
+#### Added
+- Added and improve alt text and ARIA labels for screen readers;
+
+#### Fixed
+- Fixed Skip to Content button not allowing users to click on the left corner of the screen;
+- Adjusted ticket manager getting multiple repeated payments;
+
+
+### February 24, 2023
+
+#### Added
+- Improved QR Codes page to also include links;
+
+#### Fixed
+- Fixed Dynamic Links for Virtual Sessions not working properly;
+- Fixed when ticket that have purchased was not displayed in \"My Ticket\" tab;
+
+
+### February 22, 2023
+
+#### Added
+- Added option to block personal emails on Registration Form;
+- Added option to form feedback question type text;
+- Added option to send SMS to a single attendee;
+- Added permission to export lists in activity sheets;
+- Added AI button on TinyMCE w/ GPT3;
+- Added option to upload files to file-manager.php (Sponsors and Exhibitors);
+- Added option to select multiple lists in target section of email creator;
+- Added people list column in activity sheet;
+- Added Keyboard navigation in My Account and Activity;
+- Added Categories in tag import spreadsheet;
+- Added a bunch of new placeholders;
+
+#### Fixed
+- Adjusted 'Add Video' functionality when using Magic Link as Staff;
+- Adjusted elements for assistive technology;
+- Fixed Layout error - Acessibility Large Font Size;
+- Fixed when not showing QR code in responsive version of web app;
+
+
+### February 20, 2023
+
+#### Added
+- Added Magic Link option when generating attendees report;
+
+#### Fixed
+- Adjusted license of Handsontable;
+- Replaced calendar for european customers;
+
+
+### February 17, 2023
+
+#### Added
+- Added loading dialog on My Forms page;
+
+#### Fixed
+- Fixed JS place creation on meetings;
+- Adjusted map marker on meetings card;
+- Dismissed dialog on page show for Safari on My Forms;
+
+
+### February 16, 2023
+
+#### Fixed
+- Fixed feedback date and datetime submission format check;
+- Fixed 'Guests +1' questions not creating correctly;
+- Fixed salesforce export update info when exportType is not auto and lead already exists;
+
+
+### February 14, 2023
+
+#### Added
+- Improved UI for lists selection;
+- Added "Reason" when cancelling meetings;
+- Added pagination to ticket screen;
+
+#### Fixed
+- Fixed prevent seconds and milliseconds on datepicker;
+- Fixed datepicker component not showing the initial date;
+- Fixed restriction interval conflicted;
+- Fixed Custom email address error on meeting emails;
+- Fixed when a subhost could not unmute a video;
+- Adjusted broken UI on form settings;
+
+
+### February 8, 2023
+
+#### Added
+- Added keyboard navigation in modal;
+
+#### Fixed
+- Adjusted company booking event dates not showing up;
+- Fixed bug when replicating activities where content was not being copied correctly.
+
+
 ### February 7, 2023
 
 #### Added
