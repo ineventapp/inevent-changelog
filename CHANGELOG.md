@@ -2,6 +2,881 @@
 
 This change log was created on January 22, 2021 and only entries after this date will be registered.
 
+## Version 35.1.5
+### December 23, 2025
+
+#### Added
+- Added develop waitlist feature per ticket for U.S. Customs and Border Protection;
+
+
+## Version 35.0.8
+### December 15, 2025
+
+#### Fixed
+- Fixed when attempting to disable the ‘Allow edit’ option for default fields on the **Registration Form**, the system throws an error;
+- Fixed abstract form availability on abstracts page;
+
+
+## Version 35.0.6
+### December 10, 2025
+
+#### Added
+- Added registration field visibility rules based on email domain;
+
+
+## Version 35.0.1
+### December 8, 2025
+
+#### Added
+- Added approval requirement toggle based on email domain;
+- Added custom registration fields in Checklog Reports;
+- Added waiting list for activities;
+
+#### Fixed
+- Fixed attached form on tickets not sending confirmation email;
+- Fixed font style options not working;
+- Fixed scheduled meetings allowing double-booking at the same time;
+- Fixed **Speaker Portal** page template display;
+- Fixed submission error when trying to submit Registration with Guest form and Attached form;
+- Fixed the automatic share pin doesn't work if the Native Websockets is active;
+- Fixed parent ticket removal after editing;
+- Fixed sometimes the signature isn't saved after filling the **Purchase Form**;
+
+### November 25, 2025
+
+#### Added
+- Added dynamic email link for webinar pages;
+
+
+## Version 34.9.7
+### November 24, 2025
+
+#### Added
+- Added Salesforce data value matching for field sync;
+- Updated X (formerly Twitter) field and icon on **Networking** and **My Account** pages;
+- Implemented new start video trigger for simulated live function;
+
+#### Fixed
+- Fixed activity demo file to use correct terminology;
+- Fixed quiz minimum and weight values accepting zero and negative numbers;
+
+
+## Version 34.9.4
+### November 20, 2025
+
+#### Added
+- Enabled compatibility between 'approval requirement' and 'activities on form' tools;
+- Implemented default profile for 'Reporting Users';
+
+
+## Version 34.9.1
+### November 13, 2025
+
+#### Added
+- Added setting to automatically hide meetings from attendees after they're over, and move them automatically to the follow-up session;
+- Added status field to reservations menu in **Hotel Management**;
+- Added automatically sync users’ content consumption with HubSpot;
+
+#### Fixed
+- Fixed warning message about the registered username on the email field;
+- Fixed static fields are always allow to edit;
+- Fixed hotels on form: page stops loading when trying to submit form without a required field filled in;
+- Fixed ticket capacity is not being limited by Event capacity;
+- Fixed unknown column 'fmany.id';
+- Fixed activity section highlighter closing after completing actions;
+- Fixed error on quiz.respond;
+- Fixed entry Tab and Content Page fields are conflicting with each other in the web app;
+- Fixed not allowed to submit the **Registration Form**, highlights the email as something wrong but no errors;
+- Fixed users that have registered with a birth date before 1969 it doesn\'t appear in the downloadable reports;
+
+
+## Version 34.8.7
+### October 30, 2025
+
+#### Added
+- Added change “ticket’s amount” to “number of tickets” in Marketing > Ticket > Invoice > Add invoice;
+- Added Disclaimer Heading for Invoice Payment Option;
+- Implemented feature to remove speaker's category;
+- Implemented Room Block Totals Dashboard;
+- Implemented option to skip hotel section in event registration;
+- Added disclaimer heading to Hotel Section;
+
+
+## Version 34.8.2
+### October 24, 2025
+
+#### Added
+- Implemented feature to upload static images/QR codes to badges;
+
+#### Fixed
+- Fixed “No” button of the RSVP form has not background color;
+- Fixed abstracts reports;
+- Fixed error while attempting to create an activity feedback;
+- Fixed issue with pinning files;
+- Fixed sponsor AD layout is broken;
+
+### October 21, 2025
+
+#### Fixed
+- Fixed error registering when having guest conditional;
+
+
+## Version 34.7.9
+### October 20, 2025
+
+#### Added
+- Added new Webhook option for transferred tickets;
+- Implemented formatting box for ticket description field;
+
+#### Fixed
+- Fixed linkedIn icon is not showing in the Attendees profile;
+- Fixed “Buy Ticket” option from the **My Account** page not working with Invite Requirement enabled;
+- Fixed we try to remove an email from speaker email field and it removes, but after a refresh the email is back;
+
+
+## Version 34.7.3
+### October 14, 2025
+
+#### Added
+- Added fallback for questions;
+
+#### Fixed
+- Fixed if a subactivity is created on a different day that the main one, it will be invisible on lobby/details/form;
+- Fixed duplicate field on the speakers page within the activity;
+- Fixed nav Bar on **Landing Page** Not Responding;
+- Fixed there's not possible to unarchive emails at the company level;
+- Fixed field update issues on materials page;
+- Fixed ability to pull data for a specific time period on the **Virtual Lobby** reports dashboard;
+- Fixed when the ‘Allow edit’ option is disabled for default/system fields, users can still edit these fields on the **Registration Form**;
+
+
+## Version 34.6.7
+### October 7, 2025
+
+#### Added
+- Improved page accessibility with missing headings;
+
+
+## Version 34.6.6
+### October 3, 2025
+
+#### Added
+- Added premium Video Conferencing Recording;
+- Added ability to have Non SSO login tool for Company Level and Event level separately;
+- Added email filter list for troubleshoot report users;
+
+
+## Version 34.6.2
+### September 29, 2025
+
+#### Added
+- Added quiz completion as certificate achievement criteria;
+- Implemented email confirmation lock feature;
+
+#### Fixed
+- Fixed discrepancy in \'watchedLive\' vs. \'watchedOnDemand\' columns in **Virtual Lobby** report after converting a live Session to on-demand;
+- Fixed “Salutation” and “Assistant email” fields are displayed as “required” on backend;
+- Fixed a fields linked with tickets does not work with “Display tickets before identification” enabled;
+- Fixed when trying to submit a feature request, the only CS verdict is \"feature is nice to have\";
+- Fixed meeting time display on **My Agenda** and My Meetings for host and guest;
+- Fixed map preview not showing on the custom **Landing Page**;
+- Fixed restrictions adapted for different timezones for “Recurring times”;
+- Fixed submissions not loading for deciders in the abstract section;
+- Fixed attendee not being able to register;
+
+
+## Version 34.6.0
+### September 22, 2025
+
+#### Added
+- Added sort for files on event level;
+
+#### Fixed
+- Fixed the my meetings tab opens the agenda tab (its not opening the meeting tab by default);
+- Fixed when submitting a new event booking form, the form owner is being notified twice but we can\'t trace where the second email is coming from;
+- Fixed error message when trying to reject a booking form;
+
+
+## Version 34.4.5
+### September 8, 2025
+
+#### Added
+- Added registration cancellations should be synced automatically with HubSpot;
+- Added speaker category translation;
+
+#### Fixed
+- Fixed additional menu labels with dropdown items do not appear properly in the NavBar section (Edit tab) and on the frontend-facing website;
+
+### September 5, 2025
+
+#### Added
+- Added data points need to be able to sync to a contact and not just a static list;
+
+
+## Version 34.3.8
+### September 3, 2025
+
+#### Added
+- Added automatic list assignment for conditional custom questions on registration;
+- Added 'Entry tab' option;
+- Added the ‘Salutations’ field on the registration (purchase) form as an option list;
+- Added is it possible to have the question “Are you bringing a guest";
+
+
+## Version 34.3.5
+### September 2, 2025
+
+#### Added
+- Added a ticket rejection button in the third-party invitation e-mail;
+- Added allow more customization in the **Registration Form**;
+- Added only budget admins can make refunds for pay.gov;
+
+#### Fixed
+- Fixed approvals and applicant reports missing company level user fields;
+
+
+## Version 34.3.1
+### August 25, 2025
+
+#### Added
+- Added 2) Weighted Scoring Framework;
+
+
+## Version 34.2.7
+### August 21, 2025
+
+#### Added
+- Added sync the 'Present' field with MS Dynamics;
+- Added column for on-demand content (yes/no) and total time watched on demand;
+- Added new app marked for review;
+
+#### Fixed
+- Fixed when viewing on a smaller screen (cell phone, tablet) the buttons overlap the people - Classic Layout;
+- Fixed aerglo template points to a different location;
+- Fixed presenter name and affiliation disappeared after refreshing their page; host unable to edit stream label during the live session;
+
+
+## Version 34.2.4
+### August 15, 2025
+
+#### Added
+- Added ability to set up multiple reply-to email addresses;
+- Added [4 of 6 – Part 2] Ability to prevent attendees from editing specific fields on the **Registration Form**;
+
+#### Fixed
+- Fixed subticket quantity is not being limited by the ticket quantity;
+- Fixed can\'t delete email;
+- Fixed aI Assistant didn\'t work;
+- Fixed agenda in the **Virtual Lobby** is showing up the activities in the wrong order while in the backend they are in the correct order;
+
+
+## Version 34.2.0
+### August 11, 2025
+
+#### Added
+- Added ability to track all user changes on the platform and receive daily reports of those changes;
+
+
+## Version 34.1.8
+### August 8, 2025
+
+#### Added
+- Added edit button on Payment after clicking the blue arrow button;
+- Added certificates on app;
+
+### August 5, 2025
+
+#### Fixed
+- Fixed preview emails consuming a credit;
+- Fixed column sorting for company and role on approvals page;
+- Fixed snippets do not copy over;
+
+
+## Version 34.1.7
+### July 31, 2025
+
+#### Fixed
+- Fixed the platform does not sync No responses with HubSpot when users select No for a custom Yes/No question on the InEvent **Registration Form**;
+
+### July 29, 2025
+
+#### Fixed
+- Fixed error message when accepting ticket invite with access code;
+
+
+## Version 34.1.6
+### July 28, 2025
+
+#### Added
+- Added chain renaming support;
+
+#### Fixed
+- Fixed same team notification function is not working on booking forms;
+
+
+## Version 34.1.5
+### July 25, 2025
+
+#### Fixed
+- Fixed poll with more than one answer allowed does not remain highlighted in the Poll tab;
+- Fixed create timeout to API calls;
+
+
+## Version 34.1.4
+### July 23, 2025
+
+#### Added
+- Added reCAPTCHA on Forms;
+
+
+## Version 34.1.3
+### July 21, 2025
+
+#### Added
+- Added ability to archive emails;
+
+#### Fixed
+- Fixed improve Janus 'Menu';
+- Fixed after creating an email, click the blue icon to go that email and then go to \"View email\" the cover image is not displayed;
+- Fixed polls with images are not displaying properly;
+
+
+## Version 34.1.0
+### July 18, 2025
+
+#### Fixed
+- Fixed when trying to translate the contents of the textboxes added it gives an error message that websitecontentID couldn\'t be found;
+- Fixed **Sponsors** and **Exhibitors** are invisible on **Landing Page** Builder;
+
+
+## Version 34.0.9
+### July 17, 2025
+
+#### Fixed
+- Fixed automatically update the page and the submission statuses when approving or rejecting a custom form at the company or event level;
+- Fixed attempts to view more details regarding the open rate and click rate return an error;
+- Fixed issue sending data with accents to Salesforce;
+- Fixed map Total report is inaccurate;
+- Fixed inconsistent character count and broken dropdown layout when inserting a link in push message creation;
+- Fixed error for profile-restricted users accessing event details;
+- Fixed the TV mode for quizzes is redirecting to the **My Account** page;
+- Fixed issue with translations dashboard language dropdown;
+- Fixed error message when filling out a quiz with multiple choice;
+- Fixed edits to the **Landing Page** are not reflecting in real time when using a custom domain;
+
+
+## Version 34.0.6
+### July 10, 2025
+
+#### Added
+- Added templates filter;
+- Added if a Custom Form is rejected, add the rejection reason to the submission for future reference;
+- Added slide transition effects on website pages;
+- Added an option to delete apps;
+- Removed options for bugs on feature request;
+- Added print button at 'Submissions';
+- Added new Heading: When the Lobby is empty, new heading for the **Networking** message \"the netwoking lobby is empty\";
+- Added pagination under agenda > feedback;
+- Added adjust how the filters work;
+- Added "Generate Section" button in "Section" tab - **Landing Page** Builder;
+- Improved page accessibility with missing headings;
+
+#### Fixed
+- Fixed after downloading the Attendees report, I am unable to see the activities attendees selected when registering in the spreadsheet;
+- Fixed attendees who cancel their registration are being assigned a Waitlist status on the People > Leads page;
+- Fixed meeting reschedule time display on My Meetings page;
+- Fixed some columns of attendees spreadsheet are always visible even when their category is disable;
+
+
+## Version 34.0.3
+### July 7, 2025
+
+#### Added
+- Added turn OFF/ON the *'Select all options'* button for multiple choice questions;
+
+#### Fixed
+- Fixed feedback for activities not responsive on the app - we click it but we can\'t see the options or answer the questions;
+- Fixed create Event - Error details;
+
+
+## Version 33.9.6
+### June 30, 2025
+
+#### Added
+- Added automatic username generation when uploading people to lists;
+- Added delay Payment Approval;
+
+#### Fixed
+- Fixed enrollment date salesforce time;
+- Fixed the trigger from a **Registration Form** questions is not populating when creating the event;
+- Fixed form owner has not been receiving the automatic email that a new form was submitted;
+- Fixed transcription and closed captions not starting when using OBS and RTMP;
+- Fixed manual captions appear to be no longer supported, but are a key feature for this customer;
+
+
+## Version 33.8.7
+### June 26, 2025
+
+#### Fixed
+- Fixed cannot create a "Grade from 1 to 5" with a "Multiple Grades" parent;
+- Fixed invisible questions on **Registration Form** still appearing;
+- Fixed when viewing on a smaller screen (cell phone, tablet) the buttons overlap the people;
+- Fixed janus template is not responsive for mobile on the banner and the custom section;
+- Fixed zip code field on the event details basic page does not allow letters;
+
+### June 24, 2025
+
+#### Added
+- Added forms and Dialogs standardization;
+
+
+## Version 33.8.1
+### June 23, 2025
+
+#### Added
+- Added subtickets - Dynamic Lists;
+- Added include a warning tooltip on the Website Creator;
+- Added right-click copy and action options;
+
+#### Fixed
+- Fixed video display issue - video does not show for viewers when put on stage the first time;
+- Fixed database constraint error on record deletion;
+
+
+## Version 33.8.0
+### June 20, 2025
+
+#### Added
+- Added file and recording access restriction after event end date;
+- Added quiz completion count for certificate achievements;
+- Added chat function on the virtual activities to be more user-friendly;
+- Added quiz tab for mobile;
+- Added Speaker Portal;
+
+#### Fixed
+- Fixed **Event Map** pin location accuracy;
+- Fixed the behavior of polls and quizzes;
+- Fixed open App link now redirects to the selection page, but still does not trigger any action;
+
+
+## Version 33.7.8
+### June 18, 2025
+
+#### Fixed
+- Fixed quiz not appearing after creating;
+- Fixed quiz submission tab layout;
+- Fixed error when accessing invitation link in email – "Ticket not found";
+- Fixed email Trigger not firing;
+- Fixed purchase approval button not processing approvals;
+- Fixed "Grade from 1 to 5" field is not allow to be set as a child field of "Multiple grades" while creating this field in some forms;
+- Fixed the meeting presentation mode is not displaying scheduled meetings;
+- Fixed meeting form is not being displayed on **Virtual Lobby**;
+- Fixed meeting form accepts an invalid number for Flight number field;
+- Fixed **Badge Printing** option for printer permission;
+
+### June 16, 2025
+
+#### Added
+- Added Salesforce sync handling for deleted leads and contacts;
+
+
+## Version 33.7.6
+### June 11, 2025
+
+#### Added
+- Improved page accessibility with missing headings;
+
+
+## Version 33.7.5
+### June 9, 2025
+
+#### Added
+- Added addition of a permission key to edit event details;
+- Added ability to download Attendee reports with the columns selected;
+
+#### Fixed
+- Fixed centralize the button at **Email Creator**;
+- Fixed voting not possible at Polling;
+- Fixed unselected days from "Agenda with filters" section is not appearing on hotsite (dark mode);
+- Fixed people filter;
+- Fixed welcome Section displays on custom form even when unticked;
+- Fixed it is not possible to create an **Event Map**;
+
+
+## Version 33.6.7
+### June 3, 2025
+
+#### Added
+- Added aI Tool Call / **Registration Form** / Create Field;
+
+
+## Version 33.6.1
+### May 28, 2025
+
+#### Fixed
+- Fixed it’s not possible to pin the presentation;
+- Fixed wEB - "To many attempts" message appears if the e-mail text box is empty;
+- Fixed quiz leaderboard showing incorrect results, especially for multiple-answer questions;
+- Fixed while using the Lima template, the \"Event has started\" prompt always appear even if the event has ended;
+- Fixed reviewer Submission pages display the same information;
+- Fixed in the "Par room" tab there is a pagination that should not exist, since there is only one room;
+- Fixed dynamic lists are showing the enrolled date as 12/31/1969 7:00 PM;
+- Fixed newly created permission profiles at the event level cannot access multiple pages, including Sponsor, Attendee and Payments;
+- Fixed editing fields by admin - issue;
+- Fixed unable to scroll down to select a parent field for conditional fields that are part of a long **Registration Form**;
+- Fixed 2.40pm appointment is booked twice and also showing as available but all appointments are full;
+- Fixed \"Copy from Page\" does not appear to copy anything in the new **Landing Page** or Directory Builder;
+- Fixed if you click "Create" multiple times in Custom Forms, you will create multiple fields instead of just one;
+- Fixed polling ‘Skip’,'Previous' and ‘Next’ button;
+- Fixed quiz answer options not being displayed in the activity;
+- Fixed submitted quizzes do not display the correct scores to users;
+- Fixed we created 20+ discussion rooms and the load more button does nothing;
+- Fixed when adding a adress while creating an event and then open the event address, it’s blank;
+- Fixed uploading discussion room url and the end is being cut off on the email;
+- Fixed upcoming Event link does not work;
+- Fixed global fields are always visible on the **Purchase Form** with Attached Form;
+
+
+## Version 33.5.7
+### May 20, 2025
+
+#### Added
+- Added "Event feedback form" at the Webinar;
+- Added setting disclaimer;
+
+#### Fixed
+- Fixed ‘Event feedback form’ link at the Webinar not matching;
+- Fixed when trying to create a map it gives me a connection error;
+- Fixed issues on CTA button in Speaker Invite Template;
+- Fixed when you manually add a person and enter their salutation, it doesnt save;
+- Fixed polling Close pop up;
+- Fixed scroll bar on appointments meetings page;
+
+
+## Version 33.5.5
+### May 16, 2025
+
+#### Added
+- Improved timer reminder behavior in discussion rooms;
+- Added allow the logo in a website template to be clickable and used as navigation for users;
+- Added ticket invite email reminder;
+- Added versioning - **Landing Page** builder;
+
+#### Fixed
+- Fixed it's possible to select a maximum number of options lower than minimum on multiple choice question on the forms;
+- Fixed users showing in \'Waitlist\' at summary page after doing a Stripe refund;
+- Fixed the button to close the chat popup is wrong;
+- Fixed issue when upoading ane excel and mapping fields, the fields dont match properly and fail to upload some of them;
+
+### May 15, 2025
+
+#### Fixed
+- Fixed security issue - cancelation emails to the guest contain the magic link for the host;
+
+### May 13, 2025
+
+#### Added
+- Added ability to have the user picture working independently from the **Registration Form**;
+- Added ticket analytics;
+- Added transfer user information such as their personal agenda, tags and tracks to Sailthru;
+
+
+## Version 33.5.0
+### May 12, 2025
+
+#### Fixed
+- Fixed app menu is incorrect;
+- Fixed embedded video automatically reisizes to default width regardless of user input;
+- Fixed the RSVP Yes button link in emails does not match the Invite link on the Invitees page and throws an error;
+- Fixed the flight number field isn't working on C-Level forms;
+- Fixed message popup not appearing;
+- Fixed real-time questions/comments not updating in the **Virtual Lobby** when native websockets is enabled;
+- Fixed discussion rooms and Breakout rooms tabs now showing up in the backend and needing refresh in the frontend when using a Webinar plan;
+- Fixed all invited segmentation of the SMS Sender feature, not displaying all those on the Invitees list;
+- Fixed dynamic List filter \"RSVP Declined\" not syncing correctly;
+- Fixed lima template events list not scrolling passed two tiles at the company level- directory;
+- Fixed in the attendee journey, the link to link out to the events dont work;
+- Fixed \'Send now\' button does not appear in the ‘**Email Creator**’ when new attendees are added to a list;
+
+### May 8, 2025
+
+#### Fixed
+- Fixed restrictions are not acting as \"local timezone\" for a virtual event;
+
+
+## Version 33.4.5
+### May 5, 2025
+
+#### Added
+- Added have an option to show/hide tickets based on the type of question in the **Purchase Form** (beginning of the form);
+
+#### Fixed
+- Fixed error on event list;
+- Fixed when Automatic approval of attendees’ comments on activities is OFF, the approve and reject buttons overlap the comment;
+- Fixed link field in Create navbar item modal limited to 30 characters and cannot fit most links;
+- Fixed error on upload image on feature request;
+- Fixed users are redirected to the login page. After logging in, they are caught in a loop, continuously being sent back to the login page;
+- Fixed when you add a new element to the **Landing Page**, it does not save;
+- Fixed rejected photos are showing up on the frontend;
+- Fixed on Jericho, the active day font color is the same as the background color;
+- Fixed making any change to an activity leads to a refresh;
+
+
+## Version 33.4.3
+### May 2, 2025
+
+#### Fixed
+- Fixed the min/max number of options isn't applied to the new field when selecting the 'copy question' button;
+- Fixed abstract report not populating;
+- Fixed imported payments says (12150%);
+- Fixed date Disparity On TV mode display;
+- Fixed join waitlist button not showing for mobile;
+- Fixed filter modal is not supporting more than 10 tags;
+
+
+## Version 33.4.1
+### April 30, 2025
+
+#### Added
+- Added option to create a section using AI;
+
+
+## Version 33.3.9
+### April 28, 2025
+
+#### Added
+- Added request a different time for meetings booked;
+- Added an icon to show the page of the slide pdf;
+- Added fix on PDF Sharing;
+- Added new Heading: Type your text here under the search box for the **Networking** tab;
+- Added ads inside the details of the activity;
+- Added optimize **Landing Page** Creator;
+- Added development and integration of links that will pre-select one or more tickets or sub-tickets when clicked;
+
+#### Fixed
+- Fixed printer Permission Level on Attendees;
+
+
+## Version 33.3.5
+### April 25, 2025
+
+#### Added
+- Added have the ability to create email to users that have not accepted ticket invitations;
+
+#### Fixed
+- Fixed issue viewing sections as set up in the backend;
+
+
+## Version 33.2.8
+### April 17, 2025
+
+#### Added
+- Improved tag visualization on admission and approvals pages;
+
+
+## Version 33.2.6
+### April 16, 2025
+
+#### Added
+- Added heading for coupons section;
+- Added ability to copy questions in the Forms;
+- Enabled Editing of Appointment Details After Link Creation;
+
+#### Fixed
+- Fixed post submission from backend requiring all fields;
+- Fixed the Invoice status does not reflect the status of the payment;
+- Fixed error on InEvent IA;
+- Fixed emails bouncing back from the **Email Creator** at Company Level;
+- Fixed when the host set a meeting as canceled, the cancel button don't disappear;
+- Fixed x-account doesn\'t appear correctly on the **Landing Page** and can\'t access to the X account;
+- Fixed error filling in the "Pre-selected admin" field;
+- Fixed when starting a video by clicking on 'Add video' it's necessary to play it twice instead of a single click;
+- Fixed date / Time field displays as numbers in reports, instead of readable dates and timse;
+- Fixed the templates table displays only the first 20 records on the company level;
+- Fixed no status present on the per user screen of meetings;
+- Fixed isn't possible to create activities when approving an abstract after the second page as a decider;
+- Fixed text of the red error written "himself" and not "Themselves";
+
+### April 7, 2025
+
+#### Added
+- Added improvements to breakout room - progress bar;
+
+#### Fixed
+- Fixed error with Bullet Function in Heading Value Field;
+
+
+## Version 33.0.0
+### March 24, 2025
+
+#### Added
+- Added edit especific fields tool come as non-editable by default;
+- Added a flag in the backend to pin and unpin an activity in the app;
+- Added template for Speaker Management Page email;
+- Added on Photo AI public page, add square indicating where you are;
+
+
+## Version 32.9.6
+### March 21, 2025
+
+#### Fixed
+- Fixed profile visibility question not showing on the **Purchase Form**;
+- Fixed when using a flat fee on the vouchers, the **Purchase Form** still shows a percentage reduction icon;
+
+### March 15, 2025
+
+#### Added
+- Added partial refunds for pay.gov;
+
+
+## Version 32.9.0
+### March 13, 2025
+
+#### Fixed
+- Fixed filtering dates on the analytics reports doesn't work well;
+- Fixed another error with the Marketing Document for Palladio beauty group;
+- Fixed in the "Jericho", "Lima", "Mercury" and "Ophelia" site templates, the arrow buttons in the "Agenda" and "Speaker of the Day" sections are not working correctly;
+- Fixed form preview mode when edit restrictions are enabled;
+- Fixed speaker role and company text color on website agenda section;
+- Fixed oh snap! The operation you are trying to perform is not acceptable. Error details: This tab is set as content page - but its not!;
+- Fixed when transferring tickets, the email is addressed to the buyer not the receiver;
+- Fixed dynamic content > Certificate in the **Email Creator** sends out a table instead of the attendee\'s certificate;
+- Fixed pagination on meetings full list;
+- Fixed field formatted text is showing as empty within event fields;
+- Fixed some abstract submissions are not showing on the reviewers\' end;
+
+
+## Version 32.7.1
+### February 13, 2025
+
+#### Fixed
+- Fixed meeting approval workflow in the web app;
+
+
+## Version 32.6.7
+### February 12, 2025
+
+#### Fixed
+- Fixed meeting Request Form Submissions include incorrect fields based on conditional settings;
+- Fixed the 'Ticket Offering' title isn't formatted on Templates Columba, Hydra and Vulcan;
+- Fixed janus website squashes the event cover on the mobile view and not resizing the text;
+- Fixed salesforce campaign not syncing to attendees list;
+- Fixed hybrid event mode shows a virtual room when selecting the in person option for creating a meeting;
+- Fixed appointments and Approval pages opens the events page at the Company Level;
+- Fixed some activity dates are not showing in the backend;
+
+
+## Version 32.6.5
+### February 7, 2025
+
+#### Added
+- Added the client needs to use In-person meetings only, in a hybrid event format;
+
+#### Fixed
+- Fixed the invoice preview email does not land in the recipient\'s mailbox when sent;
+- Fixed unable to delete ‘null’ text in ‘Speaker mini bio’ section;
+- Fixed when requesting a meeting (meeting approval ON) the meeting cards in **My Agenda** show the meeting as confirmed;
+- Fixed virtual meeting is not being created in hybrid events;
+
+
+## Version 32.6.4
+### February 6, 2025
+
+#### Fixed
+- Fixed blank data in new applicant approval notification email;
+- Fixed attendee report keeps displaying the columns of the custom fields in the incorrect order;
+- Fixed error on create a draft Event;
+
+### February 4, 2025
+
+#### Fixed
+- Fixed cannot change the company nickname;
+
+
+## Version 32.5.9
+### January 30, 2025
+
+#### Added
+- Added allow to use Tracks on **Virtual Lobby** Tabs instead of Dates;
+
+
+## Version 32.5.8
+### January 29, 2025
+
+#### Added
+- Added ability to edit a category tag or at least delete and create a new one;
+
+#### Fixed
+- Fixed the buttons to change the activity day doesn't work;
+- Fixed depending on the settings isn't possible to answer polls made on backend;
+
+### January 28, 2025
+
+#### Added
+- Implemented a new flag on company table;
+
+
+## Version 32.5.3
+### January 23, 2025
+
+#### Added
+- Added more than 17 people talking at once (camera not necessary);
+- Added the client wants to remove the labels on the form;
+- Added option to lock attendee tags in profiles;
+- Added increase character limit of push notifications to add clickable links;
+- Added more font options o **Landing Page** builder;
+- Added zip code to Event > Details and to address on Website;
+- Added change meeting action names (Provisioned to approved);
+- Added icons at **Landing Page**;
+- Added dynamic email links for **Networking** and other web app tabs;
+- Added a button to “Clear Campaign Sync”;
+- Added feature "Multiple questions "Multiple Poll" fixing errors;
+
+#### Fixed
+- Fixed sticky header removal on website templates;
+
+### January 22, 2025
+
+#### Added
+- Added ensure accessibility by adding descriptive alt-text for the elements detailed;
+- Enabled Selection of Custom Guest Fields in Custom Reports;
+- Added pre-populate **Registration Form** values using API Field;
+
+#### Fixed
+- Fixed in the "Orion", "Vulcan", "Columba" and "Janus" site templates, the arrow buttons in the "Agenda" and "Speaker of the Day" sections are not working correctly;
+- Fixed cancelled meetings are still appearing in the calendar;
+
+
+## Version 32.4.7
+### January 16, 2025
+
+#### Added
+- Added SSO pre-population of company and role fields;
+- Added include Full Profile in Notifications for New Applicants and Attendees;
+- Added SSO sign-in admin option;
+
+#### Fixed
+- Fixed with Speech to text transcription disabled, the options under Closed Captions disappear;
+- Fixed if you have a lot of tags, the Directory builder will create a big blank space to fit them instead of a scrollbar;
+
+
+## Version 32.4.0
+### January 13, 2025
+
+#### Added
+- Added ticket Section on Website;
+
+#### Fixed
+- Fixed excel spreadsheet is showing incorrect data;
+- Fixed global registration fields not mapping to Salesforce;
+- Fixed on the LP editor, only the first date box is visible, even if the activity has more days;
+- Fixed on Room Lists, it's necessary to refresh the page to edit all info;
+- Fixed push message hyperlink functionality;
+- Fixed in some website templates, the arrow buttons in the 'Agenda' and 'Speaker of the Day' sections are not working correctly;
+- Fixed the pics I uploaded in the content area aren\'t showing on the website;
+- Fixed triggers on the **Registration Form** are not working properly;
+
+
 ## Version 32.3.2
 ### December 18, 2024
 
