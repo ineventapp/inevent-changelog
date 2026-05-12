@@ -2,6 +2,1063 @@
 
 This change log was created on January 22, 2021 and only entries after this date will be registered.
 
+## Version 17.6
+### December 21, 2023
+
+#### Added
+- Added list-based access control for web app tabs;
+
+#### Fixed
+- Fixed error when checking in as a collector for activity check-in;
+- Fixed search function not working for event fields;
+- Fixed admin receiving all emails from old events after copying;
+- Fixed approvals report not showing custom questions from **Registration Form**;
+- Fixed photo gallery display issues;
+
+
+### December 19, 2023
+
+#### Fixed
+- Fixed submission printing requiring page refresh on approvals page;
+
+
+### December 18, 2023
+
+#### Fixed
+- Fixed website agenda page header spacing on laptop and mobile views;
+
+
+### December 14, 2023
+
+#### Fixed
+- Fixed invisible fields not showing at company level;
+- Fixed activity reappearing as invisible in **Virtual Lobby**;
+
+
+### December 13, 2023
+
+#### Fixed
+- Fixed error when moving elevators on the map;
+- Fixed polls and activity feedback popups not showing in full mode;
+
+
+### December 12, 2023
+
+#### Added
+- Added dark and light mode support for interactive maps;
+- Added alt-text support for website images;
+- Added ticket distribution report;
+- Added option to remove **Registration Form** from website heading;
+
+#### Fixed
+- Fixed heading to customize speaker label in **Virtual Lobby**;
+- Fixed question-option pairing when changing tickets on attached forms;
+- Fixed welcome cover not loading video from activity;
+- Fixed logo image not persisting after change;
+- Fixed Lima template countdown and header layout;
+- Fixed permission to approve applicants reverting;
+- Fixed UTM links option not appearing;
+
+
+### December 6, 2023
+
+#### Added
+- Added extra fields linked to MS Dynamics integration;
+- Added check-in source on event and activity webhooks;
+- Added option to remove background image from event settings;
+
+#### Fixed
+- Fixed address map disappearing after creating event from template;
+
+
+### December 5, 2023
+
+#### Fixed
+- Fixed attendee last name change on **My Account** not syncing to web app;
+
+
+### December 1, 2023
+
+#### Fixed
+- Fixed voucher dynamic link redirecting to wrong website;
+- Fixed **Live Studio** troubleshoot functionality;
+
+
+
+## Version 17.5
+### November 30, 2023
+
+#### Added
+- Added custom scheduling options for recurring emails;
+- Added translation dashboard;
+
+
+### November 28, 2023
+
+#### Added
+- Added favorites and search functionality;
+- Improved activity questions ordering;
+
+#### Fixed
+- Fixed print submission not converting data into multiple pages;
+
+
+### November 27, 2023
+
+#### Added
+- Added ability to remove or delete unsent SMS messages;
+
+#### Fixed
+- Fixed map interaction bugs;
+- Fixed missing heading for attendee report switching;
+
+
+### November 23, 2023
+
+#### Fixed
+- Fixed activity feedback popup not working for viewers;
+
+
+### November 14, 2023
+
+#### Added
+- Added room type categories and hotel confirmation email details;
+- Added option to edit person profile from top-right bar;
+- Improved view code visibility settings;
+- Improved email preview layout;
+- Redesigned import modals UI;
+- Added virtual stamp for check-in functionality;
+
+#### Fixed
+- Fixed grade answer type display;
+- Fixed customizable links within text not working;
+- Fixed large files tool not working;
+- Fixed tracks overflowing the activity panel;
+
+
+### November 13, 2023
+
+#### Added
+- Added facial recognition module;
+
+
+### November 6, 2023
+
+#### Added
+- Added event-level option to restrict attendee visibility;
+
+#### Fixed
+- Fixed LinkedIn icon not showing;
+
+
+### November 1, 2023
+
+#### Added
+- Added ability to block calendar availability;
+- Added event list query filter on company events;
+
+
+
+## Version 17.4
+### October 30, 2023
+
+#### Fixed
+- Fixed hyperlink insertion when using rich text editor;
+- Fixed "come back later" message when uploading files;
+- Fixed website creator not loading;
+
+
+### October 26, 2023
+
+#### Added
+- Added word cloud visualization;
+- Added button on session tracks;
+- Added label to indicate live sessions;
+
+#### Fixed
+- Fixed pagination for **Exhibitors** not working;
+
+
+### October 23, 2023
+
+#### Added
+- Reworked admission and waitlist flow;
+- Added filter to show attendees by ticket type;
+
+#### Fixed
+- Fixed event description getting cut off;
+- Fixed website templates not saving properly;
+- Fixed timestamp shown instead of dates on custom fields;
+- Fixed date picker not allowing date selection;
+
+
+### October 21, 2023
+
+#### Added
+- Improved calendar at company level;
+
+
+### October 19, 2023
+
+#### Added
+- Added general description on the **Website Builder** sections;
+- Added ticket purchase limit per attendee;
+
+#### Fixed
+- Fixed **Virtual Lobby** link not being included in emails;
+- Fixed ticket selector allocation issues;
+- Fixed inability to disable certain event settings;
+- Fixed non-selected speakers still showing in sessions;
+
+
+### October 18, 2023
+
+#### Fixed
+- Fixed form creation on ticket-linked pages;
+- Fixed SMS to download app not working;
+
+
+### October 12, 2023
+
+#### Added
+- Added separate "Join Now" headings for different session types;
+
+#### Fixed
+- Fixed links to virtual rooms appearing incorrectly;
+- Fixed spreadsheet upload for user data;
+- Fixed **Exhibitors** title not displaying correctly;
+- Fixed quiz modal close functionality;
+- Fixed import wizard close button;
+
+
+### October 11, 2023
+
+#### Added
+- Added **Sponsors** and **Exhibitors** information display in sessions;
+- Added quiz creation modal;
+
+#### Fixed
+- Fixed description on activity cards not showing correctly;
+- Fixed error when user is invited to event;
+- Fixed closed survey and custom form display;
+
+
+### October 6, 2023
+
+#### Added
+- Added tags support across all relevant modules;
+- Added event timezone display;
+
+#### Fixed
+- Fixed live dashboard screen layout issues;
+
+
+### October 3, 2023
+
+#### Fixed
+- Fixed "move to next session" button behavior;
+- Fixed right side detail panel for activities;
+
+
+
+## Version 17.3
+### September 27, 2023
+
+#### Added
+- Added Jericho template sessions to **Landing Page** creator;
+- Added Lima template sessions to **Landing Page** creator;
+- Improved abstract management solution;
+
+#### Fixed
+- Fixed activity getting duplicated when editing;
+
+
+### September 26, 2023
+
+#### Fixed
+- Fixed tracks not being properly contained in activity view;
+
+
+### September 25, 2023
+
+#### Added
+- Added user email and company display improvements;
+- Added lock for individual Salesforce field sync;
+
+
+### September 21, 2023
+
+#### Added
+- Migrated comments screen to new layout;
+- Migrated to placeholder screen pattern;
+- Added popup to confirm deletion of child questions;
+- Improved abstract management solution;
+- Added event-level tool to disable guest features;
+
+#### Fixed
+- Fixed activity questions only showing partially;
+- Fixed event date display in My Events;
+- Fixed font display issue;
+- Fixed removing a question with child questions causing spillover;
+
+
+### September 20, 2023
+
+#### Added
+- Added Pardot integration;
+
+
+### September 18, 2023
+
+#### Added
+- Added **Exhibitors** reports tabs;
+- Added resend receipt option from payment details;
+- Added material upload for speakers and presenters;
+- Added speaker management page for activities;
+- Added option to remove shadow on website elements;
+- Added field mask support for **Purchase Form** fields;
+
+#### Fixed
+- Fixed news feed title display in **Virtual Lobby**;
+- Fixed price batch not allowing value changes;
+- Fixed **Sponsors** tag creation functionality;
+- Fixed key permission missing for certain roles;
+- Fixed error when deleting a person;
+
+
+### September 15, 2023
+
+#### Added
+- Improved interactive map functionality;
+- Added file clicks report on event files;
+
+
+### September 11, 2023
+
+#### Fixed
+- Fixed coupon codes not working correctly;
+
+
+### September 7, 2023
+
+#### Added
+- Added date inclusion on activity session details;
+- Added filter to show activity enrollment count;
+- Added sorting for answered questions;
+- Added marketing permission on user profiles;
+- Added solved/unresolved filter for troubleshoot reports;
+- Added ability to move viewers back in **Virtual Lobby**;
+- Added users associated to people lists functionality;
+
+#### Fixed
+- Fixed value display when editing dynamic content;
+- Fixed **Landing Page** builder not loading elements;
+
+
+
+## Version 17.2
+### August 31, 2023
+
+#### Fixed
+- Fixed all people display issues;
+- Fixed first and last name not being saved correctly;
+- Fixed "add batch" button not adding new row on price batch;
+- Fixed creating tag without highlight color;
+- Fixed room type allowing creation of invalid entries;
+
+
+### August 30, 2023
+
+#### Fixed
+- Fixed submissions not being visible;
+
+
+### August 29, 2023
+
+#### Added
+- Added web app installation on devices (PWA);
+- Added **Virtual Lobby** access restriction before event start;
+- Improved wording for UI elements;
+- Added form description display option;
+- Added webhook requests functionality;
+- Improved tags layout;
+- Added **Sponsors** people and invitees functionality;
+
+#### Fixed
+- Fixed "My Submissions" display issues;
+- Fixed chat search request not working;
+- Fixed unable to add user profile with checklog report access;
+
+
+### August 28, 2023
+
+#### Fixed
+- Fixed zoom behavior on map for web and mobile;
+- Fixed meeting status update not working;
+- Fixed QR code broken link;
+
+
+### August 24, 2023
+
+#### Added
+- Added email layout for troubleshoot reports;
+- Added preview mode for **Purchase Form**;
+
+#### Fixed
+- Fixed sold out ticket showing at capacity instead;
+
+
+### August 23, 2023
+
+#### Added
+- Added add-to-calendar subdomain support;
+
+#### Fixed
+- Fixed import people screen scroll not working;
+- Fixed lower third animation not working;
+- Fixed error when creating a tag;
+- Fixed edit button revert in certain pages;
+- Fixed page refresh issues;
+- Fixed "lower hands" functionality in **Virtual Lobby**;
+- Fixed search tool not finding certain results;
+- Fixed date editing not saving properly;
+- Fixed non-enrolled user getting wrong access level;
+- Fixed edit button missing from booking form;
+- Fixed edit button disabled on file manager;
+
+
+### August 21, 2023
+
+#### Added
+- Added reminder emails for pending bookings;
+- Added hyperlink support on messages;
+- Added coupon payment report;
+
+
+### August 17, 2023
+
+#### Added
+- Added ticket capacity and refund management;
+
+
+### August 16, 2023
+
+#### Added
+- Added **Badge Builder** feature;
+
+
+### August 15, 2023
+
+#### Added
+- Added copy invite link functionality;
+- Added builder tags to URL link generation;
+
+#### Fixed
+- Fixed coupon creation capacity limit;
+- Fixed unable to copy feedback questions;
+
+
+### August 11, 2023
+
+#### Added
+- Added custom report for sales per event;
+- Added option to edit submissions on approval page;
+- Added custom forms report for all reports section;
+- Added MS Dynamics integration sync improvements;
+
+#### Fixed
+- Fixed upload text display for file uploads;
+- Fixed tickets taking too long to load;
+- Fixed links not working on chat tab;
+- Fixed ticket import assign/list/hold functionality;
+- Fixed payment details display on payments page;
+- Fixed widget table values not working;
+- Fixed unable to upload TTF file to **Badge Builder**;
+- Fixed current user template display issues;
+- Fixed display when group or team doesn't have members;
+- Fixed meeting scheduling place option for hybrid events;
+- Fixed video delay causing duplicated audio;
+- Fixed background text content area styling;
+- Fixed mobile filters out of size on certain pages;
+- Fixed all reports admin functionality not working;
+- Fixed columns in ticket page layout;
+
+
+### August 8, 2023
+
+#### Added
+- Added PDF submission download option;
+
+
+### August 7, 2023
+
+#### Added
+- Added filters to directory page;
+
+
+### August 3, 2023
+
+#### Added
+- Added "All" button for quick filter selection;
+- Added teams description field;
+- Added chapters support for pre-recorded and uploaded content;
+- Added new webinar calendar integration;
+
+#### Fixed
+- Fixed team building page redirecting incorrectly;
+- Fixed error when creating coupon;
+- Fixed ticket filter dropdown not being responsive;
+- Fixed **Website Builder** error when event is not published;
+- Fixed coupon ticket type functionality;
+- Fixed error logs filter end date resetting;
+- Fixed **Sponsors** modal edit permissions;
+- Fixed teams import not working;
+- Fixed table widget not working with certain data;
+- Fixed edit button visibility on certain pages;
+- Fixed custom field date type not saving information;
+- Fixed company logo in emails on Outlook;
+- Fixed invoice and payment details text formatting;
+- Fixed activity appearing as invisible incorrectly;
+
+
+### August 2, 2023
+
+#### Added
+- Added abstract management solution;
+- Added **Sponsors** tasks functionality;
+- Added company events search filters;
+
+
+
+## Version 17.1
+### July 28, 2023
+
+#### Added
+- Added scheduled reports feature;
+- Added TikTok integration;
+
+
+### July 24, 2023
+
+#### Added
+- Added diagram under the dashboard section;
+- Added option for collectors to skip enrollment;
+
+#### Fixed
+- Fixed activity time display for attendees in different timezones;
+- Fixed meeting scheduling through **Networking** page;
+- Fixed wizard icon not appearing;
+- Fixed tags not appearing inside **My Agenda**;
+
+
+### July 20, 2023
+
+#### Added
+- Added ticket-specific questions on forms;
+- Added attendee profiles feature;
+- Added option to reduce meeting wait time;
+- Added team members report;
+
+#### Fixed
+- Fixed online users **Virtual Lobby** analytics not displaying;
+
+
+### July 17, 2023
+
+#### Added
+- Updated Google Analytics integration;
+- Added ability to report information only;
+
+#### Fixed
+- Fixed "edit" button disappearing on certain pages;
+- Fixed quiz not showing when created;
+- Fixed unable to scroll down on certain pages;
+- Fixed two-tab schedule navigation issue;
+- Fixed tags on **My Tickets** screen display;
+- Fixed blacklist report opening issues;
+- Fixed "Get Free Credits" edit button not working;
+- Fixed error logs edit button not functioning;
+- Fixed error logs issue report filter;
+- Fixed teams report not working;
+
+
+### July 6, 2023
+
+#### Added
+- Added lobby access policy alignment options;
+- Added meeting restrictions for specific roles;
+- Increased character limit to more than 1000;
+- Added additional options to **Email Creator**;
+- Added time intervals to new date picker;
+- Added second level of filters for reports;
+- Updated Dynamics integration architecture;
+- Improved **Website Builder** features;
+- Added "By Tickets" filter under reports;
+- Added groups and lists for segmentation;
+- Improved **Website Builder** layout and tools;
+
+#### Fixed
+- Fixed tool description typo;
+- Fixed attendee unable to mark meeting outcome for in-person meetings;
+- Fixed feedback popup in webinar;
+
+
+### July 5, 2023
+
+#### Fixed
+- Fixed duplicated chats returned in chat list;
+
+
+### July 1, 2023
+
+#### Added
+- Added X (Twitter) tag integration;
+
+
+
+## Version 17.0
+### June 28, 2023
+
+#### Added
+- Added automatic registration for certain attendee types;
+- Added visibility control on CRM integration;
+- Added payments dynamic content support;
+
+#### Fixed
+- Fixed event organizers unable to access certain features;
+- Fixed teams tool not working;
+- Fixed events calendar edit button not responding;
+- Fixed formatted custom question bullet list display;
+- Fixed required and not required field validation;
+- Fixed questions numeric value accepting 0;
+- Fixed error when trying to edit a session;
+- Fixed **Website Builder** layout bugs;
+
+
+### June 26, 2023
+
+#### Added
+- Added description support on **Sponsors** page;
+- Added option to edit font color on website elements;
+- Added automatic check-in of attendees functionality;
+
+#### Fixed
+- Fixed signature field display issues;
+
+
+### June 22, 2023
+
+#### Added
+- Improved chat search request performance;
+
+
+### June 21, 2023
+
+#### Added
+- Added image transfer from feed to gallery;
+- Added PDF click tracking support;
+- Added chat filter functionality;
+
+
+### June 20, 2023
+
+#### Added
+- Added **Sponsors** and **Exhibitors** filter on **Virtual Lobby**;
+- Added stop animation accessibility option;
+- Added event fields on event booking form;
+
+#### Fixed
+- Fixed video sharing in **Live Studio**;
+- Fixed manual transcription setup issues;
+
+
+### June 16, 2023
+
+#### Added
+- Added attendee file upload capability;
+
+
+### June 15, 2023
+
+#### Added
+- Added booking form owner assignment;
+
+#### Fixed
+- Fixed ASCII conversion removing special characters;
+
+
+### June 14, 2023
+
+#### Added
+- Added option to customize form elements;
+
+
+### June 12, 2023
+
+#### Added
+- Added event open/closed toggle option;
+- Added translation button in the interface;
+- Added new information display option;
+- Added customizable messaging options;
+
+
+### June 8, 2023
+
+#### Added
+- Added option to hide voucher labels when empty;
+- Added ability to remove pop-up notifications;
+
+#### Fixed
+- Fixed **Sponsors** display on main page;
+- Fixed group room button appearing incorrectly;
+- Fixed unable to navigate back in certain pages;
+- Fixed question display when using specific options;
+- Fixed inbox box on **Networking** page;
+
+
+### June 7, 2023
+
+#### Fixed
+- Fixed InEvent templates still visible after removal;
+
+
+### June 6, 2023
+
+#### Added
+- Added attendee report on meetings page;
+- Added tag and track category filter improvements;
+- Added heading for pending approvals section;
+- Added spreadsheet upload customization options;
+- Added paste color code support for color pickers;
+- Added custom forms on events functionality;
+- Added column reordering inside people lists;
+- Improved My Events page layout;
+
+#### Fixed
+- Fixed files tab appearing under wrong section;
+- Fixed event name dynamic content not updating;
+- Fixed troubleshoot reports buttons;
+- Fixed unable to scroll to bottom of page;
+- Fixed overlay on turns when drag and drop is disabled;
+- Fixed quiz with only one question behavior;
+
+
+### June 2, 2023
+
+#### Added
+- Added social media links for **Sponsors** and **Exhibitors**;
+- Added manual ticket reordering capability;
+
+
+
+## Version 16.9
+### May 31, 2023
+
+#### Added
+- Added tool to set template styles;
+- Added trigger support on **Email Creator**;
+
+
+### May 30, 2023
+
+#### Added
+- Added teams column to user reports;
+- Added cancelled meeting email notification;
+- Added meetings report functionality;
+- Added meeting invitation email for guests;
+- Added tool to hide event header on specific pages;
+- Increased coupon creation limit;
+- Added tag and track categories in activity view;
+- Added custom domain support for event pages;
+
+#### Fixed
+- Fixed publish event permission not working correctly;
+
+
+### May 10, 2023
+
+#### Added
+- Added option to add custom fields on booking form;
+
+
+### May 9, 2023
+
+#### Added
+- Added troubleshoot button for mobile devices;
+- Added option to edit session titles;
+- Added option to disable certain event fields;
+- Added filter on company events list;
+
+
+### May 8, 2023
+
+#### Added
+- Added IP address blocking functionality;
+- Improved US map in analytics tool;
+- Added headings for RSVP section;
+- Added drag and drop for changing order;
+- Added option to hide private chat inbox;
+- Added housing option customization;
+
+#### Fixed
+- Fixed tags in **My Agenda** grid view;
+- Fixed view button overlay on certain pages;
+- Fixed activity details on mobile web app;
+- Fixed booking form not submitting properly;
+
+
+### May 5, 2023
+
+#### Added
+- Added owner name column in reports;
+- Added heading for custom form creation;
+- Added admin tool for managing settings;
+- Added region management tool;
+- Added single email containing all event updates;
+- Added question field to hotel booking;
+
+
+### May 4, 2023
+
+#### Added
+- Added display of all information from event details;
+- Removed "Go to Event" button redirect;
+
+
+### May 3, 2023
+
+#### Added
+- Added short event description with character limit;
+- Added trigger to send email on form completion;
+- Added bulk operation to update attendee information;
+
+#### Fixed
+- Fixed errors when deleting custom forms;
+- Fixed meeting slots with 3-hour time difference;
+
+
+### May 2, 2023
+
+#### Added
+- Added polling popup display inside **Virtual Lobby**;
+- Added event admin email notifications;
+- Added option to sort leads page;
+- Added option to add translations to forms;
+- Added multiple SSO directories support;
+
+
+### May 1, 2023
+
+#### Added
+- Added rejected payment email notification;
+- Added payment in analysis email notification;
+- Added authorized payment email notification;
+
+#### Fixed
+- Fixed booking form default values;
+- Fixed ticket price clearing on edit;
+- Fixed cover image appearing duplicated;
+- Fixed gamification point calculation;
+- Fixed event admins unable to change **Live Studio** settings;
+- Fixed accessibility layout error on specific pages;
+
+
+
+## Version 16.8
+### April 28, 2023
+
+#### Added
+- Added option to set specific amounts per ticket type;
+- Added option to start meetings from attendee list;
+- Added drag and drop functionality;
+- Added **Email Builder** custom components;
+- Removed API reference from custom profiles;
+- Added chat notification for screen sharing;
+- Added tag categories on **Registration Form**;
+- Added automatic skip to next activity feature;
+- Added bulk operation to update ticket assignments;
+
+
+### April 27, 2023
+
+#### Fixed
+- Fixed PDF issues in **Live Studio**;
+
+
+### April 26, 2023
+
+#### Fixed
+- Fixed waitlist purchase for ticket management;
+
+
+### April 21, 2023
+
+#### Added
+- Added meeting restrictions for different roles;
+
+#### Fixed
+- Fixed adding video to **Live Studio** not working;
+- Fixed password dynamic field display in forms;
+- Fixed **Exhibitors** logo not displaying;
+
+
+### April 20, 2023
+
+#### Fixed
+- Fixed RSVP "No Answer" message not displaying;
+
+
+### April 18, 2023
+
+#### Added
+- Added analytics visibility for events;
+
+
+### April 14, 2023
+
+#### Added
+- Added preview button for ticket design;
+- Added place information on sessions in **My Agenda**;
+- Added summary support in website templates;
+- Added download all images from gallery;
+
+
+### April 11, 2023
+
+#### Added
+- Added pre-recorded interpretation support;
+
+#### Fixed
+- Fixed custom stream PDF/video disappearing;
+
+
+### April 7, 2023
+
+#### Added
+- Added template onboarding feature;
+
+
+### April 4, 2023
+
+#### Added
+- Added teams creation at company level;
+
+
+### April 3, 2023
+
+#### Added
+- Added new headings for admin sections;
+- Improved labels in the left navigation menu;
+
+
+
+## Version 16.7
+### March 31, 2023
+
+#### Added
+- Added **Live Studio** custom CSS support;
+- Added session timeout for platform users;
+
+#### Fixed
+- Fixed ChatGPT error in custom section;
+- Fixed event logo download issues;
+
+
+### March 29, 2023
+
+#### Added
+- Added option to match option lists on forms;
+
+
+### March 20, 2023
+
+#### Added
+- Added sound notification when receiving push messages;
+- Improved **My Agenda** icons and visual indicators;
+- Added home redirect feature;
+- Added option for **Sponsors** and **Exhibitors** profile customization;
+- Added file upload at file manager;
+- Added tool to enable/disable event features;
+- Updated closed caption visual options;
+- Added restriction button for meeting management;
+
+#### Fixed
+- Fixed hotel details modal not closing properly;
+- Fixed unable to get back to previous tab;
+
+
+### March 16, 2023
+
+#### Added
+- Added automatic check-in for in-person events;
+- Added PayPal Advanced Checkout integration;
+
+#### Fixed
+- Fixed rejected questions not disappearing;
+- Fixed event address not being saved;
+- Fixed error on **Registration Form**;
+- Fixed number linked to invite users display;
+- Fixed submissions on **Registration Form** page;
+- Fixed Interprefy captions menu display;
+
+
+### March 15, 2023
+
+#### Fixed
+- Fixed meeting scheduling with availability issues;
+
+
+### March 14, 2023
+
+#### Added
+- Added speaker display in **My Agenda**;
+
+#### Fixed
+- Fixed **My Agenda** not showing on **Registration Form**;
+
+
+### March 9, 2023
+
+#### Fixed
+- Fixed old comments not always showing;
+
+
+### March 8, 2023
+
+#### Added
+- Added **Live Studio** overlay customization;
+- Added pre-recorded content support for **Sponsors**;
+- Added keyboard navigation for My Events;
+- Changed "Person" to "Attendee" in the interface;
+- Added demo file for booking users;
+- Added keyboard navigation for modals;
+
+#### Fixed
+- Fixed error when copying an event;
+- Fixed issue on meeting person bind;
+- Fixed unable to discern which view is active;
+- Fixed error when creating tag;
+- Fixed fullscreen text area layout overflow;
+- Fixed accessibility layout errors;
+- Fixed accessibility layout errors on navigation;
+- Fixed end date validation to prevent dates before start;
+- Fixed unable to interact with elements on mobile;
+- Fixed **My Account** page not showing data correctly;
+
+
+### March 6, 2023
+
+#### Added
+- Added meeting restrictions with rules;
+
+
+### March 3, 2023
+
+#### Added
+- Improved live sessions right side panel;
+
+
+
 ## Version 16.6
 ### March 2, 2023
 
