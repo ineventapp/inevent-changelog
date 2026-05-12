@@ -2,6 +2,1006 @@
 
 This change log was created on January 22, 2021 and only entries after this date will be registered.
 
+## Version 32.3.2
+### December 18, 2024
+
+#### Added
+- Added option to disable company login in mobile apps;
+- Added permissions scope management;
+- Added event visibility criteria settings;
+- Added different grade scales for feedback forms;
+- Added real-time quiz and poll display scheduling for sessions;
+
+#### Fixed
+- Fixed bulk operation processing;
+- Fixed lead segment list removal cascading issue;
+- Fixed approval and cancellation email button redirects;
+- Fixed file uploads in conditional questions on **Event Details** fields;
+- Fixed attached form data not showing up on the any more;
+
+
+## Version 32.3.0
+### December 16, 2024
+
+#### Fixed
+- Fixed default and custom question display on approval page;
+- Fixed status list ordering in Progressive Statuses settings;
+- Fixed tag alignment in the **Virtual Lobby**;
+
+
+## Version 32.2.6
+### December 12, 2024
+
+#### Fixed
+- Fixed ask a question panel positioning in live sessions;
+- Fixed **Website Builder** template preview;
+- Fixed arrow button navigation in Oberon website templates for **Agenda** and **Speaker** sections;
+
+### December 11, 2024
+
+#### Fixed
+- Fixed edit button display on **My Account** page;
+
+
+## Version 32.2.3
+### December 10, 2024
+
+#### Fixed
+- Fixed "has all" filter behavior on **Networking** page;
+- Fixed search and filters on **Directory Builder** at company level;
+- Fixed file upload issues on **Registration Form** section editing;
+
+### December 6, 2024
+
+#### Added
+- Added separate cover images for website and **Registration Form**;
+
+
+## Version 32.2.0
+### December 4, 2024
+
+#### Added
+- Added face picture field option for badge creation;
+
+#### Fixed
+- Fixed **My Tickets** button opening **Virtual Lobby** inside **Registration Form** iframe;
+- Fixed transaction processing errors;
+- Fixed email field matching when linking accounts;
+- Fixed scrollbar rendering;
+
+
+## Version 32.1.5
+### November 29, 2024
+
+#### Added
+- Added question field title display in feedback forms;
+- Added speaker scrolling on session details;
+- Added pagination and search for attendee lists;
+- Added navigation bar style toggle for mobile app interface;
+- Added delete button for custom fields;
+- Added company level form for lists and approval management;
+- Added ticket amount display in invoice feature;
+- Added chronological sorting for session recordings;
+- Added company level list sync with company user fields;
+- Added unique confirmation number for form submissions with dynamic content support in **Email Creator**;
+- Added question field title display in feedback forms;
+- Added HubSpot integration logs at the event level;
+- Added activity check-in timestamp to API response for QR code queries;
+- Improved **Event Map** link and button accessibility;
+- Improved **My Agenda** link and button accessibility;
+- Enabled **Landing Page** builder at company level;
+
+#### Fixed
+- Fixed section display issues in Gemini layout;
+- Fixed remove widget button display;
+- Fixed ticket approval message display;
+- Fixed word wrapping for long field values;
+- Fixed field validation on forms to validate all visible fields simultaneously;
+- Fixed **Agenda** section responsiveness in Gemini layout;
+- Fixed unresponsive page when creating new contact lists;
+- Fixed pagination in **Virtual Lobby** inbox;
+- Fixed button visibility at different zoom levels;
+- Fixed form field box sizing;
+- Fixed kiosk settings partial search validation;
+- Fixed new list auto-display on creation;
+- Fixed quiz display in sessions;
+
+### November 28, 2024
+
+#### Added
+- Added per-room view for meetings listing;
+
+
+## Version 32.1.0
+### November 25, 2024
+
+#### Added
+- Added ticket capacity notification for event organizers;
+
+#### Fixed
+- Fixed submission report download;
+- Fixed API question search for staff and speaker roles;
+- Fixed exact match search functionality;
+
+
+## Version 32.0.3
+### November 18, 2024
+
+#### Fixed
+- Fixed badge snap to grid;
+
+
+## Version 31.9.4
+### November 8, 2024
+
+#### Fixed
+- Fixed live editor functionality;
+
+### November 6, 2024
+
+#### Added
+- Added text box element for cover images in **Landing Page** builder templates;
+
+
+## Version 31.9.2
+### November 1, 2024
+
+#### Added
+- Improved **Website Builder** homepage link and button accessibility;
+
+
+## Version 31.7.2
+### October 21, 2024
+
+#### Added
+- Added date restriction for new event requests to prevent past dates;
+
+
+## Version 30.8.3
+### August 2, 2024
+
+#### Added
+- Added place capacity limits for meetings;
+- Added location display for event details;
+- Added SSO login button on **Registration Form**;
+- Added push notification popups across all web app pages;
+
+#### Fixed
+- Fixed hotel enrollment on registration forms;
+- Fixed field validation to apply to all visible fields simultaneously;
+- Fixed sponsor favorite icon update in virtual rooms;
+- Fixed data display in reports when filtering by custom fields;
+- Fixed .ics file generation with activity list and people list associations;
+
+
+## Version 30.7.7
+### July 30, 2024
+
+#### Added
+- Added InEvent Appointments feature;
+- Added Kiosk badge printing integration;
+
+#### Fixed
+- Fixed ticket demo file template;
+- Fixed Salesforce activity sync trigger on attendee sign-up;
+- Fixed tag filtering on the Leads page;
+- Fixed meeting visibility on My Meetings tab;
+- Fixed web app access control when tool is disabled;
+
+
+## Version 30.7.3
+### July 29, 2024
+
+#### Added
+- Added print badge button on the check-in page;
+- Improved layout and styling of **Landing Page** sections;
+- Added attendees present online per event;
+- Added new heading of "**Sponsors**" under **My Agenda**> **Virtual Lobby** (Frontend);
+
+#### Fixed
+- Fixed **Networking** page errors;
+- Fixed meeting booking confirmation flow;
+- Fixed top bar time display;
+- Fixed exhibitor and sponsor invite functionality;
+- Fixed split payment default percentage display;
+- Fixed approval requirement error messages;
+- Fixed date and time question display;
+
+
+## Version 30.7.2
+### July 25, 2024
+
+#### Added
+- Added attatched forms to show on the "Event Enrollment" Webhook;
+- Improved Kiosk check-in flow redesign;
+- Added real-time meetings display on Meetings Dashboard;
+- Improved abstract management solution;
+- Added speakers section to the **Landing Page** builder;
+
+#### Fixed
+- Fixed translations saving for headings at company level;
+- Fixed **Data Collector** loading;
+- Fixed airport dropdown z-index layering;
+- Fixed ticket deletion flow;
+- Fixed embed option for Agenda tab in **Virtual Lobby** reverting to disabled;
+- Fixed table ordering on the Audit page;
+- Fixed ticket pricing for manual payments;
+- Fixed duplicate headers in **Website Builder**;
+
+
+## Version 30.7.1
+### July 24, 2024
+
+#### Added
+- Added dedicated API Endpoint for Security;
+- Added custom SSO login button text and icon configuration;
+- Added recurring report to attendees;
+- Added speaker carousel to **Landing Page**;
+- Added header section to the **Landing Page** builder;
+
+#### Fixed
+- Fixed **Virtual Lobby** speed **Networking** pairing;
+- Fixed meeting timeslot functionality;
+- Fixed activity detail visibility;
+- Fixed dynamic content email column display;
+- Fixed places filter on meetings tab;
+
+
+## Version 30.6.8
+### July 22, 2024
+
+#### Added
+- Added have a countdown to the close of the registration;
+- Added check-in statistics per activity;
+- Added activity pagination in the **Virtual Lobby**;
+- Added heading for gamification points;
+- Improved Kiosk app check-in and badge printing flow;
+- Added form builder with new field types including Headline, Image Upload, and Rich Text Editor;
+- Added additional event details section in the **Virtual Lobby**;
+- Added custom color support for Kiosk app buttons;
+- Added check-in tracking for Kiosk app;
+- Added multiple language support for Kiosk app;
+- Added new fields and display improvements to the **Landing Page**;
+- Added multi-language support for the new **Landing Page**;
+- Added non-square image support for company logos;
+
+#### Fixed
+- Fixed badge template rendering for special characters;
+- Fixed wrong message when using approval requirement;
+- Fixed manual payments column and net volume display for ticket values;
+- Fixed **Virtual Lobby** classic layout showing placeholder images;
+- Fixed header font color in Vulcan website template;
+- Fixed notifications page permission error;
+- Fixed attendee profile tag visibility;
+- Fixed payment approval and rejection button display;
+
+
+## Version 30.6.1
+### July 18, 2024
+
+#### Added
+- Added speaker profile links on the **Landing Page**;
+- Added social media links to the **Landing Page** footer;
+- Added new **Landing Page** builder layouts;
+- Added a logs tab in the HS integration page at the event level;
+- Added FAQ section to the **Landing Page** builder;
+- Added event duration display in the **Virtual Lobby**;
+
+#### Fixed
+- Fixed speaker image display in website agenda Learn More button;
+- Fixed webhook payload format;
+- Fixed missing fields in the **Website Builder** agenda;
+
+
+## Version 30.5.8
+### July 17, 2024
+
+#### Added
+- Added timeline display for activities;
+
+
+## Version 30.4.2
+### July 12, 2024
+
+#### Added
+- Added cover section to the **Landing Page** builder;
+- Improved **Landing Page** layout styling and responsive design;
+- Added coupon code section in the event landing page;
+- Added custom background option for the Kiosk app;
+- Added sponsor section to the **Landing Page** builder;
+
+#### Fixed
+- Fixed coupon field visibility on the **Registration Form**;
+- Fixed **Landing Page** header and cover image display;
+- Fixed date and time display for the agenda on the **Landing Page**;
+- Fixed session date display on the activity page;
+
+### July 11, 2024
+
+#### Added
+- Added custom CSS support for the **Registration Form**;
+
+
+## Version 30.4.0
+### July 10, 2024
+
+#### Added
+- Added discount coupons codes implemented when using a link;
+- Added exhibitor management improvements;
+- Added custom report builder fields;
+- Added filter by tool permissions in staff management;
+- Added timezone display in the **Virtual Lobby** room header;
+
+
+## Version 30.3.6
+### July 9, 2024
+
+#### Added
+- Added date filtering for activity check-in reports;
+
+#### Fixed
+- Fixed check-in report generation by date range;
+
+
+## Version 30.3.3
+### July 8, 2024
+
+#### Added
+- Improved **Landing Page** visual adjustments;
+- Added conditional logic for custom fields on forms;
+- Improved abstract management reviewer interface;
+- Added new **Landing Page** builder framework;
+- Added multi-currency support for ticket pricing;
+- Improved CRM sync with Salesforce field mapping;
+- Added registration form submission timestamp tracking;
+- Added custom fields to the invoice template;
+- Added activity layout display improvements;
+- Added date and time section to the **Landing Page** builder;
+
+#### Fixed
+- Fixed description field in the submissions tab;
+- Fixed form and invoice generation for the purchase flow;
+- Fixed event creation permission for staff-level users;
+- Fixed event cloning for recurring events;
+- Fixed ticket purchase flow for multi-ticket orders;
+- Fixed attendee detail modal in the admin panel;
+- Fixed sponsors section on the **Landing Page**;
+- Fixed RSVP link attendee lookup;
+- Fixed registration dashboard statistics calculation;
+
+
+## Version 30.2.9
+### July 3, 2024
+
+#### Added
+- Added session feedback summary reports;
+- Improved attendee import error handling;
+- Added get different cover images for the website and the **Registration Form**?;
+- Added SSO authentication for **Registration Form**;
+
+#### Fixed
+- Fixed email DNS validator for new domains;
+- Fixed event timezone handling for international events;
+
+
+## Version 30.2.7
+### June 27, 2024
+
+#### Added
+- Added notify the event organizer once the ticket capacity is approaching;
+- Added custom branding for email templates;
+- Added unique ID generation for each form submission;
+- Added about section to the **Landing Page** builder;
+- Added abstract management dashboard;
+
+#### Fixed
+- Fixed calendar integration for recurring activities;
+- Fixed session recording playback controls;
+- Fixed event copy with nested activity structures;
+
+### June 26, 2024
+
+#### Fixed
+- Fixed question and answer retrieval by tag;
+
+
+## Version 30.2.5
+### June 25, 2024
+
+#### Added
+- Added company-level custom field templates;
+- Added custom login page branding options;
+- Added drag and drop reordering for agenda items;
+- Improved sponsor management dashboard;
+- Added custom email template variables;
+
+#### Fixed
+- Fixed coupon code usage tracking;
+- Fixed company admin management at company level;
+- Fixed attendee photo upload in admin panel;
+- Fixed file upload size validation;
+- Fixed meeting room availability display;
+- Fixed notification delivery for event updates;
+- Fixed approval page layout improvements;
+- Fixed attendee details editing in admin panel;
+
+
+## Version 30.1.8
+### June 24, 2024
+
+#### Fixed
+- Fixed QR code scanning in Kiosk mode;
+
+### June 21, 2024
+
+#### Added
+- Added automated email triggers for status changes;
+
+
+## Version 30.1.5
+### June 20, 2024
+
+#### Added
+- Added ticket transfer between attendees;
+- Added check-in analytics dashboard;
+- Added multi-session pass support for ticketing;
+- Added abstract management grading system;
+- Added abstract management reviewer assignment;
+- Added abstract management submission flow improvements;
+- Added bulk action support for attendee management;
+- Improved sponsor booth analytics in the **Virtual Lobby**;
+- Added Header and Footer on Website Sections;
+
+#### Fixed
+- Fixed payment gateway integration error handling;
+- Fixed hotel booking confirmation emails;
+- Fixed UTM tracking parameter handling;
+- Fixed data export for large attendee lists;
+- Fixed registration form conditional field display;
+
+
+## Version 29.9.8
+### June 11, 2024
+
+#### Fixed
+- Fixed attendee import with duplicate email handling;
+
+
+## Version 29.9.6
+### June 7, 2024
+
+#### Added
+- Improved event dashboard analytics widgets;
+
+#### Fixed
+- Fixed event list filtering by date range;
+
+
+## Version 29.9.4
+### June 6, 2024
+
+#### Added
+- Added breadcrumb navigation improvements;
+- Added company level list sync with company user fields;
+
+#### Fixed
+- Fixed activity enrollment limits enforcement;
+- Fixed hotel room block allocation tracking;
+- Fixed table ordering on the Audit page;
+- Fixed webhook delivery retry logic;
+
+### June 3, 2024
+
+#### Added
+- Added attendee session tracking on live pages;
+
+### May 31, 2024
+
+#### Added
+- Added custom ticket types with configurable fields;
+
+### May 30, 2024
+
+#### Added
+- Added attendee engagement scoring;
+
+
+## Version 29.8.7
+### May 28, 2024
+
+#### Added
+- Added custom color themes for the **Virtual Lobby**;
+- Added activity check-in QR code improvements;
+
+#### Fixed
+- Fixed ticket purchase approval message;
+- Fixed attendee profile photo cropping;
+- Fixed event creation from template;
+
+
+## Version 29.8.6
+### May 23, 2024
+
+#### Added
+- Added delete button for custom fields;
+- Added navigation bar style toggle for mobile app;
+
+#### Fixed
+- Fixed search bar for owner value filtering;
+- Fixed sponsor data display on Live Dashboard;
+- Fixed exact tag filtering when no user has the tag;
+- Fixed event access code validation;
+- Fixed mismatch between **Landing Page** preview and live version;
+
+
+## Version 29.8.3
+### May 16, 2024
+
+#### Added
+- Added list restrictions for scheduled meetings;
+
+#### Fixed
+- Fixed sponsor creation causing duplicate exhibitor entries;
+- Fixed audit report tracking for tool status changes;
+- Fixed Salesforce campaign assignment removal;
+- Fixed audit report processing time at company and event levels;
+- Fixed meeting slot guest assignment button display;
+- Fixed Authorize.net FAQ display;
+- Fixed custom email information button and DKIM access;
+- Fixed invoice and Authorize.net payment processing;
+
+
+## Version 29.7.1
+### May 13, 2024
+
+#### Added
+- Added QR code and favorites for sponsors and exhibitors;
+- Added custom form dedicated sections;
+- Improved InEvent App graphic chart navigation;
+
+#### Fixed
+- Fixed payment removal endpoint validation;
+- Fixed multi-answer polling for attendees;
+- Fixed **Landing Page** preview and live version mismatch;
+
+### May 10, 2024
+
+#### Added
+- Added full payload for speaker edited webhook;
+
+
+## Version 29.7.0
+### May 9, 2024
+
+#### Fixed
+- Fixed **Landing Page** preview mismatch;
+- Fixed duplicate polling options display during live events;
+
+### May 8, 2024
+
+#### Added
+- Improved InEvent App table identification;
+- Added template variations for **Website Builder**;
+
+#### Fixed
+- Fixed assign button on event booking forms;
+
+
+## Version 29.6.8
+### May 7, 2024
+
+#### Added
+- Added step-by-step form dividers;
+
+### May 6, 2024
+
+#### Added
+- Added **Event Map** and badge templates;
+
+
+## Version 29.6.4
+### May 3, 2024
+
+#### Added
+- Added new booking forms heading;
+
+#### Fixed
+- Fixed speaker and sponsor contrast in activity preview;
+- Fixed RSVP functionality in **Email Creator**;
+
+
+## Version 29.6.2
+### May 1, 2024
+
+#### Added
+- Added SSO Single Logout Service;
+- Added multi-answer support for polls and quizzes;
+- Added speaker scrolling on session details;
+- Added video upload support for news feed from backend;
+- Added chronological sorting for session recordings;
+- Added ticket amount display in invoice feature;
+- Added configurable break time for meeting slot intervals;
+- Added sections for booking forms at company level;
+
+#### Fixed
+- Fixed delete action in Jericho and Lima templates;
+- Fixed add slot in meeting - Datepicker issue (Timezone);
+
+
+## Version 29.6.1
+### April 30, 2024
+
+#### Added
+- Added custom form branding at company level;
+
+
+## Version 29.5.9
+### April 29, 2024
+
+#### Added
+- Added company level form for lists and approval management;
+
+### April 23, 2024
+
+#### Fixed
+- Fixed demo file spreadsheet upload for meetings;
+- Fixed meeting slot creation date picker timezone issue;
+
+### April 18, 2024
+
+#### Fixed
+- Fixed tag visibility in attendee profile;
+
+
+## Version 29.5.7
+### April 16, 2024
+
+#### Added
+- Improved InEvent App text resize accessibility;
+
+### April 15, 2024
+
+#### Added
+- Improved InEvent App keyboard navigation;
+- Improved InEvent App heading hierarchy;
+- Added photo gallery filter by person;
+
+#### Fixed
+- Fixed **Email Creator** dynamic links on UK servers;
+
+### April 12, 2024
+
+#### Fixed
+- Fixed badge print font selection;
+- Fixed **Registration Form** not appearing when RSVP form is enabled;
+- Fixed Salesforce custom field sync for leads and contacts;
+
+### April 10, 2024
+
+#### Added
+- Added reactions counter to activity reports;
+- Added bulk upload for blocked email domains;
+- Added text formatting in Template Wizard;
+- Removed co-host column from activities demo file;
+- Improved InEvent App heading level markup;
+
+#### Fixed
+- Fixed **Email Creator** dynamic link error;
+
+### April 9, 2024
+
+#### Fixed
+- Fixed activity report export coverage;
+
+### April 8, 2024
+
+#### Added
+- Improved InEvent App keyboard navigation;
+- Improved InEvent App icon tooltips;
+- Improved InEvent App close button markup;
+- Improved InEvent App sort element detection;
+- Improved InEvent App bypass button;
+- Improved InEvent App programmatic headers;
+- Improved InEvent App background contrast;
+- Improved InEvent App link contrast;
+
+#### Fixed
+- Fixed sponsor category translation;
+- Fixed tooltip information for registration and guest buttons;
+
+### April 3, 2024
+
+#### Added
+- Added activity user sync with Salesforce campaigns;
+
+#### Fixed
+- Fixed login page display for French locale;
+- Fixed SSO on event level not using custom domain;
+
+
+## Version 18.2
+### March 29, 2024
+
+#### Added
+- Added dynamic link to open Photo Match AI in emails;
+- Added separate invoices from payments;
+
+#### Fixed
+- Fixed approval number tracking accuracy;
+- Fixed quick form enrollment workflow;
+
+### March 26, 2024
+
+#### Added
+- Added default custom section on empty **Landing Page**;
+- Improved InEvent App modal navigation;
+- Improved InEvent App list and link names;
+
+#### Fixed
+- Fixed redirect error in company-level audit report;
+
+### March 22, 2024
+
+#### Fixed
+- Fixed schedule and email buttons in Help Center;
+- Fixed translations for answers in the **Registration Form**;
+
+### March 21, 2024
+
+#### Added
+- Improved grid view and badge printing editing;
+- Improved InEvent App date form field labels;
+- Added registrant ID and person ID as mappable Salesforce fields;
+
+#### Fixed
+- Fixed InEvent App button activation;
+- Fixed status always pending in custom form submissions;
+
+### March 20, 2024
+
+#### Added
+- Added sections support for guest forms;
+- Improved InEvent App text box form fields;
+- Improved InEvent App input instructions;
+- Improved InEvent App focus order;
+- Added new webhook event for additional source tables;
+- Added batch download for stream URLs and keys;
+
+#### Fixed
+- Fixed screen sharing slide transitions;
+- Fixed InEvent App logo keyboard trap;
+- Fixed tab creation with hotsite section;
+
+### March 19, 2024
+
+#### Added
+- Improved login page heading levels;
+- Improved login page heading structure;
+
+#### Fixed
+- Fixed manual payments and net volume column values for tickets;
+- Fixed login page hidden company name;
+- Fixed login page username and password contrast;
+- Fixed login page language selector contrast;
+- Fixed AI-generated translations for tab names;
+- Fixed meeting presentation display;
+- Fixed assistant invite email delivery;
+
+### March 14, 2024
+
+#### Added
+- Added venue name on event details;
+
+### March 8, 2024
+
+#### Fixed
+- Fixed login page account section contrast;
+- Fixed login page forgot password contrast;
+- Fixed login page icon alt-text;
+- Fixed login page company logo display;
+
+### March 7, 2024
+
+#### Fixed
+- Fixed discount from one ticket applying to all tickets in manual payments;
+- Fixed login page field notifications;
+- Fixed login page title display;
+
+### March 5, 2024
+
+#### Added
+- Added real-time meetings on Meetings Dashboard;
+
+### March 1, 2024
+
+#### Fixed
+- Fixed table ordering on the Audit page;
+- Fixed top bar time display;
+- Fixed translations saving for headings at company level;
+- Fixed web app access when tool is disabled;
+- Fixed ticket price batch in manual payments;
+- Fixed dynamic content column display in emails;
+
+
+## Version 18.1
+### February 28, 2024
+
+#### Fixed
+- Fixed web app display issues;
+
+### February 23, 2024
+
+#### Added
+- Added InEvent Appointments feature;
+- Improved abstract management solution;
+
+#### Fixed
+- Fixed meeting timeslot issues;
+- Fixed places filter on meetings tab;
+
+### February 22, 2024
+
+#### Added
+- Improved print layout;
+- Added place capacity limits for meetings;
+
+#### Fixed
+- Fixed embed option on Agenda tab in **Virtual Lobby** reverting to disabled;
+- Fixed **Virtual Lobby** speed **Networking** pairing;
+
+### February 20, 2024
+
+#### Fixed
+- Fixed wrong message when using approval requirement;
+- Fixed **Networking** page errors;
+- Fixed ticket demo file template;
+- Fixed ticket deletion flow;
+- Fixed header font color in Vulcan website template;
+- Fixed hotel enrollment on registration forms;
+- Fixed approval and rejection button display for payments;
+- Fixed speaker image in website agenda Learn More button;
+
+### February 9, 2024
+
+#### Added
+- Added activities pagination in the **Virtual Lobby**;
+- Added heading for gamification points;
+
+#### Fixed
+- Fixed tag filtering on the Leads page;
+
+### February 8, 2024
+
+#### Fixed
+- Fixed date and time question display;
+- Fixed notifications page permission error;
+
+### February 7, 2024
+
+#### Added
+- Added views counter on company events and webinars;
+
+### February 5, 2024
+
+#### Added
+- Added auto-mapping for attendee spreadsheet imports;
+- Added ability to re-order polls;
+- Added pre-assign users to places;
+
+### February 1, 2024
+
+#### Added
+- Added event digest email with daily and weekly options;
+- Added OR/AND logic filter on **Networking** tab;
+
+
+## Version 18.0
+### January 31, 2024
+
+#### Added
+- Added separate directory sections for active and past events;
+- Added webhook support for event custom fields;
+- Added undo and redo for **Website Builder**;
+
+#### Fixed
+- Fixed activity details not displaying;
+- Fixed non-selected speakers appearing in emails;
+
+### January 30, 2024
+
+#### Added
+- Added automated approvals and custom report;
+- Added ticket questions to attendee reports;
+
+### January 29, 2024
+
+#### Added
+- Added front-end lower third color schemes;
+
+#### Fixed
+- Fixed **Landing Page** text link field;
+
+### January 26, 2024
+
+#### Fixed
+- Fixed overlay text appearing on confirmation tab;
+
+### January 24, 2024
+
+#### Fixed
+- Fixed default and custom question display on approval page;
+
+### January 22, 2024
+
+#### Added
+- Added back office lower third color schemes;
+
+### January 19, 2024
+
+#### Fixed
+- Fixed flight spreadsheet upload for all rows;
+- Fixed Andromeda-light website sections menu;
+- Fixed speaker lightbox on website;
+- Fixed event fields displaying raw IDs;
+
+### January 16, 2024
+
+#### Added
+- Added report button on photo gallery for attendees;
+
+#### Fixed
+- Fixed event field and custom object data sync;
+- Fixed demo file download redirect;
+
+### January 15, 2024
+
+#### Added
+- Added new tools page design;
+
+### January 12, 2024
+
+#### Added
+- Added email digest for scheduled events;
+- Improved menu tab scrolling in mobile version;
+
+#### Fixed
+- Fixed quick form user enrollment and confirmation message;
+- Fixed scrollbar rendering;
+
+### January 11, 2024
+
+#### Fixed
+- Fixed UTM link conversion double-counting;
+- Fixed character limit for list names;
+
+### January 10, 2024
+
+#### Added
+- Added theme image customization for **Landing Page**;
+
+#### Fixed
+- Fixed agenda section responsiveness on website tablet view;
+- Fixed meetings not showing on the My Meetings tab;
+- Fixed room list username linking from spreadsheet import;
+
+### January 8, 2024
+
+#### Added
+- Added enrollment trigger when automatic enrollment is disabled;
+- Added image support for form sections;
+
+#### Fixed
+- Fixed duplicate questions in attached forms;
+
+### January 3, 2024
+
+#### Fixed
+- Fixed virtual booths for **Exhibitors** being deactivated in copied events;
+- Fixed **Landing Page** section display;
+- Fixed field creation at company level;
+- Fixed website section ordering not matching backend settings;
+
+
 ## Version 17.6
 ### December 21, 2023
 
