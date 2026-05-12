@@ -2,6 +2,515 @@
 
 This change log was created on January 22, 2021 and only entries after this date will be registered.
 
+## Version 36.1.2
+### May 8, 2026
+
+#### Added
+- Improved invoice day field for Stripe;
+
+#### Fixed
+- Fixed AM/PM slider button alignment;
+- Fixed invitee form is not importing all invitee information by default;
+- Fixed “Next submission” button is not aligned on Abstracts tab of **Virtual Lobby**;
+- Fixed admin (who is not a Decider) should not have the permission to approve or reject the Submission;
+- Fixed review form link permissions to restrict unauthorized submissions;
+- Fixed automatic trigger assignment from checkbox;
+- Fixed coupon assigned to a particular ticket can be used for other tickets;
+- Fixed missing Learn More title on speaker buttons in Callisto template;
+- Fixed speaker Learn More page layout on Gemini template;
+- Fixed arrow navigation skipping days in speaker of the day section on Oberon template;
+- Fixed display all tags on agenda card in list view mode;
+- Fixed duplicated photos when moving a photo to an album;
+- Fixed if you buy a lot of tickets, a cancelled ticket can be reactivated;
+- Fixed consecutive comments are sometimes deleted in bulk in Webinar;
+- Fixed the sponsor and exhibitor tags are not clearly visible in dark mode in the **Virtual Lobby**;
+- Fixed in **Sponsors** and **Exhibitors** in the **Virtual Lobby**, the social media URLs are displayed instead of the icons;
+- Fixed SSO link selection when creating multiple links;
+- Fixed jericho LP – Social media links do not work (speakers and speakers of the day);
+- Fixed breakout room number does not update on **Virtual Lobby**;
+- Fixed location saving on **Virtual Lobby** map;
+- Fixed error when removing a place;
+- Fixed activity search for non-public events;
+- Fixed incorrect invitee count in pending filter;
+- Fixed web - App username header translation not working;
+- Fixed custom form approval at company level;
+- Fixed dynamic lists not syncing correctly with conditional **Registration Form** field responses;
+
+
+## Version 36.1.1
+### May 7, 2026
+
+#### Fixed
+- Fixed pagination for **Exhibitors** list;
+
+
+## Version 36.0.9
+### May 5, 2026
+
+#### Fixed
+- Fixed assistant email address visibility when disabled;
+- Fixed See Feedback analytics for **Exhibitors** and **Sponsors**;
+- Fixed it's not possible to deactivate credit card on Stripe as soon as you link the account;
+- Fixed page permission bundles for demo file download and data import;
+- Fixed hyperlink support in subtitles field on **Registration Form**;
+- Fixed link Tracking Analytics is not displaying any data;
+- Fixed SMS link delivery with numeric content;
+
+
+## Version 36.0.8
+### May 4, 2026
+
+#### Added
+- Improved Audit Logs;
+
+
+## Version 36.0.7
+### April 30, 2026
+
+#### Fixed
+- Fixed push Notification being displayed at the wrong time;
+
+
+## Version 36.0.1
+### April 28, 2026
+
+#### Added
+- Implemented speaker category description field and **Website Builder** visibility toggle;
+- Enabled custom ordering of tracks on sessions;
+
+#### Fixed
+- Fixed pagination on ticket waitlist page;
+
+
+## Version 35.9.8
+### April 24, 2026
+
+#### Added
+- Added develop Carousel Widget for **Landing Page**;
+- Improved message detail and Redirect push notification banner to Meetings tab when booking a meeting;
+- Added multi-day session display on **My Agenda** and **Virtual Lobby**;
+- Added collapse Tags/Tracks column by default in **Virtual Lobby**;
+- Implemented 'Select All' button for Tags/Tracks removal;
+
+#### Fixed
+- Fixed no banner pop-up when you are located in the Web app page of a Hybrid event;
+- Fixed files in folders not visible on web app;
+- Fixed speakers disappearing from website when french translation is being used;
+- Fixed attendee Custom Report - If you have the same feedback question for different activities it shows only once instead of for all activities;
+
+### April 22, 2026
+
+#### Added
+- Added Billing page access for Reporting user profile;
+
+
+## Version 35.9.6
+### April 15, 2026
+
+#### Fixed
+- Fixed virtual background not showing properly;
+- Fixed error when saving changes for event page;
+
+### April 14, 2026
+
+#### Added
+- Added missing time zones to platform;
+- Added missing locations to Template Wizard for CFC;
+- Added addition of more filters in the \'**Email Creator**\';
+
+#### Fixed
+- Fixed transferring an attendee\'s main ticket, then swapping it removes the attendee from the event but shows that the swapped ticket is in use;
+- Fixed editing private group rooms;
+- Fixed dynamic list is not working for Subticket added on Status filter;
+- Fixed participants into room – Discussion Room;
+- Fixed the refund policy field isn't saved after clicking on End Button;
+- Fixed jericho LP – The number of social media icons selected is not correct when opening the modal (speakers and speakers of the day);
+- Fixed the PDF share doesn't work for large files if those files were uploaded by anyone than the host;
+- Fixed incorrect behavior when updating roomID;
+- Fixed profiles are not available for Webinar;
+- Fixed SMS sender feature not working;
+
+
+## Version 35.8.9
+### April 10, 2026
+
+#### Fixed
+- Fixed **Live Studio** page flickering - prompting customer to end live session prematurely;
+
+
+## Version 35.8.0
+### April 7, 2026
+
+#### Added
+- Implemented bulk upload feature for places;
+
+#### Fixed
+- Fixed sponsor display order on web app;
+
+### April 6, 2026
+
+#### Fixed
+- Fixed after configuring the SSO, the checkboxes won't work until you refresh the page;
+
+
+## Version 35.7.9
+### April 3, 2026
+
+#### Added
+- Added "priority" to Ticket Waitlist;
+- Added walk-in payment option;
+- Added change ticket sending behavior if invite requirement is turned on;
+
+#### Fixed
+- Fixed invisible close button on Learn More modals in Holmes template on mobile;
+- Fixed the scheduled notifications aren't adapted to the user device;
+- Fixed speaker.find responses for specific translations;
+- Fixed qR code not displayed in client\'s event emails;
+- Fixed wrong warning message for Telephone field on **Registration Form**;
+- Fixed checkbox/Grade fields can not be answered on **Purchase Form** when "edits on form" is disabled;
+- Fixed tickets linked with a field allows to purchase others tickets when you change your answer while filling out the **Purchase Form**;
+- Fixed no “Trash icon” to unselect the tickets on the **Purchase Form** via mobile web;
+- Fixed submission form is not saving the answers on the form;
+- Fixed removing list in tools does not remove it from automatic export;
+- Fixed entry tab tool is not allowing to return to “No”;
+- Fixed the review alert mail shows the wrong user name;
+- Fixed the default users profile image isn't loading on activities (TV Mode);
+- Fixed the date section isn't responsive in TV mode;
+- Fixed the activities scrollbar is also used on archived activities;
+- Fixed the "Ticket amount" column is not included in the export;
+- Fixed presenter file deletion;
+- Fixed after unlinking the SSO, the data won't disappear until you refresh the page;
+- Fixed it's possible to type special characters on minutes field on SSO tab;
+- Fixed big PDF files cannot be uploaded and shared on Virtual Room;
+- Fixed recurrence list of activity report only displays 3 results;
+- Fixed after adding the Sponsor via Event> **Sponsors**> People> Add person> Create new person, the attendees didn\'t reflect on the attendees page;
+- Fixed privacy and visibility error message showing despite configuration;
+- Fixed custom virtual backgrounds do not appear in **Live Studio** for Presenters (only visible to the Global Admin/Room Host who uploaded them);
+
+
+## Version 35.7.8
+### April 1, 2026
+
+#### Fixed
+- Fixed certificate of Completion not adhering to it\'s settings on the **Virtual Lobby**;
+- Fixed admin invitation email is not being delivered to new event admins;
+
+
+## Version 35.7.5
+### March 29, 2026
+
+#### Fixed
+- Fixed CSS layout issue on **My Tickets** page;
+- Fixed group Rooms are not working;
+
+
+## Version 35.6.2
+### March 23, 2026
+
+#### Added
+- Added custom speaker ordering in sessions;
+- Implemented claim credits button in **Virtual Lobby** sessions;
+
+#### Fixed
+- Fixed the Sponsor and Exhibitor sections from Cosmos template aren't totally responsive in mobile;
+- Fixed navbar layout on Cosmos template;
+- Fixed the photo gallery section title isn't centered in Castor template;
+- Fixed the Sponsor and Exhibitor sections from Castor template aren't totally responsive in mobile;
+- Fixed the Sponsor and Exhibitor sections from Callisto template aren't totally responsive in mobile;
+- Fixed hamburger button alignment on Callisto template;
+- Fixed "Files" report is not being available on Reports;
+- Fixed it is not possible to delete “Subtitle/Disclaimer” of the Abstract form;
+- Fixed some Presenter permissions are not working on a Webinar live stream;
+- Fixed child ticket purchase after parent ticket purchase;
+- Fixed error when creating an email using the Speaker Invite template;
+- Fixed duplicate \'invisible\' tiles showing in my **Virtual Lobby**;
+- Fixed in LP, all templates do not open/show native sections when there is a submenu;
+
+### March 19, 2026
+
+#### Added
+- Added recreate Schedule Page;
+
+
+## Version 35.4.8
+### March 12, 2026
+
+#### Added
+- Added change message when using the same email at **Purchase Form**;
+- Added date added column for invitees;
+- Added subactivities - Headings;
+- Added room type option on reservations creator in **Hotel Management**;
+- Added requiresTicket field for company.event.find request;
+- Added hide or disable “Claim credits” before activity has started;
+
+#### Fixed
+- Fixed the order of the fields from different Attached form is all mixed up;
+- Fixed form with required “Multiple grades” field is not being submitted;
+- Fixed new Custom forms are only displayed after refreshing the page;
+- Fixed custom form (C-Level): Required field needs to be answered even when it is inside of the Section that it is not visible;
+- Fixed transfer ticket form is displaying the user answers;
+- Fixed open date is not limiting the Close date on Abstract form;
+- Fixed "Your email has been dispatched successfully" pop-up is frequently displayed on the platform;
+- Fixed guests do not consume credits;
+- Fixed custom report filter field errors;
+- Fixed tracks title on left menu in Tracks page is incorrect;
+- Fixed the padding from 'Photos' is missing in Vulcan Template (Mobile);
+- Fixed if you change templates on **Landing Page** builder, it's necessary to refresh the page to click on 'edit' in the navbar;
+- Fixed full list button clarity in Learn More sections on Callisto template;
+- Fixed blank screen on first click of activity Learn More in Callisto template;
+- Fixed rSVP Yes dynamic link and RSVP Form not functioning properly;
+- Fixed non-functional navbar on Learn More pages in Cosmos template;
+- Fixed changed answers of static fields are not being saved on **Purchase Form** with Invite requirement;
+- Fixed editable fields marked as uneditable on **My Account** page;
+- Fixed if the room type is set as Video Conferencing, only backstage recordings will be available;
+- Fixed change font colors from **My Agenda** page (Dark mode);
+- Fixed on Jericho standardize icon position;
+- Fixed approved refund is added this user on static lists linked with other tickets;
+- Fixed agenda With Filters section does not display properly on the Website;
+- Fixed change font colors from **My Account** page (Dark mode);
+- Fixed inconsistent viewer counts between **Live Studio** > People tab, People > Attendees, and Analytics > Live Dashboard;
+- Fixed on Gemini (Mobile) the Speakers of the day tab is not adjusted to the menu;
+
+
+## Version 35.4.6
+### March 11, 2026
+
+#### Added
+- Improved WebRTC performance;
+
+
+## Version 35.4.5
+### March 6, 2026
+
+#### Fixed
+- Fixed child ticket not allowed to purchase more than one ticket, even when the purchase limited is set to 0 (unlimited) or a number greater than 1;
+
+
+## Version 35.4.4
+### February 27, 2026
+
+#### Fixed
+- Fixed the Sponsor and Exhibitor sections from Gemini template aren't totally responsive in mobile;
+- Fixed global fields are displaying answers of the other events on Analytics;
+- Fixed error message when disabling custom feedback for an activity;
+- Fixed quiz correct answers counter displays incorrect number even when all answers are correct;
+- Fixed when adding a new profile on the company permissions page it takes too long to load;
+- Fixed my-agenda table content is not working well;
+- Fixed approved submission user is not added to the event;
+- Fixed cancelled payment tickets count toward purchase limit;
+- Fixed "**Landing Page**" tool is appearing even though it is disabled;
+- Fixed confirmation email address field is not working properly on **Purchase Form**;
+- Fixed content page settings not updating immediately;
+- Fixed if you refresh the page when filling the **Purchase Form** after uploading a profile image, the image may be changed;
+
+### February 24, 2026
+
+#### Added
+- Added emoji reactions;
+
+#### Fixed
+- Fixed "Activities on form" and "Hotels on form"tools are available in Webinar **Registration Form**;
+- Fixed attendees counter on Schedule container menu is not updating automatically on Attendees page;
+
+
+## Version 35.4.2
+### February 20, 2026
+
+#### Fixed
+- Fixed “Null” is displayed as Subtitle/Disclaimer on C-Level forms;
+- Fixed default answer of “Access settings” does not match with the properly behavior to submit the Event booking for;
+- Fixed selected options of Yes/No and Multiple choice fields are not easily visible on the **Virtual Lobby** of web mobile;
+- Fixed it is allowed to transfer a ticket to someone even when "Ticket transfer" is disabled;
+- Fixed the Sponsor and Exhibitor sections from Holmes template aren't totally responsive in mobile;
+- Fixed arrow navigation skipping days in speaker of the day section on Holmes template;
+- Fixed the Sponsor and Exhibitor sections from Mercury template aren't totally responsive in mobile;
+- Fixed when clicking on a different day in the agenda tab, the screen suddenly changes in Mercury template;
+- Fixed SLO endpoint configuration for SSO;
+- Fixed when creating a discussion room in the lobby the tool isn't automatically enabled;
+- Fixed manual approval for activities not sending activity email;
+- Fixed description in the ticket wont clear. Says \"null\";
+- Fixed some options are shown in the discussion rooms for non admin user;
+- Fixed approval list with duplicate emails;
+- Fixed on the **Registration Form**, the confirm email field allows copy and paste;
+- Fixed See Feedback functionality for **Exhibitors** and **Sponsors**;
+- Fixed bullet points do not display on the website after saving, even though they appear correctly in the editing view;
+- Fixed photos section is not displayed on menu bar of website with Mercury template;
+
+
+## Version 35.4.1
+### February 19, 2026
+
+#### Added
+- Added display extId on activity tiles;
+
+
+## Version 35.4.0
+### February 12, 2026
+
+#### Added
+- Added imperial measurement support;
+
+
+## Version 35.3.9
+### February 11, 2026
+
+#### Added
+- Added approval requirement field for company.event.find request;
+- Implemented Ticket Swap Feature with Pricing and Refunds;
+- Implemented CE claim credits button for AACN virtual activities;
+
+#### Fixed
+- Fixed on **Live Studio**, the recordings from backstage are just a copy from the recordings on live stream tab;
+- Fixed invite enrolled checkbox is not checked when they are already enrolled;
+- Fixed company level filters are reset when refreshing the page;
+
+
+## Version 35.3.6
+### February 6, 2026
+
+#### Fixed
+- Fixed the navbar isn't pinned in the top portion of the screen in mobile on Mercury template;
+- Fixed missing hamburger menu on mobile for Oberon template;
+- Fixed in Oberon template, the speaker of the day section isn't centered;
+- Fixed CSS on Leaderboard screen (TV mode);
+- Fixed custom reports not displaying all columns when fields share the same name;
+- Fixed the exhibitor form is redirecting to Sponsor form;
+- Fixed conditional sections with dedicated pages (from the **Registration Form**) do not appear on the \"**My Account**\" editing view;
+- Fixed the layout from **Registration Form** breaks when interacting with some modals if the AI assistant is open;
+- Fixed abstract submissions do not appear for the reviewer or deciders;
+
+
+## Version 35.3.4
+### February 4, 2026
+
+#### Added
+- Added translation for elements of the map;
+
+#### Fixed
+- Fixed on Hydra and Vulcan, the default picture for speakers isn't loading on 'Agenda' tab;
+- Fixed the Sponsor and Exhibitor sections from Ophelia template aren't totally responsive in mobile;
+- Fixed discrepancy in ticket payment analytics;
+- Fixed collapsed drop-down list of activities opens when editing activity settings;
+- Fixed hamburger button alignment on Jericho template;
+- Fixed the answers of some types of fields (Submission form) are not being saved on Reviewer/Decider of abstract;
+- Fixed search tool breaks after refreshing Attendees page with something searched;
+- Fixed buttons of Live transcription pop-up do not entirely fit on the pop-up;
+- Fixed event description overlaps activity tiles when an activity is set as the welcome cover video;
+- Fixed unable to delete discussion rooms;
+- Fixed search by event name on payments page;
+- Fixed the "Multiple grades" field is not being counted when answered by the reviewer;
+- Fixed the grade field isn't working on **Purchase Form**;
+
+
+## Version 35.3.1
+### January 30, 2026
+
+#### Fixed
+- Fixed error when using blocked domains on **Purchase Form**;
+
+
+## Version 35.3.0
+### January 29, 2026
+
+#### Fixed
+- Fixed Firebase connection error handling;
+- Fixed spreadsheet import succeeds when using semicolons (with spaces), but multiple-choice field selections are not applied;
+- Fixed android app magic link does not redirect to Play Store;
+- Fixed search by Event ID on company level payments page;
+- Fixed automatic closed captions unavailable in pre-recorded room video mode;
+- Fixed client got 17 emails saying their events were removed by external;
+- Fixed RTMP streaming not working;
+
+
+## Version 35.2.8
+### January 26, 2026
+
+#### Added
+- Added new fields for guest authors;
+- Added topics on form;
+- Added total ticket count column per person;
+- Added deselect all options button;
+- Implemented feature to block domain to answer specific custom fields;
+- Implemented feature to requires approval/invite/ticket based on email domains;
+
+#### Fixed
+- Fixed when deleting a question, the "load more" button is displayed even if there are not more questions;
+- Fixed tag filter is overlapping modal;
+- Fixed default value is not being limited by minimum and maximum value to Date/time field;
+- Fixed abstracts tab: Reviewers, Deciders, Reviews, Decisions and Analytics are exporting the wrong spreadsheet;
+- Fixed answers of static fields do not appears on Submission data;
+- Fixed on Jericho isn't possible to click on speakers to see more info;
+- Fixed attached form answers not showing on report when using lists;
+- Fixed in Lima template, the dropdown from the hamburger button is misplaced;
+- Fixed some inconsistencies on the active day button in Lima Template;
+- Fixed arrow navigation skipping days in speaker of the day section on Saros template;
+- Fixed login in the app requests a password even when the **Registration Form** does not include a password field;
+- Fixed it\'s not showing any data regarding his usage;
+- Fixed abstract form not opening and login required when using unique link despite being set to public;
+- Fixed unable to update the ticket sale configuration;
+- Fixed adjustments for Activity waitlist tool;
+- Fixed issue with setting capacity for ticket;
+
+
+## Version 35.2.3
+### January 20, 2026
+
+#### Added
+- Added a heading for “How to get there” button;
+- Added API key generation to interact with API;
+
+#### Fixed
+- Fixed responsiveness on **Speaker Portal** page;
+- Fixed on Jericho when clicking in a activity the speaker pictures aren't available;
+- Fixed on Jericho the infos inside the speaker modal are misaligned on mobile;
+- Fixed the "clear" button don't appear after selecting an font style;
+- Fixed the text from the map button is misplaced on mobile in Hydra template;
+- Fixed hamburger button alignment on Hydra template;
+- Fixed on Hydra, the logo in the navbar isn't responsive for specific resolutions;
+- Fixed the Speaker of the day section isn't centered in mobile on Lima template;
+- Fixed speaker Learn More button overlapping speaker info on mobile;
+- Fixed on Saros, the logo in the navbar isn't responsive for specific resolutions;
+- Fixed all text boxes are not appearing when the **Landing Page** is previewing;
+- Fixed incorrect recipient count when targeting lists sing “All lists + Manual selection” on the **Email Creator**;
+- Fixed **Email Creator** only displays limited number of historic emails (older emails disappear);
+- Fixed change the label of "General schedule" tab within Live app;
+
+
+## Version 35.2.0
+### January 15, 2026
+
+#### Added
+- Added filter and search for approve people tab within activity details;
+
+#### Fixed
+- Fixed ticket requirement skip isnt working with approval requirement and ticket requirement turned on;
+- Fixed approved people on activity breaks when changing the capacity;
+- Fixed activity check-in does not work correctly in the client’s event and appears to check in rejected attendees;
+- Fixed replies to activity approval and rejection emails are being sent to the approver instead of the event-level reply-to address;
+
+
+## Version 35.1.8
+### January 9, 2026
+
+#### Fixed
+- Fixed on a discussion room, if an user is removed then invited again, he won't be able to see the cameras;
+- Fixed error message when entering GA4 tracking ID;
+- Fixed email address not showing in form submissions;
+- Fixed connection error when opening **Event Map**;
+- Fixed the Sponsor and Exhibitor sections from Oberon template aren't totally responsive in mobile;
+- Fixed hamburger button alignment on Saros template;
+- Fixed the Sponsor and Exhibitor sections from Saros template aren't totally responsive in mobile;
+- Fixed LinkedIn link visibility on sponsor details within activities;
+- Fixed form answers not displaying within submissions;
+- Fixed form editor not loading;
+- Fixed mux automatic captions not displaying in the **Live Studio**;
+- Fixed filtering issue on the new Sponsor approval dashboard;
+
+### January 6, 2026
+
+#### Added
+- Added ability to bulk-approve users on the activities;
+
 ## Version 35.1.5
 ### December 23, 2025
 
